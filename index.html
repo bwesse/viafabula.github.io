@@ -79,6 +79,53 @@
         letter-spacing: 0.01em;
       }
 
+      .topbar-actions {
+        margin-left: auto;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .pill-button {
+        appearance: none;
+        border: 1px solid rgba(15, 23, 42, 0.12);
+        background: #fff;
+        color: var(--accent);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      }
+      .pill-button:hover { background: rgba(15, 23, 42, 0.06); transform: translateY(-1px); }
+      .pill-button:disabled { opacity: 0.55; cursor: not-allowed; transform: none; box-shadow: none; }
+      .pill-button:focus { outline: 2px solid rgba(15, 23, 42, 0.18); outline-offset: 2px; }
+
+      .level-stepper {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 6px;
+        border-radius: 12px;
+        background: rgba(15, 23, 42, 0.05);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .step-btn {
+        appearance: none;
+        border: 0;
+        background: #fff;
+        color: var(--accent);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+        transition: background 140ms ease, transform 140ms ease;
+      }
+      .step-btn:hover { background: rgba(15, 23, 42, 0.08); transform: translateY(-1px); }
+      .step-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
+      .step-btn:focus { outline: 2px solid rgba(15, 23, 42, 0.18); outline-offset: 2px; }
+
       aside.sidebar {
         position: fixed;
         top: 0;
@@ -155,6 +202,19 @@
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
       }
       select:disabled { color: rgba(15, 23, 42, 0.4); background: rgba(15, 23, 42, 0.03); }
+
+      .sidebar-footer {
+        margin-top: auto;
+        padding: 12px 10px 10px;
+        font-size: 12px;
+        color: var(--muted);
+        border-top: 1px solid rgba(15, 23, 42, 0.08);
+        background: #fff;
+        line-height: 1.4;
+      }
+      .sidebar-footer .version-line { font-weight: 600; color: var(--accent); }
+      .sidebar-footer .updated-line { margin-top: 2px; }
+      .sidebar-footer .cache-line { margin-top: 2px; font-style: italic; }
 
       .overlay {
         position: fixed;
@@ -258,6 +318,67 @@
         color: var(--muted);
       }
 
+      /* Night mode overrides */
+      html.night, body.night {
+        --accent: #e5e7eb;
+        --muted: #94a3b8;
+        --card: #0f172a;
+        --shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
+        color: var(--accent);
+        background: #0b1220;
+      }
+      body.night main.reader { background: #0b1220; }
+      body.night header.topbar {
+        background: rgba(15, 23, 42, 0.94);
+        border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+      }
+      body.night .hamburger,
+      body.night .hamburger::before,
+      body.night .hamburger::after {
+        background: var(--accent);
+      }
+      body.night aside.sidebar {
+        background: #0f172a;
+        box-shadow: var(--shadow);
+      }
+      body.night .sidebar-footer {
+        background: #0f172a;
+        border-top: 1px solid rgba(148, 163, 184, 0.22);
+      }
+      body.night nav.menu a {
+        background: rgba(226, 232, 240, 0.08);
+      }
+      body.night nav.menu a:hover { background: rgba(226, 232, 240, 0.12); }
+      body.night .reader-panel {
+        background: #0f172a;
+        box-shadow: var(--shadow);
+      }
+      body.night select {
+        background: #1f2937;
+        border-color: rgba(148, 163, 184, 0.35);
+        color: var(--accent);
+      }
+      body.night .chip,
+      body.night .pill-button,
+      body.night .step-btn {
+        background: #1f2937;
+        border-color: rgba(148, 163, 184, 0.35);
+        color: var(--accent);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      }
+      body.night .pill-button:hover,
+      body.night .step-btn:hover {
+        background: rgba(226, 232, 240, 0.08);
+      }
+      body.night .level-stepper {
+        background: rgba(226, 232, 240, 0.05);
+        border-color: rgba(148, 163, 184, 0.28);
+      }
+      body.night .catalog-book {
+        background: #0f172a;
+        box-shadow: var(--shadow);
+      }
+
       @media (min-width: 900px) {
         aside.sidebar { width: 320px; --sidebar-width: 320px; }
         .reader-panel { padding: 26px 28px 34px; }
@@ -270,6 +391,13 @@
         <span class="hamburger" aria-hidden="true"></span>
       </button>
       <div class="bar-title" id="bar-title">Story Reader</div>
+      <div class="topbar-actions" aria-label="Quick language controls">
+        <button type="button" id="lang-toggle" class="pill-button" aria-label="Toggle language">English</button>
+        <div class="level-stepper" role="group" aria-label="Change reading level">
+          <button type="button" id="level-down" class="step-btn" aria-label="Previous level">-</button>
+          <button type="button" id="level-up" class="step-btn" aria-label="Next level">+</button>
+        </div>
+      </div>
     </header>
 
     <aside id="site-sidebar" class="sidebar" role="dialog" aria-hidden="true" aria-label="Site menu">
@@ -295,12 +423,23 @@
           <label for="lang-select" class="small">Language</label>
           <select id="lang-select" aria-label="Select language"></select>
         </div>
+
+        <div class="controls-row">
+          <label class="small" for="theme-toggle">Night mode</label>
+          <button type="button" id="theme-toggle" class="pill-button" aria-pressed="false">Off</button>
+        </div>
       </div>
 
       <nav class="menu" aria-label="Links">
         <a href="#" id="book-catalog-link">Book catalog</a>
         <a href="#" id="about-link">About</a>
       </nav>
+
+      <div class="sidebar-footer" aria-live="polite">
+        <div id="footer-version" class="version-line">Version 0.1</div>
+        <div id="footer-updated" class="updated-line">Last updated —</div>
+        <div id="footer-cache" class="cache-line">Checking…</div>
+      </div>
     </aside>
 
     <div id="overlay" class="overlay" tabindex="-1" aria-hidden="true"></div>
@@ -329,6 +468,9 @@
       const overlay = document.getElementById('overlay');
       const sidebarClose = document.getElementById('sidebar-close');
       const barTitle = document.getElementById('bar-title');
+      const langToggleBtn = document.getElementById('lang-toggle');
+      const levelUpBtn = document.getElementById('level-up');
+      const levelDownBtn = document.getElementById('level-down');
 
       function openSidebar() {
         sidebar.classList.add('open');
@@ -365,9 +507,27 @@
       const statusLine = document.getElementById('status-line');
       const catalogLink = document.getElementById('book-catalog-link');
       const aboutLink = document.getElementById('about-link');
+      const themeToggle = document.getElementById('theme-toggle');
+      const footerVersion = document.getElementById('footer-version');
+      const footerUpdated = document.getElementById('footer-updated');
+      const footerCache = document.getElementById('footer-cache');
 
       let library = { books: [] };
+      const defaultLanguageId = 'english';
+      let learningLanguageId = null;
       const state = { bookId: null, chapterId: null, langId: null, levelId: null };
+      let nightMode = false;
+      const LAST_VERSION_KEY = 'reader-last-version';
+      const LAST_VISIT_KEY = 'reader-last-visit';
+      const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
+      const BUILD_INFO = (() => {
+        const parsed = new Date(document.lastModified);
+        const validDate = Number.isNaN(parsed.getTime()) ? new Date() : parsed;
+        const iso = validDate.toISOString();
+        const autoVersion = `v${iso.slice(0, 16).replace('T', ' ')}`; // vYYYY-MM-DD HH:MM
+        const version = MANUAL_VERSION || autoVersion;
+        return { version, publishedAt: iso };
+      })();
 
       const escapeHtml = (text = '') => text
         .replace(/&/g, '&amp;')
@@ -435,6 +595,105 @@
       function findLevel() {
         return findLanguage()?.levels.find(lv => lv.id === state.levelId) || null;
       }
+      function availableLanguages() {
+        return findChapter()?.languages || [];
+      }
+      function getLanguageTitleById(langId) {
+        return availableLanguages().find(lang => lang.id === langId)?.title || langId || 'Language';
+      }
+      function ensureLearningLanguageValidity() {
+        const available = availableLanguages();
+        if (available.some(lang => lang.id === learningLanguageId)) return;
+        const fallback = available.find(lang => lang.id !== defaultLanguageId);
+        learningLanguageId = fallback ? fallback.id : null;
+      }
+      function updateLangToggleButton() {
+        if (!langToggleBtn) return;
+        const available = availableLanguages();
+        const hasDefault = available.some(lang => lang.id === defaultLanguageId);
+        const currentTitle = getLanguageTitleById(state.langId) || 'English';
+        const defaultTitle = getLanguageTitleById(defaultLanguageId) || 'English';
+        const learningTitle = learningLanguageId ? getLanguageTitleById(learningLanguageId) : null;
+
+        langToggleBtn.textContent = currentTitle;
+        const otherTitle = state.langId === defaultLanguageId ? (learningTitle || currentTitle) : defaultTitle;
+        langToggleBtn.setAttribute('aria-label', `Toggle language between ${defaultTitle} and ${otherTitle}`);
+        langToggleBtn.disabled = !hasDefault || (!learningLanguageId && state.langId === defaultLanguageId);
+      }
+      function updateLevelButtons() {
+        if (!levelUpBtn || !levelDownBtn) return;
+        const levels = findLanguage()?.levels || [];
+        const idx = levels.findIndex(level => level.id === state.levelId);
+        const invalid = idx === -1 || levels.length === 0;
+        levelDownBtn.disabled = invalid || idx === 0;
+        levelUpBtn.disabled = invalid || idx === levels.length - 1;
+      }
+      function refreshQuickControls() {
+        ensureLearningLanguageValidity();
+        updateLangToggleButton();
+        updateLevelButtons();
+      }
+      function stepLevel(direction) {
+        const levels = findLanguage()?.levels || [];
+        if (!levels.length) return;
+        const currentIndex = levels.findIndex(level => level.id === state.levelId);
+        if (currentIndex === -1) return;
+        const nextIndex = direction === 'up'
+          ? Math.min(levels.length - 1, currentIndex + 1)
+          : Math.max(0, currentIndex - 1);
+        if (nextIndex === currentIndex) return;
+        state.levelId = levels[nextIndex].id;
+        levelSelect.value = state.levelId;
+        loadCurrentSelection();
+        updateLevelButtons();
+      }
+      function toggleLanguage() {
+        const available = availableLanguages();
+        if (!available.length) return;
+        ensureLearningLanguageValidity();
+        const hasDefault = available.some(lang => lang.id === defaultLanguageId);
+        if (!hasDefault) return;
+        const targetLangId = state.langId === defaultLanguageId
+          ? (learningLanguageId || defaultLanguageId)
+          : defaultLanguageId;
+        if (!available.some(lang => lang.id === targetLangId)) return;
+        state.langId = targetLangId;
+        langSelect.value = targetLangId;
+        populateLevels();
+      }
+      function formatDateTime(isoString) {
+        const date = new Date(isoString);
+        if (Number.isNaN(date.getTime())) return isoString;
+        return date.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+      }
+      function updateVersionFooter() {
+        if (!footerVersion || !footerUpdated || !footerCache) return;
+        footerVersion.textContent = `Version ${BUILD_INFO.version}`;
+        footerUpdated.textContent = `Last updated ${formatDateTime(BUILD_INFO.publishedAt)}`;
+
+        const previousVersion = localStorage.getItem(LAST_VERSION_KEY);
+        const previousVisit = localStorage.getItem(LAST_VISIT_KEY);
+        if (previousVersion && previousVersion !== BUILD_INFO.version) {
+          const seen = previousVisit ? ` (seen ${formatDateTime(previousVisit)})` : '';
+          footerCache.textContent = `New since last visit (${previousVersion}${seen})`;
+        } else if (!navigator.onLine) {
+          footerCache.textContent = 'Offline — may be a cached version';
+        } else {
+          footerCache.textContent = 'Up to date';
+        }
+
+        localStorage.setItem(LAST_VERSION_KEY, BUILD_INFO.version);
+        localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString());
+      }
+      function applyTheme() {
+        document.body.classList.toggle('night', nightMode);
+        document.documentElement.classList.toggle('night', nightMode);
+        if (themeToggle) {
+          themeToggle.textContent = nightMode ? 'On' : 'Off';
+          themeToggle.setAttribute('aria-pressed', String(nightMode));
+          themeToggle.setAttribute('aria-label', `Night mode ${nightMode ? 'on' : 'off'}`);
+        }
+      }
 
       function populateBooks() {
         state.bookId = setSelectOptions(bookSelect, library.books, state.bookId);
@@ -448,11 +707,14 @@
       function populateLanguages() {
         const chapter = findChapter();
         state.langId = setSelectOptions(langSelect, chapter?.languages || [], state.langId);
+        if (state.langId && state.langId !== defaultLanguageId) learningLanguageId = state.langId;
+        ensureLearningLanguageValidity();
         populateLevels();
       }
       function populateLevels() {
         const language = findLanguage();
         state.levelId = setSelectOptions(levelSelect, language?.levels || [], state.levelId);
+        refreshQuickControls();
         loadCurrentSelection();
       }
 
@@ -584,8 +846,21 @@
 
       bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); });
       chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
-      langSelect.addEventListener('change', () => { state.langId = langSelect.value; populateLevels(); });
-      levelSelect.addEventListener('change', () => { state.levelId = levelSelect.value; loadCurrentSelection(); closeSidebar(); });
+      langSelect.addEventListener('change', () => {
+        state.langId = langSelect.value;
+        if (state.langId !== defaultLanguageId) learningLanguageId = state.langId;
+        populateLevels();
+      });
+      levelSelect.addEventListener('change', () => {
+        state.levelId = levelSelect.value;
+        loadCurrentSelection();
+        updateLevelButtons();
+        closeSidebar();
+      });
+      langToggleBtn?.addEventListener('click', toggleLanguage);
+      levelUpBtn?.addEventListener('click', () => stepLevel('up'));
+      levelDownBtn?.addEventListener('click', () => stepLevel('down'));
+      themeToggle?.addEventListener('click', () => { nightMode = !nightMode; applyTheme(); });
 
       catalogLink.addEventListener('click', (event) => {
         event.preventDefault();
@@ -598,6 +873,8 @@
         closeSidebar();
       });
 
+      updateVersionFooter();
+      applyTheme();
       loadLibrary();
     </script>
   </body>
