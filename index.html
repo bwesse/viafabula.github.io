@@ -179,6 +179,20 @@
         flex-direction: column;
         gap: 10px;
       }
+      .sidebar-brand {
+        margin-bottom: 6px;
+        padding: 6px 4px 2px;
+      }
+      .sidebar-brand .brand-title {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+      .sidebar-brand .brand-subtitle {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 2px;
+      }
       .controls-row {
         display: flex;
         flex-direction: column;
@@ -341,6 +355,9 @@
         background: #0f172a;
         box-shadow: var(--shadow);
       }
+      body.night .sidebar-brand .brand-subtitle {
+        color: var(--muted);
+      }
       body.night .sidebar-footer {
         background: #0f172a;
         border-top: 1px solid rgba(148, 163, 184, 0.22);
@@ -402,6 +419,11 @@
 
     <aside id="site-sidebar" class="sidebar" role="dialog" aria-hidden="true" aria-label="Site menu">
       <button id="sidebar-close" aria-label="Close menu">✕</button>
+
+      <div class="sidebar-brand">
+        <div class="brand-title">VIΛ Fabula</div>
+        <div class="brand-subtitle">Language learning via stories</div>
+      </div>
 
       <div class="sidebar-section" aria-hidden="false">
         <div class="controls-row">
