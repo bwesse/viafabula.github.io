@@ -182,6 +182,2079 @@
           ]
         }
       ]
+    },
+    {
+      "id": "The_Tortoise_and_the_Hare",
+      "title": "The Tortoise and the Hare",
+      "chapters": [
+        {
+          "id": "00_preamble",
+          "title": "00 preamble",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/00_preamble/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_A Boastful_Runner",
+          "title": "01 A Boastful Runner",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/01_A Boastful_Runner/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_A_Quiet_Challenge",
+          "title": "02 A Quiet Challenge",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/02_A_Quiet_Challenge/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_The_Forest_Gathers",
+          "title": "03 The Forest Gathers",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/03_The_Forest_Gathers/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_At_the_Starting_Line",
+          "title": "04 At the Starting Line",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/04_At_the_Starting_Line/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_The_Race_Begins",
+          "title": "05 The Race Begins",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/05_The_Race_Begins/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_Overconfidence",
+          "title": "06 Overconfidence",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/06_Overconfidence/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07Steady_Progress",
+          "title": "07Steady Progress",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/07Steady_Progress/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_A_Sudden_Awakening",
+          "title": "08 A Sudden Awakening",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/08_A_Sudden_Awakening/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_The_Final_Stride",
+          "title": "09 The Final Stride",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/09_The_Final_Stride/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_Lesson_of_the_Day",
+          "title": "10 Lesson of the Day",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/10_Lesson_of_the_Day/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_A_New_Understanding",
+          "title": "11 A New Understanding",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/11_A_New_Understanding/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_The_Enduring_Moral",
+          "title": "12 The Enduring Moral",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/The_Tortoise_and_the_Hare/12_The_Enduring_Moral/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

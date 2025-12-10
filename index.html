@@ -615,6 +615,7 @@
       const langSelect = document.getElementById('lang-select');
       const readerTitle = document.getElementById('reader-title');
       const readerMeta = document.getElementById('reader-meta');
+      const readerPanel = document.getElementById('reader');
       const storyBody = document.getElementById('story-body');
       const statusLine = document.getElementById('status-line');
       const catalogLink = document.getElementById('book-catalog-link');
@@ -691,6 +692,18 @@
 
       function setStatus(text) {
         statusLine.textContent = text || '';
+      }
+
+      function scrollReaderToTop() {
+        if (readerPanel && typeof readerPanel.scrollIntoView === 'function') {
+          readerPanel.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }
+
+      function updateScrollTopVisibility() {
+        scrollReaderToTop();
       }
 
       function setSelectOptions(select, items, currentValue) {
@@ -1024,6 +1037,7 @@
 
         resetComprehension();
         updateChapterNav();
+        scrollReaderToTop();
         setStatus('Loading story…');
         try {
           const response = await fetch(level.path);
@@ -1130,9 +1144,10 @@
         readerMeta.textContent = 'Offline-friendly PWA';
         barTitle.textContent = 'About';
         storyBody.innerHTML = `
-          <p>This sidebar-driven reader pulls its options from <code>content-index.json</code>, which mirrors the folders under <code>content/books</code>.</p>
-          <p>Select a book, chapter, language, and level to fetch the corresponding markdown file for a simple reading experience.</p>
-          <p>Add new markdown files to the folders and regenerate the index to have them appear automatically.</p>
+          <p>Our aim is simple: bring stories and language learning to everyone. We keep you captivated in a narrative while you move through adaptive levels for quick, self-organized learning.</p>
+          <p>Levels run from A0/A1 for brand-new readers, through A2 and B1/B2 for growing confidence, up to C1/C2 native-level text — including original-author prose when available.</p>
+          <p>It is also a doorway into literature: jump between languages, compare versions, and feel the rhythm of real writing while building fluency.</p>
+          <p><strong>Disclaimer:</strong> Many passages are AI-generated or AI-adapted. Treat them as helpful companions, not perfect originals.</p>
         `;
         if (nextChapterContainer) nextChapterContainer.hidden = true;
         setStatus('');
