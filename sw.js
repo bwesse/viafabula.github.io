@@ -1,36 +1,53 @@
-const CACHE_NAME = `temperature-converter-v1`;
-    
-// Use the install event to pre-cache all initial resources.
-self.addEventListener('install', event => {
+const CACHE_VERSION = 'v2';
+const CACHE_NAME = `reader-cache-${CACHE_VERSION}`;
+const PRECACHE_URLS = [
+  './',
+  './index.html',
+  './converter.js',
+  './converter.css',
+  './manifest.json',
+  './icon512.png',
+  './content-index.json',
+];
+
+self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    cache.addAll([
-      './',
-      './converter.js',
-      './converter.css'
-    ]);
+    await cache.addAll(PRECACHE_URLS);
+    self.skipWaiting(); // activate updated worker immediately
   })());
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith((async () => {
-    const cache = await caches.open(CACHE_NAME);
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.map((key) => (key === CACHE_NAME ? null : caches.delete(key))));
+    await self.clients.claim(); // take control of open tabs
+  })());
+});
 
-    // Get the resource from the cache.
-    const cachedResponse = await cache.match(event.request);
-    if (cachedResponse) {
-      return cachedResponse;
-    } else {
-        try {
-          // If the resource was not in the cache, try the network.
-          const fetchResponse = await fetch(event.request);
-    
-          // Save the resource in the cache and return it.
-          cache.put(event.request, fetchResponse.clone());
-          return fetchResponse;
-        } catch (e) {
-          // The network failed
-        }
+// Network-first: always try fresh content, fall back to cache when offline.
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
+  const { request } = event;
+
+  event.respondWith((async () => {
+    try {
+      const networkResponse = await fetch(request);
+      const cache = await caches.open(CACHE_NAME);
+      cache.put(request, networkResponse.clone());
+      return networkResponse;
+    } catch (err) {
+      const cache = await caches.open(CACHE_NAME);
+      const cached = await cache.match(request);
+      if (cached) return cached;
+      throw err;
     }
   })());
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });

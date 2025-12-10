@@ -460,7 +460,38 @@
     <script src="./converter.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {/* ignore registration errors */});
+        const swScope = './';
+        const swUrl = './sw.js';
+        let refreshing = false;
+
+        navigator.serviceWorker.register(swUrl, { scope: swScope }).then((registration) => {
+          const sendSkipWaiting = (worker) => {
+            if (worker) worker.postMessage({ type: 'SKIP_WAITING' });
+          };
+
+          // If there's a waiting worker when we register, activate it.
+          if (registration.waiting) sendSkipWaiting(registration.waiting);
+
+          registration.addEventListener('updatefound', () => {
+            const newWorker = registration.installing;
+            if (!newWorker) return;
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                sendSkipWaiting(newWorker);
+              }
+            });
+          });
+
+          // Reload once when the new service worker activates.
+          navigator.serviceWorker.addEventListener('controllerchange', () => {
+            if (refreshing) return;
+            refreshing = true;
+            window.location.reload();
+          });
+
+          // Proactively check for updates on load.
+          registration.update().catch(() => {/* ignore update errors */});
+        }).catch(() => {/* ignore registration errors */});
       }
 
       const menuToggle = document.getElementById('menu-toggle');
