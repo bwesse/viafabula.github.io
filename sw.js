@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v7';
 const CACHE_NAME = `reader-cache-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
   './',
@@ -30,6 +30,17 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const { request } = event;
+
+  // Only handle same-origin requests to avoid extension/third-party noise.
+  const requestUrl = new URL(request.url);
+  const scopeUrl = new URL(self.registration.scope);
+  if (requestUrl.origin !== scopeUrl.origin) return;
+
+  // Bypass cache logic for book content to always hit the freshest markdown.
+  if (requestUrl.pathname.includes('/content/books/')) {
+    event.respondWith(fetch(request));
+    return;
+  }
 
   event.respondWith((async () => {
     try {

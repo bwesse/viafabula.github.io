@@ -331,6 +331,53 @@
         font-size: 13px;
         color: var(--muted);
       }
+      .next-chapter {
+        margin-top: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+      }
+      .next-chapter .next-chapter-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+      }
+      .next-chapter-meta {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .comprehension {
+        margin-top: 18px;
+        padding: 12px;
+        border-radius: 12px;
+        background: var(--card);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .comprehension-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .comprehension-question {
+        margin-bottom: 10px;
+      }
+      .comprehension-question legend {
+        font-size: 13px;
+        margin-bottom: 6px;
+      }
+      .comprehension-options {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .comprehension-status {
+        margin-top: 6px;
+        font-size: 13px;
+        color: var(--muted);
+      }
 
       /* Night mode overrides */
       html.night, body.night {
@@ -475,6 +522,18 @@
         <div class="markdown-body" id="story-body" aria-live="polite">
           Choose a story, chapter, level, and language from the menu.
         </div>
+        <div class="comprehension" id="comprehension" hidden>
+          <div class="comprehension-title">Reading comprehension</div>
+          <div class="comprehension-body" id="comprehension-body"></div>
+          <div class="comprehension-status" id="comprehension-status"></div>
+        </div>
+        <div class="next-chapter" id="next-chapter">
+          <button type="button" id="prev-chapter-button" class="pill-button">Previous chapter</button>
+          <div class="next-chapter-right">
+            <button type="button" id="next-chapter-button" class="pill-button">Next chapter</button>
+            <div class="next-chapter-meta" id="next-chapter-meta"></div>
+          </div>
+        </div>
         <div class="status-line" id="status-line" role="status"></div>
       </article>
     </main>
@@ -564,6 +623,13 @@
       const footerVersion = document.getElementById('footer-version');
       const footerUpdated = document.getElementById('footer-updated');
       const footerCache = document.getElementById('footer-cache');
+      const nextChapterContainer = document.getElementById('next-chapter');
+      const prevChapterButton = document.getElementById('prev-chapter-button');
+      const nextChapterButton = document.getElementById('next-chapter-button');
+      const nextChapterMeta = document.getElementById('next-chapter-meta');
+      const comprehensionSection = document.getElementById('comprehension');
+      const comprehensionBody = document.getElementById('comprehension-body');
+      const comprehensionStatus = document.getElementById('comprehension-status');
 
       let library = { books: [] };
       const defaultLanguageId = 'english';
@@ -581,6 +647,12 @@
         const version = MANUAL_VERSION || autoVersion;
         return { version, publishedAt: iso };
       })();
+      let prevChapterTarget = null;
+      let nextChapterTarget = null;
+      let questionsRequired = false;
+      let comprehensionComplete = true;
+      let comprehensionQuestions = [];
+      let comprehensionAnswers = {};
 
       const escapeHtml = (text = '') => text
         .replace(/&/g, '&amp;')
@@ -651,6 +723,144 @@
       function availableLanguages() {
         return findChapter()?.languages || [];
       }
+      function findPrevChapterSelection() {
+        const book = findBook();
+        if (!book) return null;
+        const chapters = book.chapters || [];
+        const idx = chapters.findIndex(ch => ch.id === state.chapterId);
+        if (idx === -1) return null;
+        for (let i = idx - 1; i >= 0; i -= 1) {
+          const candidate = chapters[i];
+          const lang = candidate.languages.find(l => l.id === state.langId);
+          if (!lang) continue;
+          const level = lang.levels.find(lv => lv.id === state.levelId);
+          if (!level) continue;
+          return {
+            chapterId: candidate.id,
+            chapterTitle: candidate.title,
+            langId: lang.id,
+            levelId: level.id,
+            langTitle: lang.title,
+            levelTitle: level.title,
+          };
+        }
+        return null;
+      }
+      function findNextChapterSelection() {
+        const book = findBook();
+        if (!book) return null;
+        const chapters = book.chapters || [];
+        const idx = chapters.findIndex(ch => ch.id === state.chapterId);
+        if (idx === -1) return null;
+        for (let i = idx + 1; i < chapters.length; i += 1) {
+          const candidate = chapters[i];
+          const lang = candidate.languages.find(l => l.id === state.langId);
+          if (!lang) continue;
+          const level = lang.levels.find(lv => lv.id === state.levelId);
+          if (!level) continue;
+          return {
+            chapterId: candidate.id,
+            chapterTitle: candidate.title,
+            langId: lang.id,
+            levelId: level.id,
+            langTitle: lang.title,
+            levelTitle: level.title,
+          };
+        }
+        return null;
+      }
+      function resetComprehension() {
+        questionsRequired = false;
+        comprehensionComplete = true;
+        comprehensionQuestions = [];
+        comprehensionAnswers = {};
+        if (comprehensionSection) comprehensionSection.hidden = true;
+        if (comprehensionBody) comprehensionBody.innerHTML = '';
+        if (comprehensionStatus) comprehensionStatus.textContent = '';
+      }
+      function evaluateComprehension() {
+        if (!questionsRequired || !comprehensionQuestions.length) {
+          comprehensionComplete = true;
+          updateChapterNav();
+          return;
+        }
+        const allAnswered = comprehensionQuestions.every(q => typeof comprehensionAnswers[q.id] === 'number');
+        if (!allAnswered) {
+          comprehensionComplete = false;
+          if (comprehensionStatus) comprehensionStatus.textContent = 'Answer all questions to unlock the next chapter.';
+          updateChapterNav();
+          return;
+        }
+        const allCorrect = comprehensionQuestions.every(q => comprehensionAnswers[q.id] === Number(q.correctIndex));
+        comprehensionComplete = allCorrect;
+        if (comprehensionStatus) {
+          comprehensionStatus.textContent = allCorrect
+            ? 'Great! Next chapter unlocked.'
+            : 'Some answers are incorrect. Try again.';
+        }
+        updateChapterNav();
+      }
+      function renderComprehensionQuestions(questions) {
+        if (!comprehensionSection || !comprehensionBody || !questions.length) return;
+        comprehensionBody.innerHTML = '';
+        questions.forEach((q, idx) => {
+          const fieldset = document.createElement('fieldset');
+          fieldset.className = 'comprehension-question';
+          const legend = document.createElement('legend');
+          legend.textContent = `${idx + 1}. ${q.question}`;
+          fieldset.appendChild(legend);
+
+          const optionsWrap = document.createElement('div');
+          optionsWrap.className = 'comprehension-options';
+          (q.options || []).forEach((opt, optIdx) => {
+            const label = document.createElement('label');
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = `comp-${q.id}`;
+            input.value = String(optIdx);
+            input.addEventListener('change', () => {
+              comprehensionAnswers[q.id] = Number(optIdx);
+              evaluateComprehension();
+            });
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(` ${opt}`));
+            optionsWrap.appendChild(label);
+          });
+          fieldset.appendChild(optionsWrap);
+          comprehensionBody.appendChild(fieldset);
+        });
+        comprehensionSection.hidden = false;
+        if (comprehensionStatus) comprehensionStatus.textContent = 'Answer all questions to unlock the next chapter.';
+      }
+      async function loadComprehensionQuestions(level) {
+        resetComprehension();
+        if (!level?.path || !comprehensionSection) {
+          updateChapterNav();
+          return;
+        }
+        const qPath = level.path.replace(/\.md$/, '_q.json');
+        try {
+          const response = await fetch(qPath, { cache: 'no-cache' });
+          if (!response.ok) throw new Error(`No questions at ${qPath}`);
+          const data = await response.json();
+          const questions = Array.isArray(data.questions) ? data.questions : [];
+          if (!questions.length) {
+            updateChapterNav();
+            return;
+          }
+          questionsRequired = true;
+          comprehensionComplete = false;
+          comprehensionQuestions = questions.map(q => ({
+            ...q,
+            correctIndex: Number(q.correctIndex),
+          }));
+          renderComprehensionQuestions(questions);
+          updateChapterNav();
+        } catch (error) {
+          resetComprehension();
+          updateChapterNav();
+        }
+      }
       function getLanguageTitleById(langId) {
         return availableLanguages().find(lang => lang.id === langId)?.title || langId || 'Language';
       }
@@ -681,10 +891,34 @@
         levelDownBtn.disabled = invalid || idx === 0;
         levelUpBtn.disabled = invalid || idx === levels.length - 1;
       }
+      function updateChapterNav() {
+        if (!nextChapterContainer || !nextChapterButton || !nextChapterMeta || !prevChapterButton) return;
+        const next = findNextChapterSelection();
+        const prev = findPrevChapterSelection();
+        nextChapterTarget = next;
+        prevChapterTarget = prev;
+
+        const locked = questionsRequired && !comprehensionComplete;
+        const enableNext = !!next && !locked;
+        const enablePrev = !!prev;
+
+        nextChapterButton.disabled = !enableNext;
+        prevChapterButton.disabled = !enablePrev;
+
+        nextChapterButton.textContent = enableNext ? `Next: ${next.chapterTitle}` : 'Next chapter';
+        nextChapterButton.setAttribute('aria-label', enableNext
+          ? `Next chapter ${next.chapterTitle}`
+          : 'Next chapter');
+        nextChapterMeta.textContent = '';
+        nextChapterMeta.hidden = true;
+
+        prevChapterButton.setAttribute('aria-label', enablePrev ? `Previous chapter ${prev.chapterTitle}` : 'Previous chapter');
+      }
       function refreshQuickControls() {
         ensureLearningLanguageValidity();
         updateLangToggleButton();
         updateLevelButtons();
+        updateChapterNav();
       }
       function stepLevel(direction) {
         const levels = findLanguage()?.levels || [];
@@ -780,6 +1014,7 @@
         if (!book || !chapter || !lang || !level) {
           storyBody.textContent = 'Pick a story, chapter, level, and language that exists in the catalog.';
           setStatus('Waiting for a valid selection.');
+          if (nextChapterContainer) nextChapterContainer.hidden = true;
           return;
         }
 
@@ -787,6 +1022,8 @@
         readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
         barTitle.textContent = `${book.title} — ${chapter.title}`;
 
+        resetComprehension();
+        updateChapterNav();
         setStatus('Loading story…');
         try {
           const response = await fetch(level.path);
@@ -794,6 +1031,7 @@
           const md = await response.text();
           storyBody.innerHTML = markdownToHtml(md);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
+          await loadComprehensionQuestions(level);
         } catch (error) {
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
           setStatus('Failed to load markdown content.');
@@ -828,7 +1066,9 @@
         readerMeta.textContent = 'Pick a level to jump into a story';
         barTitle.textContent = 'Book catalog';
         storyBody.innerHTML = '';
+        if (nextChapterContainer) nextChapterContainer.hidden = true;
         setStatus('Tap a language/level to open it.');
+        updateScrollTopVisibility();
 
         if (!library.books.length) {
           storyBody.textContent = 'Catalog is empty.';
@@ -894,7 +1134,9 @@
           <p>Select a book, chapter, language, and level to fetch the corresponding markdown file for a simple reading experience.</p>
           <p>Add new markdown files to the folders and regenerate the index to have them appear automatically.</p>
         `;
+        if (nextChapterContainer) nextChapterContainer.hidden = true;
         setStatus('');
+        updateScrollTopVisibility();
       }
 
       bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); });
@@ -914,6 +1156,24 @@
       levelUpBtn?.addEventListener('click', () => stepLevel('up'));
       levelDownBtn?.addEventListener('click', () => stepLevel('down'));
       themeToggle?.addEventListener('click', () => { nightMode = !nightMode; applyTheme(); });
+      prevChapterButton?.addEventListener('click', () => {
+        if (!prevChapterTarget) return;
+        state.chapterId = prevChapterTarget.chapterId;
+        populateChapters();
+        state.langId = prevChapterTarget.langId;
+        populateLanguages();
+        state.levelId = prevChapterTarget.levelId;
+        populateLevels();
+      });
+      nextChapterButton?.addEventListener('click', () => {
+        if (!nextChapterTarget) return;
+        state.chapterId = nextChapterTarget.chapterId;
+        populateChapters();
+        state.langId = nextChapterTarget.langId;
+        populateLanguages();
+        state.levelId = nextChapterTarget.levelId;
+        populateLevels();
+      });
 
       catalogLink.addEventListener('click', (event) => {
         event.preventDefault();

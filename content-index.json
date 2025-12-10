@@ -133,6 +133,46 @@
               "title": "English",
               "levels": [
                 {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/native.md"
+                },
+                {
                   "id": "original",
                   "title": "Original",
                   "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/original.md"

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where does the boy live?",
+      "options": [
+        "In a big city",
+        "In a small village",
+        "On a boat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "What animal does he see?",
+      "options": [
+        "A dog",
+        "A cat",
+        "A bird"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
