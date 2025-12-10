@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/png" href="./icon512.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>Story Reader PWA</title>
+
+    <style>
+      :root {
+        --bar-height: 56px;
+        --max-width: 980px;
+        --accent: #0f172a;
+        --muted: #5b6170;
+        --sidebar-width: 300px;
+        --card: #f8fafc;
+        --shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: var(--accent);
+        background: linear-gradient(180deg, #f3f6fb 0%, #ffffff 22%, #f9fbff 100%);
+      }
+
+      header.topbar {
+        position: fixed;
+        inset: 0 0 auto 0;
+        height: var(--bar-height);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0 14px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+        z-index: 30;
+      }
+
+      button#menu-toggle {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        padding: 8px;
+        display: inline-grid;
+        place-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background 160ms ease;
+      }
+      button#menu-toggle:hover { background: rgba(15, 23, 42, 0.06); }
+      button#menu-toggle:focus { outline: 2px solid rgba(15, 23, 42, 0.14); }
+
+      .hamburger {
+        width: 20px;
+        height: 2px;
+        background: var(--accent);
+        position: relative;
+      }
+      .hamburger::before, .hamburger::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 20px;
+        height: 2px;
+        background: var(--accent);
+      }
+      .hamburger::before { top: -6px; }
+      .hamburger::after { top: 6px; }
+
+      .bar-title {
+        margin-left: 4px;
+        font-size: 14px;
+        opacity: 0.92;
+        letter-spacing: 0.01em;
+      }
+
+      aside.sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: var(--sidebar-width);
+        transform: translateX(-100%);
+        transition: transform 220ms ease;
+        background: #fff;
+        box-shadow: var(--shadow);
+        z-index: 40;
+        padding: calc(var(--bar-height) + 16px) 16px 24px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      aside.sidebar.open { transform: translateX(0); }
+
+      button#sidebar-close {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        padding: 8px;
+        cursor: pointer;
+        border-radius: 6px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      nav.menu {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 10px 0 6px;
+      }
+      nav.menu a {
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        background: rgba(15, 23, 42, 0.04);
+        transition: background 140ms ease;
+      }
+      nav.menu a:hover { background: rgba(15, 23, 42, 0.08); }
+
+      .sidebar-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .controls-row {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      label.small {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+      }
+
+      select {
+        height: 38px;
+        font-size: 14px;
+        padding: 0 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        background: #fff;
+        color: var(--accent);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+      }
+      select:disabled { color: rgba(15, 23, 42, 0.4); background: rgba(15, 23, 42, 0.03); }
+
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.24);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 180ms ease;
+        z-index: 35;
+      }
+      .overlay.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      main.reader {
+        min-height: calc(100vh - var(--bar-height));
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: calc(var(--bar-height) + 24px) 16px 32px;
+        box-sizing: border-box;
+      }
+
+      .reader-panel {
+        width: 100%;
+        max-width: var(--max-width);
+        background: #fff;
+        border-radius: 14px;
+        padding: 22px 22px 28px;
+        box-shadow: var(--shadow);
+        box-sizing: border-box;
+      }
+
+      .reader-head {
+        margin-bottom: 14px;
+      }
+      .eyebrow {
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+      #reader-title {
+        margin: 0;
+        font-size: clamp(22px, 4vw, 34px);
+        line-height: 1.2;
+        color: var(--accent);
+      }
+
+      .markdown-body {
+        color: var(--accent);
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .markdown-body h1,
+      .markdown-body h2,
+      .markdown-body h3 {
+        margin: 18px 0 10px;
+      }
+      .markdown-body p {
+        margin: 10px 0;
+      }
+      .markdown-body ul {
+        padding-left: 18px;
+        margin: 10px 0;
+      }
+
+      .catalog-book {
+        margin-bottom: 18px;
+        padding: 12px;
+        border-radius: 10px;
+        background: var(--card);
+      }
+      .catalog-book h3 {
+        margin: 0 0 6px;
+      }
+      .catalog-meta {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        background: #fff;
+        font-size: 13px;
+        margin: 4px 6px 4px 0;
+        cursor: pointer;
+      }
+      .chip:hover { background: rgba(15, 23, 42, 0.06); }
+
+      .status-line {
+        margin-top: 14px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      @media (min-width: 900px) {
+        aside.sidebar { width: 320px; --sidebar-width: 320px; }
+        .reader-panel { padding: 26px 28px 34px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar" role="banner">
+      <button id="menu-toggle" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <div class="bar-title" id="bar-title">Story Reader</div>
+    </header>
+
+    <aside id="site-sidebar" class="sidebar" role="dialog" aria-hidden="true" aria-label="Site menu">
+      <button id="sidebar-close" aria-label="Close menu">✕</button>
+
+      <div class="sidebar-section" aria-hidden="false">
+        <div class="controls-row">
+          <label for="book-select" class="small">Story</label>
+          <select id="book-select" aria-label="Select story"></select>
+        </div>
+
+        <div class="controls-row">
+          <label for="chapter-select" class="small">Chapter</label>
+          <select id="chapter-select" aria-label="Select chapter"></select>
+        </div>
+
+        <div class="controls-row">
+          <label for="level-select" class="small">Level</label>
+          <select id="level-select" aria-label="Select level"></select>
+        </div>
+
+        <div class="controls-row">
+          <label for="lang-select" class="small">Language</label>
+          <select id="lang-select" aria-label="Select language"></select>
+        </div>
+      </div>
+
+      <nav class="menu" aria-label="Links">
+        <a href="#" id="book-catalog-link">Book catalog</a>
+        <a href="#" id="about-link">About</a>
+      </nav>
+    </aside>
+
+    <div id="overlay" class="overlay" tabindex="-1" aria-hidden="true"></div>
+
+    <main class="reader" role="main">
+      <article class="reader-panel" id="reader">
+        <header class="reader-head">
+          <div class="eyebrow" id="reader-meta">Loading…</div>
+          <h1 id="reader-title">Story reader</h1>
+        </header>
+        <div class="markdown-body" id="story-body" aria-live="polite">
+          Choose a story, chapter, level, and language from the menu.
+        </div>
+        <div class="status-line" id="status-line" role="status"></div>
+      </article>
+    </main>
+
+    <script src="./converter.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {/* ignore registration errors */});
+      }
+
+      const menuToggle = document.getElementById('menu-toggle');
+      const sidebar = document.getElementById('site-sidebar');
+      const overlay = document.getElementById('overlay');
+      const sidebarClose = document.getElementById('sidebar-close');
+      const barTitle = document.getElementById('bar-title');
+
+      function openSidebar() {
+        sidebar.classList.add('open');
+        sidebar.setAttribute('aria-hidden', 'false');
+        menuToggle.setAttribute('aria-expanded', 'true');
+        overlay.classList.add('show');
+        overlay.setAttribute('aria-hidden', 'false');
+      }
+      function closeSidebar() {
+        sidebar.classList.remove('open');
+        sidebar.setAttribute('aria-hidden', 'true');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        overlay.classList.remove('show');
+        overlay.setAttribute('aria-hidden', 'true');
+      }
+
+      menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        if (expanded) closeSidebar(); else openSidebar();
+      });
+      overlay.addEventListener('click', closeSidebar);
+      sidebarClose.addEventListener('click', closeSidebar);
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeSidebar();
+      });
+
+      const bookSelect = document.getElementById('book-select');
+      const chapterSelect = document.getElementById('chapter-select');
+      const levelSelect = document.getElementById('level-select');
+      const langSelect = document.getElementById('lang-select');
+      const readerTitle = document.getElementById('reader-title');
+      const readerMeta = document.getElementById('reader-meta');
+      const storyBody = document.getElementById('story-body');
+      const statusLine = document.getElementById('status-line');
+      const catalogLink = document.getElementById('book-catalog-link');
+      const aboutLink = document.getElementById('about-link');
+
+      let library = { books: [] };
+      const state = { bookId: null, chapterId: null, langId: null, levelId: null };
+
+      const escapeHtml = (text = '') => text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/\"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+
+      function markdownToHtml(mdText) {
+        const trimmed = (mdText || '').trim();
+        if (!trimmed) return '<p>Empty file.</p>';
+        const blocks = trimmed.split(/\n\s*\n/);
+
+        const blockHtml = blocks.map((block) => {
+          const lines = block.split('\n');
+          const first = lines[0];
+
+          if (/^#{1,6}\s+/.test(first)) {
+            const level = Math.min(6, first.match(/^#+/)[0].length);
+            const headingText = escapeHtml(first.replace(/^#{1,6}\s+/, '').trim());
+            const rest = lines.slice(1).map(escapeHtml).join('<br>');
+            return `<h${level}>${headingText}</h${level}>${rest ? `<p>${rest}</p>` : ''}`;
+          }
+
+          const isList = lines.every(line => /^[-*]\s+/.test(line.trim()));
+          if (isList) {
+            const items = lines.map(line => `<li>${escapeHtml(line.replace(/^[-*]\s+/, '').trim())}</li>`).join('');
+            return `<ul>${items}</ul>`;
+          }
+
+          return `<p>${lines.map(escapeHtml).join('<br>')}</p>`;
+        });
+
+        return blockHtml.join('');
+      }
+
+      function setStatus(text) {
+        statusLine.textContent = text || '';
+      }
+
+      function setSelectOptions(select, items, currentValue) {
+        select.innerHTML = '';
+        items.forEach((item) => {
+          const option = document.createElement('option');
+          option.value = item.id;
+          option.textContent = item.title || item.id;
+          select.appendChild(option);
+        });
+        select.disabled = items.length === 0;
+        if (items.length === 0) return null;
+        const nextValue = items.find(item => item.id === currentValue)?.id || items[0].id;
+        select.value = nextValue;
+        return nextValue;
+      }
+
+      function findBook() {
+        return library.books.find(book => book.id === state.bookId) || null;
+      }
+      function findChapter() {
+        return findBook()?.chapters.find(ch => ch.id === state.chapterId) || null;
+      }
+      function findLanguage() {
+        return findChapter()?.languages.find(l => l.id === state.langId) || null;
+      }
+      function findLevel() {
+        return findLanguage()?.levels.find(lv => lv.id === state.levelId) || null;
+      }
+
+      function populateBooks() {
+        state.bookId = setSelectOptions(bookSelect, library.books, state.bookId);
+        populateChapters();
+      }
+      function populateChapters() {
+        const book = findBook();
+        state.chapterId = setSelectOptions(chapterSelect, book?.chapters || [], state.chapterId);
+        populateLanguages();
+      }
+      function populateLanguages() {
+        const chapter = findChapter();
+        state.langId = setSelectOptions(langSelect, chapter?.languages || [], state.langId);
+        populateLevels();
+      }
+      function populateLevels() {
+        const language = findLanguage();
+        state.levelId = setSelectOptions(levelSelect, language?.levels || [], state.levelId);
+        loadCurrentSelection();
+      }
+
+      async function loadCurrentSelection() {
+        const book = findBook();
+        const chapter = findChapter();
+        const lang = findLanguage();
+        const level = findLevel();
+
+        if (!book || !chapter || !lang || !level) {
+          storyBody.textContent = 'Pick a story, chapter, level, and language that exists in the catalog.';
+          setStatus('Waiting for a valid selection.');
+          return;
+        }
+
+        readerTitle.textContent = chapter.title;
+        readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
+        barTitle.textContent = `${book.title} — ${chapter.title}`;
+
+        setStatus('Loading story…');
+        try {
+          const response = await fetch(level.path);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const md = await response.text();
+          storyBody.innerHTML = markdownToHtml(md);
+          setStatus(`Loaded ${lang.title} · ${level.title}`);
+        } catch (error) {
+          storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
+          setStatus('Failed to load markdown content.');
+          console.error(error);
+        }
+      }
+
+      async function loadLibrary() {
+        setStatus('Loading catalog…');
+        try {
+          const response = await fetch('./content-index.json');
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          library = await response.json();
+        } catch (error) {
+          storyBody.textContent = 'Could not read content-index.json. Place it next to index.html to drive the dropdowns.';
+          setStatus('Catalog missing or unreadable.');
+          console.error(error);
+          return;
+        }
+
+        if (!library.books?.length) {
+          storyBody.textContent = 'No books found in the catalog.';
+          setStatus('Add books under content/books to begin.');
+          return;
+        }
+
+        populateBooks();
+      }
+
+      function renderCatalogView() {
+        readerTitle.textContent = 'Book catalog';
+        readerMeta.textContent = 'Pick a level to jump into a story';
+        barTitle.textContent = 'Book catalog';
+        storyBody.innerHTML = '';
+        setStatus('Tap a language/level to open it.');
+
+        if (!library.books.length) {
+          storyBody.textContent = 'Catalog is empty.';
+          return;
+        }
+
+        library.books.forEach((book) => {
+          const bookDiv = document.createElement('div');
+          bookDiv.className = 'catalog-book';
+
+          const heading = document.createElement('h3');
+          heading.textContent = book.title;
+          bookDiv.appendChild(heading);
+
+          const meta = document.createElement('div');
+          meta.className = 'catalog-meta';
+          meta.textContent = `${book.chapters.length} chapter(s)`;
+          bookDiv.appendChild(meta);
+
+          book.chapters.forEach((chapter) => {
+            const chapterMeta = document.createElement('div');
+            chapterMeta.className = 'catalog-meta';
+            chapterMeta.textContent = chapter.title;
+            bookDiv.appendChild(chapterMeta);
+
+            chapter.languages.forEach((lang) => {
+              const langLabel = document.createElement('div');
+              langLabel.className = 'catalog-meta';
+              langLabel.textContent = lang.title;
+              bookDiv.appendChild(langLabel);
+
+              lang.levels.forEach((level) => {
+                const chip = document.createElement('button');
+                chip.type = 'button';
+                chip.className = 'chip';
+                chip.textContent = `${lang.title} · ${level.title}`;
+                chip.addEventListener('click', () => {
+                  state.bookId = book.id;
+                  populateBooks();
+                  state.chapterId = chapter.id;
+                  populateChapters();
+                  state.langId = lang.id;
+                  populateLanguages();
+                  state.levelId = level.id;
+                  populateLevels();
+                  closeSidebar();
+                });
+                bookDiv.appendChild(chip);
+              });
+            });
+          });
+
+          storyBody.appendChild(bookDiv);
+        });
+      }
+
+      function renderAboutView() {
+        readerTitle.textContent = 'About this reader';
+        readerMeta.textContent = 'Offline-friendly PWA';
+        barTitle.textContent = 'About';
+        storyBody.innerHTML = `
+          <p>This sidebar-driven reader pulls its options from <code>content-index.json</code>, which mirrors the folders under <code>content/books</code>.</p>
+          <p>Select a book, chapter, language, and level to fetch the corresponding markdown file for a simple reading experience.</p>
+          <p>Add new markdown files to the folders and regenerate the index to have them appear automatically.</p>
+        `;
+        setStatus('');
+      }
+
+      bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); });
+      chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
+      langSelect.addEventListener('change', () => { state.langId = langSelect.value; populateLevels(); });
+      levelSelect.addEventListener('change', () => { state.levelId = levelSelect.value; loadCurrentSelection(); closeSidebar(); });
+
+      catalogLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        renderCatalogView();
+        closeSidebar();
+      });
+      aboutLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        renderAboutView();
+        closeSidebar();
+      });
+
+      loadLibrary();
+    </script>
+  </body>
+</html>

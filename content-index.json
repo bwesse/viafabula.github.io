@@ -1,0 +1,147 @@
+{
+  "books": [
+    {
+      "id": "mobby_dick",
+      "title": "Mobby Dick",
+      "chapters": [
+        {
+          "id": "00_prefix",
+          "title": "00 Prefix",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/mobby_dick/chapters/00_prefix/english/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_loomings",
+          "title": "01 Loomings",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/mobby_dick/chapters/01_loomings/spanish/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_carpet_bag",
+          "title": "02 Carpet Bag",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/mobby_dick/chapters/02_carpet_bag/english/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
