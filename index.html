@@ -1446,6 +1446,7 @@
 
         populateBooks();
         updateBookmarkStatus();
+        updateFloatingBtnLabel();
       }
 
       function renderCatalogView() {
@@ -1626,8 +1627,11 @@
       function updateFloatingBtnLabel() {
         if (!floatingBtnLabel) return;
         const currentLangId = state.langId;
-        const langTitle = getLanguageTitleById(currentLangId);
-        floatingBtnLabel.textContent = langTitle ? langTitle.substring(0, 2).toUpperCase() : '🌐';
+        if (currentLangId) {
+          floatingBtnLabel.textContent = currentLangId.substring(0, 2).toUpperCase();
+        } else {
+          floatingBtnLabel.textContent = '🌐';
+        }
       }
 
       function floatingBtnTap() {
