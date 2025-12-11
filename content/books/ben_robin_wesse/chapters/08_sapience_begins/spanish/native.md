@@ -1,25 +1,25 @@
-# Sapience Comienza
+# Comienza Sapience
 
-El Profesor Weis lo mencionó casualmente en una clase de Ingeniería de Sistemas de Comunicación. "Hay un proyecto estudiantil con drones. Búsqueda y rescate. Competición internacional. Quien esté interesado puede aplicar."
+El profe Weis lo soltó en clase así, de casualidad: "Hay un proyecto de drones. Búsqueda y rescate. Competición internacional. Si os interesa, aplicad."
 
-Miré a Tim. Tim me miró a mí. Ambos sabíamos que íbamos a aplicar.
+Tim y yo nos miramos. Sin decir nada—lo teníamos claro.
 
-Ninguno de los dos tenía experiencia con drones. Cero. Nunca había construido un dron, volado un dron, ni siquiera sostenido un controlador de dron. Pero el proyecto sonaba increíble: construir robots voladores autónomos que pudieran buscar y rescatar personas en escenarios de desastre. Impacto en el mundo real. Desafíos de ingeniería reales.
+Experiencia con drones entre los dos: cero. Ninguna. Nunca había construido uno, volado uno, ni tocado un mando. Pero la propuesta era irresistible: construir robots voladores para salvar gente. Impacto real. Ingeniería de verdad.
 
-Escribimos nuestras solicitudes esa noche. Fuimos honestos: teníamos entusiasmo, teníamos tiempo, y estábamos dispuestos a aprender todo desde cero. No mencionamos que yo había estudiado arte en el bachillerato o que ninguno de los dos había tocado la robótica antes de Klagenfurt.
+Escribimos las solicitudes esa noche. Honestidad total: mucho entusiasmo, bastante tiempo libre, ganas de aprender todo desde cero. No mencionamos mi formación artística ni nuestra falta total de experiencia en robótica.
 
-Dos semanas después, recibimos el correo. Estábamos dentro.
+Dos semanas después: correo de aceptación. Estábamos dentro.
 
-SAPIENCE—ese era el nombre del proyecto. Financiado por la OTAN, en cooperación con la Universidad de Delft, City University London, y la Universidad de Alabama en Huntsville. La competición ocurriría en etapas: primero Londres, luego Huntsville. El plazo era ajustado. Las expectativas eran altas.
+SAPIENCE. Financiación de la OTAN. Universidades colaboradoras en Delft, Londres y Huntsville. Fases de la competición: primero Londres, luego Alabama.
 
-Y de repente, Tim y yo éramos constructores de drones.
+De repente éramos ingenieros de drones. Flipante.
 
-La curva de aprendizaje era vertical. Software CAD, controladores de vuelo, especificaciones de motores, gestión de baterías, integración de sensores—cada día traía nuevos conceptos que dominar. Cometíamos errores constantemente. Los prototipos iniciales se estrellaban espectacularmente. Pero con cada accidente, aprendíamos algo nuevo.
+La curva de aprendizaje era básicamente vertical. CAD, controladores de vuelo, motores, baterías, sensores—conceptos nuevos cada maldito día. Estrellábamos drones constantemente. Pero aprendíamos de cada hostia.
 
-La oficina del equipo se convirtió en nuestro segundo hogar. Las noches tardías se convertían en madrugadas. Las cajas de pizza se acumulaban. El código se escribía, reescribía y tiraba. Las piezas se pedían, ensamblaban, rompían y reconstruían.
+La oficina del equipo se convirtió en nuestro cuartel general. Noches en vela, madrugadas, cajas de pizza por todas partes. Código escrito, reescrito, borrado. Piezas pedidas, montadas, rotas, reconstruidas.
 
-Estábamos construyendo tres drones de carga pesada para la competición de Londres: Blackbird, Goldeneye y Phoenix. Cada uno era un monstruo de fibra de carbono y tecnología, capaz de cargar cámaras, sensores y carga útil. Cada uno representaba cientos de horas de trabajo.
+Tres drones pesados para Londres: Blackbird, Goldeneye, Phoenix. Bestias de fibra de carbono. Cientos de horas cada uno.
 
-Encontré mi rol en el equipo: diseño 3D y construcción física. Mi formación artística, que había pensado irrelevante, resultó ser útil. Entender la forma, visualizar estructuras, pensar en tres dimensiones—estas habilidades se transferían sorprendentemente bien al diseño de drones.
+Encontré mi rollo: diseño 3D y construcción. Resulta que el arte ayuda—entender formas, ver estructuras, pensar en tres dimensiones. Quién lo iba a decir.
 
-Por primera vez desde que llegué a Klagenfurt, sentí que estaba exactamente en el lugar correcto.
+Primera vez en Klagenfurt que sentí que estaba exactamente donde debía estar.
