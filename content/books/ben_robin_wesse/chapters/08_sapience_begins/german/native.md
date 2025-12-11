@@ -1,25 +1,25 @@
-# Sapience Beginnt
+# Sapience beginnt
 
-Professor Weis erwähnte es beiläufig in einer Vorlesung über Kommunikationssystemtechnik. "Es gibt ein Studentenprojekt mit Drohnen. Such- und Rettung. Internationaler Wettbewerb. Wer interessiert ist, kann sich bewerben."
+Prof. Weis erwähnt es so nebenbei in der Vorlesung: "Es gibt ein Drohnenprojekt. Such- und Rettung. Internationaler Wettbewerb. Bewerbt euch, wenn ihr Interesse habt."
 
-Ich schaute Tim an. Tim schaute mich an. Wir wussten beide, dass wir uns bewerben würden.
+Tim und ich schauen uns an. Keine Worte nötig—wir sind dabei.
 
-Keiner von uns hatte Drohnenerfahrung. Null. Ich hatte nie eine Drohne gebaut, geflogen oder auch nur einen Drohnencontroller in der Hand gehalten. Aber das Projekt klang unglaublich: autonome fliegende Roboter bauen, die Menschen in Katastrophenszenarien suchen und retten konnten. Echte Auswirkungen in der realen Welt. Echte technische Herausforderungen.
+Drohnenerfahrung zwischen uns beiden: null. Keine. Nie eine gebaut, nie eine geflogen, nie einen Controller angefasst. Aber das Pitch war unwiderstehlich: fliegende Roboter bauen, um Menschen zu retten. Echter Impact. Echtes Engineering.
 
-Wir schrieben unsere Bewerbungen noch an diesem Abend. Wir waren ehrlich: Wir hatten Enthusiasmus, wir hatten Zeit, und wir waren bereit, alles von Grund auf zu lernen. Wir erwähnten nicht, dass ich im Gymnasium Kunst studiert hatte oder dass keiner von uns vor Klagenfurt jemals Robotik angefasst hatte.
+Wir schreiben die Bewerbungen am Abend. Totale Ehrlichkeit: viel Enthusiasmus, reichlich Zeit, bereit alles von Grund auf zu lernen. Erwähnen weder meinen Kunst-Hintergrund noch unsere komplette Ahnungslosigkeit in Robotik.
 
-Zwei Wochen später bekamen wir die E-Mail. Wir waren dabei.
+Zwei Wochen später: Akzeptanz-Mail. Wir sind drin.
 
-SAPIENCE—so hieß das Projekt. Finanziert von der NATO, in Zusammenarbeit mit der Universität Delft, der City University London und der University of Alabama in Huntsville. Der Wettbewerb würde in Etappen stattfinden: erst London, dann Huntsville. Der Zeitplan war eng. Die Erwartungen waren hoch.
+SAPIENCE. NATO-Finanzierung. Partnerunis in Delft, London und Huntsville. Wettbewerbsphasen: erst London, dann Alabama.
 
-Und plötzlich waren Tim und ich Drohnenbauer.
+Plötzlich sind wir Drohneningenieure. Krass.
 
-Die Lernkurve war vertikal. CAD-Software, Flugcontroller, Motorspezifikationen, Batteriemanagement, Sensorintegration—jeder Tag brachte neue Konzepte, die es zu meistern galt. Wir machten ständig Fehler. Frühe Prototypen stürzten spektakulär ab. Aber mit jedem Absturz lernten wir etwas Neues.
+Die Lernkurve ist quasi senkrecht. CAD, Flugcontroller, Motoren, Batterien, Sensoren—neue Konzepte jeden verdammten Tag. Drohnenabstürze am laufenden Band. Aber wir lernen aus jedem Crash.
 
-Das Teambüro wurde unser zweites Zuhause. Späte Nächte wurden zu frühen Morgenstunden. Pizzakartons häuften sich. Code wurde geschrieben, umgeschrieben und weggeworfen. Teile wurden bestellt, zusammengebaut, kaputt gemacht und wieder aufgebaut.
+Das Teambüro wird zur Homebase. Durchgemachte Nächte, Morgendämmerung, Pizzakartons überall. Code geschrieben, umgeschrieben, gelöscht. Teile bestellt, gebaut, kaputt, wieder aufgebaut.
 
-Wir bauten drei Schwerlastdrohnen für den Londoner Wettbewerb: Blackbird, Goldeneye und Phoenix. Jede war ein Monster aus Kohlefaser und Technologie, fähig Kameras, Sensoren und Nutzlast zu tragen. Jede repräsentierte Hunderte von Arbeitsstunden.
+Drei Schwerlastdrohnen für London: Blackbird, Goldeneye, Phoenix. Kohlefaser-Monster. Hunderte Stunden pro Stück.
 
-Ich fand meine Rolle im Team: 3D-Design und physischer Bau. Mein künstlerischer Hintergrund, den ich für irrelevant gehalten hatte, erwies sich als nützlich. Form verstehen, Strukturen visualisieren, dreidimensional denken—diese Fähigkeiten übertrugen sich überraschend gut auf das Drohnendesign.
+Finde meinen Bereich: 3D-Design und Bau. Stellt sich raus, Kunst hilft—Formen verstehen, Strukturen sehen, dreidimensional denken. Wer hätte das gedacht.
 
-Zum ersten Mal seit meiner Ankunft in Klagenfurt hatte ich das Gefühl, genau am richtigen Ort zu sein.
+Erstes Mal in Klagenfurt, dass ich das Gefühl habe, genau da zu sein, wo ich hingehöre.
