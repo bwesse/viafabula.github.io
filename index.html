@@ -16,6 +16,7 @@
         --sidebar-width: 300px;
         --card: #f8fafc;
         --shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+        --reader-font-size: 16px;
       }
 
       html, body {
@@ -226,6 +227,16 @@
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
       }
       select:disabled { color: rgba(15, 23, 42, 0.4); background: rgba(15, 23, 42, 0.03); }
+      .bookmark-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+      .bookmark-status {
+        font-size: 12px;
+        color: var(--muted);
+      }
 
       .sidebar-footer {
         margin-top: auto;
@@ -292,7 +303,7 @@
 
       .markdown-body {
         color: var(--accent);
-        font-size: 16px;
+        font-size: var(--reader-font-size);
         line-height: 1.6;
       }
       .markdown-body h1,
@@ -502,8 +513,32 @@
         </div>
 
         <div class="controls-row">
-          <label for="lang-select" class="small">Language</label>
-          <select id="lang-select" aria-label="Select language"></select>
+          <label for="native-lang-select" class="small">Native language</label>
+          <select id="native-lang-select" aria-label="Select native language"></select>
+        </div>
+
+        <div class="controls-row">
+          <label for="learning-lang-select" class="small">Learning language</label>
+          <select id="learning-lang-select" aria-label="Select learning language"></select>
+        </div>
+
+        <div class="controls-row">
+          <label for="text-size-select" class="small">Text size</label>
+          <select id="text-size-select" aria-label="Select text size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="xlarge">Extra large</option>
+          </select>
+        </div>
+
+        <div class="controls-row">
+          <label class="small">Bookmark</label>
+          <div class="bookmark-actions">
+            <button type="button" id="save-bookmark" class="pill-button">Save bookmark</button>
+            <button type="button" id="go-bookmark" class="pill-button">Open bookmark</button>
+            <div id="bookmark-status" class="bookmark-status">No bookmark saved.</div>
+          </div>
         </div>
 
         <div class="controls-row">
@@ -533,7 +568,7 @@
           <h1 id="reader-title">Story reader</h1>
         </header>
         <div class="markdown-body" id="story-body" aria-live="polite">
-          Choose a story, chapter, level, and language from the menu.
+          Choose a story, chapter, level, and languages from the menu.
         </div>
         <div class="comprehension" id="comprehension" hidden>
           <div class="comprehension-title">Reading comprehension</div>
@@ -627,7 +662,8 @@
       const bookSelect = document.getElementById('book-select');
       const chapterSelect = document.getElementById('chapter-select');
       const levelSelect = document.getElementById('level-select');
-      const langSelect = document.getElementById('lang-select');
+      const nativeLangSelect = document.getElementById('native-lang-select');
+      const learningLangSelect = document.getElementById('learning-lang-select');
       const readerTitle = document.getElementById('reader-title');
       const readerMeta = document.getElementById('reader-meta');
       const readerPanel = document.getElementById('reader');
@@ -646,12 +682,34 @@
       const comprehensionSection = document.getElementById('comprehension');
       const comprehensionBody = document.getElementById('comprehension-body');
       const comprehensionStatus = document.getElementById('comprehension-status');
+      const textSizeSelect = document.getElementById('text-size-select');
+      const saveBookmarkBtn = document.getElementById('save-bookmark');
+      const goBookmarkBtn = document.getElementById('go-bookmark');
+      const bookmarkStatus = document.getElementById('bookmark-status');
 
+      const SETTINGS_KEY = 'reader-settings';
+      const SETTINGS_DEFAULT = {
+        nativeLanguageId: 'english',
+        learningLanguageId: null,
+        theme: 'light',
+        textSize: 'medium',
+        bookmark: null,
+      };
+      const TEXT_SIZE_MAP = {
+        small: '15px',
+        medium: '16px',
+        large: '18px',
+        xlarge: '20px',
+      };
+      const FALLBACK_NATIVE_ID = 'english';
       let library = { books: [] };
-      const defaultLanguageId = 'english';
-      let learningLanguageId = null;
       const state = { bookId: null, chapterId: null, langId: null, levelId: null };
+      let userSettings = SETTINGS_DEFAULT;
+      let nativeLanguageId = SETTINGS_DEFAULT.nativeLanguageId;
+      let learningLanguageId = null;
+      let textSize = SETTINGS_DEFAULT.textSize;
       let nightMode = false;
+      let bookmark = null;
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
       const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
@@ -672,6 +730,35 @@
       let audioPlayer = null;
       let audioReady = false;
       let audioRequestId = 0;
+
+      function readUserSettings() {
+        try {
+          const stored = JSON.parse(localStorage.getItem(SETTINGS_KEY) || 'null');
+          if (!stored || typeof stored !== 'object') return { ...SETTINGS_DEFAULT };
+          return { ...SETTINGS_DEFAULT, ...stored };
+        } catch (err) {
+          return { ...SETTINGS_DEFAULT };
+        }
+      }
+      function persistSettings(patch = {}) {
+        userSettings = { ...userSettings, ...patch };
+        localStorage.setItem(SETTINGS_KEY, JSON.stringify(userSettings));
+      }
+      function primeSettingsFromStorage() {
+        userSettings = readUserSettings();
+        nativeLanguageId = userSettings.nativeLanguageId || FALLBACK_NATIVE_ID;
+        learningLanguageId = userSettings.learningLanguageId || null;
+        nightMode = userSettings.theme === 'dark';
+        textSize = userSettings.textSize || SETTINGS_DEFAULT.textSize;
+        bookmark = normalizeBookmark(userSettings.bookmark);
+      }
+      function applyTextSize() {
+        const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
+        document.documentElement.style.setProperty('--reader-font-size', size);
+        if (textSizeSelect) textSizeSelect.value = TEXT_SIZE_MAP[textSize] ? textSize : 'medium';
+      }
+
+      primeSettingsFromStorage();
 
       const escapeHtml = (text = '') => text
         .replace(/&/g, '&amp;')
@@ -959,24 +1046,45 @@
       function getLanguageTitleById(langId) {
         return availableLanguages().find(lang => lang.id === langId)?.title || langId || 'Language';
       }
-      function ensureLearningLanguageValidity() {
+      function ensureLanguageSelections() {
         const available = availableLanguages();
-        if (available.some(lang => lang.id === learningLanguageId)) return;
-        const fallback = available.find(lang => lang.id !== defaultLanguageId);
-        learningLanguageId = fallback ? fallback.id : null;
+        if (!available.length) {
+          nativeLanguageId = null;
+          learningLanguageId = null;
+          state.langId = null;
+          return;
+        }
+        if (!available.some(lang => lang.id === nativeLanguageId)) {
+          nativeLanguageId = available.find(lang => lang.id === FALLBACK_NATIVE_ID)?.id || available[0].id;
+        }
+        if (available.length > 1 && learningLanguageId === nativeLanguageId) {
+          const alt = available.find(lang => lang.id !== nativeLanguageId);
+          if (alt) learningLanguageId = alt.id;
+        }
+        if (!available.some(lang => lang.id === learningLanguageId)) {
+          const fallback = available.find(lang => lang.id !== nativeLanguageId);
+          learningLanguageId = fallback ? fallback.id : nativeLanguageId;
+        }
+        if (!available.some(lang => lang.id === state.langId)) {
+          state.langId = learningLanguageId || nativeLanguageId;
+        }
+        if (nativeLangSelect) nativeLangSelect.value = nativeLanguageId;
+        if (learningLangSelect) learningLangSelect.value = learningLanguageId;
       }
       function updateLangToggleButton() {
         if (!langToggleBtn) return;
         const available = availableLanguages();
-        const hasDefault = available.some(lang => lang.id === defaultLanguageId);
-        const currentTitle = getLanguageTitleById(state.langId) || 'English';
-        const defaultTitle = getLanguageTitleById(defaultLanguageId) || 'English';
+        const hasNative = available.some(lang => lang.id === nativeLanguageId);
+        const hasLearning = learningLanguageId && available.some(lang => lang.id === learningLanguageId);
+        const canToggle = hasNative && hasLearning && learningLanguageId !== nativeLanguageId;
+        const currentTitle = getLanguageTitleById(state.langId) || 'Language';
+        const defaultTitle = getLanguageTitleById(nativeLanguageId) || 'Native language';
         const learningTitle = learningLanguageId ? getLanguageTitleById(learningLanguageId) : null;
 
         langToggleBtn.textContent = currentTitle;
-        const otherTitle = state.langId === defaultLanguageId ? (learningTitle || currentTitle) : defaultTitle;
+        const otherTitle = state.langId === nativeLanguageId ? (learningTitle || currentTitle) : defaultTitle;
         langToggleBtn.setAttribute('aria-label', `Toggle language between ${defaultTitle} and ${otherTitle}`);
-        langToggleBtn.disabled = !hasDefault || (!learningLanguageId && state.langId === defaultLanguageId);
+        langToggleBtn.disabled = !canToggle;
       }
       function updateLevelButtons() {
         if (!levelUpBtn || !levelDownBtn) return;
@@ -1009,8 +1117,63 @@
 
         prevChapterButton.setAttribute('aria-label', enablePrev ? `Previous chapter ${prev.chapterTitle}` : 'Previous chapter');
       }
+      function normalizeBookmark(raw) {
+        if (!raw || typeof raw !== 'object') return null;
+        const { bookId, chapterId, langId, levelId } = raw;
+        if (!bookId || !chapterId || !langId || !levelId) return null;
+        return { bookId, chapterId, langId, levelId };
+      }
+      function bookmarkIsValid(bm) {
+        const normalized = normalizeBookmark(bm);
+        if (!normalized) return false;
+        const book = library.books.find(b => b.id === normalized.bookId);
+        if (!book) return false;
+        const chapter = book.chapters.find(ch => ch.id === normalized.chapterId);
+        if (!chapter) return false;
+        const lang = chapter.languages.find(l => l.id === normalized.langId);
+        if (!lang) return false;
+        const level = lang.levels.find(lv => lv.id === normalized.levelId);
+        return !!level;
+      }
+      function updateBookmarkStatus() {
+        if (!bookmarkStatus) return;
+        if (bookmark && !library.books.length) {
+          bookmarkStatus.textContent = 'Loading bookmark…';
+          if (goBookmarkBtn) goBookmarkBtn.disabled = true;
+          return;
+        }
+        if (!bookmarkIsValid(bookmark)) {
+          bookmarkStatus.textContent = 'No bookmark saved.';
+          if (goBookmarkBtn) goBookmarkBtn.disabled = true;
+          return;
+        }
+        const book = library.books.find(b => b.id === bookmark.bookId);
+        const chapter = book?.chapters.find(ch => ch.id === bookmark.chapterId);
+        const lang = chapter?.languages.find(l => l.id === bookmark.langId);
+        const level = lang?.levels.find(lv => lv.id === bookmark.levelId);
+        const label = [book?.title, chapter?.title, lang?.title, level?.title].filter(Boolean).join(' · ');
+        bookmarkStatus.textContent = label || 'Bookmark ready.';
+        if (goBookmarkBtn) goBookmarkBtn.disabled = false;
+      }
+      function saveBookmark() {
+        const nextBookmark = normalizeBookmark(state);
+        if (!nextBookmark) return;
+        bookmark = nextBookmark;
+        persistSettings({ bookmark });
+        updateBookmarkStatus();
+      }
+      function openBookmark() {
+        if (!bookmarkIsValid(bookmark)) return;
+        state.bookId = bookmark.bookId;
+        state.chapterId = bookmark.chapterId;
+        state.langId = bookmark.langId;
+        learningLanguageId = bookmark.langId;
+        state.levelId = bookmark.levelId;
+        populateBooks();
+        persistSettings({ bookmark, learningLanguageId });
+      }
       function refreshQuickControls() {
-        ensureLearningLanguageValidity();
+        ensureLanguageSelections();
         updateLangToggleButton();
         updateLevelButtons();
         updateChapterNav();
@@ -1032,16 +1195,14 @@
       function toggleLanguage() {
         const available = availableLanguages();
         if (!available.length) return;
-        ensureLearningLanguageValidity();
-        const hasDefault = available.some(lang => lang.id === defaultLanguageId);
-        if (!hasDefault) return;
-        const targetLangId = state.langId === defaultLanguageId
-          ? (learningLanguageId || defaultLanguageId)
-          : defaultLanguageId;
+        ensureLanguageSelections();
+        const targetLangId = state.langId === nativeLanguageId
+          ? (learningLanguageId || nativeLanguageId)
+          : nativeLanguageId;
         if (!available.some(lang => lang.id === targetLangId)) return;
         state.langId = targetLangId;
-        langSelect.value = targetLangId;
         populateLevels();
+        persistSettings({ nativeLanguageId, learningLanguageId });
       }
       function formatDateTime(isoString) {
         const date = new Date(isoString);
@@ -1088,9 +1249,12 @@
       }
       function populateLanguages() {
         const chapter = findChapter();
-        state.langId = setSelectOptions(langSelect, chapter?.languages || [], state.langId);
-        if (state.langId && state.langId !== defaultLanguageId) learningLanguageId = state.langId;
-        ensureLearningLanguageValidity();
+        const languages = chapter?.languages || [];
+        nativeLanguageId = setSelectOptions(nativeLangSelect, languages, nativeLanguageId);
+        learningLanguageId = setSelectOptions(learningLangSelect, languages, learningLanguageId || state.langId);
+        ensureLanguageSelections();
+        state.langId = state.langId || learningLanguageId || nativeLanguageId;
+        persistSettings({ nativeLanguageId, learningLanguageId, textSize, theme: nightMode ? 'dark' : 'light', bookmark });
         populateLevels();
       }
       function populateLevels() {
@@ -1107,7 +1271,7 @@
         const level = findLevel();
 
         if (!book || !chapter || !lang || !level) {
-          storyBody.textContent = 'Pick a story, chapter, level, and language that exists in the catalog.';
+          storyBody.textContent = 'Pick a story, chapter, level, and languages that exist in the catalog.';
           setStatus('Waiting for a valid selection.');
           resetAudio();
           if (nextChapterContainer) nextChapterContainer.hidden = true;
@@ -1155,7 +1319,20 @@
           return;
         }
 
+        if (bookmark && !bookmarkIsValid(bookmark)) {
+          bookmark = null;
+          persistSettings({ bookmark: null });
+        }
+        if (bookmarkIsValid(bookmark)) {
+          state.bookId = bookmark.bookId;
+          state.chapterId = bookmark.chapterId;
+          state.langId = bookmark.langId;
+          learningLanguageId = bookmark.langId;
+          state.levelId = bookmark.levelId;
+        }
+
         populateBooks();
+        updateBookmarkStatus();
       }
 
       function renderCatalogView() {
@@ -1239,9 +1416,16 @@
 
       bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); });
       chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
-      langSelect.addEventListener('change', () => {
-        state.langId = langSelect.value;
-        if (state.langId !== defaultLanguageId) learningLanguageId = state.langId;
+      nativeLangSelect?.addEventListener('change', () => {
+        nativeLanguageId = nativeLangSelect.value;
+        ensureLanguageSelections();
+        persistSettings({ nativeLanguageId });
+        updateLangToggleButton();
+      });
+      learningLangSelect?.addEventListener('change', () => {
+        learningLanguageId = learningLangSelect.value;
+        state.langId = learningLanguageId || nativeLanguageId;
+        persistSettings({ learningLanguageId });
         populateLevels();
       });
       levelSelect.addEventListener('change', () => {
@@ -1253,7 +1437,23 @@
       langToggleBtn?.addEventListener('click', toggleLanguage);
       levelUpBtn?.addEventListener('click', () => stepLevel('up'));
       levelDownBtn?.addEventListener('click', () => stepLevel('down'));
-      themeToggle?.addEventListener('click', () => { nightMode = !nightMode; applyTheme(); });
+      themeToggle?.addEventListener('click', () => {
+        nightMode = !nightMode;
+        applyTheme();
+        persistSettings({ theme: nightMode ? 'dark' : 'light' });
+      });
+      textSizeSelect?.addEventListener('change', () => {
+        textSize = textSizeSelect.value;
+        persistSettings({ textSize });
+        applyTextSize();
+      });
+      saveBookmarkBtn?.addEventListener('click', () => {
+        saveBookmark();
+      });
+      goBookmarkBtn?.addEventListener('click', () => {
+        openBookmark();
+        closeSidebar();
+      });
       prevChapterButton?.addEventListener('click', () => {
         if (!prevChapterTarget) return;
         state.chapterId = prevChapterTarget.chapterId;
@@ -1286,7 +1486,9 @@
 
       updateAudioButton();
       updateVersionFooter();
+      applyTextSize();
       applyTheme();
+      updateBookmarkStatus();
       loadLibrary();
     </script>
   </body>
