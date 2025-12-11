@@ -1889,8 +1889,8 @@
 
       function positionPopup(wordElement) {
         const rect = wordElement.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
         
         const popupLeft = rect.left + scrollLeft + (rect.width / 2);
         const popupTop = rect.top + scrollTop - 10;
@@ -1908,7 +1908,7 @@
         
         // Show loading state
         popupWord.textContent = word;
-        popupDefinition.innerHTML = '<span class="popup-loading">Looking up...</span>';
+        popupDefinition.textContent = 'Looking up...';
         popupTranslation.style.display = 'none';
         popupInfo.textContent = '';
         wordTranslationPopup.classList.add('visible');
@@ -1940,7 +1940,7 @@
         
         // Show loading state
         popupWord.textContent = word;
-        popupDefinition.innerHTML = '<span class="popup-loading">Looking up...</span>';
+        popupDefinition.textContent = 'Looking up...';
         popupTranslation.style.display = 'none';
         popupInfo.textContent = '';
         wordTranslationPopup.classList.add('visible');
@@ -1978,8 +1978,13 @@
       // Handle word interactions - click for definition, long-press for translation
       let wordPressStartTime = 0;
       let wordPressTarget = null;
+      let touchHandled = false; // Prevent double triggering on touch devices
       
       storyBody.addEventListener('mousedown', (e) => {
+        if (touchHandled) {
+          touchHandled = false;
+          return;
+        }
         const target = e.target;
         if (target.classList.contains('clickable-word')) {
           wordPressStartTime = Date.now();
@@ -1988,6 +1993,7 @@
       });
 
       storyBody.addEventListener('mouseup', (e) => {
+        if (touchHandled) return;
         const target = e.target;
         if (target.classList.contains('clickable-word') && wordPressTarget === target) {
           const pressDuration = Date.now() - wordPressStartTime;
@@ -2011,8 +2017,9 @@
         wordPressTarget = null;
       });
 
-      // Touch support for mobile
+      // Touch support for mobile - set flag to prevent mouse events
       storyBody.addEventListener('touchstart', (e) => {
+        touchHandled = true;
         const target = e.target;
         if (target.classList.contains('clickable-word')) {
           wordPressStartTime = Date.now();
