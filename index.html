@@ -1836,17 +1836,15 @@
         }
       }
 
-      async function fetchTranslation(word, targetLangCode) {
-        if (!targetLangCode || targetLangCode === 'en') return null;
+      async function fetchTranslationFromTo(word, fromLang, toLang) {
+        if (!fromLang || !toLang || fromLang === toLang) return null;
         try {
-          // Use MyMemory translation API (free, no API key required)
-          const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|${targetLangCode}`;
+          const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${fromLang}|${toLang}`;
           const response = await fetch(url);
           if (!response.ok) return null;
           const data = await response.json();
           if (data && data.responseData && data.responseData.translatedText) {
             const translated = data.responseData.translatedText;
-            // Check for error messages from MyMemory
             if (translated.toLowerCase().includes('invalid') || 
                 translated.toLowerCase().includes('error') ||
                 translated === word) {
@@ -1858,6 +1856,11 @@
         } catch (err) {
           return null;
         }
+      }
+      
+      // Convenience wrapper for English to target language translation
+      async function fetchTranslation(word, targetLangCode) {
+        return fetchTranslationFromTo(word, 'en', targetLangCode);
       }
 
       function positionPopupAtRect(rect) {
@@ -1941,27 +1944,6 @@
         // Auto-hide after 6 seconds
         wordTranslationTimeout = setTimeout(hideWordTranslation, 6000);
       }
-      
-      async function fetchTranslationFromTo(word, fromLang, toLang) {
-        try {
-          const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${fromLang}|${toLang}`;
-          const response = await fetch(url);
-          if (!response.ok) return null;
-          const data = await response.json();
-          if (data && data.responseData && data.responseData.translatedText) {
-            const translated = data.responseData.translatedText;
-            if (translated.toLowerCase().includes('invalid') || 
-                translated.toLowerCase().includes('error') ||
-                translated === word) {
-              return null;
-            }
-            return translated;
-          }
-          return null;
-        } catch (err) {
-          return null;
-        }
-      }
 
       // Text selection-based lookup
       let selectionTimeout = null;
@@ -2024,9 +2006,20 @@
       });
 
       // Hide popup when clicking elsewhere (but not when selecting text)
-      document.addEventListener('mousedown', (e) => {
+      let isSelecting = false;
+      document.addEventListener('mousedown', () => {
+        isSelecting = true;
+      });
+      document.addEventListener('click', (e) => {
+        isSelecting = false;
+        // Only hide if clicking outside popup and not on selected text
         if (!wordTranslationPopup.contains(e.target)) {
-          hideWordTranslation();
+          const selection = window.getSelection();
+          const selectedText = selection.toString().trim();
+          // If there's a selection, don't hide immediately - let mouseup handler deal with it
+          if (!selectedText) {
+            hideWordTranslation();
+          }
         }
       });
 
