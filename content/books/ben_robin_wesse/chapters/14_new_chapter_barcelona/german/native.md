@@ -1,27 +1,19 @@
 # Ein Neues Kapitel: Barcelona
 
-Kolumbien sollte ein Urlaub sein. Stattdessen fanden Tim und ich uns in Dschungel-Hostels wieder, Laptop-Bildschirme leuchtend in der tropischen Dunkelheit, unsere Bachelor-Arbeiten schreibend, während Affen in den Bäumen draußen schrien.
+Also nach Kolumbien bin ich einfach direkt nach Barcelona geflogen. Tim ist zurück nach Europa, und ich hab... neu angefangen, schätze ich? Neue Wohnung, neue Stadt, komplett neues Leben.
 
-Nach Huntsville hatten wir unsere Taschen gepackt und waren direkt nach Südamerika geflogen. Ein Monat Rucksackreisen, unseren Sieg feiern, so tun als hätten wir keine akademischen Deadlines, die sich näherten. Die Realität war weniger glamourös: Wir brauchten diesen Urlaub verzweifelt, aber wir mussten auch verzweifelt unsere Arbeiten fertigstellen.
+Barcelona war ewig in meinem Kopf, ehrlich gesagt. Tim und ich hatten uns für den Master an der UPC beworben—Automatisierung, Steuerung und Robotik. Wir wurden genommen. Das Drohnenprojekt hatte mich ein Jahr extra in Klagenfurt festgehalten statt Erasmus zu machen, aber jetzt war die Stadt endlich bereit für mich.
 
-Wir schafften es. Knapp. Irgendwie, zwischen Busfahrten durch die Berge und Nächten in Hängematten, bekamen wir das Schreiben hin. Die Arbeiten wurden aus einem Internetcafé in einer Stadt eingereicht, deren Namen ich nicht mehr weiß, begleitet von schrecklichem Kaffee und einem kollektiven Seufzer der Erleichterung.
+Die ersten Monate waren einfach... viel. Auf die beste Art. Jeden Tag gibt's was Neues—das Gotische Viertel mit seinem Labyrinth aus alten Gassen, die Strände direkt am Mittelmeer, Berge in der Ferne, die förmlich nach einem Snowboard schreien.
 
-Und dann war es Zeit für das nächste Abenteuer.
+Der Master ist so lala. Manche Profs sind cool, andere eher meh. Theorie ist trocken, wie Theorie halt immer ist. Aber die Stadt? Die Stadt bringt mir Sachen bei, von denen ich nicht wusste, dass ich sie lernen muss.
 
-Barcelona war seit vor Huntsville in meinem Kopf gewesen. Tim und ich hatten uns für den Master-Studiengang in Automatisierung, Steuerung und Robotik an der UPC beworben—der Polytechnischen Universität Kataloniens. Wir waren angenommen worden. Während das Drohnenprojekt mich ein zusätzliches Jahr in Klagenfurt gehalten hatte, anstatt dort Erasmus zu machen, hatte die Stadt auf mich gewartet.
+Irgendwas an diesem Ort macht, dass man besser werden will. Vielleicht ist es, Spanisch und Katalanisch die ganze Zeit gemischt zu hören, was einen ständig daran erinnert, wie viel man noch nicht rafft. Studierende von literally überall, die gefühlt hundert verschiedene Sprachen sprechen. Macht einem klar, dass die Welt viel größer ist als wo man herkommt.
 
-Ich flog direkt von Kolumbien nach Barcelona. Neue Wohnung, neue Stadt, neues Leben.
+Ich schreib das gerade aus meiner Wohnung, Spanisch wabert von der Straße hoch. Mein Spanisch ist okay—aber nicht gut genug. Ich verpasse immer noch Wörter, check nicht alles wenn die zu schnell reden. Deshalb hab ich im Grunde diese Webseite gebaut. Hilft mir, zwischen Sprachniveaus zu wechseln, zu sehen wie Sätze in verschiedenen Sprachen funktionieren.
 
-Die ersten Monate waren auf die beste Weise überwältigend. Jeder Tag brachte etwas Neues zu entdecken—das Gotische Viertel mit seinen engen mittelalterlichen Gassen, die Strände, die sich entlang des Mittelmeers erstrecken, die Berge, die in der Ferne gerade sichtbar waren und zukünftige Snowboard-Abenteuer versprachen.
+Wenn ich auf alles zurückblicke—Hamburg nach Kanada nach Peru nach Klagenfurt nach London nach Alabama nach Kolumbien bis hierher—fühlt sich nicht mal echt an. Das Kunst-Kid, das null Plan hatte was es mit seinem Leben anfangen soll, ist irgendwie Drohneningenieur geworden, Wettbewerbsgewinner, Master-Student.
 
-Der Master-Studiengang war okay. Einige Professoren waren brillant, andere weniger. Die Theorie war trocken, wie Theorie eben ist. Aber die Stadt selbst war die Bildung, von der ich nicht wusste, dass ich sie brauchte.
+Hab immer noch nicht alles gecheckt. Aber stellt sich raus, das ist okay. Der Weg zeigt sich beim Gehen, oder so.
 
-Es gibt etwas an Barcelona, das einen lernen lassen will. Vielleicht ist es, Spanisch und Katalanisch in den Straßen gemischt zu hören, was einem klarmacht, wie viel man noch nicht versteht. Vielleicht ist es die Internationalität von allem—Studierende von überall, die alles sprechen, eine ständige Erinnerung daran schaffend, dass die Welt größer ist als das Heimatland.
-
-Ich schreibe das aus meiner Wohnung, Spanisch schwebt von der Straße unten hoch. Mein Spanisch ist jetzt ziemlich gut, aber nicht gut genug. Ich verpasse immer noch Wörter, kämpfe immer noch mit den schnellen Gesprächen der Muttersprachler. Deshalb habe ich diese Website gebaut, eigentlich—um mir selbst zu helfen, zwischen Sprachniveaus zu wechseln, um zu sehen, wie Sätze in verschiedenen Sprachen funktionieren.
-
-Wenn ich auf die Reise zurückblicke—Hamburg nach Kanada nach Peru nach Klagenfurt nach London nach Alabama nach Kolumbien bis hierher—fühlt es sich nicht real an. Das Kunstkind, das keine Ahnung hatte, was es mit seinem Leben anfangen sollte, wurde irgendwie Drohneningenieur, Wettbewerbssieger, Master-Student.
-
-Ich habe immer noch nicht alles herausgefunden. Aber ich habe gelernt, dass das okay ist. Der Weg offenbart sich, während man ihn geht.
-
-Und irgendwo da draußen warten Berge darauf, mit dem Snowboard befahren zu werden.
+Und irgendwo da draußen warten Berge drauf, dass ich sie runterheize.
