@@ -72,12 +72,22 @@
       .hamburger::before { top: -6px; }
       .hamburger::after { top: 6px; }
 
-      .bar-title {
+      .audio-toggle {
         margin-left: 4px;
-        font-size: 14px;
-        opacity: 0.92;
+        font-size: 13px;
         letter-spacing: 0.01em;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
       }
+      .audio-toggle .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(15, 23, 42, 0.16);
+      }
+      .audio-toggle.playing .dot { background: #22c55e; }
 
       .topbar-actions {
         margin-left: auto;
@@ -454,7 +464,10 @@
       <button id="menu-toggle" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
         <span class="hamburger" aria-hidden="true"></span>
       </button>
-      <div class="bar-title" id="bar-title">Story Reader</div>
+      <button type="button" id="audio-toggle" class="pill-button audio-toggle" disabled aria-pressed="false" aria-label="Play audio">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="label">Play audio</span>
+      </button>
       <div class="topbar-actions" aria-label="Quick language controls">
         <button type="button" id="lang-toggle" class="pill-button" aria-label="Toggle language">English</button>
         <div class="level-stepper" role="group" aria-label="Change reading level">
@@ -579,7 +592,8 @@
       const sidebar = document.getElementById('site-sidebar');
       const overlay = document.getElementById('overlay');
       const sidebarClose = document.getElementById('sidebar-close');
-      const barTitle = document.getElementById('bar-title');
+      const audioToggleBtn = document.getElementById('audio-toggle');
+      const audioToggleLabel = audioToggleBtn?.querySelector('.label');
       const langToggleBtn = document.getElementById('lang-toggle');
       const levelUpBtn = document.getElementById('level-up');
       const levelDownBtn = document.getElementById('level-down');
@@ -608,6 +622,7 @@
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeSidebar();
       });
+      if (audioToggleBtn) audioToggleBtn.addEventListener('click', toggleAudioPlayback);
 
       const bookSelect = document.getElementById('book-select');
       const chapterSelect = document.getElementById('chapter-select');
@@ -654,6 +669,9 @@
       let comprehensionComplete = true;
       let comprehensionQuestions = [];
       let comprehensionAnswers = {};
+      let audioPlayer = null;
+      let audioReady = false;
+      let audioRequestId = 0;
 
       const escapeHtml = (text = '') => text
         .replace(/&/g, '&amp;')
@@ -704,6 +722,70 @@
 
       function updateScrollTopVisibility() {
         scrollReaderToTop();
+      }
+
+      function updateAudioButton() {
+        if (!audioToggleBtn) return;
+        const isPlaying = audioReady && audioPlayer && !audioPlayer.paused && !audioPlayer.ended;
+        const labelText = audioReady ? (isPlaying ? 'Pause audio' : 'Play audio') : 'Audio unavailable';
+        audioToggleBtn.disabled = !audioReady;
+        audioToggleBtn.classList.toggle('playing', isPlaying);
+        audioToggleBtn.setAttribute('aria-pressed', String(isPlaying));
+        audioToggleBtn.setAttribute('aria-label', labelText);
+        if (audioToggleLabel) audioToggleLabel.textContent = labelText;
+      }
+      function resetAudio() {
+        if (audioPlayer) {
+          audioPlayer.pause();
+          audioPlayer.src = '';
+        }
+        audioPlayer = null;
+        audioReady = false;
+        updateAudioButton();
+      }
+      function deriveAudioPath(levelPath) {
+        if (!levelPath) return null;
+        const normalized = levelPath.replace(/\\/g, '/');
+        if (normalized.endsWith('.md') || normalized.endsWith('.txt')) {
+          return normalized.replace(/\.[^.]+$/, '.wav');
+        }
+        return null;
+      }
+      async function prepareAudio(level) {
+        resetAudio();
+        if (!level) return;
+        const wavPath = deriveAudioPath(level.path);
+        if (!wavPath) return;
+        const requestId = ++audioRequestId;
+        try {
+          const response = await fetch(wavPath, { method: 'HEAD' });
+          if (requestId !== audioRequestId) return;
+          if (!response.ok) return;
+        } catch (err) {
+          if (requestId !== audioRequestId) return;
+          return;
+        }
+        if (requestId !== audioRequestId) return;
+        audioPlayer = new Audio(wavPath);
+        audioPlayer.preload = 'metadata';
+        audioReady = true;
+        audioPlayer.addEventListener('play', updateAudioButton);
+        audioPlayer.addEventListener('pause', updateAudioButton);
+        audioPlayer.addEventListener('ended', updateAudioButton);
+        updateAudioButton();
+      }
+      function toggleAudioPlayback() {
+        if (!audioReady || !audioPlayer) return;
+        if (audioPlayer.paused || audioPlayer.ended) {
+          if (audioPlayer.ended) audioPlayer.currentTime = 0;
+          audioPlayer.play().then(updateAudioButton).catch(() => {
+            audioPlayer.pause();
+            updateAudioButton();
+          });
+        } else {
+          audioPlayer.pause();
+          updateAudioButton();
+        }
       }
 
       function setSelectOptions(select, items, currentValue) {
@@ -1027,13 +1109,14 @@
         if (!book || !chapter || !lang || !level) {
           storyBody.textContent = 'Pick a story, chapter, level, and language that exists in the catalog.';
           setStatus('Waiting for a valid selection.');
+          resetAudio();
           if (nextChapterContainer) nextChapterContainer.hidden = true;
           return;
         }
 
         readerTitle.textContent = chapter.title;
         readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
-        barTitle.textContent = `${book.title} — ${chapter.title}`;
+        prepareAudio(level);
 
         resetComprehension();
         updateChapterNav();
@@ -1078,7 +1161,7 @@
       function renderCatalogView() {
         readerTitle.textContent = 'Book catalog';
         readerMeta.textContent = 'Pick a level to jump into a story';
-        barTitle.textContent = 'Book catalog';
+        resetAudio();
         storyBody.innerHTML = '';
         if (nextChapterContainer) nextChapterContainer.hidden = true;
         setStatus('Tap a language/level to open it.');
@@ -1142,7 +1225,7 @@
       function renderAboutView() {
         readerTitle.textContent = 'About this reader';
         readerMeta.textContent = 'Offline-friendly PWA';
-        barTitle.textContent = 'About';
+        resetAudio();
         storyBody.innerHTML = `
           <p>Our aim is simple: bring stories and language learning to everyone. We keep you captivated in a narrative while you move through adaptive levels for quick, self-organized learning.</p>
           <p>Levels run from A0/A1 for brand-new readers, through A2 and B1/B2 for growing confidence, up to C1/C2 native-level text — including original-author prose when available.</p>
@@ -1201,6 +1284,7 @@
         closeSidebar();
       });
 
+      updateAudioButton();
       updateVersionFooter();
       applyTheme();
       loadLibrary();

@@ -1,7 +1,17 @@
-# Temperature converter
 
-➡️ **[Open the demo](https://microsoftedge.github.io/Demos/temperature-converter/)** ⬅️
 
-A demo Progressive Web App (PWA) that converts temperatures.  To start learning to use and develop PWAs, start with this sample.
 
-For instructions, see [Temperature convertor sample](https://learn.microsoft.com/microsoft-edge/progressive-web-apps/samples/temperature-converter).
+##
+Piper environment 
+easy install
+python3 -m venv .pipervenv
+source .venv/bin/activate
+pip install piper-tts
+list voices with
+python3 -m piper.download_voices
+
+to download specific voice
+python3 -m piper.download_voices en_US-lessac-medium
+
+pip install mediapipe opencv-python playsound
+
