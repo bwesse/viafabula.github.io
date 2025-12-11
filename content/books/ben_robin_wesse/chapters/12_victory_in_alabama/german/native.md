@@ -1,27 +1,27 @@
 # Sieg in Alabama
 
-Huntsville, Alabama. Der Endwettbewerb. Alles, wofür wir gearbeitet hatten, kam hierauf an.
+Huntsville, Alabama. Das war's—der Endwettbewerb. Alles, wofür wir geackert hatten, kam jetzt drauf an.
 
-Wir hatten zwei neue Drohnen für diesen Wettbewerb gebaut: RED und BULL. Größer als die Londoner Drohnen, mit größeren Propellern, größeren Batterien, mehr Sensoren. Das Outdoor-Szenario erforderte mehr Reichweite, mehr Leistung, mehr von allem. Ich hatte unzählige Stunden in Fusion 360 verbracht, um jede Komponente zu entwerfen, dann druckte ich sie auf unseren 3D-Druckern in Klagenfurt.
+Wir hatten zwei neue Drohnen für den Wettbewerb gebaut: RED und BULL. Größer als die Londoner Teile, mit fetten Propellern, dickeren Akkus, mehr Sensoren. Das Outdoor-Szenario brauchte halt mehr Reichweite, mehr Power—mehr von allem. Ich hatte ewig in Fusion 360 gesessen und jede Komponente designt, dann alles in Klagenfurt ausgedruckt.
 
-Ich kam vorbereitet. Vor der Abreise aus Österreich druckte ich Ersatzteile für alles, was möglicherweise brechen könnte. Rahmen, Motorhalterungen, Fahrwerk, Sensorgehäuse—wenn es brechen konnte, hatte ich ein Ersatzteil.
+Ich kam vorbereitet, echt jetzt. Bevor ich aus Österreich abgehauen bin, hab ich Ersatzteile für alles gedruckt, was kaputtgehen könnte. Rahmen, Motorhalterungen, Fahrwerk, Sensorgehäuse—für alles hatte ich nen Backup.
 
-Es stellte sich als die klügste Entscheidung heraus, die ich je getroffen hatte.
+Das war echt die smarteste Entscheidung, die ich je getroffen hab.
 
-Der Wettbewerb begann schlecht. Wir bekamen Batterien, die größer waren als die, die wir getestet hatten—dieselbe Größe, die zu Hause Abstürze verursacht hatte. Und tatsächlich, beim ersten Testflug fiel BULL wie ein Stein vom Himmel. Unkontrollierbar. Hart abgestürzt.
+Der Wettbewerb fing beschissen an. Wir haben Batterien gekriegt, die größer waren als die, mit denen wir getestet hatten—genau die Größe, die zu Hause für Abstürze gesorgt hatte. Und was soll ich sagen, beim ersten Testflug ist BULL einfach runtergeknallt. Unkontrollierbar. Hart aufgeschlagen.
 
-In dieser Nacht baute ich BULL von Grund auf neu. Ersetzte den gebrochenen Rahmen durch meine Ersatzteile. Rekalibrierte alles. Hatte ihn bis zum Morgen wieder flugfähig.
+Die ganze Nacht hab ich BULL wieder aufgebaut. Neuer Rahmen, rekalibriert, das ganze Programm. Am Morgen flog er wieder.
 
-Dann stürzte RED ab. Der super teure LiDAR-Sensor zerschellte beim Aufprall. Zwei kaputte Drohnen, einen Tag vor der Endaufgabe.
+Dann ist RED abgestürzt. Der sauteure LiDAR-Sensor—komplett im Eimer. Zwei kaputte Drohnen, einen Tag vor dem Finale.
 
-Ich schlief nicht. Tim auch nicht. Während er am Code arbeitete, arbeitete ich an der Hardware. Teil für Teil, Stück für Stück, brachte ich beide Drohnen wieder zum Leben. Die Ersatzteile, die ich in Klagenfurt gedruckt hatte, retteten uns.
+Ich hab nicht gepennt. Tim auch nicht. Er hat am Code geschraubt, ich an der Hardware. Teil für Teil hab ich beide Dinger wieder zum Leben gebracht. Die Ersatzteile, die ich in Klagenfurt gedruckt hatte—die haben uns den Arsch gerettet.
 
-Der Wettkampftag kam. Nur RED war vollständig bereit, aber sie performte einwandfrei. Die besten Ergebnisse aller Teams. Unsere autonomen Systeme funktionierten genau wie konzipiert.
+Der Wettkampftag kam. Nur RED war startklar, aber die hat abgeliefert wie eine Eins. Beste Ergebnisse von allen Teams.
 
-Es gab ein Problem: Der Code unseres Teammitglieds für die Endaufgabe war nicht fertig. In der Verzweiflung wandten wir uns an ChatGPT, um die restlichen Funktionen schreiben zu helfen. Es war unkonventionell, vielleicht sogar ein bisschen verrückt, aber es funktionierte.
+Ein Problem gab's noch: Der Code von unserem Teammate war nicht fertig. In der Verzweiflung haben wir ChatGPT gefragt, ob's uns die restlichen Funktionen schreiben kann. Total verrückt, aber hat funktioniert.
 
-Team Klagenfurt gewann den SAPIENCE-Wettbewerb in Huntsville, Alabama.
+Team Klagenfurt hat den SAPIENCE-Wettbewerb in Huntsville, Alabama gewonnen.
 
-Als ich auf dieser Bühne stand und die Trophäe hielt, dachte ich an die Reise. Das Kunstkind aus Hamburg, das nie einen Roboter angefasst hatte. Der Typ, der seine erste Mathe-Prüfung verpasste, weil er Snowboarden war. Der unsichere junge Mann, der einen Rucksack und ein Snowboard packte und nach Österreich zog, auf das Beste hoffend.
+Als ich auf der Bühne stand mit dem Pokal, hab ich an die ganze Reise gedacht. Das Kunst-Kid aus Hamburg, das noch nie nen Roboter angefasst hatte. Der Typ, der seine Mathe-Prüfung verpasst hat, weil er lieber boarden war. Der unsichere Typ, der mit Rucksack und Snowboard nach Österreich gezogen ist und auf das Beste gehofft hat.
 
-Wir haben es geschafft. Tim und ich haben es wirklich geschafft.
+Wir haben's geschafft. Tim und ich haben's echt geschafft.
