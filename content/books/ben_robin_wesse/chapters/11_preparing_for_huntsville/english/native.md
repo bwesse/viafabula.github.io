@@ -1,19 +1,19 @@
 # Preparing for Huntsville
 
-London lit a fire in us. Second place was good, but not good enough.
+London lit a fire under us. Second place was great and all, but we weren't satisfied—we wanted that first place trophy.
 
-The next competition would be in Huntsville, Alabama. Bigger scenario, outdoor flying, longer distances. Everything needed to be scaled up.
+Next up was Huntsville, Alabama. Way bigger scenario this time: outdoor flying, longer distances, the whole deal. Everything needed to be scaled up massively.
 
-I canceled my Erasmus plans. Barcelona could wait. The drones couldn't.
+So I made a tough call—I bailed on my Erasmus plans. Barcelona could wait. The drones couldn't.
 
-From September, the preparation consumed everything. I spent countless hours in our team office, designing the new quadcopters in Fusion 360. RED and BULL—those were their names, born from the limited 3D printing filament we had available.
+From September on, prep basically consumed my entire life. I spent insane hours at the team office, designing the new quadcopters in Fusion 360. We named them RED and BULL because, well, that's the only filament color we had lying around.
 
-These drones needed to be bigger than anything we'd built before. Larger props for more lift. Bigger batteries for longer flight time. More sensors for outdoor navigation. Each decision cascaded into dozens of others.
+These things had to be way bigger than anything we'd built before. Bigger props for more lift. Bigger batteries for longer flight time. More sensors for outdoor nav. Every decision led to like a dozen more decisions.
 
-The design phase stretched through Easter. Then came the build phase—even more intense. I printed parts around the clock, our 3D printers running day and night. RED came together first, passing initial flight tests with flying colors. BULL followed shortly after.
+The design grind went all the way through Easter. Then came the build phase—even more intense. I had the 3D printers running nonstop, day and night. RED came together first and passed all the flight tests no problem. BULL was ready shortly after.
 
-Then disaster struck. Late testing with larger batteries—supplied by our supervisors—caused crashes. The heavier weight made our drones unstable. Both crashed hard.
+Then everything went sideways. During late testing, our supervisors handed us these bigger batteries we hadn't planned for. The extra weight messed everything up—both drones crashed hard.
 
-I pulled all-nighters to fix everything. More parts printed. More calibration. More testing. By the time we packed for Alabama, I was running on caffeine and stubbornness.
+I pulled a bunch of all-nighters fixing everything. More parts printed. More calibration. More testing. By the time we packed for Alabama, I was basically running on pure caffeine and stubbornness.
 
-But we were ready. As ready as we'd ever be.
+But hey, we were ready. As ready as we'd ever be.
