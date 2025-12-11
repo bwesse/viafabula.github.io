@@ -1,19 +1,19 @@
 # Preparando Huntsville
 
-Londres encendió un fuego en nosotros. El segundo lugar estaba bien, pero no era suficiente.
+Londres nos encendió. El segundo puesto estuvo genial y tal, pero no nos quedamos satisfechos—queríamos ese trofeo del primer lugar.
 
-La próxima competición sería en Huntsville, Alabama. Escenario más grande, vuelo al aire libre, distancias más largas. Todo necesitaba ser escalado.
+Lo siguiente era Huntsville, Alabama. Escenario mucho más grande esta vez: vuelo al aire libre, distancias más largas, el paquete completo. Todo tenía que escalarse brutalmente.
 
-Cancelé mis planes de Erasmus. Barcelona podía esperar. Los drones no.
+Así que tomé una decisión difícil—pasé de mis planes de Erasmus. Barcelona podía esperar. Los drones no.
 
-Desde septiembre, la preparación lo consumió todo. Pasé incontables horas en nuestra oficina del equipo, diseñando los nuevos cuadricópteros en Fusion 360. RED y BULL—esos eran sus nombres, nacidos del limitado filamento de impresión 3D que teníamos disponible.
+Desde septiembre, la preparación básicamente consumió toda mi vida. Pasé horas de locos en la oficina del equipo, diseñando los nuevos cuadricópteros en Fusion 360. Los llamamos RED y BULL porque, bueno, era el único color de filamento que teníamos por ahí.
 
-Estos drones necesitaban ser más grandes que cualquier cosa que hubiéramos construido antes. Hélices más grandes para más sustentación. Baterías más grandes para mayor tiempo de vuelo. Más sensores para navegación exterior. Cada decisión desencadenaba docenas de otras.
+Estos cacharros tenían que ser mucho más grandes que cualquier cosa que hubiéramos construido antes. Hélices más grandes para más sustentación. Baterías más grandes para tiempos de vuelo más largos. Más sensores para navegación exterior. Cada decisión llevaba a como una docena más de decisiones.
 
-La fase de diseño se extendió hasta Pascua. Luego vino la fase de construcción—aún más intensa. Imprimí piezas sin parar, nuestras impresoras 3D funcionando día y noche. RED se armó primero, pasando las pruebas iniciales de vuelo con excelentes resultados. BULL siguió poco después.
+El diseño se alargó hasta Semana Santa. Luego vino la fase de construcción—aún más intensa. Tenía las impresoras 3D funcionando sin parar, día y noche. RED se montó primero y pasó todas las pruebas de vuelo sin problema. BULL estuvo listo poco después.
 
-Entonces llegó el desastre. Las pruebas tardías con baterías más grandes—suministradas por nuestros supervisores—causaron accidentes. El peso mayor hacía inestables a nuestros drones. Ambos se estrellaron fuerte.
+Y entonces todo se fue al traste. Durante las pruebas finales, nuestros supervisores nos dieron estas baterías más grandes que no habíamos planeado. El peso extra lo fastidió todo—ambos drones se estrellaron fuerte.
 
-Trabajé noches enteras para arreglar todo. Más piezas impresas. Más calibración. Más pruebas. Para cuando empacamos para Alabama, funcionaba con cafeína y terquedad.
+Me metí un montón de noches sin dormir arreglándolo todo. Más piezas impresas. Más calibración. Más pruebas. Para cuando empacamos para Alabama, básicamente funcionaba con pura cafeína y terquedad.
 
-Pero estábamos listos. Tan listos como nunca lo estaríamos.
+Pero bueno, estábamos listos. Tan listos como nunca lo estaríamos.
