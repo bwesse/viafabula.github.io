@@ -1,15 +1,15 @@
 # Construyendo los Blackbirds
 
-El laboratorio de drones se convirtió en nuestro mundo. Durante meses, Tim y yo vivíamos más allí que en nuestros apartamentos.
+El lab de drones básicamente se convirtió en toda nuestra vida. Tim y yo prácticamente vivíamos allí durante meses—mucho más que en nuestros pisos.
 
-Blackbird. Goldeneye. Phoenix. Tres nombres, tres drones, tres monstruos de fibra de carbono y ambición.
+Construimos tres drones y les pusimos nombres bastante molones: Blackbird, Goldeneye y Phoenix. Bestias de fibra de carbono, tío. Cada uno era esta mezcla loca de ambición e ingeniería que apenas entendíamos cuando empezamos.
 
-Yo era responsable del diseño físico y la construcción. Fusion 360 se convirtió en mi nuevo lienzo—en lugar de pintura y pinceles, trabajaba con modelos CAD e impresoras 3D. Mi formación artística, sorprendentemente, ayudó. Podía visualizar cómo encajarían las piezas, cómo fluirían las fuerzas a través de las estructuras.
+Yo me encargaba de todo el tema del diseño y la construcción. Fusion 360 se convirtió en mi nuevo programa de arte—en plan, en vez de dibujar y pintar, ahora hacía modelos CAD e imprimía en 3D. Lo flipante es que mi formación artística del instituto me ayudó un montón. Podía ver cómo encajarían las piezas, visualizar toda la estructura en mi cabeza antes de construirla.
 
-La curva de aprendizaje fue brutal. Especificaciones de motores, eficiencia de hélices, capacidad de baterías, integración de sensores—cada componente requería horas de investigación. Cometimos errores. Muchos errores. Los primeros prototipos se estrellaban contra las paredes, caían del cielo, y una vez, memorablemente, prendieron fuego a una batería.
+Tío, la curva de aprendizaje fue brutal. Motores, hélices, baterías, sensores—cada componente nos llevaba horas de investigación para entenderlo. Y la cagamos constantemente. Nuestros primeros prototipos se estrellaban contra todo, se caían del cielo sin previo aviso, y una vez literalmente prendimos fuego a una batería. Buenos tiempos.
 
-Pero con cada fracaso, aprendíamos. Cada accidente nos enseñaba algo sobre aerodinámica, sobre distribución de peso, sobre la física implacable del vuelo. Para el tercer mes, nuestros drones eran estables. Para el cuarto, eran autónomos.
+Pero mira, aprendimos de cada accidente. Cada desastre nos enseñó algo nuevo sobre cómo vuelan realmente los drones. Para el tercer mes, ya eran estables. Para el cuarto, volaban solos.
 
-El plazo de la competición se acercaba. Íbamos retrasados en el calendario, retrasados en el código, retrasados en todo. Pero seguíamos trabajando. Las noches en vela se volvieron rutina. La oficina del equipo se llenó de bebidas energéticas y cajas de pizza.
+La fecha límite se acercaba cada vez más y estábamos retrasados en literalmente todo. Pero seguimos currando. Trasnochar se volvió lo normal. La oficina era básicamente un cementerio de cajas de pizza y latas de bebidas energéticas.
 
-Cuando finalmente empacamos los drones para Londres, no eran perfectos. El código tenía errores. El hardware tenía debilidades. Pero volaban. Y eso era suficiente para empezar.
+Cuando finalmente empacamos todo para Londres, los drones no eran perfectos—el código tenía bugs, el hardware tenía problemas. Pero volaban. Y honestamente, eso era suficiente para empezar.

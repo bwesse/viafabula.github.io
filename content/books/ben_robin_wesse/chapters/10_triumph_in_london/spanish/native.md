@@ -1,23 +1,23 @@
 # Triunfo en Londres
 
-Volamos a Londres con tres drones que no estaban terminados y código que apenas funcionaba.
+Así que volamos a Londres con tres drones que básicamente se sostenían con esperanza y cinta adhesiva. ¿El código? Apenas funcionaba. Lo sabíamos.
 
-Blackbird, Goldeneye, Phoenix—nuestros bebés, empacados cuidadosamente en estuches que habíamos diseñado nosotros mismos. Habíamos tenido múltiples accidentes en las pruebas. Los componentes habían fallado. El código tenía errores que no podíamos identificar. Por cualquier estándar razonable, no estábamos listos.
+Blackbird, Goldeneye, Phoenix—nuestros bebés, empacados súper cuidadosamente en estuches que habíamos hecho nosotros mismos. Habíamos tenido como una docena de accidentes en las pruebas. Las cosas se rompían constantemente. El código tenía bugs que ni siquiera podíamos encontrar. Por cualquier criterio normal, no teníamos nada que hacer en esa competición.
 
-Pero fuimos de todos modos.
+Pero bueno. Fuimos igual.
 
-La competición se celebró en una instalación en Londres, con equipos de universidades de toda Europa y América. Estos no eran aficionados—eran grupos de investigación bien financiados con años de experiencia con drones. Éramos dos tipos de Austria que habían aprendido todo en menos de un año.
+La competición era en unas instalaciones en Londres, y flipas—equipos de todas partes. Europa, América, universidades grandes con pasta de verdad y años de experiencia. Mientras tanto, nosotros éramos solo dos tíos de Austria que aprendimos todo en plan un año. Sin presión, ¿no?
 
-El primer día fue un desastre. Problemas de configuración. Problemas de calibración. Un accidente durante la práctica que casi destruye a Goldeneye. Tim y yo trabajamos toda la noche, reparando hardware y depurando código en nuestra habitación de hotel mientras el sol salía sobre la ciudad.
+El primer día fue un desastre total. Problemas de configuración, pesadillas de calibración, y luego nos estrellamos durante la práctica y casi destrozamos uno de los drones. Tim y yo nos quedamos literalmente toda la noche en la habitación del hotel, arreglando hardware y cazando bugs mientras amanecía. Fue durísimo.
 
-Y entonces algo hizo clic.
+Y entonces... algo encajó.
 
-El día de la competición, nuestros drones volaron. No perfectamente, pero bien. Muy bien. Mejor que equipos que habían estado trabajando en esto durante años. Nuestra navegación autónoma funcionó. Nuestros algoritmos de búsqueda encontraron los objetivos. Nuestros protocolos de rescate se ejecutaron correctamente.
+Llegó el día de la competición, y nuestros drones volaron. En plan, volaron de verdad. Mucho mejor de lo que esperábamos. Mejor que equipos que llevaban años con esto. La navegación funcionó, los algoritmos de búsqueda encontraron todo, el tema del rescate se ejecutó perfecto. Seguíamos mirando el marcador tipo "espera, eso no puede ser".
 
-No podíamos creer el marcador. Estábamos superando a todos.
+Estábamos ganando a todos.
 
-Al final, quedamos segundos. El equipo de Londres—City University, los anfitriones—quedó primero. Hubo rumores de que la puntuación había sido... generosa con el equipo local. Pero no nos importaba. ¿Segundo lugar, en nuestra primera competición internacional, contra equipos con diez veces nuestra experiencia? Eso era una victoria.
+Acabamos quedando segundos. El equipo de Londres ganó—City University, los anfitriones. La gente susurraba que la puntuación era un poco sospechosa, favoreciendo al equipo local. Pero sinceramente, nos daba igual. ¿Segundo puesto en nuestra primera cosa internacional, contra equipos con muchísima más experiencia? Eso es una victoria en mi libro.
 
-Más importante aún, habíamos demostrado algo. Dos chicos de arte de Hamburgo podían construir drones que competían con los mejores del mundo. Podíamos aprender cualquier cosa si nos comprometíamos completamente. Podíamos lograr cosas que parecían imposibles al principio.
+Y más importante, demostramos algo. Dos chavales de arte de Hamburgo podían construir drones que competían con los mejores del mundo. Bastante flipante, la verdad.
 
-Volando a casa, exhaustos y eufóricos, Tim y yo tomamos una decisión. No íbamos a parar. La próxima competición era en Huntsville, Alabama—y esta vez, íbamos a ganar.
+En el vuelo de vuelta, cansados pero emocionados, Tim y yo tomamos una decisión. No íbamos a parar. Lo siguiente era Huntsville, Alabama—y esta vez, íbamos a ganar.
