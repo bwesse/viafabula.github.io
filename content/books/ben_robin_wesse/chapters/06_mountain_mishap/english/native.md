@@ -1,8 +1,8 @@
 # The Mountain Mishap
 
-The math exam was scheduled for 9 AM on a Tuesday. I was on a mountain.
+The math exam was at 9 AM on a Tuesday. I was on a mountain.
 
-Not metaphorically on a mountain—literally on a mountain, strapped to my snowboard, carving through fresh powder while Tim sat in an exam hall wondering where the hell I was.
+Not metaphorically—literally on a mountain, strapped to my snowboard, carving through fresh powder while Tim sat in an exam hall wondering where the hell I was.
 
 Here's what happened: I got my dates mixed up. Classic Ben move. I thought the exam was next week. Tim called me as I was getting off the chairlift.
 
