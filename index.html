@@ -469,6 +469,85 @@
         aside.sidebar { width: 320px; --sidebar-width: 320px; }
         .reader-panel { padding: 26px 28px 34px; }
       }
+
+      /* Floating Button Styles */
+      .floating-btn {
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: grab;
+        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        touch-action: none;
+        user-select: none;
+        transition: transform 140ms ease, box-shadow 140ms ease;
+      }
+      .floating-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 24px rgba(102, 126, 234, 0.5);
+      }
+      .floating-btn:active, .floating-btn.dragging {
+        cursor: grabbing;
+        transform: scale(0.95);
+      }
+      .floating-btn.hidden {
+        display: none;
+      }
+
+      /* Translation Lens Popup */
+      .translation-lens {
+        position: fixed;
+        background: #fff;
+        border-radius: 12px;
+        padding: 12px 16px;
+        box-shadow: 0 8px 32px rgba(15, 23, 42, 0.2);
+        z-index: 51;
+        max-width: 280px;
+        min-width: 120px;
+        pointer-events: none;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 180ms ease, transform 180ms ease;
+      }
+      .translation-lens.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .translation-lens-word {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 4px;
+      }
+      .translation-lens-translation {
+        font-size: 16px;
+        color: #667eea;
+        font-weight: 500;
+      }
+      .translation-lens-info {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 4px;
+      }
+
+      body.night .translation-lens {
+        background: #1f2937;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      }
+      body.night .floating-btn {
+        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+      }
     </style>
   </head>
   <body>
@@ -546,6 +625,11 @@
           <label class="small" for="theme-toggle">Night mode</label>
           <button type="button" id="theme-toggle" class="pill-button" aria-pressed="false">Off</button>
         </div>
+
+        <div class="controls-row">
+          <label class="small" for="floating-btn-toggle">Floating button</label>
+          <button type="button" id="floating-btn-toggle" class="pill-button" aria-pressed="false">Off</button>
+        </div>
       </div>
 
       <nav class="menu" aria-label="Links">
@@ -586,6 +670,18 @@
         <div class="status-line" id="status-line" role="status"></div>
       </article>
     </main>
+
+    <!-- Floating Multifunctional Button -->
+    <button type="button" id="floating-btn" class="floating-btn hidden" aria-label="Language toggle and translation lens">
+      <span id="floating-btn-label">🌐</span>
+    </button>
+
+    <!-- Translation Lens Popup -->
+    <div id="translation-lens" class="translation-lens" aria-live="polite" aria-hidden="true">
+      <div class="translation-lens-word" id="lens-word"></div>
+      <div class="translation-lens-translation" id="lens-translation"></div>
+      <div class="translation-lens-info" id="lens-info"></div>
+    </div>
 
     <script src="./converter.js"></script>
     <script>
@@ -687,6 +783,13 @@
       const saveBookmarkBtn = document.getElementById('save-bookmark');
       const goBookmarkBtn = document.getElementById('go-bookmark');
       const bookmarkStatus = document.getElementById('bookmark-status');
+      const floatingBtn = document.getElementById('floating-btn');
+      const floatingBtnLabel = document.getElementById('floating-btn-label');
+      const floatingBtnToggle = document.getElementById('floating-btn-toggle');
+      const translationLens = document.getElementById('translation-lens');
+      const lensWord = document.getElementById('lens-word');
+      const lensTranslation = document.getElementById('lens-translation');
+      const lensInfo = document.getElementById('lens-info');
 
       const SETTINGS_KEY = 'reader-settings';
       const SETTINGS_DEFAULT = {
@@ -695,6 +798,8 @@
         theme: 'light',
         textSize: 'medium',
         bookmark: null,
+        floatingButtonEnabled: false,
+        floatingButtonPosition: null,
       };
       const TEXT_SIZE_MAP = {
         small: '15px',
@@ -711,6 +816,10 @@
       let textSize = SETTINGS_DEFAULT.textSize;
       let nightMode = false;
       let bookmark = null;
+      let floatingButtonEnabled = false;
+      let floatingButtonPosition = null;
+      let cachedOtherLangContent = null;
+      let cachedOtherLangId = null;
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
       const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
@@ -752,6 +861,8 @@
         nightMode = userSettings.theme === 'dark';
         textSize = userSettings.textSize || SETTINGS_DEFAULT.textSize;
         bookmark = normalizeBookmark(userSettings.bookmark);
+        floatingButtonEnabled = userSettings.floatingButtonEnabled || false;
+        floatingButtonPosition = userSettings.floatingButtonPosition || null;
       }
       function applyTextSize() {
         const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
@@ -1482,11 +1593,287 @@
         closeSidebar();
       });
 
+      // ======== Floating Button Functionality ========
+      let floatingBtnDragging = false;
+      let floatingBtnStartX = 0;
+      let floatingBtnStartY = 0;
+      let floatingBtnOffsetX = 0;
+      let floatingBtnOffsetY = 0;
+      let floatingBtnMoved = false;
+      let longPressTimer = null;
+      let isLongPress = false;
+      const LONG_PRESS_DURATION = 500;
+
+      function applyFloatingButtonVisibility() {
+        if (!floatingBtn || !floatingBtnToggle) return;
+        floatingBtn.classList.toggle('hidden', !floatingButtonEnabled);
+        floatingBtnToggle.textContent = floatingButtonEnabled ? 'On' : 'Off';
+        floatingBtnToggle.setAttribute('aria-pressed', String(floatingButtonEnabled));
+        if (floatingButtonEnabled && floatingButtonPosition) {
+          floatingBtn.style.left = `${floatingButtonPosition.x}px`;
+          floatingBtn.style.top = `${floatingButtonPosition.y}px`;
+          floatingBtn.style.right = 'auto';
+          floatingBtn.style.bottom = 'auto';
+        }
+      }
+
+      function toggleFloatingButton() {
+        floatingButtonEnabled = !floatingButtonEnabled;
+        persistSettings({ floatingButtonEnabled });
+        applyFloatingButtonVisibility();
+      }
+
+      function updateFloatingBtnLabel() {
+        if (!floatingBtnLabel) return;
+        const currentLangId = state.langId;
+        const langTitle = getLanguageTitleById(currentLangId);
+        floatingBtnLabel.textContent = langTitle ? langTitle.substring(0, 2).toUpperCase() : '🌐';
+      }
+
+      function floatingBtnTap() {
+        toggleLanguage();
+        updateFloatingBtnLabel();
+      }
+
+      function startDrag(clientX, clientY) {
+        if (!floatingBtn) return;
+        floatingBtnDragging = true;
+        floatingBtnMoved = false;
+        const rect = floatingBtn.getBoundingClientRect();
+        floatingBtnOffsetX = clientX - rect.left;
+        floatingBtnOffsetY = clientY - rect.top;
+        floatingBtnStartX = clientX;
+        floatingBtnStartY = clientY;
+        floatingBtn.classList.add('dragging');
+      }
+
+      function moveDrag(clientX, clientY) {
+        if (!floatingBtnDragging || !floatingBtn) return;
+        const dx = Math.abs(clientX - floatingBtnStartX);
+        const dy = Math.abs(clientY - floatingBtnStartY);
+        if (dx > 5 || dy > 5) {
+          floatingBtnMoved = true;
+          cancelLongPress();
+        }
+        let newX = clientX - floatingBtnOffsetX;
+        let newY = clientY - floatingBtnOffsetY;
+        const maxX = window.innerWidth - floatingBtn.offsetWidth;
+        const maxY = window.innerHeight - floatingBtn.offsetHeight;
+        newX = Math.max(0, Math.min(newX, maxX));
+        newY = Math.max(0, Math.min(newY, maxY));
+        floatingBtn.style.left = `${newX}px`;
+        floatingBtn.style.top = `${newY}px`;
+        floatingBtn.style.right = 'auto';
+        floatingBtn.style.bottom = 'auto';
+      }
+
+      function endDrag() {
+        if (!floatingBtn) return;
+        if (floatingBtnDragging) {
+          const rect = floatingBtn.getBoundingClientRect();
+          floatingButtonPosition = { x: rect.left, y: rect.top };
+          persistSettings({ floatingButtonPosition });
+        }
+        floatingBtnDragging = false;
+        floatingBtn.classList.remove('dragging');
+      }
+
+      function startLongPress(clientX, clientY) {
+        cancelLongPress();
+        longPressTimer = setTimeout(() => {
+          isLongPress = true;
+          showTranslationLens(clientX, clientY);
+        }, LONG_PRESS_DURATION);
+      }
+
+      function cancelLongPress() {
+        if (longPressTimer) {
+          clearTimeout(longPressTimer);
+          longPressTimer = null;
+        }
+      }
+
+      function getWordAtPoint(x, y) {
+        if (!document.caretRangeFromPoint && !document.caretPositionFromPoint) return null;
+        let range;
+        if (document.caretRangeFromPoint) {
+          range = document.caretRangeFromPoint(x, y);
+        } else if (document.caretPositionFromPoint) {
+          const pos = document.caretPositionFromPoint(x, y);
+          if (pos && pos.offsetNode) {
+            range = document.createRange();
+            range.setStart(pos.offsetNode, pos.offset);
+            range.setEnd(pos.offsetNode, pos.offset);
+          }
+        }
+        if (!range) return null;
+        const node = range.startContainer;
+        if (node.nodeType !== Node.TEXT_NODE) return null;
+        const textContent = node.textContent || '';
+        const offset = range.startOffset;
+        let start = offset;
+        let end = offset;
+        while (start > 0 && /\w/.test(textContent[start - 1])) start--;
+        while (end < textContent.length && /\w/.test(textContent[end])) end++;
+        const word = textContent.slice(start, end).trim();
+        return word || null;
+      }
+
+      async function fetchOtherLanguageContent() {
+        const chapter = findChapter();
+        const currentLangId = state.langId;
+        const otherLangId = currentLangId === nativeLanguageId ? learningLanguageId : nativeLanguageId;
+        if (!chapter || !otherLangId) return null;
+        if (cachedOtherLangId === otherLangId && cachedOtherLangContent) {
+          return { content: cachedOtherLangContent, langId: otherLangId };
+        }
+        const otherLang = chapter.languages.find(l => l.id === otherLangId);
+        if (!otherLang) return null;
+        const otherLevel = otherLang.levels.find(lv => lv.id === state.levelId) || otherLang.levels[0];
+        if (!otherLevel) return null;
+        try {
+          const response = await fetch(otherLevel.path);
+          if (!response.ok) return null;
+          const content = await response.text();
+          cachedOtherLangContent = content;
+          cachedOtherLangId = otherLangId;
+          return { content, langId: otherLangId };
+        } catch (err) {
+          return null;
+        }
+      }
+
+      function findWordInContent(word, content) {
+        if (!word || !content) return null;
+        const lines = content.split('\n');
+        const lowerWord = word.toLowerCase();
+        for (const line of lines) {
+          const words = line.split(/\s+/);
+          for (let i = 0; i < words.length; i++) {
+            const cleanWord = words[i].replace(/[^\w]/g, '').toLowerCase();
+            if (cleanWord === lowerWord) {
+              const context = words.slice(Math.max(0, i - 2), Math.min(words.length, i + 3)).join(' ');
+              return context;
+            }
+          }
+        }
+        return null;
+      }
+
+      async function showTranslationLens(clientX, clientY) {
+        if (!translationLens || !lensWord || !lensTranslation || !lensInfo) return;
+        const btnRect = floatingBtn.getBoundingClientRect();
+        const centerX = btnRect.left + btnRect.width / 2;
+        const centerY = btnRect.top - 20;
+        const word = getWordAtPoint(centerX, centerY);
+        if (!word) {
+          lensWord.textContent = 'No word detected';
+          lensTranslation.textContent = '';
+          lensInfo.textContent = 'Move button over text';
+        } else {
+          lensWord.textContent = word;
+          lensTranslation.textContent = 'Looking up...';
+          lensInfo.textContent = '';
+          const otherLangData = await fetchOtherLanguageContent();
+          if (otherLangData) {
+            const translated = findWordInContent(word, otherLangData.content);
+            if (translated) {
+              lensTranslation.textContent = translated;
+              lensInfo.textContent = `Context from ${getLanguageTitleById(otherLangData.langId)}`;
+            } else {
+              lensTranslation.textContent = '(No match found)';
+              lensInfo.textContent = `Try another word`;
+            }
+          } else {
+            lensTranslation.textContent = '(Translation unavailable)';
+            lensInfo.textContent = 'No other language version';
+          }
+        }
+        translationLens.style.left = `${Math.max(10, Math.min(window.innerWidth - 290, btnRect.left - 50))}px`;
+        translationLens.style.top = `${Math.max(10, btnRect.top - 100)}px`;
+        translationLens.classList.add('visible');
+        translationLens.setAttribute('aria-hidden', 'false');
+      }
+
+      function hideTranslationLens() {
+        if (!translationLens) return;
+        translationLens.classList.remove('visible');
+        translationLens.setAttribute('aria-hidden', 'true');
+        isLongPress = false;
+      }
+
+      if (floatingBtn) {
+        floatingBtn.addEventListener('mousedown', (e) => {
+          e.preventDefault();
+          startDrag(e.clientX, e.clientY);
+          startLongPress(e.clientX, e.clientY);
+        });
+
+        floatingBtn.addEventListener('touchstart', (e) => {
+          if (e.touches.length === 1) {
+            const touch = e.touches[0];
+            startDrag(touch.clientX, touch.clientY);
+            startLongPress(touch.clientX, touch.clientY);
+          }
+        }, { passive: true });
+
+        document.addEventListener('mousemove', (e) => {
+          if (floatingBtnDragging) {
+            moveDrag(e.clientX, e.clientY);
+          }
+        });
+
+        document.addEventListener('touchmove', (e) => {
+          if (floatingBtnDragging && e.touches.length === 1) {
+            const touch = e.touches[0];
+            moveDrag(touch.clientX, touch.clientY);
+          }
+        }, { passive: true });
+
+        document.addEventListener('mouseup', (e) => {
+          cancelLongPress();
+          if (floatingBtnDragging) {
+            endDrag();
+            if (!floatingBtnMoved && !isLongPress) {
+              floatingBtnTap();
+            }
+          }
+          hideTranslationLens();
+        });
+
+        document.addEventListener('touchend', (e) => {
+          cancelLongPress();
+          if (floatingBtnDragging) {
+            endDrag();
+            if (!floatingBtnMoved && !isLongPress) {
+              floatingBtnTap();
+            }
+          }
+          hideTranslationLens();
+        });
+      }
+
+      floatingBtnToggle?.addEventListener('click', toggleFloatingButton);
+
+      function onLanguageChange() {
+        updateFloatingBtnLabel();
+        cachedOtherLangContent = null;
+        cachedOtherLangId = null;
+      }
+
+      const originalToggleLanguage = toggleLanguage;
+      toggleLanguage = function() {
+        originalToggleLanguage();
+        onLanguageChange();
+      };
+
       updateAudioButton();
       updateVersionFooter();
       applyTextSize();
       applyTheme();
       updateBookmarkStatus();
+      applyFloatingButtonVisibility();
+      updateFloatingBtnLabel();
       loadLibrary();
     </script>
   </body>
