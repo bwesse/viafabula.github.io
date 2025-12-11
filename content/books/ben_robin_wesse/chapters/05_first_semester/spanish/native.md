@@ -1,14 +1,14 @@
 # Primer Semestre
 
-Llegué a Klagenfurt con una mochila, una tabla de snowboard, y absolutamente ninguna idea de lo que estaba haciendo.
+Llegué a Klagenfurt con una mochila, una tabla de snowboard, y sin tener ni idea de lo que estaba haciendo.
 
-¿Robótica? Nunca había tocado un robot en mi vida. En Hamburgo, yo era el chico del arte. Hice mi Abitur en arte. Pintura, dibujo, cosas creativas. La idea de estudiar algo con ecuaciones y circuitos era aterradora, honestamente. Pero algo de eso me llamaba—la idea de crear cosas que se movieran, que respondieran al mundo.
+¿Robótica? Nunca había tocado un robot en mi vida. En Hamburgo, era el chico del arte. Hice mi Abitur en arte—pintura, dibujo, cosas creativas. La idea de estudiar algo con ecuaciones y circuitos era sinceramente aterradora. Pero algo de eso me llamaba: la idea de crear cosas que se movieran, que respondieran al mundo.
 
 Mi plan era simple: si esto no funciona, al menos habré pasado un buen rato haciendo snowboard. Luego ya averiguaré otra cosa. Bajas expectativas, altas esperanzas.
 
-La primera semana de clases me golpeó como un camión. Álgebra lineal. Física. Fundamentos de programación. Todos a mi alrededor parecían entenderlo instantáneamente. Yo estaba sentado ahí pensando, "¿Qué he hecho?"
+La primera semana de clases me golpeó como un camión. Álgebra lineal. Física. Fundamentos de programación. Todos a mi alrededor parecían entenderlo al instante. Yo estaba sentado ahí pensando, "¿Qué he hecho?"
 
-Pero seguí apareciendo. Cada clase, cada tutorial. Tomaba notas que apenas entendía, luego iba a casa y buscaba explicaciones en YouTube hasta las dos de la mañana. La teoría era seca—dolorosamente seca—pero estaba determinado a no fracasar.
+Pero seguí apareciendo. Cada clase, cada tutorial. Tomaba notas que apenas entendía, luego iba a casa y miraba explicaciones en YouTube hasta las dos de la mañana. La teoría era seca—dolorosamente seca—pero estaba decidido a no fracasar.
 
 Y entonces algo inesperado pasó. Aprobé mi primer examen. Luego otro. El material empezó a tener sentido—no porque de repente fuera brillante, sino porque me negué a rendirme.
 
