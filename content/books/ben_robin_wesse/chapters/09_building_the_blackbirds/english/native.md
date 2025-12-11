@@ -1,15 +1,15 @@
 # Building the Blackbirds
 
-The drone lab became our world. For months, Tim and I lived there more than our apartments.
+The drone lab basically became our whole life. Tim and I practically lived there for months—way more than we were ever at our actual apartments.
 
-Blackbird. Goldeneye. Phoenix. Three names, three drones, three monsters of carbon fiber and ambition.
+We built three drones and gave them some pretty cool names: Blackbird, Goldeneye, and Phoenix. Carbon fiber beasts, really. Each one was this crazy mix of ambition and engineering that we barely understood when we started.
 
-I was responsible for the physical design and construction. Fusion 360 became my new canvas—instead of paint and brushes, I worked with CAD models and 3D printers. My art background, surprisingly, helped. I could visualize how parts would fit together, how forces would flow through structures.
+I handled all the design and building stuff. Fusion 360 became my new art program—like, instead of sketching and painting, I was doing CAD models and 3D printing. Weirdly, my art background from high school actually helped a ton. I could kind of see how parts would fit together, visualize the whole structure in my head before building it.
 
-The learning curve was brutal. Motor specifications, propeller efficiency, battery capacity, sensor integration—every component required hours of research. We made mistakes. Lots of mistakes. Early prototypes crashed into walls, fell from the sky, and once, memorably, set a battery on fire.
+Man, the learning curve was insane though. Motors, propellers, batteries, sensors—every single component took hours of research to understand. And we messed up constantly. Our early prototypes crashed into everything, just dropped out of the sky randomly, and once we literally set a battery on fire. Good times.
 
-But with each failure, we learned. Each crash taught us something about aerodynamics, about weight distribution, about the unforgiving physics of flight. By the third month, our drones were stable. By the fourth, they were autonomous.
+But here's the thing—we learned from every single crash. Each disaster taught us something new about how drones actually fly. By month three, they were stable. By month four, they flew themselves.
 
-The competition deadline loomed. We were behind schedule, behind on code, behind on everything. But we kept working. All-nighters became routine. The team office filled with energy drinks and pizza boxes.
+The deadline kept getting closer and we were behind on literally everything. But we just kept grinding. All-nighters became normal. The office was basically a graveyard of pizza boxes and energy drinks.
 
-When we finally packed the drones for London, they weren't perfect. The code had bugs. The hardware had weaknesses. But they flew. And that was enough to start.
+When we finally packed everything for London, the drones weren't perfect—code had bugs, hardware had issues. But they flew. And honestly? That was enough to get started.

@@ -1,23 +1,23 @@
 # Triumph in London
 
-We flew to London with three drones that weren't finished and code that barely worked.
+So we flew to London with three drones that were basically held together with hope and duct tape. The code? Barely worked. We knew it.
 
-Blackbird, Goldeneye, Phoenix—our babies, packed carefully into cases that we'd designed ourselves. We'd had multiple crashes in testing. Components had failed. Code had bugs we couldn't identify. By any reasonable standard, we weren't ready.
+Blackbird, Goldeneye, Phoenix—our babies, packed super carefully in cases we'd made ourselves. We'd crashed like a dozen times in testing. Stuff kept breaking. The code had bugs we couldn't even find. By any normal standard, we had no business being at this competition.
 
-But we went anyway.
+But whatever. We went anyway.
 
-The competition was held at a facility in London, with teams from universities across Europe and America. These weren't hobbyists—they were well-funded research groups with years of drone experience. We were two guys from Austria who'd learned everything in less than a year.
+The competition was at this facility in London, and holy crap—teams from everywhere. Europe, America, big universities with actual funding and years of experience. Meanwhile, we're just two guys from Austria who learned everything in like a year. No pressure, right?
 
-The first day was a disaster. Setup problems. Calibration issues. A crash during practice that nearly destroyed Goldeneye. Tim and I worked through the night, fixing hardware and debugging code in our hotel room while the sun came up over the city.
+Day one was a complete disaster. Setup problems, calibration nightmares, and then we crashed during practice and almost totaled one of the drones. Tim and I stayed up literally all night in our hotel room, fixing hardware and hunting bugs while the sun came up. It was brutal.
 
-And then something clicked.
+And then... something just clicked.
 
-On competition day, our drones flew. Not perfectly, but well. Really well. Better than teams that had been working on this for years. Our autonomous navigation worked. Our search algorithms found the targets. Our rescue protocols executed correctly.
+Competition day hit, and our drones flew. Like, really flew. Way better than we expected. Better than teams who'd been doing this for years. The navigation worked, the search algorithms found everything, the rescue stuff executed perfectly. We kept looking at the scoreboard like "wait, that can't be right."
 
-We couldn't believe the scoreboard. We were outperforming everyone.
+We were beating everyone.
 
-In the end, we came second. The London team—City University, the hosts—took first place. There were whispers that the scoring had been... generous to the home team. But we didn't care. Second place, in our first international competition, against teams with ten times our experience? That was a victory.
+Ended up getting second place. London's team won—City University, the hosts. People were whispering that the scoring was kind of sus, favoring the home team. But honestly? We didn't care. Second place in our first international thing, against teams with way more experience? That's a win in my book.
 
-More importantly, we'd proven something. Two art kids from Hamburg could build drones that competed with the best in the world. We could learn anything if we committed to it fully. We could achieve things that seemed impossible at the start.
+More than that, we proved something. Two art kids from Hamburg could actually build drones that competed with the best in the world. Pretty sick, honestly.
 
-Flying home, exhausted and elated, Tim and I made a decision. We weren't going to stop. The next competition was in Huntsville, Alabama—and this time, we were going to win.
+On the flight home, exhausted but pumped, Tim and I made a decision. We weren't stopping. Next up was Huntsville, Alabama—and this time, we were going to win.
