@@ -478,24 +478,27 @@
         width: 56px;
         height: 56px;
         border-radius: 50%;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        border: none;
-        color: #fff;
-        font-size: 20px;
+        background: rgba(102, 126, 234, 0.35);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 2px solid rgba(102, 126, 234, 0.5);
+        color: #667eea;
+        font-size: 18px;
         font-weight: 700;
         cursor: grab;
-        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+        box-shadow: 0 2px 12px rgba(102, 126, 234, 0.2);
         z-index: 50;
         display: flex;
         align-items: center;
         justify-content: center;
         touch-action: none;
         user-select: none;
-        transition: transform 140ms ease, box-shadow 140ms ease;
+        transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
       }
       .floating-btn:hover {
         transform: scale(1.05);
-        box-shadow: 0 6px 24px rgba(102, 126, 234, 0.5);
+        background: rgba(102, 126, 234, 0.5);
+        box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
       }
       .floating-btn:active, .floating-btn.dragging {
         cursor: grabbing;
@@ -504,49 +507,76 @@
       .floating-btn.hidden {
         display: none;
       }
+      body.night .floating-btn {
+        background: rgba(102, 126, 234, 0.25);
+        border-color: rgba(102, 126, 234, 0.4);
+        color: #a5b4fc;
+      }
+      body.night .floating-btn:hover {
+        background: rgba(102, 126, 234, 0.4);
+      }
 
-      /* Translation Lens Popup */
-      .translation-lens {
-        position: fixed;
+      /* Word Translation Popup */
+      .word-translation-popup {
+        position: absolute;
         background: #fff;
-        border-radius: 12px;
-        padding: 12px 16px;
-        box-shadow: 0 8px 32px rgba(15, 23, 42, 0.2);
-        z-index: 51;
-        max-width: 280px;
-        min-width: 120px;
+        border-radius: 8px;
+        padding: 8px 12px;
+        box-shadow: 0 4px 20px rgba(15, 23, 42, 0.15);
+        z-index: 100;
+        max-width: 250px;
         pointer-events: none;
         opacity: 0;
-        transform: translateY(10px);
-        transition: opacity 180ms ease, transform 180ms ease;
+        transform: translateY(5px);
+        transition: opacity 150ms ease, transform 150ms ease;
+        font-size: 14px;
+        line-height: 1.4;
       }
-      .translation-lens.visible {
+      .word-translation-popup.visible {
         opacity: 1;
         transform: translateY(0);
       }
-      .translation-lens-word {
-        font-size: 14px;
+      .word-translation-popup::after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #fff;
+      }
+      .word-translation-popup .translation-word {
         font-weight: 600;
-        color: var(--accent);
-        margin-bottom: 4px;
-      }
-      .translation-lens-translation {
-        font-size: 16px;
         color: #667eea;
-        font-weight: 500;
       }
-      .translation-lens-info {
-        font-size: 12px;
+      .word-translation-popup .translation-info {
+        font-size: 11px;
         color: var(--muted);
-        margin-top: 4px;
+        margin-top: 2px;
+      }
+      body.night .word-translation-popup {
+        background: #1f2937;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+      body.night .word-translation-popup::after {
+        border-top-color: #1f2937;
+      }
+      body.night .word-translation-popup .translation-word {
+        color: #a5b4fc;
       }
 
-      body.night .translation-lens {
-        background: #1f2937;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      /* Clickable words in story */
+      .clickable-word {
+        cursor: pointer;
+        border-radius: 2px;
+        transition: background 100ms ease;
       }
-      body.night .floating-btn {
-        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+      .clickable-word:hover {
+        background: rgba(102, 126, 234, 0.15);
+      }
+      body.night .clickable-word:hover {
+        background: rgba(102, 126, 234, 0.25);
       }
     </style>
   </head>
@@ -672,15 +702,14 @@
     </main>
 
     <!-- Floating Multifunctional Button -->
-    <button type="button" id="floating-btn" class="floating-btn hidden" aria-label="Language toggle and translation lens">
+    <button type="button" id="floating-btn" class="floating-btn hidden" aria-label="Toggle language">
       <span id="floating-btn-label">🌐</span>
     </button>
 
-    <!-- Translation Lens Popup -->
-    <div id="translation-lens" class="translation-lens" aria-live="polite" aria-hidden="true">
-      <div class="translation-lens-word" id="lens-word"></div>
-      <div class="translation-lens-translation" id="lens-translation"></div>
-      <div class="translation-lens-info" id="lens-info"></div>
+    <!-- Word Translation Popup -->
+    <div id="word-translation-popup" class="word-translation-popup" aria-live="polite" aria-hidden="true">
+      <div class="translation-word" id="popup-translation"></div>
+      <div class="translation-info" id="popup-info"></div>
     </div>
 
     <script src="./converter.js"></script>
@@ -786,10 +815,9 @@
       const floatingBtn = document.getElementById('floating-btn');
       const floatingBtnLabel = document.getElementById('floating-btn-label');
       const floatingBtnToggle = document.getElementById('floating-btn-toggle');
-      const translationLens = document.getElementById('translation-lens');
-      const lensWord = document.getElementById('lens-word');
-      const lensTranslation = document.getElementById('lens-translation');
-      const lensInfo = document.getElementById('lens-info');
+      const wordTranslationPopup = document.getElementById('word-translation-popup');
+      const popupTranslation = document.getElementById('popup-translation');
+      const popupInfo = document.getElementById('popup-info');
 
       const SETTINGS_KEY = 'reader-settings';
       const SETTINGS_DEFAULT = {
@@ -879,6 +907,15 @@
         .replace(/\"/g, '&quot;')
         .replace(/'/g, '&#39;');
 
+      // Wrap words in clickable spans for translation
+      function wrapWordsInSpans(html) {
+        // Match words (sequences of letters/numbers) but preserve HTML tags
+        return html.replace(/>([^<]+)</g, (match, textContent) => {
+          const wrapped = textContent.replace(/([\p{L}\p{N}]+)/gu, '<span class="clickable-word" data-word="$1">$1</span>');
+          return '>' + wrapped + '<';
+        });
+      }
+
       function markdownToHtml(mdText) {
         const trimmed = (mdText || '').trim();
         if (!trimmed) return '<p>Empty file.</p>';
@@ -904,7 +941,8 @@
           return `<p>${lines.map(escapeHtml).join('<br>')}</p>`;
         });
 
-        return blockHtml.join('');
+        // Wrap words in clickable spans for translation feature
+        return wrapWordsInSpans(blockHtml.join(''));
       }
 
       function setStatus(text) {
@@ -1605,9 +1643,6 @@
       let floatingBtnOffsetX = 0;
       let floatingBtnOffsetY = 0;
       let floatingBtnMoved = false;
-      let longPressTimer = null;
-      let isLongPress = false;
-      const LONG_PRESS_DURATION = 500;
 
       function applyFloatingButtonVisibility() {
         if (!floatingBtn || !floatingBtnToggle) return;
@@ -1663,7 +1698,6 @@
         const dy = Math.abs(clientY - floatingBtnStartY);
         if (dx > 5 || dy > 5) {
           floatingBtnMoved = true;
-          cancelLongPress();
         }
         let newX = clientX - floatingBtnOffsetX;
         let newY = clientY - floatingBtnOffsetY;
@@ -1688,48 +1722,56 @@
         floatingBtn.classList.remove('dragging');
       }
 
-      function startLongPress(clientX, clientY) {
-        cancelLongPress();
-        longPressTimer = setTimeout(() => {
-          isLongPress = true;
-          showTranslationLens(clientX, clientY);
-        }, LONG_PRESS_DURATION);
-      }
+      // Floating button event handlers
+      if (floatingBtn) {
+        floatingBtn.addEventListener('mousedown', (e) => {
+          e.preventDefault();
+          startDrag(e.clientX, e.clientY);
+        });
 
-      function cancelLongPress() {
-        if (longPressTimer) {
-          clearTimeout(longPressTimer);
-          longPressTimer = null;
-        }
-      }
-
-      function getWordAtPoint(x, y) {
-        if (!document.caretRangeFromPoint && !document.caretPositionFromPoint) return null;
-        let range;
-        if (document.caretRangeFromPoint) {
-          range = document.caretRangeFromPoint(x, y);
-        } else if (document.caretPositionFromPoint) {
-          const pos = document.caretPositionFromPoint(x, y);
-          if (pos && pos.offsetNode) {
-            range = document.createRange();
-            range.setStart(pos.offsetNode, pos.offset);
-            range.setEnd(pos.offsetNode, pos.offset);
+        floatingBtn.addEventListener('touchstart', (e) => {
+          if (e.touches.length === 1) {
+            const touch = e.touches[0];
+            startDrag(touch.clientX, touch.clientY);
           }
-        }
-        if (!range) return null;
-        const node = range.startContainer;
-        if (node.nodeType !== Node.TEXT_NODE) return null;
-        const textContent = node.textContent || '';
-        const offset = range.startOffset;
-        let start = offset;
-        let end = offset;
-        // Use Unicode-aware word character detection for better multi-language support
-        const isWordChar = (char) => char && /[\p{L}\p{N}]/u.test(char);
-        while (start > 0 && isWordChar(textContent[start - 1])) start--;
-        while (end < textContent.length && isWordChar(textContent[end])) end++;
-        const word = textContent.slice(start, end).trim();
-        return word || null;
+        }, { passive: true });
+
+        document.addEventListener('mousemove', (e) => {
+          if (floatingBtnDragging) {
+            moveDrag(e.clientX, e.clientY);
+          }
+        });
+
+        document.addEventListener('touchmove', (e) => {
+          if (floatingBtnDragging && e.touches.length === 1) {
+            const touch = e.touches[0];
+            moveDrag(touch.clientX, touch.clientY);
+          }
+        }, { passive: true });
+
+        document.addEventListener('mouseup', (e) => {
+          if (floatingBtnDragging) {
+            endDrag();
+            if (!floatingBtnMoved) {
+              floatingBtnTap();
+            }
+          }
+        });
+
+        document.addEventListener('touchend', (e) => {
+          if (floatingBtnDragging) {
+            endDrag();
+            if (!floatingBtnMoved) {
+              floatingBtnTap();
+            }
+          }
+        });
       }
+
+      floatingBtnToggle?.addEventListener('click', toggleFloatingButton);
+
+      // ======== Clickable Word Translation ========
+      let wordTranslationTimeout = null;
 
       async function fetchOtherLanguageContent() {
         const chapter = findChapter();
@@ -1755,117 +1797,95 @@
         }
       }
 
-      function findWordInContent(word, content) {
+      function findWordTranslation(word, content) {
         if (!word || !content) return null;
         const lines = content.split('\n');
         const lowerWord = word.toLowerCase();
+        // Try to find matching word by position in the content
         for (const line of lines) {
           const words = line.split(/\s+/);
           for (let i = 0; i < words.length; i++) {
-            const cleanWord = words[i].replace(/[^\w]/g, '').toLowerCase();
+            const cleanWord = words[i].replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
             if (cleanWord === lowerWord) {
-              const context = words.slice(Math.max(0, i - 2), Math.min(words.length, i + 3)).join(' ');
-              return context;
+              // Return just the corresponding word
+              return words[i].replace(/[^\p{L}\p{N}]/gu, '');
             }
           }
         }
         return null;
       }
 
-      async function showTranslationLens(clientX, clientY) {
-        if (!translationLens || !lensWord || !lensTranslation || !lensInfo) return;
-        const btnRect = floatingBtn.getBoundingClientRect();
-        const centerX = btnRect.left + btnRect.width / 2;
-        const centerY = btnRect.top - 20;
-        const word = getWordAtPoint(centerX, centerY);
-        if (!word) {
-          lensWord.textContent = 'No word detected';
-          lensTranslation.textContent = '';
-          lensInfo.textContent = 'Move button over text';
-        } else {
-          lensWord.textContent = word;
-          lensTranslation.textContent = 'Looking up...';
-          lensInfo.textContent = '';
-          const otherLangData = await fetchOtherLanguageContent();
-          if (otherLangData) {
-            const translated = findWordInContent(word, otherLangData.content);
-            if (translated) {
-              lensTranslation.textContent = translated;
-              lensInfo.textContent = `Context from ${getLanguageTitleById(otherLangData.langId)}`;
-            } else {
-              lensTranslation.textContent = '(No match found)';
-              lensInfo.textContent = `Try another word`;
-            }
-          } else {
-            lensTranslation.textContent = '(Translation unavailable)';
-            lensInfo.textContent = 'No other language version';
-          }
+      function hideWordTranslation() {
+        if (wordTranslationPopup) {
+          wordTranslationPopup.classList.remove('visible');
+          wordTranslationPopup.setAttribute('aria-hidden', 'true');
         }
-        translationLens.style.left = `${Math.max(10, Math.min(window.innerWidth - 290, btnRect.left - 50))}px`;
-        translationLens.style.top = `${Math.max(10, btnRect.top - 100)}px`;
-        translationLens.classList.add('visible');
-        translationLens.setAttribute('aria-hidden', 'false');
+        if (wordTranslationTimeout) {
+          clearTimeout(wordTranslationTimeout);
+          wordTranslationTimeout = null;
+        }
       }
 
-      function hideTranslationLens() {
-        if (!translationLens) return;
-        translationLens.classList.remove('visible');
-        translationLens.setAttribute('aria-hidden', 'true');
-        isLongPress = false;
+      async function showWordTranslation(wordElement, word) {
+        if (!wordTranslationPopup || !popupTranslation || !popupInfo) return;
+        
+        hideWordTranslation();
+        
+        // Get position of clicked word
+        const rect = wordElement.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+        
+        // Position popup above the word
+        const popupLeft = rect.left + scrollLeft + (rect.width / 2);
+        const popupTop = rect.top + scrollTop - 10;
+        
+        wordTranslationPopup.style.left = `${popupLeft}px`;
+        wordTranslationPopup.style.top = `${popupTop}px`;
+        wordTranslationPopup.style.transform = 'translate(-50%, -100%)';
+        
+        // Show loading state
+        popupTranslation.textContent = '...';
+        popupInfo.textContent = '';
+        wordTranslationPopup.classList.add('visible');
+        wordTranslationPopup.setAttribute('aria-hidden', 'false');
+        
+        // Fetch translation
+        const otherLangData = await fetchOtherLanguageContent();
+        if (otherLangData) {
+          const translated = findWordTranslation(word, otherLangData.content);
+          if (translated) {
+            popupTranslation.textContent = translated;
+            popupInfo.textContent = getLanguageTitleById(otherLangData.langId);
+          } else {
+            popupTranslation.textContent = '—';
+            popupInfo.textContent = 'No translation found';
+          }
+        } else {
+          popupTranslation.textContent = '—';
+          popupInfo.textContent = 'No other language';
+        }
+        
+        // Auto-hide after 3 seconds
+        wordTranslationTimeout = setTimeout(hideWordTranslation, 3000);
       }
 
-      if (floatingBtn) {
-        floatingBtn.addEventListener('mousedown', (e) => {
-          e.preventDefault();
-          startDrag(e.clientX, e.clientY);
-          startLongPress(e.clientX, e.clientY);
-        });
+      // Handle clicks on words in story body
+      storyBody.addEventListener('click', (e) => {
+        const target = e.target;
+        if (target.classList.contains('clickable-word')) {
+          const word = target.dataset.word || target.textContent;
+          showWordTranslation(target, word);
+        }
+      });
 
-        floatingBtn.addEventListener('touchstart', (e) => {
-          if (e.touches.length === 1) {
-            const touch = e.touches[0];
-            startDrag(touch.clientX, touch.clientY);
-            startLongPress(touch.clientX, touch.clientY);
-          }
-        }, { passive: true });
-
-        document.addEventListener('mousemove', (e) => {
-          if (floatingBtnDragging) {
-            moveDrag(e.clientX, e.clientY);
-          }
-        });
-
-        document.addEventListener('touchmove', (e) => {
-          if (floatingBtnDragging && e.touches.length === 1) {
-            const touch = e.touches[0];
-            moveDrag(touch.clientX, touch.clientY);
-          }
-        }, { passive: true });
-
-        document.addEventListener('mouseup', (e) => {
-          cancelLongPress();
-          if (floatingBtnDragging) {
-            endDrag();
-            if (!floatingBtnMoved && !isLongPress) {
-              floatingBtnTap();
-            }
-          }
-          hideTranslationLens();
-        });
-
-        document.addEventListener('touchend', (e) => {
-          cancelLongPress();
-          if (floatingBtnDragging) {
-            endDrag();
-            if (!floatingBtnMoved && !isLongPress) {
-              floatingBtnTap();
-            }
-          }
-          hideTranslationLens();
-        });
-      }
-
-      floatingBtnToggle?.addEventListener('click', toggleFloatingButton);
+      // Hide popup when clicking elsewhere
+      document.addEventListener('click', (e) => {
+        if (!e.target.classList.contains('clickable-word') && 
+            !wordTranslationPopup.contains(e.target)) {
+          hideWordTranslation();
+        }
+      });
 
       function onLanguageChange() {
         updateFloatingBtnLabel();
