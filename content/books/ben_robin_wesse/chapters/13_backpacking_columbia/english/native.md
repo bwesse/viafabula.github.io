@@ -1,19 +1,17 @@
-# Backpacking Columbia
+# Backpacking Colombia
 
-We'd just won the biggest competition of our lives. The reasonable thing to do would have been to go home and celebrate.
+So there we were—fresh off winning the biggest competition of our lives—and instead of going home like normal people, Tim and I just... flew to Colombia.
 
-Instead, Tim and I flew to Colombia.
+I mean, why not, right? A month of backpacking through South America, riding high on our Alabama victory. We needed this so bad. Years of drone parts everywhere, pulling all-nighters, stress eating, stress not-eating—we just needed to, like, exist for a bit.
 
-One month of backpacking through South America, fresh from victory in Alabama. We deserved this. We needed this. After years of drone parts and all-nighters and stress, we needed to just... exist.
+One tiny problem though: we still had our bachelor's theses to finish.
 
-The only problem: we still had bachelor's theses to write.
+So picture this: jungle hostels, mountain towns, laptops glowing in hammocks and sketchy hotel rooms. Days spent exploring—getting lost in Cartagena's colonial maze, hiking through coffee country, losing our minds over how Medellín transformed itself. Nights spent frantically typing.
 
-So there we were, in jungle hostels and mountain towns, laptops glowing in hammocks and cheap hotels. By day, we explored—Cartagena's colonial streets, the coffee country's green hills, Medellín's transformation from infamous to incredible. By night, we typed.
+It was completely ridiculous. There I was, writing about drone systems while actual monkeys were screaming outside my window. Sweat dripping on my keyboard. Citations getting messed up because the WiFi kept dying. But somehow? We made it work.
 
-It was absurd. Writing academic papers about drone systems while monkeys screamed in the trees outside. Debugging theoretical frameworks while sweat dripped onto keyboards. But somehow, it worked.
+The whole month was just buses, beaches, and bibliography entries. When we finally hit submit from some random internet café in the middle of Colombia, I swear the relief was physical. Like actually felt it in my body. Years of work—done. Just like that.
 
-The month passed in a blur of buses, beaches, and bibliography citations. When we finally submitted our theses from an internet café somewhere in Colombia, the relief was physical. Years of work—the studying, the building, the competing, the writing—all of it done.
+Tim headed back to Europe. I headed to Barcelona. Different flights, same friendship that'd survived all that craziness together.
 
-Tim headed back to Europe. I headed to Barcelona. Different flights, different destinations, same friendship forged in fire.
-
-The next chapter was about to begin.
+New chapter coming up.

@@ -1,19 +1,17 @@
 # Mochileando por Colombia
 
-Acabábamos de ganar la competición más grande de nuestras vidas. Lo razonable habría sido ir a casa y celebrar.
+Y ahí estábamos—recién ganando la competición más grande de nuestras vidas—y en vez de volver a casa como gente normal, Tim y yo simplemente... nos fuimos a Colombia.
 
-En cambio, Tim y yo volamos a Colombia.
+O sea, ¿por qué no? Un mes de mochileros por Sudamérica, aún con la euforia de nuestra victoria en Alabama. Necesitábamos esto tanto. Años de piezas de drones por todos lados, noches sin dormir, estrés a tope—solo necesitábamos existir un rato.
 
-Un mes de mochileros por Sudamérica, recién llegados de la victoria en Alabama. Nos merecíamos esto. Necesitábamos esto. Después de años de piezas de drones y noches en vela y estrés, necesitábamos simplemente... existir.
+Un pequeño problema, eso sí: todavía teníamos que terminar nuestras tesis.
 
-El único problema: todavía teníamos tesis de grado que escribir.
+Así que imagínate: hostales en la jungla, pueblos en las montañas, portátiles brillando en hamacas y cuartos de hotel medio raros. Los días los pasábamos explorando—perdiéndonos en el laberinto colonial de Cartagena, caminando por los cafetales, flipando con cómo Medellín se había transformado. Las noches las pasábamos escribiendo como locos.
 
-Así que ahí estábamos, en hostales de la jungla y pueblos de montaña, portátiles brillando en hamacas y hoteles baratos. De día, explorábamos—las calles coloniales de Cartagena, las colinas verdes del país cafetero, la transformación de Medellín de infame a increíble. De noche, tecleábamos.
+Era completamente ridículo. Ahí estaba yo, escribiendo sobre sistemas de drones mientras los monos gritaban fuera de mi ventana. El sudor goteando en el teclado. Las citas bibliográficas se jodían porque el WiFi se caía a cada rato. ¿Pero sabes qué? De alguna manera funcionó.
 
-Era absurdo. Escribir trabajos académicos sobre sistemas de drones mientras los monos gritaban en los árboles afuera. Depurar marcos teóricos mientras el sudor goteaba sobre los teclados. Pero de alguna manera, funcionó.
+El mes entero fue autobuses, playas y referencias bibliográficas. Cuando por fin le dimos a enviar desde un cibercafé random en medio de Colombia, te juro que el alivio fue físico. Como que lo sentí en el cuerpo. Años de trabajo—terminados. Así de simple.
 
-El mes pasó en un borrón de autobuses, playas y citas bibliográficas. Cuando finalmente enviamos nuestras tesis desde un cibercafé en algún lugar de Colombia, el alivio fue físico. Años de trabajo—el estudio, la construcción, la competición, la escritura—todo terminado.
+Tim volvió a Europa. Yo me fui a Barcelona. Vuelos diferentes, pero la misma amistad que había sobrevivido toda esa locura juntos.
 
-Tim volvió a Europa. Yo me dirigí a Barcelona. Vuelos diferentes, destinos diferentes, misma amistad forjada en el fuego.
-
-El próximo capítulo estaba a punto de comenzar.
+Nuevo capítulo por delante.
