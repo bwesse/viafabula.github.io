@@ -33,8 +33,8 @@
       }
       
       @keyframes pulse-glow {
-        0%, 100% { box-shadow: 0 0 20px rgba(102, 126, 234, 0.4), 0 0 40px rgba(102, 126, 234, 0.2), 0 0 60px rgba(102, 126, 234, 0.1); }
-        50% { box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), 0 0 60px rgba(102, 126, 234, 0.4), 0 0 90px rgba(102, 126, 234, 0.2); }
+        0%, 100% { box-shadow: 0 0 20px rgba(102, 126, 234, 0.4); }
+        50% { box-shadow: 0 0 30px rgba(102, 126, 234, 0.6); }
       }
       
       @keyframes gradient-rotate {
@@ -720,7 +720,6 @@
       }
       body.night .level-stepper {
         background: rgba(102, 126, 234, 0.1);
-        border-color: rgba(102, 126, 234, 0.15);
         border-color: rgba(148, 163, 184, 0.28);
       }
       body.night .catalog-book {
@@ -731,6 +730,15 @@
       @media (min-width: 900px) {
         aside.sidebar { width: 320px; --sidebar-width: 320px; }
         .reader-panel { padding: 26px 28px 34px; }
+      }
+      
+      /* Reduce animations for users who prefer reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        .floating-btn,
+        .floating-btn::before,
+        .floating-btn::after {
+          animation: none !important;
+        }
       }
 
       /* Floating Button Styles */
@@ -755,7 +763,6 @@
         cursor: grab;
         box-shadow: 
           0 4px 20px rgba(102, 126, 234, 0.35),
-          0 0 40px rgba(102, 126, 234, 0.2),
           inset 0 0 20px rgba(255, 255, 255, 0.1);
         z-index: 50;
         display: flex;
@@ -764,7 +771,7 @@
         touch-action: none;
         user-select: none;
         transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
-        animation: float 3s ease-in-out infinite, gradient-rotate 4s ease infinite, pulse-glow 2s ease-in-out infinite;
+        animation: float 3s ease-in-out infinite;
       }
       
       /* Glowing ring effect */
