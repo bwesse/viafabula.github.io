@@ -1,17 +1,17 @@
 # Interrail-Abenteuer
 
-Die Osterferien kamen, und Tim hatte eine Idee: "Lass uns nach Istanbul fahren."
+Ostern kam, und Tim hatte eine Idee: "Lass uns mit dem Zug nach Istanbul fahren."
 
-Nicht mit dem Flugzeug—das wäre zu einfach. Mit dem Zug. Zehn Tage, fünf Länder, ein Interrail-Pass. Klagenfurt nach Wien nach Budapest nach Bukarest nach Sofia nach Istanbul. Eine gerade Linie durch den Balkan.
+Zehn Tage. Fünf Länder. Ein Interrail-Pass. Klagenfurt nach Wien nach Budapest nach Bukarest nach Sofia nach Istanbul.
 
-Es war gehetzt, chaotisch, und absolut perfekt.
+Es war verrückt, schnell, und unglaublich.
 
-Jede Stadt bot etwas anderes. Wien mit seiner imperialen Pracht und Kaffeekultur. Budapest, das sich über die Donau erstreckt, Thermalbäder dampfend in der kalten Luft. Bukarests Mischung aus kommunistischem Beton und Belle-Époque-Eleganz. Sofia, eingebettet unter Bergen, orthodoxe Kirchen golden glänzend. Und Istanbul—die Stadt, wo Europa auf Asien trifft, wo Jahrhunderte der Geschichte sich aufeinander türmen.
+Jede Stadt war anders. Wien war elegant mit tollem Kaffee. Budapest hatte Thermalbäder am Fluss. Bukarest mischte Alt und Neu. Sofia hatte goldene Kirchen. Istanbul hat uns umgehauen—Europa trifft Asien dort.
 
-Wir reisten leicht, schliefen in Zügen, wenn wir konnten, aßen billiges Essen, sprachen mit Fremden. Die Gespräche zählten genauso viel wie die Reiseziele: ein rumänischer Student, der die Politik seines Landes erklärte, ein türkischer Geschäftsmann, der Tee und Philosophie teilte, andere Backpacker, die Tipps und Geschichten austauschten.
+Wir reisten leicht, schliefen in Zügen, aßen Straßenessen, redeten mit jedem. Ein Rumäne erklärte die Politik. Ein Türke teilte Tee. Backpacker teilten Tipps.
 
-Nach Istanbul hatte ich noch Fahrten auf meinem Ticket übrig. Anstatt direkt nach Klagenfurt zurückzukehren, machte ich einen Umweg durch Italien. Das Mittelmeer rief. Während des gesamten zweiten Semesters, wann immer ich ein paar freie Tage hatte, sprang ich in einen Zug nach Süden. Venedig, Florenz, Rom—die italienischen Städte wurden mein zweites Klassenzimmer.
+Nach Istanbul hatte ich noch Fahrten übrig. Also fuhr ich nach Italien—Venedig, Florenz, Rom. Diese Städte lehrten mich so viel.
 
-Diese Reisen bewirkten etwas Wichtiges: Sie erinnerten mich daran, warum ich Klagenfurt überhaupt gewählt hatte. Der Standort ging nicht nur um Berge und Seen. Es ging um Zugang—zu Kulturen, zu Ländern, zu Erfahrungen, die von einer abgelegeneren Universität aus unmöglich gewesen wären.
+Deshalb wählte ich Klagenfurt. Es geht nicht nur um Berge und Seen. Es ist der perfekte Ort, um Europa zu erkunden.
 
-Ich wurde zu jemandem, der an mehreren Orten gleichzeitig hingehörte.
+Ich wurde zu jemandem, der überall hingehört.

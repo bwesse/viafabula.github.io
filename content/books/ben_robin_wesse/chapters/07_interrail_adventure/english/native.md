@@ -1,17 +1,17 @@
 # Interrail Adventure
 
-Easter break arrived, and Tim had an idea: "Let's go to Istanbul."
+Easter break came, and Tim had an idea: "Let's go to Istanbul by train."
 
-Not by plane—that would be too simple. By train. Ten days, five countries, one Interrail pass. Klagenfurt to Vienna to Budapest to Bucharest to Sofia to Istanbul. A straight line through the Balkans.
+Ten days. Five countries. One Interrail pass. Klagenfurt to Vienna to Budapest to Bucharest to Sofia to Istanbul.
 
-It was rushed, chaotic, and absolutely perfect.
+It was crazy, fast, and amazing.
 
-Each city offered something different. Vienna with its imperial grandeur and coffee culture. Budapest straddling the Danube, thermal baths steaming in the cold air. Bucharest's mix of Communist concrete and Belle Époque elegance. Sofia nestled beneath mountains, Orthodox churches gleaming gold. And Istanbul—the city where Europe meets Asia, where centuries of history pile on top of each other.
+Every city was different. Vienna was elegant with great coffee. Budapest had thermal baths by the river. Bucharest mixed old and new. Sofia had golden churches. Istanbul blew our minds—Europe meets Asia there.
 
-We traveled light, slept on trains when we could, ate cheap food, talked to strangers. The conversations mattered as much as the destinations: a Romanian student explaining his country's politics, a Turkish businessman sharing tea and philosophy, fellow backpackers exchanging tips and stories.
+We traveled light, slept on trains, ate street food, talked to everyone. A Romanian guy explained politics. A Turkish businessman shared tea. Backpackers shared tips.
 
-After Istanbul, I still had rides left on my ticket. Instead of going straight back to Klagenfurt, I detoured through Italy. The Mediterranean called. Throughout that second semester, whenever I had a few days free, I'd hop on a train south. Venice, Florence, Rome—the Italian cities became my second classroom.
+After Istanbul, I had rides left. So I went to Italy—Venice, Florence, Rome. Those cities taught me so much.
 
-These travels did something important: they reminded me why I'd chosen Klagenfurt in the first place. The location wasn't just about mountains and lakes. It was about access—to cultures, to countries, to experiences that would have been impossible from a more isolated university.
+This is why I picked Klagenfurt. It's not just mountains and lakes. It's the perfect spot to explore Europe.
 
-I was becoming someone who belonged in multiple places at once.
+I was becoming someone who belongs everywhere.
