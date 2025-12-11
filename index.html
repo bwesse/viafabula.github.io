@@ -1874,8 +1874,10 @@
       storyBody.addEventListener('click', (e) => {
         const target = e.target;
         if (target.classList.contains('clickable-word')) {
-          const word = target.dataset.word || target.textContent;
-          showWordTranslation(target, word);
+          const word = target.dataset.word;
+          if (word) {
+            showWordTranslation(target, word);
+          }
         }
       });
 
