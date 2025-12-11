@@ -1,19 +1,17 @@
 # Rucksackreise durch Kolumbien
 
-Wir hatten gerade den größten Wettbewerb unseres Lebens gewonnen. Das Vernünftige wäre gewesen, nach Hause zu gehen und zu feiern.
+Da waren wir also—gerade den größten Wettbewerb unseres Lebens gewonnen—und anstatt wie normale Leute nach Hause zu fliegen, sind Tim und ich einfach... nach Kolumbien geflogen.
 
-Stattdessen flogen Tim und ich nach Kolumbien.
+Ich meine, warum auch nicht? Ein Monat Backpacking durch Südamerika, noch high vom Alabama-Sieg. Wir brauchten das so dringend. Jahre von Drohnenteilen überall, durchgemachte Nächte, Stress-Essen, Stress-nicht-Essen—wir mussten einfach mal existieren.
 
-Ein Monat Rucksackreisen durch Südamerika, frisch vom Sieg in Alabama. Wir hatten das verdient. Wir brauchten das. Nach Jahren von Drohnenteilen und durchgearbeiteten Nächten und Stress mussten wir einfach... existieren.
+Ein kleines Problem allerdings: Wir mussten noch unsere Bachelorarbeiten fertig schreiben.
 
-Das einzige Problem: Wir mussten noch unsere Bachelor-Arbeiten schreiben.
+Also stell dir vor: Dschungel-Hostels, Bergdörfer, Laptops leuchtend in Hängematten und in irgendwelchen sketchy Hotelzimmern. Tagsüber: erkunden—sich in Cartagenas kolonialem Labyrinth verlieren, durch Kaffeeplantagen wandern, völlig geflasht sein von Medellíns Transformation. Nachts: panisch tippen.
 
-Also waren wir da, in Dschungel-Hostels und Bergstädten, Laptops leuchtend in Hängematten und billigen Hotels. Tagsüber erkundeten wir—Cartagenas koloniale Straßen, die grünen Hügel der Kaffeeregion, Medellíns Wandlung von berüchtigt zu unglaublich. Nachts tippten wir.
+Es war komplett absurd. Da saß ich, schrieb über Drohnensysteme, während echte Affen vor meinem Fenster geschrien haben. Schweiß tropfte auf die Tastatur. Zitate haben sich verkackt, weil das WiFi ständig abgeschmiert ist. Aber irgendwie? Hat's geklappt.
 
-Es war absurd. Akademische Arbeiten über Drohnensysteme schreiben, während Affen in den Bäumen draußen schrien. Theoretische Rahmenwerke debuggen, während Schweiß auf Tastaturen tropfte. Aber irgendwie funktionierte es.
+Der ganze Monat war nur Busse, Strände und Quellenangaben. Als wir endlich auf Absenden geklickt haben, in irgendeinem Random-Internetcafé mitten in Kolumbien, ich schwör, die Erleichterung war körperlich. Hab's richtig gespürt. Jahre Arbeit—fertig. Einfach so.
 
-Der Monat verging in einem Wirbel aus Bussen, Stränden und Literaturangaben. Als wir schließlich unsere Arbeiten aus einem Internetcafé irgendwo in Kolumbien einreichten, war die Erleichterung physisch. Jahre der Arbeit—das Studieren, das Bauen, das Wettkämpfen, das Schreiben—alles erledigt.
+Tim ist zurück nach Europa geflogen. Ich bin nach Barcelona. Verschiedene Flieger, aber dieselbe Freundschaft, die den ganzen Wahnsinn zusammen überstanden hat.
 
-Tim flog zurück nach Europa. Ich flog nach Barcelona. Verschiedene Flüge, verschiedene Ziele, dieselbe Freundschaft, geschmiedet im Feuer.
-
-Das nächste Kapitel sollte beginnen.
+Neues Kapitel voraus.
