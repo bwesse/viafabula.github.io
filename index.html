@@ -1315,7 +1315,11 @@
         state.langId = targetLangId;
         populateLevels();
         persistSettings({ nativeLanguageId, learningLanguageId });
+        if (typeof onLanguageChangeCallback === 'function') {
+          onLanguageChangeCallback();
+        }
       }
+      let onLanguageChangeCallback = null;
       function formatDateTime(isoString) {
         const date = new Date(isoString);
         if (Number.isNaN(date.getTime())) return isoString;
@@ -1627,8 +1631,10 @@
       function updateFloatingBtnLabel() {
         if (!floatingBtnLabel) return;
         const currentLangId = state.langId;
-        if (currentLangId) {
+        if (currentLangId && currentLangId.length >= 2) {
           floatingBtnLabel.textContent = currentLangId.substring(0, 2).toUpperCase();
+        } else if (currentLangId) {
+          floatingBtnLabel.textContent = currentLangId.toUpperCase();
         } else {
           floatingBtnLabel.textContent = '🌐';
         }
@@ -1717,8 +1723,10 @@
         const offset = range.startOffset;
         let start = offset;
         let end = offset;
-        while (start > 0 && /\w/.test(textContent[start - 1])) start--;
-        while (end < textContent.length && /\w/.test(textContent[end])) end++;
+        // Use Unicode-aware word character detection for better multi-language support
+        const isWordChar = (char) => char && /[\p{L}\p{N}]/u.test(char);
+        while (start > 0 && isWordChar(textContent[start - 1])) start--;
+        while (end < textContent.length && isWordChar(textContent[end])) end++;
         const word = textContent.slice(start, end).trim();
         return word || null;
       }
@@ -1865,11 +1873,8 @@
         cachedOtherLangId = null;
       }
 
-      const originalToggleLanguage = toggleLanguage;
-      toggleLanguage = function() {
-        originalToggleLanguage();
-        onLanguageChange();
-      };
+      // Register the language change callback for the floating button
+      onLanguageChangeCallback = onLanguageChange;
 
       updateAudioButton();
       updateVersionFooter();
