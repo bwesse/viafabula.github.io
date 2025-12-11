@@ -1,28 +1,28 @@
 # Das Bergunglück
 
-Die Mathe-Prüfung war für 9 Uhr an einem Dienstag angesetzt. Ich war auf einem Berg.
+Die Mathe-Prüfung war um 9 an einem Dienstag. Ich war auf nem Berg.
 
-Nicht metaphorisch auf einem Berg—buchstäblich auf einem Berg, auf meinem Snowboard angeschnallt, durch frischen Pulverschnee schneidend, während Tim in einem Prüfungssaal saß und sich fragte, wo zum Teufel ich war.
+Nicht metaphorisch—echt auf nem Berg, auf meinem Board angeschnallt, durch frischen Powder schneidend, während Tim im Prüfungssaal saß und sich fragte, wo zum Teufel ich steckte.
 
-Das ist passiert: Ich hatte die Termine verwechselt. Typisch Ben. Ich dachte, die Prüfung wäre nächste Woche. Tim rief mich an, als ich vom Sessellift stieg.
+Was passiert war: Ich hatte die Termine verpeilt. Typisch Ben. Ich dachte, die Prüfung wär nächste Woche. Tim rief mich an, als ich grad vom Sessellift stieg.
 
 "Alter, wo bist du?"
 "Auf dem Berg. Wieso?"
-"Die Mathe-Prüfung hat vor zwanzig Minuten angefangen."
-Stille. Dann: "Oh nein."
+"Die Mathe-Klausur hat vor zwanzig Minuten angefangen."
+Stille. Dann: "Oh Scheiße."
 
-Aber das Universum hat Humor. Am selben Tag verrenkte ich mir die Schulter. Eine falsche Landung, ein Moment der Überheblichkeit, und plötzlich lag ich im Schnee, mein Arm in einem Winkel, in dem Arme nicht sein sollten.
+Aber das Universum hat nen Sinn für Humor. Am selben Tag hab ich mir die Schulter ausgerenkt. Eine falsche Landung, ein Moment wo ich mich überschätzt hab, und auf einmal lag ich im Schnee, mein Arm in nem Winkel, in dem Arme nicht sein sollten.
 
-Die Skipatrouille kam. Dann kam der Helikopter. Mein erster Helikopterflug—kostenlos, mit freundlicher Genehmigung des österreichischen Gesundheitssystems und meiner eigenen Dummheit.
+Die Pistenpatrouille kam. Dann der Heli. Mein erster Heliflug—umsonst, auf Kosten des österreichischen Gesundheitssystems und meiner eigenen Blödheit.
 
-Im Krankenhaus, als sie meine Schulter wieder einrenkten, hatte ich Zeit zum Nachdenken. Ich hatte die Prüfung verpasst, weil ich Snowboarden war. Ich hatte mich beim Snowboarden verletzt. Vielleicht versuchte das Universum, mir etwas zu sagen.
+Im Krankenhaus, als sie meine Schulter wieder reingemacht haben, hatte ich Zeit zum Nachdenken. Ich hatte die Prüfung verpasst weil ich boarden war. Ich hatte mich beim Boarden verletzt. Vielleicht wollte mir das Universum was sagen.
 
-Aber so ist das mit Rückschlägen: Sie können Dinge klären. Als ich in diesem Krankenhausbett lag, wurde mir klar, dass mir das Bestehen wirklich wichtig war. Ich wollte in diesem Programm erfolgreich sein—nicht obwohl es schwer war, sondern weil es schwer war. Der Kampf bedeutete etwas.
+Aber so ist das mit Rückschlägen: Sie können Dinge klarmachen. Als ich in dem Krankenhausbett lag, wurde mir klar, dass mir das Bestehen echt wichtig war. Ich wollte das hier schaffen—nicht obwohl es hart war, sondern weil es hart war. Der Struggle bedeutete was.
 
-Ich konnte den Rest der Saison nicht Snowboarden. Meine Schulter brauchte Zeit. Also tat ich etwas Unerwartetes: Ich begann zu laufen. Wandern. Die Natur um Klagenfurt zu Fuß zu erkunden statt auf einem Brett.
+Ich konnte den Rest der Saison nicht mehr boarden. Meine Schulter brauchte Zeit. Also hab ich angefangen zu wandern. Die Natur um Klagenfurt zu Fuß erkundet statt aufm Brett.
 
-Und ich lernte. Wirklich gelernt. Als die Nachprüfung kam, war ich bereit. Ich bestand. Nicht brillant, aber ich bestand.
+Und ich hab gelernt. Richtig gelernt. Als die Nachprüfung kam, war ich bereit. Ich hab bestanden. Nicht mit Eins, aber bestanden.
 
-Tim und ich lachten später darüber. "Du musstest dich buchstäblich selbst kaputtmachen, um das hier ernst zu nehmen," sagte er.
+Tim und ich haben später drüber gelacht. "Du musstest dich buchstäblich kaputtmachen um das hier ernst zu nehmen," meinte er.
 
-Er hatte nicht unrecht.
+Da lag er nicht falsch.
