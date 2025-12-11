@@ -148,11 +148,12 @@
         background: #fff;
         box-shadow: var(--shadow);
         z-index: 40;
-        padding: calc(var(--bar-height) + 16px) 16px 24px;
+        padding: calc(var(--bar-height) - 5px) 16px 24px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         gap: 12px;
+        overflow-y: auto;
       }
       aside.sidebar.open { transform: translateX(0); }
 
@@ -1238,16 +1239,16 @@
         }
       }
 
-      function populateBooks() {
+      function populateBooks(options = {}) {
         state.bookId = setSelectOptions(bookSelect, library.books, state.bookId);
-        populateChapters();
+        populateChapters(options);
       }
-      function populateChapters() {
+      function populateChapters(options = {}) {
         const book = findBook();
         state.chapterId = setSelectOptions(chapterSelect, book?.chapters || [], state.chapterId);
-        populateLanguages();
+        populateLanguages(options);
       }
-      function populateLanguages() {
+      function populateLanguages(options = {}) {
         const chapter = findChapter();
         const languages = chapter?.languages || [];
         nativeLanguageId = setSelectOptions(nativeLangSelect, languages, nativeLanguageId);
@@ -1255,16 +1256,17 @@
         ensureLanguageSelections();
         state.langId = state.langId || learningLanguageId || nativeLanguageId;
         persistSettings({ nativeLanguageId, learningLanguageId, textSize, theme: nightMode ? 'dark' : 'light', bookmark });
-        populateLevels();
+        populateLevels(options);
       }
-      function populateLevels() {
+      function populateLevels(options = {}) {
         const language = findLanguage();
         state.levelId = setSelectOptions(levelSelect, language?.levels || [], state.levelId);
         refreshQuickControls();
-        loadCurrentSelection();
+        loadCurrentSelection(options);
       }
 
-      async function loadCurrentSelection() {
+      async function loadCurrentSelection(options = {}) {
+        const { scrollToTop = false } = options;
         const book = findBook();
         const chapter = findChapter();
         const lang = findLanguage();
@@ -1284,7 +1286,7 @@
 
         resetComprehension();
         updateChapterNav();
-        scrollReaderToTop();
+        if (scrollToTop) scrollReaderToTop();
         setStatus('Loading story…');
         try {
           const response = await fetch(level.path);
@@ -1457,20 +1459,16 @@
       prevChapterButton?.addEventListener('click', () => {
         if (!prevChapterTarget) return;
         state.chapterId = prevChapterTarget.chapterId;
-        populateChapters();
         state.langId = prevChapterTarget.langId;
-        populateLanguages();
         state.levelId = prevChapterTarget.levelId;
-        populateLevels();
+        populateChapters({ scrollToTop: true });
       });
       nextChapterButton?.addEventListener('click', () => {
         if (!nextChapterTarget) return;
         state.chapterId = nextChapterTarget.chapterId;
-        populateChapters();
         state.langId = nextChapterTarget.langId;
-        populateLanguages();
         state.levelId = nextChapterTarget.levelId;
-        populateLevels();
+        populateChapters({ scrollToTop: true });
       });
 
       catalogLink.addEventListener('click', (event) => {
