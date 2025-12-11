@@ -520,17 +520,18 @@
       .word-translation-popup {
         position: absolute;
         background: #fff;
-        border-radius: 8px;
-        padding: 8px 12px;
-        box-shadow: 0 4px 20px rgba(15, 23, 42, 0.15);
+        border-radius: 10px;
+        padding: 10px 14px;
+        box-shadow: 0 4px 24px rgba(15, 23, 42, 0.18);
         z-index: 100;
-        max-width: 250px;
+        max-width: 300px;
+        min-width: 140px;
         pointer-events: none;
         opacity: 0;
         transform: translateY(5px);
         transition: opacity 150ms ease, transform 150ms ease;
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.5;
       }
       .word-translation-popup.visible {
         opacity: 1;
@@ -546,24 +547,49 @@
         border-right: 6px solid transparent;
         border-top: 6px solid #fff;
       }
-      .word-translation-popup .translation-word {
-        font-weight: 600;
+      .word-translation-popup .popup-word {
+        font-weight: 700;
         color: #667eea;
+        font-size: 15px;
+        margin-bottom: 4px;
       }
-      .word-translation-popup .translation-info {
+      .word-translation-popup .popup-definition {
+        color: var(--accent);
+        font-size: 13px;
+        margin-bottom: 6px;
+      }
+      .word-translation-popup .popup-translation {
+        font-size: 13px;
+        color: #059669;
+        font-weight: 500;
+        padding-top: 6px;
+        border-top: 1px solid rgba(0,0,0,0.08);
+      }
+      .word-translation-popup .popup-info {
         font-size: 11px;
         color: var(--muted);
-        margin-top: 2px;
+        margin-top: 4px;
+      }
+      .word-translation-popup .popup-loading {
+        color: var(--muted);
+        font-style: italic;
       }
       body.night .word-translation-popup {
         background: #1f2937;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
       }
       body.night .word-translation-popup::after {
         border-top-color: #1f2937;
       }
-      body.night .word-translation-popup .translation-word {
+      body.night .word-translation-popup .popup-word {
         color: #a5b4fc;
+      }
+      body.night .word-translation-popup .popup-definition {
+        color: #e5e7eb;
+      }
+      body.night .word-translation-popup .popup-translation {
+        color: #34d399;
+        border-top-color: rgba(255,255,255,0.1);
       }
 
       /* Clickable words in story */
@@ -575,8 +601,14 @@
       .clickable-word:hover {
         background: rgba(102, 126, 234, 0.15);
       }
+      .clickable-word:active {
+        background: rgba(102, 126, 234, 0.25);
+      }
       body.night .clickable-word:hover {
         background: rgba(102, 126, 234, 0.25);
+      }
+      body.night .clickable-word:active {
+        background: rgba(102, 126, 234, 0.35);
       }
     </style>
   </head>
@@ -708,8 +740,10 @@
 
     <!-- Word Translation Popup -->
     <div id="word-translation-popup" class="word-translation-popup" aria-live="polite" aria-hidden="true">
-      <div class="translation-word" id="popup-translation"></div>
-      <div class="translation-info" id="popup-info"></div>
+      <div class="popup-word" id="popup-word"></div>
+      <div class="popup-definition" id="popup-definition"></div>
+      <div class="popup-translation" id="popup-translation" style="display:none;"></div>
+      <div class="popup-info" id="popup-info"></div>
     </div>
 
     <script src="./converter.js"></script>
@@ -816,6 +850,8 @@
       const floatingBtnLabel = document.getElementById('floating-btn-label');
       const floatingBtnToggle = document.getElementById('floating-btn-toggle');
       const wordTranslationPopup = document.getElementById('word-translation-popup');
+      const popupWord = document.getElementById('popup-word');
+      const popupDefinition = document.getElementById('popup-definition');
       const popupTranslation = document.getElementById('popup-translation');
       const popupInfo = document.getElementById('popup-info');
 
@@ -909,11 +945,18 @@
 
       // Wrap words in clickable spans for translation
       function wrapWordsInSpans(html) {
-        // Match words (sequences of letters/numbers) but preserve HTML tags
-        return html.replace(/>([^<]+)</g, (match, textContent) => {
-          const wrapped = textContent.replace(/([\p{L}\p{N}]+)/gu, '<span class="clickable-word" data-word="$1">$1</span>');
-          return '>' + wrapped + '<';
-        });
+        // Parse HTML and wrap text content words in spans
+        // Use a more robust approach: split by tags and process text nodes
+        const parts = html.split(/(<[^>]+>)/);
+        return parts.map(part => {
+          // If it's a tag, leave it unchanged
+          if (part.startsWith('<') && part.endsWith('>')) {
+            return part;
+          }
+          // It's text content - wrap words in spans
+          // Match sequences of Unicode letters and numbers
+          return part.replace(/([\p{L}\p{N}]+)/gu, '<span class="clickable-word" data-word="$1">$1</span>');
+        }).join('');
       }
 
       function markdownToHtml(mdText) {
@@ -1772,48 +1815,23 @@
 
       // ======== Clickable Word Translation ========
       let wordTranslationTimeout = null;
+      const WORD_LONG_PRESS_DURATION = 500;
+      const DICTIONARY_API_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
-      async function fetchOtherLanguageContent() {
-        const chapter = findChapter();
-        const currentLangId = state.langId;
-        const otherLangId = currentLangId === nativeLanguageId ? learningLanguageId : nativeLanguageId;
-        if (!chapter || !otherLangId) return null;
-        if (cachedOtherLangId === otherLangId && cachedOtherLangContent) {
-          return { content: cachedOtherLangContent, langId: otherLangId };
-        }
-        const otherLang = chapter.languages.find(l => l.id === otherLangId);
-        if (!otherLang) return null;
-        const otherLevel = otherLang.levels.find(lv => lv.id === state.levelId) || otherLang.levels[0];
-        if (!otherLevel) return null;
-        try {
-          const response = await fetch(otherLevel.path);
-          if (!response.ok) return null;
-          const content = await response.text();
-          cachedOtherLangContent = content;
-          cachedOtherLangId = otherLangId;
-          return { content, langId: otherLangId };
-        } catch (err) {
-          return null;
-        }
-      }
-
-      function findWordTranslation(word, content) {
-        if (!word || !content) return null;
-        const lines = content.split('\n');
-        const lowerWord = word.toLowerCase();
-        // Try to find matching word by position in the content
-        for (const line of lines) {
-          const words = line.split(/\s+/);
-          for (let i = 0; i < words.length; i++) {
-            const cleanWord = words[i].replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
-            if (cleanWord === lowerWord) {
-              // Return just the corresponding word
-              return words[i].replace(/[^\p{L}\p{N}]/gu, '');
-            }
-          }
-        }
-        return null;
-      }
+      // Language code mapping for MyMemory translation API
+      const LANG_CODES = {
+        english: 'en',
+        spanish: 'es',
+        german: 'de',
+        french: 'fr',
+        italian: 'it',
+        portuguese: 'pt',
+        dutch: 'nl',
+        russian: 'ru',
+        chinese: 'zh',
+        japanese: 'ja',
+        korean: 'ko'
+      };
 
       function hideWordTranslation() {
         if (wordTranslationPopup) {
@@ -1826,59 +1844,202 @@
         }
       }
 
-      async function showWordTranslation(wordElement, word) {
-        if (!wordTranslationPopup || !popupTranslation || !popupInfo) return;
-        
-        hideWordTranslation();
-        
-        // Get position of clicked word
+      async function fetchDefinition(word) {
+        try {
+          const response = await fetch(`${DICTIONARY_API_URL}${encodeURIComponent(word.toLowerCase())}`);
+          if (!response.ok) return null;
+          const data = await response.json();
+          if (data && data[0] && data[0].meanings && data[0].meanings[0]) {
+            const meaning = data[0].meanings[0];
+            const partOfSpeech = meaning.partOfSpeech || '';
+            const definition = meaning.definitions && meaning.definitions[0] 
+              ? meaning.definitions[0].definition 
+              : null;
+            return { partOfSpeech, definition };
+          }
+          return null;
+        } catch (err) {
+          return null;
+        }
+      }
+
+      async function fetchTranslation(word, targetLangCode) {
+        if (!targetLangCode || targetLangCode === 'en') return null;
+        try {
+          // Use MyMemory translation API (free, no API key required)
+          const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|${targetLangCode}`;
+          const response = await fetch(url);
+          if (!response.ok) return null;
+          const data = await response.json();
+          if (data && data.responseData && data.responseData.translatedText) {
+            const translated = data.responseData.translatedText;
+            // Check for error messages from MyMemory
+            if (translated.toLowerCase().includes('invalid') || 
+                translated.toLowerCase().includes('error') ||
+                translated === word) {
+              return null;
+            }
+            return translated;
+          }
+          return null;
+        } catch (err) {
+          return null;
+        }
+      }
+
+      function positionPopup(wordElement) {
         const rect = wordElement.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
         
-        // Position popup above the word
         const popupLeft = rect.left + scrollLeft + (rect.width / 2);
         const popupTop = rect.top + scrollTop - 10;
         
         wordTranslationPopup.style.left = `${popupLeft}px`;
         wordTranslationPopup.style.top = `${popupTop}px`;
         wordTranslationPopup.style.transform = 'translate(-50%, -100%)';
+      }
+
+      async function showWordDefinition(wordElement, word) {
+        if (!wordTranslationPopup || !popupWord || !popupDefinition) return;
+        
+        hideWordTranslation();
+        positionPopup(wordElement);
         
         // Show loading state
-        popupTranslation.textContent = '...';
+        popupWord.textContent = word;
+        popupDefinition.innerHTML = '<span class="popup-loading">Looking up...</span>';
+        popupTranslation.style.display = 'none';
         popupInfo.textContent = '';
         wordTranslationPopup.classList.add('visible');
         wordTranslationPopup.setAttribute('aria-hidden', 'false');
         
-        // Fetch translation
-        const otherLangData = await fetchOtherLanguageContent();
-        if (otherLangData) {
-          const translated = findWordTranslation(word, otherLangData.content);
-          if (translated) {
-            popupTranslation.textContent = translated;
-            popupInfo.textContent = getLanguageTitleById(otherLangData.langId);
-          } else {
-            popupTranslation.textContent = '—';
-            popupInfo.textContent = 'No translation found';
-          }
+        // Fetch definition from dictionary API
+        const defData = await fetchDefinition(word);
+        if (defData && defData.definition) {
+          const pos = defData.partOfSpeech ? `(${defData.partOfSpeech}) ` : '';
+          popupDefinition.textContent = pos + defData.definition;
         } else {
-          popupTranslation.textContent = '—';
-          popupInfo.textContent = 'No other language';
+          popupDefinition.textContent = 'Definition not available';
         }
         
-        // Auto-hide after 3 seconds
-        wordTranslationTimeout = setTimeout(hideWordTranslation, 3000);
+        // Auto-hide after 5 seconds
+        wordTranslationTimeout = setTimeout(hideWordTranslation, 5000);
       }
 
-      // Handle clicks on words in story body
-      storyBody.addEventListener('click', (e) => {
+      async function showWordTranslation(wordElement, word) {
+        if (!wordTranslationPopup || !popupWord || !popupDefinition) return;
+        
+        hideWordTranslation();
+        positionPopup(wordElement);
+        
+        // Get target language code
+        const targetLangId = nativeLanguageId || 'english';
+        const targetLangCode = LANG_CODES[targetLangId] || 'en';
+        const targetLangTitle = getLanguageTitleById(targetLangId);
+        
+        // Show loading state
+        popupWord.textContent = word;
+        popupDefinition.innerHTML = '<span class="popup-loading">Looking up...</span>';
+        popupTranslation.style.display = 'none';
+        popupInfo.textContent = '';
+        wordTranslationPopup.classList.add('visible');
+        wordTranslationPopup.setAttribute('aria-hidden', 'false');
+        
+        // Fetch both definition and translation
+        const [defData, translatedText] = await Promise.all([
+          fetchDefinition(word),
+          fetchTranslation(word, targetLangCode)
+        ]);
+        
+        // Show definition
+        if (defData && defData.definition) {
+          const pos = defData.partOfSpeech ? `(${defData.partOfSpeech}) ` : '';
+          popupDefinition.textContent = pos + defData.definition;
+        } else {
+          popupDefinition.textContent = 'Definition not available';
+        }
+        
+        // Show translation
+        if (translatedText && targetLangCode !== 'en') {
+          popupTranslation.textContent = `${targetLangTitle}: ${translatedText}`;
+          popupTranslation.style.display = 'block';
+        } else if (targetLangCode === 'en') {
+          popupTranslation.style.display = 'none';
+        } else {
+          popupTranslation.textContent = `${targetLangTitle}: Translation not available`;
+          popupTranslation.style.display = 'block';
+        }
+        
+        // Auto-hide after 6 seconds (longer since more content)
+        wordTranslationTimeout = setTimeout(hideWordTranslation, 6000);
+      }
+
+      // Handle word interactions - click for definition, long-press for translation
+      let wordPressStartTime = 0;
+      let wordPressTarget = null;
+      
+      storyBody.addEventListener('mousedown', (e) => {
         const target = e.target;
         if (target.classList.contains('clickable-word')) {
+          wordPressStartTime = Date.now();
+          wordPressTarget = target;
+        }
+      });
+
+      storyBody.addEventListener('mouseup', (e) => {
+        const target = e.target;
+        if (target.classList.contains('clickable-word') && wordPressTarget === target) {
+          const pressDuration = Date.now() - wordPressStartTime;
           const word = target.dataset.word;
           if (word) {
-            showWordTranslation(target, word);
+            if (pressDuration >= WORD_LONG_PRESS_DURATION) {
+              // Long press - show translation
+              showWordTranslation(target, word);
+            } else {
+              // Quick click - show definition
+              showWordDefinition(target, word);
+            }
           }
         }
+        wordPressStartTime = 0;
+        wordPressTarget = null;
+      });
+
+      storyBody.addEventListener('mouseleave', () => {
+        wordPressStartTime = 0;
+        wordPressTarget = null;
+      });
+
+      // Touch support for mobile
+      storyBody.addEventListener('touchstart', (e) => {
+        const target = e.target;
+        if (target.classList.contains('clickable-word')) {
+          wordPressStartTime = Date.now();
+          wordPressTarget = target;
+        }
+      }, { passive: true });
+
+      storyBody.addEventListener('touchend', (e) => {
+        const target = e.target;
+        if (target.classList.contains('clickable-word') && wordPressTarget === target) {
+          const pressDuration = Date.now() - wordPressStartTime;
+          const word = target.dataset.word;
+          if (word) {
+            if (pressDuration >= WORD_LONG_PRESS_DURATION) {
+              showWordTranslation(target, word);
+            } else {
+              showWordDefinition(target, word);
+            }
+          }
+        }
+        wordPressStartTime = 0;
+        wordPressTarget = null;
+      });
+
+      storyBody.addEventListener('touchcancel', () => {
+        wordPressStartTime = 0;
+        wordPressTarget = null;
       });
 
       // Hide popup when clicking elsewhere
