@@ -2255,6 +2255,2397 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ben_robin_wesse",
+      "title": "Ben Robin Wesse",
+      "chapters": [
+        {
+          "id": "00_prologue",
+          "title": "00 Prologue",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/00_prologue/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_growing_up_in_hamburg",
+          "title": "01 Growing Up in Hamburg",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/01_growing_up_in_hamburg/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_a_year_in_canada",
+          "title": "02 A Year in Canada",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/02_a_year_in_canada/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_adventure_in_peru",
+          "title": "03 Adventure in Peru",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/03_adventure_in_peru/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_discovering_klagenfurt",
+          "title": "04 Discovering Klagenfurt",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/04_discovering_klagenfurt/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_first_semester",
+          "title": "05 First Semester",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/05_first_semester/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_mountain_mishap",
+          "title": "06 The Mountain Mishap",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/06_mountain_mishap/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_interrail_adventure",
+          "title": "07 Interrail Adventure",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/07_interrail_adventure/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_sapience_begins",
+          "title": "08 Sapience Begins",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/08_sapience_begins/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_building_the_blackbirds",
+          "title": "09 Building the Blackbirds",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/09_building_the_blackbirds/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_triumph_in_london",
+          "title": "10 Triumph in London",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/10_triumph_in_london/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_preparing_for_huntsville",
+          "title": "11 Preparing for Huntsville",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/11_preparing_for_huntsville/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_victory_in_alabama",
+          "title": "12 Victory in Alabama",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/12_victory_in_alabama/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13_backpacking_columbia",
+          "title": "13 Backpacking Colombia",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/13_backpacking_columbia/german/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14_new_chapter_barcelona",
+          "title": "14 A New Chapter: Barcelona",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/english/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/spanish/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/ben_robin_wesse/chapters/14_new_chapter_barcelona/german/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
