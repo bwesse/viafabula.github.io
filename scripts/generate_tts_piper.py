@@ -3,19 +3,39 @@
 Generate TTS .wav files for language-level text files using *separate* Piper HTTP
 servers (one per language).
 
-Expected structure under some ROOT directory:
+Expected structures under some ROOT directory:
 
-  ROOT/
-    english/
-      a0/a0.md or a0/a0.txt
-      a1/a1.md or a1/a1.txt
-      ...
-    spanish/
-      a0/a0.md or a0/a0.txt
-      ...
-    german/
-      a0/a0.md or a0/a0.txt
-      ...
+  Single chapter directory
+    ROOT/
+      english/
+        a0/a0.md or a0.md
+        a1/a1.md or a1.md
+        ...
+      spanish/
+        a0/a0.md or a0.md
+        ...
+      german/
+        a0/a0.md or a0.md
+        ...
+
+  Book with chapters at top level
+    ROOT/
+      00_intro/
+        english/...
+        spanish/...
+      01_next/
+        english/...
+        ...
+
+  Book with chapters under "chapters/"
+    ROOT/
+      chapters/
+        00_prefix/
+          english/...
+          ...
+        01_loomings/
+          english/...
+          ...
 
 For each <lang>/<level>/<level>.md or .txt, create:
 
@@ -42,7 +62,17 @@ LANGUAGE_SERVERS = {
     "german":  "http://127.0.0.1:5003",
 }
 
-LEVEL_NAMES = {"a0", "a1", "a2", "b1", "b2", "c1", "c2"}
+LEVEL_NAMES = [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original",
+]
 
 
 def find_text_file(level_dir: Path, level_name: str) -> Path | None:
@@ -76,41 +106,94 @@ def synthesize_to_wav(server_url: str, text: str, out_path: Path) -> None:
     out_path.write_bytes(resp.content)
     print(f"  -> wrote {out_path}")
 
-def process_language_dir(
-    root: Path,
-    lang_dir: Path,
-    server_url: str,
-    force: bool,
-):
+
+def find_language_dirs(parent: Path) -> list[Path]:
+    """Return language directories present under parent."""
+    return [
+        child
+        for child in sorted(parent.iterdir())
+        if child.is_dir() and child.name in LANGUAGE_SERVERS
+    ]
+
+
+def find_chapter_dirs(book_dir: Path) -> list[Path]:
+    """Return chapter directories under a book directory."""
+    chapters: list[Path] = []
+
+    for child in sorted(book_dir.iterdir()):
+        if not child.is_dir():
+            continue
+
+        if child.name == "chapters":
+            for grandchild in sorted(child.iterdir()):
+                if grandchild.is_dir():
+                    chapters.append(grandchild)
+            continue
+
+        chapters.append(child)
+
+    return [chapter for chapter in chapters if find_language_dirs(chapter)]
+
+
+def process_language_dir(lang_dir: Path, server_url: str, force: bool) -> None:
     lang_name = lang_dir.name
-    print(f"\n=== Language: {lang_name} (server: {server_url}) ===")
+    print(f"  Language: {lang_name} (server: {server_url})")
 
-    for level_dir in sorted(lang_dir.iterdir()):
-        if not level_dir.is_dir():
+    for level_name in LEVEL_NAMES:
+        text_file: Path | None
+        out_wav: Path | None
+
+        level_dir = lang_dir / level_name
+        if level_dir.is_dir():
+            text_file = find_text_file(level_dir, level_name)
+            out_wav = level_dir / f"{level_name}.wav"
+        else:
+            text_file = find_text_file(lang_dir, level_name)
+            out_wav = (lang_dir / f"{level_name}.wav") if text_file else None
+
+        if text_file is None or out_wav is None:
             continue
 
-        level_name = level_dir.name.lower()
-        if level_name not in LEVEL_NAMES:
-            # Skip folders like "native", "original", etc.
-            continue
-
-        text_file = find_text_file(level_dir, level_name)
-        if text_file is None:
-            print(f"  [skip] No {level_name}.md or {level_name}.txt in {level_dir}")
-            continue
-
-        out_wav = level_dir / f"{level_name}.wav"
         if out_wav.exists() and not force:
-            print(f"  [skip] {out_wav} already exists (use --force to overwrite)")
+            print(f"    [skip] {out_wav} already exists (use --force to overwrite)")
             continue
 
-        text = text_file.read_text(encoding="utf-8")
-        if not text.strip():
-            print(f"  [skip] {text_file} is empty")
+        text = text_file.read_text(encoding="utf-8").strip()
+        if not text:
+            print(f"    [skip] {text_file} is empty")
             continue
 
-        print(f"  Synthesizing {text_file} -> {out_wav}")
+        print(f"    Synthesizing {text_file} -> {out_wav}")
         synthesize_to_wav(server_url, text, out_wav)
+
+
+def process_chapter_dir(chapter_dir: Path, force: bool) -> None:
+    print(f"\n-- Chapter: {chapter_dir.name}")
+    language_dirs = find_language_dirs(chapter_dir)
+
+    if not language_dirs:
+        print("  [skip] No language folders found in this chapter.")
+        return
+
+    for lang_dir in language_dirs:
+        server_url = LANGUAGE_SERVERS.get(lang_dir.name)
+        if server_url is None:
+            print(f"  [skip] No server configured for {lang_dir.name}")
+            continue
+        process_language_dir(lang_dir, server_url, force)
+
+
+def process_book_dir(book_dir: Path, force: bool) -> bool:
+    chapters = find_chapter_dirs(book_dir)
+    if not chapters:
+        print(f"[skip] {book_dir} has no chapters with language folders.")
+        return False
+
+    print(f"\n=== Book: {book_dir.name} ===")
+    for chapter_dir in chapters:
+        process_chapter_dir(chapter_dir, force)
+
+    return True
 
 
 def main():
@@ -120,9 +203,12 @@ def main():
     parser.add_argument(
         "--root",
         type=str,
-        default=".",
-        help="Root directory containing language folders (english, spanish, german). "
-             "Example: content/books/The_Tortoise_and_the_Hare/00_preamble",
+        default="content/books",
+        help=(
+            "Root directory containing books or a single chapter. "
+            "Examples: content/books (all books), content/books/The_Tortoise_and_the_Hare "
+            "(one book), content/books/The_Tortoise_and_the_Hare/00_preamble (one chapter)."
+        ),
     )
     parser.add_argument(
         "--force",
@@ -139,11 +225,24 @@ def main():
 
     print(f"Root: {root}")
 
-    for lang_name, server_url in LANGUAGE_SERVERS.items():
-        lang_dir = root / lang_name
-        if not lang_dir.is_dir():
-            continue
-        process_language_dir(root, lang_dir, server_url, args.force)
+    # Case 1: root is a chapter directory (contains language folders)
+    if find_language_dirs(root):
+        process_chapter_dir(root, args.force)
+        print("\nDone.")
+        return
+
+    # Case 2: root is a single book directory
+    if process_book_dir(root, args.force):
+        print("\nDone.")
+        return
+
+    # Case 3: root contains multiple books
+    processed_any = False
+    for book_dir in sorted(p for p in root.iterdir() if p.is_dir()):
+        processed_any |= process_book_dir(book_dir, args.force)
+
+    if not processed_any:
+        print("[info] Nothing to process — no books/chapters with language folders found.")
 
     print("\nDone.")
 
