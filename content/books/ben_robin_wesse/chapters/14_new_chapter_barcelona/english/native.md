@@ -1,27 +1,19 @@
 # A New Chapter: Barcelona
 
-Colombia was supposed to be a vacation. Instead, Tim and I found ourselves in jungle hostels, laptop screens glowing in the tropical darkness, writing our bachelor's theses while monkeys screamed in the trees outside.
+So after Colombia, I just flew straight to Barcelona. Tim headed back to Europe, and I... started over, I guess? New apartment, new city, whole new life.
 
-After Huntsville, we'd packed our bags and flown straight to South America. A month of backpacking, celebrating our victory, pretending we didn't have academic deadlines looming. The reality was less glamorous: we desperately needed that vacation, but we also desperately needed to finish our theses.
+Barcelona had been in my head forever, honestly. Tim and I had applied to the master's program at UPC—Automation, Control and Robotics. We got in. The drone project had kept me stuck in Klagenfurt for an extra year instead of doing Erasmus there, but finally the city was ready for me.
 
-We managed. Barely. Somehow, between bus rides through the mountains and nights in hammocks, we got the writing done. The theses were submitted from an internet café in a town whose name I can't remember, accompanied by terrible coffee and a collective sigh of relief.
+The first few months were just... a lot. In the best way. Every day there's something new—the Gothic Quarter with its maze of old streets, beaches right there on the Mediterranean, mountains in the distance just begging for a snowboard.
 
-And then it was time for the next adventure.
+The master's program is whatever. Some profs are great, others kinda suck. Theory's dry, like theory always is. But the city? The city's teaching me things I didn't know I needed to learn.
 
-Barcelona had been on my mind since before Huntsville. Tim and I had applied to the Master's program in Automation, Control and Robotics at UPC—the Polytechnic University of Catalonia. We'd been accepted. While the drone project had kept me in Klagenfurt for an extra year instead of doing Erasmus there, the city had waited for me.
+There's something about this place that makes you want to get better. Maybe it's hearing Spanish and Catalan all mixed together in the streets, constantly reminding you how much you still don't get. Students from literally everywhere, speaking like a hundred different languages. Makes you realize the world's way bigger than wherever you came from.
 
-I flew directly from Colombia to Barcelona. New apartment, new city, new life.
+I'm writing this from my apartment right now, Spanish floating up from the street. My Spanish is decent—but not good enough. I still miss words, still get lost when people talk too fast. That's basically why I built this website. Helps me switch between language levels, see how sentences work across different languages.
 
-The first months were overwhelming in the best way. Every day brought something new to explore—the Gothic Quarter with its narrow medieval streets, the beaches stretching along the Mediterranean, the mountains just visible in the distance, promising future snowboarding adventures.
+Looking back at everything—Hamburg to Canada to Peru to Klagenfurt to London to Alabama to Colombia to here—it doesn't even feel real. The art kid who had zero clue what to do with his life somehow ended up as a drone engineer, competition winner, master's student.
 
-The master's program was fine. Some professors were brilliant, others less so. The theory was dry, as theory tends to be. But the city itself was the education I hadn't known I needed.
+Still don't have it all figured out. But turns out that's okay. The path shows up as you walk it, or whatever.
 
-There's something about Barcelona that makes you want to learn. Maybe it's hearing Spanish and Catalan mixing in the streets, making you realize how much you still don't understand. Maybe it's the internationality of it all—students from everywhere, speaking everything, creating a constant reminder that the world is bigger than your home country.
-
-I'm writing this from my apartment, Spanish floating up from the street below. My Spanish is pretty good now, but not good enough. I still miss words, still struggle with the fast conversations of native speakers. That's why I built this website, actually—to help myself switch between language levels, to see how sentences work in different languages.
-
-Looking back at the journey—Hamburg to Canada to Peru to Klagenfurt to London to Alabama to Colombia to here—it doesn't feel real. The art kid who had no idea what to do with his life somehow became a drone engineer, a competition winner, a master's student.
-
-I still don't have everything figured out. But I've learned that's okay. The path reveals itself as you walk it.
-
-And somewhere out there, there are mountains waiting to be snowboarded.
+And somewhere out there, there are mountains waiting for me to shred.
