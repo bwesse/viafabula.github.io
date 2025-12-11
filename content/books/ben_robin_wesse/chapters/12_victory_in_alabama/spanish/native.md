@@ -24,4 +24,4 @@ El equipo Klagenfurt ganó SAPIENCE en Huntsville, Alabama.
 
 De pie en el escenario con el trofeo, pensé en todo. El chaval de arte de Hamburgo. El que faltó al examen de mates por el snowboard. El inseguro que se fue a Austria con una mochila y una tabla.
 
-Lo conseguimos de verdad. Tim y yo ganamos, joder.
+Lo conseguimos de verdad. Tim y yo lo logramos, tío.
