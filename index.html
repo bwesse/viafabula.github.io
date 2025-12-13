@@ -286,6 +286,34 @@
         pointer-events: auto;
       }
 
+      .floating-toggle {
+        position: fixed;
+        inset: auto 20px 20px auto;
+        width: 64px;
+        height: 64px;
+        border-radius: 999px;
+        border: 2px dashed rgba(15, 23, 42, 0.45);
+        background: transparent;
+        color: var(--accent);
+        box-shadow: none;
+        cursor: grab;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        z-index: 50;
+        touch-action: none;
+        transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+      }
+      .floating-toggle:active { cursor: grabbing; transform: scale(0.98); box-shadow: 0 8px 18px rgba(15, 23, 42, 0.22); }
+      .floating-toggle[data-visible="true"] { display: inline-flex; }
+      .floating-toggle[data-disabled="true"] { opacity: 0.55; box-shadow: none; }
+      body.night .floating-toggle { border-color: rgba(226, 232, 240, 0.65); background: transparent; box-shadow: none; }
+
       main.reader {
         min-height: calc(100vh - var(--bar-height));
         display: flex;
@@ -554,6 +582,11 @@
         </div>
 
         <div class="controls-row">
+          <label class="small" for="floating-toggle-setting">Floating language toggle</label>
+          <button type="button" id="floating-toggle-setting" class="pill-button" aria-pressed="false">Enable</button>
+        </div>
+
+        <div class="controls-row">
           <label class="small">Bookmark</label>
           <div class="bookmark-actions">
             <button type="button" id="save-bookmark" class="pill-button">Save bookmark</button>
@@ -592,6 +625,7 @@
     </aside>
 
     <div id="overlay" class="overlay" tabindex="-1" aria-hidden="true"></div>
+    <button type="button" id="floating-lang-toggle" class="floating-toggle" aria-pressed="false" aria-label="Toggle language"></button>
 
     <main class="reader" role="main">
       <article class="reader-panel" id="reader">
@@ -664,6 +698,7 @@
       const langToggleBtn = document.getElementById('lang-toggle');
       const levelUpBtn = document.getElementById('level-up');
       const levelDownBtn = document.getElementById('level-down');
+      const floatingLangToggle = document.getElementById('floating-lang-toggle');
 
       function openSidebar() {
         sidebar.classList.add('open');
@@ -715,6 +750,7 @@
       const comprehensionBody = document.getElementById('comprehension-body');
       const comprehensionStatus = document.getElementById('comprehension-status');
       const textSizeSelect = document.getElementById('text-size-select');
+      const floatingToggleSetting = document.getElementById('floating-toggle-setting');
       const saveBookmarkBtn = document.getElementById('save-bookmark');
       const goBookmarkBtn = document.getElementById('go-bookmark');
       const bookmarkStatus = document.getElementById('bookmark-status');
@@ -735,6 +771,8 @@
         learningLanguageId: null,
         theme: 'light',
         textSize: 'medium',
+        floatingToggleEnabled: false,
+        floatingTogglePosition: null,
         bookmark: null,
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
@@ -754,6 +792,8 @@
       let learningLanguageId = null;
       let textSize = SETTINGS_DEFAULT.textSize;
       let nightMode = false;
+      let floatingToggleEnabled = SETTINGS_DEFAULT.floatingToggleEnabled;
+      let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
       let bookmark = null;
       let streak = { ...STREAK_DEFAULT };
       const LAST_VERSION_KEY = 'reader-last-version';
@@ -778,6 +818,9 @@
       let audioPlayer = null;
       let audioReady = false;
       let audioRequestId = 0;
+      let floatingDragPointerId = null;
+      let floatingDragOffset = { x: 0, y: 0 };
+      let floatingDragMoved = false;
 
       function readUserSettings() {
         try {
@@ -809,6 +852,8 @@
         learningLanguageId = userSettings.learningLanguageId || null;
         nightMode = userSettings.theme === 'dark';
         textSize = userSettings.textSize || SETTINGS_DEFAULT.textSize;
+        floatingToggleEnabled = Boolean(userSettings.floatingToggleEnabled);
+        floatingTogglePosition = userSettings.floatingTogglePosition || null;
         bookmark = normalizeBookmark(userSettings.bookmark);
         streak = normalizeStreak(userSettings.streak);
         userSettings = { ...userSettings, streak };
@@ -818,6 +863,42 @@
         document.documentElement.style.setProperty('--reader-font-size', size);
         if (textSizeSelect) textSizeSelect.value = TEXT_SIZE_MAP[textSize] ? textSize : 'medium';
       }
+      function updateFloatingToggleSettingUI() {
+        if (!floatingToggleSetting) return;
+        floatingToggleSetting.textContent = floatingToggleEnabled ? 'Disable' : 'Enable';
+        floatingToggleSetting.setAttribute('aria-pressed', String(floatingToggleEnabled));
+        floatingToggleSetting.setAttribute('aria-label', floatingToggleEnabled
+          ? 'Disable floating language toggle'
+          : 'Enable floating language toggle');
+      }
+
+      const FLOATING_PADDING = 12;
+      const FLOATING_SIZE = 64;
+      function getFloatingToggleDefaultPosition() {
+        const x = Math.max(FLOATING_PADDING, (window.innerWidth || 0) - FLOATING_SIZE - 20);
+        const y = Math.max(FLOATING_PADDING, (window.innerHeight || 0) - FLOATING_SIZE - 100);
+        return { x, y };
+      }
+      function clampFloatingPosition(pos) {
+        const size = floatingLangToggle?.offsetWidth || FLOATING_SIZE;
+        const maxX = Math.max(FLOATING_PADDING, (window.innerWidth || size) - size - FLOATING_PADDING);
+        const maxY = Math.max(FLOATING_PADDING, (window.innerHeight || size) - size - FLOATING_PADDING);
+        const fallback = getFloatingToggleDefaultPosition();
+        const x = Number.isFinite(pos?.x) ? pos.x : fallback.x;
+        const y = Number.isFinite(pos?.y) ? pos.y : fallback.y;
+        return {
+          x: Math.min(maxX, Math.max(FLOATING_PADDING, x)),
+          y: Math.min(maxY, Math.max(FLOATING_PADDING, y)),
+        };
+      }
+      function applyFloatingTogglePosition(pos) {
+        if (!floatingLangToggle) return;
+        const clamped = clampFloatingPosition(pos);
+        floatingLangToggle.style.left = `${clamped.x}px`;
+        floatingLangToggle.style.top = `${clamped.y}px`;
+        floatingLangToggle.style.right = 'auto';
+        floatingLangToggle.style.bottom = 'auto';
+        floatingTogglePosition = clamped;
       function formatDuration(ms = 0) {
         const safeMs = Math.max(0, Math.floor(ms));
         const totalMinutes = Math.floor(safeMs / 60000);
@@ -1278,6 +1359,18 @@
         const otherTitle = state.langId === nativeLanguageId ? (learningTitle || currentTitle) : defaultTitle;
         langToggleBtn.setAttribute('aria-label', `Toggle language between ${defaultTitle} and ${otherTitle}`);
         langToggleBtn.disabled = !canToggle;
+
+        if (floatingLangToggle) {
+          floatingLangToggle.dataset.disabled = canToggle ? 'false' : 'true';
+          const label = `Toggle language between ${defaultTitle} and ${otherTitle}`;
+          floatingLangToggle.setAttribute('aria-label', label);
+          floatingLangToggle.title = label;
+          floatingLangToggle.textContent = '';
+          floatingLangToggle.dataset.visible = floatingToggleEnabled ? 'true' : 'false';
+          floatingLangToggle.style.pointerEvents = floatingToggleEnabled ? 'auto' : 'none';
+          if (floatingToggleEnabled) applyFloatingTogglePosition(floatingTogglePosition);
+        }
+        updateFloatingToggleSettingUI();
       }
       function updateLevelButtons() {
         if (!levelUpBtn || !levelDownBtn) return;
@@ -1641,6 +1734,13 @@
         persistSettings({ textSize });
         applyTextSize();
       });
+      floatingToggleSetting?.addEventListener('click', () => {
+        floatingToggleEnabled = !floatingToggleEnabled;
+        updateFloatingToggleSettingUI();
+        updateLangToggleButton();
+        if (floatingToggleEnabled) applyFloatingTogglePosition(floatingTogglePosition);
+        persistSettings({ floatingToggleEnabled, floatingTogglePosition });
+      });
       saveBookmarkBtn?.addEventListener('click', () => {
         saveBookmark();
       });
@@ -1679,6 +1779,49 @@
         populateChapters({ scrollToTop: true });
       });
 
+      if (floatingLangToggle) {
+        floatingLangToggle.addEventListener('pointerdown', (event) => {
+          if (!floatingToggleEnabled) return;
+          floatingDragPointerId = event.pointerId;
+          floatingDragOffset = {
+            x: event.clientX - (floatingLangToggle.offsetLeft || 0),
+            y: event.clientY - (floatingLangToggle.offsetTop || 0),
+          };
+          floatingDragMoved = false;
+          floatingLangToggle.setPointerCapture(event.pointerId);
+        });
+        window.addEventListener('pointermove', (event) => {
+          if (event.pointerId !== floatingDragPointerId) return;
+          floatingDragMoved = true;
+          const nextPos = clampFloatingPosition({
+            x: event.clientX - floatingDragOffset.x,
+            y: event.clientY - floatingDragOffset.y,
+          });
+          applyFloatingTogglePosition(nextPos);
+        });
+        window.addEventListener('pointerup', (event) => {
+          if (event.pointerId !== floatingDragPointerId) return;
+          floatingLangToggle.releasePointerCapture(event.pointerId);
+          floatingDragPointerId = null;
+          if (floatingDragMoved) {
+            persistSettings({ floatingTogglePosition, floatingToggleEnabled });
+          }
+        });
+        floatingLangToggle.addEventListener('click', (event) => {
+          if (!floatingToggleEnabled) return;
+          if (floatingLangToggle.dataset.disabled === 'true') return;
+          if (floatingDragMoved) {
+            floatingDragMoved = false;
+            event.preventDefault();
+            return;
+          }
+          toggleLanguage();
+        });
+        window.addEventListener('resize', () => {
+          if (floatingToggleEnabled) applyFloatingTogglePosition(floatingTogglePosition);
+        });
+      }
+
       catalogLink.addEventListener('click', (event) => {
         event.preventDefault();
         renderCatalogView();
@@ -1694,6 +1837,8 @@
       updateVersionFooter();
       applyTextSize();
       applyTheme();
+      updateFloatingToggleSettingUI();
+      applyFloatingTogglePosition(floatingTogglePosition);
       updateBookmarkStatus();
       setupStreakTracking();
       renderStreak();
