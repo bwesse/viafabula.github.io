@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wer zieht die Startlinie?",
+      "options": [
+        "Der Fuchs",
+        "Der Hase",
+        "Der Vogel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie ist die Schildkröte?",
+      "options": [
+        "Ruhig und bereit",
+        "Wütend und laut",
+        "Schlafend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was machen die Tiere?",
+      "options": [
+        "Zuschauen und warten",
+        "Weglaufen",
+        "Nach Hause gehen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

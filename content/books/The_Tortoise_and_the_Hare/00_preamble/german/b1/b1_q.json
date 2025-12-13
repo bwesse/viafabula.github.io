@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Warum sind die Kapitel kurz?",
+      "options": [
+        "Damit eine Seite auf einen Bildschirm passt",
+        "Um wichtige Ideen wegzulassen",
+        "Um die Botschaft zu verstecken"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Welches Gleichgewicht sucht die Sammlung?",
+      "options": [
+        "Einfache Lektüre mit echtem Sinn",
+        "Komplizierte Wörter für Experten",
+        "Nur schnelle Action ohne Botschaft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was stellt die erste Fabel vor?",
+      "options": [
+        "Themen wie Selbstvertrauen, Geduld und Ausdauer",
+        "Eine Liste mit Grammatikregeln",
+        "Anweisungen für ein Rennen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie fühlt sich der Hase nach dem Rennen?",
+      "options": [
+        "Müde und traurig",
+        "Fröhlich und stolz",
+        "Hungrig und ruhig"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie verhält sich die Schildkröte?",
+      "options": [
+        "Sie lächelt freundlich",
+        "Sie verspottet den Hasen",
+        "Sie läuft weg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Lektion lernt der Wald?",
+      "options": [
+        "Langsam und stetig kann gewinnen",
+        "Schlafen gewinnt Rennen",
+        "Nur Geschwindigkeit zählt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

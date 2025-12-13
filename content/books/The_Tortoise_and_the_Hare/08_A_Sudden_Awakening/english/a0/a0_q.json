@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What wakes the Hare?",
+      "options": [
+        "A wind in the leaves",
+        "A shout from the Fox",
+        "A loud bell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does he see when he wakes?",
+      "options": [
+        "The Tortoise near the finish",
+        "No one on the path",
+        "Rain stopping the race"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What does the Hare do then?",
+      "options": [
+        "He jumps up and runs fast",
+        "He goes back to sleep",
+        "He quits the race"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was denkt der Hase?",
+      "options": [
+        "Er hat schon gewonnen",
+        "Er könnte verlieren",
+        "Er hat sich verlaufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was tut der Hase?",
+      "options": [
+        "Er schläft im warmen Gras",
+        "Er rennt stärker",
+        "Er verlässt das Rennen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was macht die Schildkröte?",
+      "options": [
+        "Geht weiter",
+        "Schläft auch",
+        "Läuft nach Hause"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

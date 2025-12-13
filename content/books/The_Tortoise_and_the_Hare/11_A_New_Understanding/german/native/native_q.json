@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie zeigt der Hase sein Wachstum?",
+      "options": [
+        "Er ersetzt Arroganz durch Demut",
+        "Er kümmert sich nicht mehr ums Rennen",
+        "Er sucht Rache"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie betrachtet die Gemeinschaft die Schildkröte jetzt?",
+      "options": [
+        "Als Beispiel für Disziplin und Beständigkeit",
+        "Als glückliche Siegerin",
+        "Als jemanden, der aufhören sollte zu laufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie wirkt die Geschichte nach dem Rennen?",
+      "options": [
+        "Als geteilte Erinnerung, wenn Durchhalten schwer fällt",
+        "Als Warnung, nichts Neues zu versuchen",
+        "Als Geheimnis vor Neuen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

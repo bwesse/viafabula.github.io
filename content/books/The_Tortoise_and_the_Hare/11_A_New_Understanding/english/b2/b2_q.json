@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What change takes place in the Hare?",
+      "options": [
+        "He gains respect for others",
+        "He decides never to race again",
+        "He blames the Fox for losing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How is the Tortoise viewed by the forest?",
+      "options": [
+        "He is praised for steady effort",
+        "He is ignored after the race",
+        "He is asked to slow down more"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How do friends use the story later?",
+      "options": [
+        "They remember it when they want to give up",
+        "They use it to mock slow runners",
+        "They avoid talking about it again"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

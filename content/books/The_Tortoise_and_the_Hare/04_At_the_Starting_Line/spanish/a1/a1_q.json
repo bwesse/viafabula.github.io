@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién marca la línea de salida?",
+      "options": [
+        "El Zorro",
+        "La Liebre",
+        "El Pájaro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo está la Tortuga?",
+      "options": [
+        "Tranquila y lista",
+        "Enojada y gritando",
+        "Durmiendo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué hacen los animales?",
+      "options": [
+        "Miran y esperan",
+        "Huyen",
+        "Se van a casa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

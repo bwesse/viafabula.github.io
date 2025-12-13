@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welche Veränderung gibt es beim Hasen?",
+      "options": [
+        "Er bekommt Respekt für andere",
+        "Er beschließt, nie mehr zu laufen",
+        "Er gibt dem Fuchs die Schuld"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie sieht der Wald die Schildkröte?",
+      "options": [
+        "Er lobt sie für stetige Mühe",
+        "Er ignoriert sie nach dem Rennen",
+        "Er bittet sie, noch langsamer zu sein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie nutzen die Freunde die Geschichte später?",
+      "options": [
+        "Sie erinnern sich daran, wenn sie aufgeben wollen",
+        "Sie nutzen sie, um Langsame auszulachen",
+        "Sie vermeiden es, wieder darüber zu reden"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

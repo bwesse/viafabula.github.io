@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why does this moral endure in the forest?",
+      "options": [
+        "Its lesson about patience and steady effort remains useful",
+        "It is the only story they know",
+        "It changes every time it is told"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the story contrast speed and patience?",
+      "options": [
+        "Speed helps, but patience is lasting",
+        "Patience is unnecessary when you are fast",
+        "Speed and patience both fade quickly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What keeps the tale alive over time?",
+      "options": [
+        "It is retold so the lesson is not forgotten",
+        "It is written in secret code",
+        "It is locked away in a box"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie beginnt das Rennen?",
+      "options": [
+        "Mit dem Signal des Fuchses",
+        "Mit der Entscheidung des Hasen allein",
+        "Ohne dass jemand die Zeit markiert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie bewegen sich die Läufer zu Beginn?",
+      "options": [
+        "Der Hase sprintet los, die Schildkröte geht Schritt für Schritt",
+        "Beide bewegen sich sehr langsam",
+        "Beide setzen sich aus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Warum feuern die Tiere an?",
+      "options": [
+        "Sie freuen sich auf das Rennen",
+        "Sie wollen, dass es endet",
+        "Sie jubeln für ein anderes Spiel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

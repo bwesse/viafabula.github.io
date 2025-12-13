@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the Hare’s behavior turn admiration into irritation?",
+      "options": [
+        "His constant boasting overshadows his talent",
+        "His silence confuses the forest",
+        "His injuries stop the races"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does claiming he can outrun time reveal about him?",
+      "options": [
+        "His hubris and sense of invincibility",
+        "His fear of losing speed",
+        "His respect for the Tortoise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does the narration hint that a challenge is coming?",
+      "options": [
+        "By noting that others quietly wonder about his limits",
+        "By saying the forest has no other racers",
+        "By ending the story right away"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

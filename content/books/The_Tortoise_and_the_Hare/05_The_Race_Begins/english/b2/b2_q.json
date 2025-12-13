@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the race start?",
+      "options": [
+        "With the Fox calling the signal",
+        "With the Hare deciding alone",
+        "With no one marking the time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How do the racers move differently at the start?",
+      "options": [
+        "The Hare sprints away while the Tortoise takes steady steps",
+        "Both crawl slowly",
+        "Both sit down to rest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Why are the animals cheering?",
+      "options": [
+        "They are excited to see the race underway",
+        "They want the race to stop",
+        "They are cheering for a different game"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

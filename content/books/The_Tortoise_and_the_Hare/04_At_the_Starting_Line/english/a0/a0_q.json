@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who draws the start line?",
+      "options": [
+        "The Fox",
+        "The Hare",
+        "The Bird"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How is the Tortoise?",
+      "options": [
+        "Calm and ready",
+        "Angry and loud",
+        "Sleeping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What do the animals do?",
+      "options": [
+        "Watch and wait",
+        "Run away",
+        "Go home"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why do birds, squirrels, and others gather?",
+      "options": [
+        "Curiosity draws them to see the race",
+        "They need to cross the path",
+        "They want to stop the race"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What expectation do most animals carry?",
+      "options": [
+        "That the Hare will win easily",
+        "That the race will never start",
+        "That the Fox will run instead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Why do they still want to watch?",
+      "options": [
+        "They want to witness the story unfold",
+        "They hope the race is canceled",
+        "They need to count the steps"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

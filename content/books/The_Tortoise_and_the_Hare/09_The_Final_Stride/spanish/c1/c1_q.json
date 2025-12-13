@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué celebra en el fondo este resultado?",
+      "options": [
+        "La perseverancia que llega hasta el final",
+        "Un tropiezo de suerte de la Liebre",
+        "Los trucos del Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo subraya el sprint de la Liebre el mensaje?",
+      "options": [
+        "La urgencia tardía no borra la confianza excesiva",
+        "Prueba que él fue el verdadero ganador",
+        "Muestra que el público prefiere la velocidad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Por qué los aplausos se enfocan en la constancia?",
+      "options": [
+        "La comunidad valora el esfuerzo que nunca paró",
+        "No vieron correr a la Liebre",
+        "No les gustan los animales rápidos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

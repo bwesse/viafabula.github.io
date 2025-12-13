@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué papel tiene el Zorro antes de la salida?",
+      "options": [
+        "Marca la línea y dirige el inicio",
+        "Corre al lado de los competidores",
+        "Apuesta por el ganador"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo difieren los corredores en la línea?",
+      "options": [
+        "La Tortuga está serena; la Liebre rebota con energía",
+        "Ambos gritan enojados",
+        "Ambos se esconden de la multitud"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo se comporta la multitud en ese momento?",
+      "options": [
+        "Observa en silencio esperando la señal",
+        "Ya celebra al ganador",
+        "Se marcha del camino"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
