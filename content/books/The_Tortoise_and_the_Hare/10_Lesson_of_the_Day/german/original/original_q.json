@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie prägt die Freundlichkeit der Schildkröte die Moral?",
+      "options": [
+        "Sie macht den Sieg zu einer Lektion in Demut, nicht in Spott",
+        "Sie verschweigt, dass sie gewonnen hat",
+        "Sie zeigt, dass das Rennen unfair war"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Welche zentrale Lehre benennt der Wald?",
+      "options": [
+        "Beständigkeit kann unbedachte Geschwindigkeit besiegen",
+        "Ausruhen ist immer der beste Plan",
+        "Herausforderungen sollte man meiden"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie hängt die Erschöpfung des Hasen mit seiner früheren Wahl zusammen?",
+      "options": [
+        "Seine Überheblichkeit führte zu einem späten, anstrengenden Sprint",
+        "Er hat zu hart vor dem Rennen trainiert",
+        "Er trug die Schildkröte ein Stück"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

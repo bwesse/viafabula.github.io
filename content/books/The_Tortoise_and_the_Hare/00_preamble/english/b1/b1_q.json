@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are the chapters kept brief?",
+      "options": [
+        "So one screen can hold a whole page",
+        "To leave out important details",
+        "To hide the main ideas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What balance does the collection aim for?",
+      "options": [
+        "Simple reading with real meaning",
+        "Complicated wording for experts",
+        "Only fast action and no message"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What does the first fable introduce?",
+      "options": [
+        "Themes of confidence, patience, and determination",
+        "A list of grammar rules",
+        "Instructions on how to run a race"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

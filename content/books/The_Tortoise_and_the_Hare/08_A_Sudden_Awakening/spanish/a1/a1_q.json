@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué despierta a la Liebre?",
+      "options": [
+        "Un viento en las hojas",
+        "Un grito del Zorro",
+        "Una campana fuerte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué ve al despertar?",
+      "options": [
+        "A la Tortuga cerca de la meta",
+        "A nadie en el camino",
+        "Lluvia que detiene la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué hace la Liebre después?",
+      "options": [
+        "Salta y corre rápido",
+        "Vuelve a dormir",
+        "Deja la carrera"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Por qué se reúnen pájaros, ardillas y otros?",
+      "options": [
+        "La curiosidad los lleva a ver la carrera",
+        "Necesitan cruzar el camino",
+        "Quieren detener la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué esperan la mayoría de los animales?",
+      "options": [
+        "Que la Liebre gane sin problema",
+        "Que la carrera nunca empiece",
+        "Que el Zorro corra en su lugar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Por qué aun así quieren mirar?",
+      "options": [
+        "Quieren ver cómo se cuenta la historia",
+        "Esperan que la carrera se cancele",
+        "Necesitan contar los pasos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

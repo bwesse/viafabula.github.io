@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo marca el arranque el contraste del relato?",
+      "options": [
+        "La Liebre desaparece veloz y la Tortuga elige la constancia",
+        "Ambos muestran igual velocidad y esfuerzo",
+        "El Zorro se niega a iniciar la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Por qué es importante el grito del Zorro?",
+      "options": [
+        "Da un inicio claro y justo, sin excusas",
+        "Asusta a los corredores para que se detengan",
+        "Termina la competencia temprano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué contraste temprano anticipa el final?",
+      "options": [
+        "Velocidad sin constancia versus constancia sin velocidad",
+        "Falta de público",
+        "Ambos ignorando el recorrido"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

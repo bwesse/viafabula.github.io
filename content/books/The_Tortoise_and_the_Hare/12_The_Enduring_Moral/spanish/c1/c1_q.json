@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Por qué perdura esta moraleja?",
+      "options": [
+        "Su lección sobre paciencia y constancia sigue útil",
+        "Es la única historia que conocen",
+        "Cambia cada vez que se cuenta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo contrasta el relato velocidad y paciencia?",
+      "options": [
+        "La velocidad ayuda, pero la paciencia es duradera",
+        "La paciencia sobra cuando eres rápido",
+        "La velocidad y la paciencia se olvidan rápido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué mantiene viva la historia?",
+      "options": [
+        "Se repite para que la lección no se pierda",
+        "Está escrita en código secreto",
+        "Se guarda cerrada en una caja"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What role does the Fox play before the race starts?",
+      "options": [
+        "He marks the starting line and hosts the start",
+        "He runs beside the racers",
+        "He bets on the winner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How do the two racers differ in attitude at the line?",
+      "options": [
+        "The Tortoise is calm; the Hare bounces with energy",
+        "Both are angry and shouting",
+        "Both try to hide from the crowd"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How is the crowd behaving at this moment?",
+      "options": [
+        "They are watching quietly for the signal",
+        "They are already celebrating the winner",
+        "They are leaving the path"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

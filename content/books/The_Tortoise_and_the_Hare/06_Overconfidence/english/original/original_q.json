@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the Hare misread the silence behind him?",
+      "options": [
+        "He treats it as proof that the race is decided",
+        "He fears a storm is coming",
+        "He thinks the path has ended"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does his nap symbolize?",
+      "options": [
+        "Complacency born from unchecked confidence",
+        "A planned strategy to slow the Tortoise",
+        "Careful time management"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does the Tortoise’s movement counter the Hare’s pause?",
+      "options": [
+        "Continuous progress replaces wasted speed",
+        "He also decides to sleep",
+        "He waits for the Hare to wake up"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

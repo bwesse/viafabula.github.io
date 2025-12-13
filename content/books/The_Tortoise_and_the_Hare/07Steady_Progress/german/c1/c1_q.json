@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was bedeutet es, dass die Schildkröte den schlafenden Hasen überholt?",
+      "options": [
+        "Ausdauer überholt Talent, wenn Talent ruht",
+        "Dort endet das Rennen offiziell",
+        "Der Fuchs disqualifiziert den Hasen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie wirkt gleichmäßiges Tempo hier als Strategie?",
+      "options": [
+        "Es vermeidet Risiken durch Pausen oder Spurts",
+        "Es versteckt ihre Position",
+        "Es hängt von geheimen Abkürzungen ab"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Emotion fehlt im Fortkommen der Schildkröte?",
+      "options": [
+        "Prahlerei",
+        "Freude",
+        "Hoffnung"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

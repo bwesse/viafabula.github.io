@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How long are these stories?",
+      "options": [
+        "Short",
+        "Very long",
+        "Hard to finish"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Where can you read them?",
+      "options": [
+        "On any device",
+        "Only in a book",
+        "Only at school"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What do the stories still have?",
+      "options": [
+        "Meaning",
+        "Music",
+        "Pictures only"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

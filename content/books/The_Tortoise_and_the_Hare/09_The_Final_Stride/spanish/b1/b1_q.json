@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Por qué no puede ganar la Liebre aunque corra rápido?",
+      "options": [
+        "La Tortuga ya está en la meta",
+        "El Zorro bloquea el camino",
+        "Se lastima la pata"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué celebran los aplausos?",
+      "options": [
+        "La perseverancia más que la velocidad pura",
+        "La línea de salida del Zorro",
+        "La cancelación de la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué lección se repite al final?",
+      "options": [
+        "El esfuerzo constante puede vencer a un sprint tardío",
+        "La velocidad siempre gana",
+        "Dormir ayuda a ganar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

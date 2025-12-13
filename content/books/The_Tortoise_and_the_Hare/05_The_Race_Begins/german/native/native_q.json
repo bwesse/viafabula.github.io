@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie zeigt der Start den Gegensatz der Geschichte?",
+      "options": [
+        "Der Hase verschwindet in der Geschwindigkeit, die Schildkröte wählt die Konstanz",
+        "Beide zeigen gleiche Geschwindigkeit",
+        "Der Fuchs weigert sich, das Rennen zu starten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Warum ist der Ruf des Fuchses wichtig?",
+      "options": [
+        "Er gibt einen klaren, fairen Start ohne Ausreden",
+        "Er erschreckt die Läufer und stoppt sie",
+        "Er beendet früh den Wettbewerb"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welcher frühe Gegensatz deutet das Ende an?",
+      "options": [
+        "Geschwindigkeit ohne Beständigkeit gegen Beständigkeit ohne Geschwindigkeit",
+        "Fehlende Zuschauer",
+        "Beide ignorieren die Strecke"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

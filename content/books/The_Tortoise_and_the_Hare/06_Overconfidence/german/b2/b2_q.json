@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welchen Fehler macht der Hase?",
+      "options": [
+        "Er glaubt zu gewinnen und legt sich schlafen",
+        "Er nimmt den falschen Weg",
+        "Er gibt auf und geht"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was hält die Schildkröte in Bewegung?",
+      "options": [
+        "Steter Fokus auf den Weg",
+        "Angst vor dem Publikum",
+        "Sie verfolgt den Fuchs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was bedeutet das warme Gras für den Hasen?",
+      "options": [
+        "Bequemlichkeit, die ihn leichtsinnig macht",
+        "Einen Platz zum Verstecken",
+        "Das Ziel des Rennens"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

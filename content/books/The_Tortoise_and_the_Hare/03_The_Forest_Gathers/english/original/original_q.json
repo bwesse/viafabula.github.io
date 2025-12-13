@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What mood settles over the crowd as they gather?",
+      "options": [
+        "Curious anticipation of a likely outcome",
+        "Boredom and disinterest",
+        "Fear that the race is dangerous"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does having witnesses raise the stakes of the race?",
+      "options": [
+        "Everyone will remember what truly happens",
+        "It shortens the course for the runners",
+        "It guarantees the Hare will relax"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What tension exists between their expectation and their actions?",
+      "options": [
+        "They assume the Hare wins yet still watch closely",
+        "They think the Fox might cheat but ignore him",
+        "They believe the Tortoise will not show up"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

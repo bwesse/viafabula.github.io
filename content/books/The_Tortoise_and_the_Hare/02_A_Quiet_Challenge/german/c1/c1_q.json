@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Warum wirkt die Herausforderung der Schildkröte trotz weniger Worte stark?",
+      "options": [
+        "Ihr ruhiger Ton und ihr einfaches Versprechen",
+        "Eine wütende Rede über Gerechtigkeit",
+        "Eine Bitte um eine kürzere Strecke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Warum ist die Stille des Waldes bedeutsam?",
+      "options": [
+        "Sie zeigt, wie unerwartet der Herausforderer ist",
+        "Sie beweist, dass niemand das Rennen will",
+        "Sie bedeutet, dass das Rennen unmöglich ist"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie wird hier Selbstvertrauen neu gezeigt?",
+      "options": [
+        "Leise Entschlossenheit steht lauter Arroganz gegenüber",
+        "Es beweist, dass Geschwindigkeit immer gewinnt",
+        "Es zeigt, dass der Fuchs alles kontrolliert"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Warum versammeln sich Vögel, Eichhörnchen und andere?",
+      "options": [
+        "Neugier treibt sie zum Rennen",
+        "Sie müssen den Weg überqueren",
+        "Sie wollen das Rennen stoppen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Welche Erwartung haben die meisten?",
+      "options": [
+        "Der Hase wird leicht gewinnen",
+        "Das Rennen startet nie",
+        "Der Fuchs läuft an seiner Stelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Warum wollen sie trotzdem zusehen?",
+      "options": [
+        "Sie wollen die Geschichte miterleben",
+        "Sie hoffen auf eine Absage",
+        "Sie müssen die Schritte zählen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

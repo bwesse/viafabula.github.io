@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who reaches the line first?",
+      "options": [
+        "The Tortoise",
+        "The Hare",
+        "The Fox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does the forest do?",
+      "options": [
+        "Cheers for the winner",
+        "Goes home",
+        "Stops the race"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Can the Hare catch up in time?",
+      "options": [
+        "No, he is too late",
+        "Yes, he wins",
+        "He quits before the end"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
