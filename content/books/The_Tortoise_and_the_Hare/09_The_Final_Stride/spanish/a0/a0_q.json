@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién llega primero a la meta?",
+      "options": [
+        "La Tortuga",
+        "La Liebre",
+        "El Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué hace el bosque?",
+      "options": [
+        "Aplaude al ganador",
+        "Se va a casa",
+        "Detiene la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Puede alcanzar la Liebre a tiempo?",
+      "options": [
+        "No, llega tarde",
+        "Sí, gana",
+        "Renuncia antes del final"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

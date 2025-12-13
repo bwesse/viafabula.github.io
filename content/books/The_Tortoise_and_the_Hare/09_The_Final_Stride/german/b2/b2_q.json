@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Warum kann der Hase trotz Schnelligkeit nicht gewinnen?",
+      "options": [
+        "Die Schildkröte ist schon am Ziel",
+        "Der Fuchs blockiert den Weg",
+        "Er verletzt sein Bein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was feiern die Jubelrufe?",
+      "options": [
+        "Ausdauer statt bloßer Geschwindigkeit",
+        "Die Startlinie des Fuchses",
+        "Die Absage des Rennens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Lehre wird im Ziel bekräftigt?",
+      "options": [
+        "Stetes Bemühen kann einen späten Sprint schlagen",
+        "Geschwindigkeit gewinnt immer",
+        "Schlaf hilft beim Siegen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

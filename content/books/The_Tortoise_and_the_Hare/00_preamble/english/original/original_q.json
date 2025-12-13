@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What kind of reading experience do the short chapters invite?",
+      "options": [
+        "Finishing a scene in a single sitting on any screen",
+        "Jumping between unrelated stories",
+        "Skipping reflection to rush ahead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the opening tale set the tone for the rest?",
+      "options": [
+        "It models concise scenes with clear themes",
+        "It delays the moral until the final book",
+        "It focuses only on action without meaning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What dual purpose do these stories claim to serve?",
+      "options": [
+        "To be both companions and guides for learners",
+        "To replace all grammar study",
+        "To compete with long novels"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wer läuft weiter mit den gleichen langsamen Schritten?",
+      "options": [
+        "Die Schildkröte",
+        "Der Hase",
+        "Der Fuchs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wer schläft noch?",
+      "options": [
+        "Der Hase",
+        "Die Schildkröte",
+        "Das Publikum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Hält die Schildkröte an?",
+      "options": [
+        "Nein, sie geht weiter",
+        "Ja, sie schläft",
+        "Ja, sie kehrt um"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

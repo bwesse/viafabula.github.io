@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué hacen los animales al oír de la carrera?",
+      "options": [
+        "Van al camino",
+        "Se duermen",
+        "Se esconden en casa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Quién creen que ganará la mayoría?",
+      "options": [
+        "La Liebre",
+        "La Tortuga",
+        "El Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Quiénes esperan listos para empezar?",
+      "options": [
+        "La Tortuga y la Liebre",
+        "Solo el Zorro",
+        "Solo los pájaros"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

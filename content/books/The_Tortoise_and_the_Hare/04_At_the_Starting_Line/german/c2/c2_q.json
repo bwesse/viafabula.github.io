@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was sagt die Aufgabe des Fuchses über Fairness aus?",
+      "options": [
+        "Eine neutrale Startlinie hält Ordnung",
+        "Er hilft heimlich dem Hasen",
+        "Er will das Ereignis stoppen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie unterscheiden sich die Gedanken der Läufer vor dem Signal?",
+      "options": [
+        "Gelassene Beständigkeit gegen ungeduldige Energie",
+        "Gleiche Langeweile am Rennen",
+        "Gemeinsame Angst vor dem Publikum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie beeinflusst die gemeinsame Spannung den Start?",
+      "options": [
+        "Die stille Menge baut Spannung für den ersten Schritt auf",
+        "Der Lärm lenkt die Läufer ab",
+        "Niemand achtet auf den Moment"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

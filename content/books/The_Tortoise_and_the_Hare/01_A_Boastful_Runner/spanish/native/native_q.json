@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo convierte la Liebre la admiración en molestia?",
+      "options": [
+        "Su constante alarde tapa su talento",
+        "Su silencio confunde al bosque",
+        "Sus heridas detienen las carreras"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué revela afirmar que puede vencer al tiempo?",
+      "options": [
+        "Su soberbia y sensación de invencible",
+        "Su miedo a perder velocidad",
+        "Su respeto por la Tortuga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo insinúa el relato que llegará un reto?",
+      "options": [
+        "Dice que otros se preguntan en silencio por sus límites",
+        "Asegura que no hay otros corredores",
+        "Termina la historia de inmediato"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

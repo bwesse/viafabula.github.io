@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What mistake does the Hare make?",
+      "options": [
+        "He assumes victory and lies down to sleep",
+        "He takes the wrong path",
+        "He gives up and leaves the course"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What keeps the Tortoise moving?",
+      "options": [
+        "Steady focus on the course",
+        "Fear of the crowd",
+        "Chasing the Fox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What does the warm grass represent for the Hare?",
+      "options": [
+        "Comfort that leads to complacency",
+        "A place to hide from the Tortoise",
+        "A mark that the race is finished"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

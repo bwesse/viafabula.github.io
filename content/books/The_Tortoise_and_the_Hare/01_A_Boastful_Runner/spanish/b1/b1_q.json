@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo muestra la Liebre su arrogancia?",
+      "options": [
+        "Presumiendo y burlándose de los lentos",
+        "Entrenando en silencio cada día",
+        "Negándose a correr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué se preguntan los animales del bosque?",
+      "options": [
+        "Si alguien podría vencerlo",
+        "Cómo detener la carrera",
+        "Por qué el Zorro llega tarde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué efecto tiene presumir todos los días?",
+      "options": [
+        "Su arrogancia crece con cada victoria",
+        "Se vuelve más humilde",
+        "Olvida que es rápido"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie geht die Schildkröte den Weg entlang?",
+      "options": [
+        "Mit gleichmäßigen, festen Schritten",
+        "In Sprints",
+        "Sie verlässt den Weg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was passiert, während der Hase schläft?",
+      "options": [
+        "Die Schildkröte überholt ihn leise",
+        "Der Fuchs beendet das Rennen",
+        "Die Zuschauer gehen weg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was zeigt das Nicht-Anhalten der Schildkröte?",
+      "options": [
+        "Disziplin und Ausdauer",
+        "Angst vor dem Hasen",
+        "Bedarf nach einer Karte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

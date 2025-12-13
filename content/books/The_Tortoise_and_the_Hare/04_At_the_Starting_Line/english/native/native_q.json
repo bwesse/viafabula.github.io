@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does the Fox’s task suggest about fairness?",
+      "options": [
+        "A neutral start line keeps the race orderly",
+        "He is secretly helping the Hare",
+        "He wants to stop the event"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How do the racers’ mindsets contrast right before the signal?",
+      "options": [
+        "Composed steadiness versus eager impatience",
+        "Equal boredom with the race",
+        "Shared fear of the crowd"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does collective anticipation shape the start?",
+      "options": [
+        "The silent crowd builds tension for the first step",
+        "Noise from the crowd distracts the racers",
+        "No one pays attention to the moment"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

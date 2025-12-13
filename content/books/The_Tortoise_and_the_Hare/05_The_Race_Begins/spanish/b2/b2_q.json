@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo empieza la carrera?",
+      "options": [
+        "Con la señal del Zorro",
+        "Con la decisión de la Liebre sola",
+        "Sin que nadie marque el tiempo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo se mueven los corredores al inicio?",
+      "options": [
+        "La Liebre se lanza; la Tortuga da pasos firmes",
+        "Ambos avanzan muy despacio",
+        "Ambos se sientan a descansar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Por qué animan los animales?",
+      "options": [
+        "Están emocionados de ver la carrera",
+        "Quieren que se detenga",
+        "Animan otro juego distinto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

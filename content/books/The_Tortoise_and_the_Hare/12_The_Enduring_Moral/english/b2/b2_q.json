@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What part of the story stays in the forest’s memory?",
+      "options": [
+        "The race and its lesson",
+        "Only the starting line",
+        "Only the Hare’s nap"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How do they describe the main moral?",
+      "options": [
+        "Slow and steady can win",
+        "Speed always wins",
+        "No one should race again"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How is patience compared to speed?",
+      "options": [
+        "Speed is good, but patience lasts",
+        "Patience is useless in races",
+        "Speed and patience are the same"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

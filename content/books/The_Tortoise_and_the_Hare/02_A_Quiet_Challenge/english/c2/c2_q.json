@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What makes the Tortoise’s challenge powerful despite few words?",
+      "options": [
+        "His steady tone and simple promise to race",
+        "An angry speech about fairness",
+        "A bargain for a shorter course"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why does the forest’s silence matter in this scene?",
+      "options": [
+        "It shows how unexpected the challenger is",
+        "It proves no one cares about the race",
+        "It means the race cannot happen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does this moment reframe confidence?",
+      "options": [
+        "It contrasts quiet resolve with loud arrogance",
+        "It proves speed always wins",
+        "It suggests the Fox controls everything"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

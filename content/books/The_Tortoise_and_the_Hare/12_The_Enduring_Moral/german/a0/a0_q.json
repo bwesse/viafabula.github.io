@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was erinnern die Tiere?",
+      "options": [
+        "Das Rennen",
+        "Ein Lied",
+        "Einen Sturm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Welche Zeile wiederholen sie?",
+      "options": [
+        "„Langsam und stetig kann gewinnen“",
+        "„Schlafen ist am besten“",
+        "„Schnelligkeit ist immer zuerst“"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Eigenschaft hält an?",
+      "options": [
+        "Geduld",
+        "Faulheit",
+        "Wut"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

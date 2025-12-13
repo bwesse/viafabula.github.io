@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who shouts “Go”?",
+      "options": [
+        "The Fox",
+        "The Tortoise",
+        "The Owl"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Who runs fast and disappears?",
+      "options": [
+        "The Hare",
+        "The Tortoise",
+        "The Fox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does the Tortoise move?",
+      "options": [
+        "Slow and steady",
+        "He jumps high",
+        "He stops and sits"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

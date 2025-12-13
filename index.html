@@ -238,6 +238,26 @@
         font-size: 12px;
         color: var(--muted);
       }
+      .streak-card {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding: 10px 12px;
+        border-radius: 12px;
+        background: var(--card);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .streak-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+        font-weight: 600;
+      }
+      .streak-time {
+        font-size: 13px;
+        color: var(--muted);
+      }
 
       .sidebar-footer {
         margin-top: auto;
@@ -576,6 +596,17 @@
         </div>
 
         <div class="controls-row">
+          <label class="small">Streak</label>
+          <div class="streak-card" aria-live="polite">
+            <div class="streak-row">
+              <div id="streak-days">0-day streak</div>
+              <div id="streak-longest" class="bookmark-status">Longest 0</div>
+            </div>
+            <div id="streak-time" class="streak-time">0m today · 0m total</div>
+          </div>
+        </div>
+
+        <div class="controls-row">
           <label class="small" for="theme-toggle">Night mode</label>
           <button type="button" id="theme-toggle" class="pill-button" aria-pressed="false">Off</button>
         </div>
@@ -723,7 +754,17 @@
       const saveBookmarkBtn = document.getElementById('save-bookmark');
       const goBookmarkBtn = document.getElementById('go-bookmark');
       const bookmarkStatus = document.getElementById('bookmark-status');
+      const streakDaysEl = document.getElementById('streak-days');
+      const streakLongestEl = document.getElementById('streak-longest');
+      const streakTimeEl = document.getElementById('streak-time');
 
+      const STREAK_DEFAULT = {
+        streakDays: 0,
+        longestStreak: 0,
+        lastActiveDate: null,
+        totalMs: 0,
+        todayMs: 0,
+      };
       const SETTINGS_KEY = 'reader-settings';
       const SETTINGS_DEFAULT = {
         nativeLanguageId: 'english',
@@ -733,6 +774,8 @@
         floatingToggleEnabled: false,
         floatingTogglePosition: null,
         bookmark: null,
+        streak: { ...STREAK_DEFAULT },
+        comprehension: {},
       };
       const TEXT_SIZE_MAP = {
         small: '15px',
@@ -740,6 +783,7 @@
         large: '18px',
         xlarge: '20px',
       };
+      const STREAK_SAVE_INTERVAL_MS = 60000;
       const FALLBACK_NATIVE_ID = 'english';
       let library = { books: [] };
       const state = { bookId: null, chapterId: null, langId: null, levelId: null };
@@ -751,6 +795,7 @@
       let floatingToggleEnabled = SETTINGS_DEFAULT.floatingToggleEnabled;
       let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
       let bookmark = null;
+      let streak = { ...STREAK_DEFAULT };
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
       const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
@@ -768,6 +813,8 @@
       let comprehensionComplete = true;
       let comprehensionQuestions = [];
       let comprehensionAnswers = {};
+      let sessionStartMs = null;
+      let streakIntervalId = null;
       let audioPlayer = null;
       let audioReady = false;
       let audioRequestId = 0;
@@ -784,6 +831,17 @@
           return { ...SETTINGS_DEFAULT };
         }
       }
+      function normalizeStreak(raw) {
+        if (!raw || typeof raw !== 'object') return { ...STREAK_DEFAULT };
+        const safeNumber = (value) => (typeof value === 'number' && Number.isFinite(value) && value >= 0 ? value : 0);
+        return {
+          streakDays: safeNumber(raw.streakDays),
+          longestStreak: safeNumber(raw.longestStreak),
+          lastActiveDate: typeof raw.lastActiveDate === 'string' ? raw.lastActiveDate : null,
+          totalMs: safeNumber(raw.totalMs),
+          todayMs: safeNumber(raw.todayMs),
+        };
+      }
       function persistSettings(patch = {}) {
         userSettings = { ...userSettings, ...patch };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(userSettings));
@@ -797,6 +855,8 @@
         floatingToggleEnabled = Boolean(userSettings.floatingToggleEnabled);
         floatingTogglePosition = userSettings.floatingTogglePosition || null;
         bookmark = normalizeBookmark(userSettings.bookmark);
+        streak = normalizeStreak(userSettings.streak);
+        userSettings = { ...userSettings, streak };
       }
       function applyTextSize() {
         const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
@@ -839,6 +899,23 @@
         floatingLangToggle.style.right = 'auto';
         floatingLangToggle.style.bottom = 'auto';
         floatingTogglePosition = clamped;
+      function formatDuration(ms = 0) {
+        const safeMs = Math.max(0, Math.floor(ms));
+        const totalMinutes = Math.floor(safeMs / 60000);
+        const hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        if (hours > 0) return `${hours}h ${minutes}m`;
+        return `${minutes}m`;
+      }
+      function renderStreak() {
+        if (!streakDaysEl || !streakLongestEl || !streakTimeEl) return;
+        const days = streak.streakDays || 0;
+        const longest = streak.longestStreak || 0;
+        streakDaysEl.textContent = days === 1 ? '1-day streak' : `${days}-day streak`;
+        streakLongestEl.textContent = `Longest ${longest}`;
+        const todayLabel = formatDuration(streak.todayMs);
+        const totalLabel = formatDuration(streak.totalMs);
+        streakTimeEl.textContent = `${todayLabel} today · ${totalLabel} total`;
       }
 
       primeSettingsFromStorage();
@@ -880,6 +957,83 @@
 
       function setStatus(text) {
         statusLine.textContent = text || '';
+      }
+      function dayDiff(fromDateStr, toDateStr) {
+        const from = new Date(`${fromDateStr}T00:00:00`);
+        const to = new Date(`${toDateStr}T00:00:00`);
+        if (Number.isNaN(from.getTime()) || Number.isNaN(to.getTime())) return NaN;
+        const MS_PER_DAY = 86400000;
+        return Math.floor((to - from) / MS_PER_DAY);
+      }
+      function applyElapsedToStreak(msElapsed) {
+        if (!msElapsed || msElapsed < 1000) return;
+        const today = new Date();
+        const todayStr = today.toISOString().slice(0, 10);
+        const last = streak.lastActiveDate;
+        let gap = null;
+        if (last) {
+          const diff = dayDiff(last, todayStr);
+          gap = Number.isFinite(diff) && diff >= 0 ? diff : null;
+        }
+        if (gap === null) {
+          streak.streakDays = 1;
+          streak.todayMs = 0;
+        } else if (gap === 0) {
+          streak.streakDays = streak.streakDays || 1;
+        } else if (gap === 1) {
+          streak.streakDays = (streak.streakDays || 0) + 1;
+          streak.todayMs = 0;
+        } else if (gap > 1) {
+          streak.streakDays = 1;
+          streak.todayMs = 0;
+        }
+        streak.lastActiveDate = todayStr;
+        streak.todayMs = (streak.todayMs || 0) + msElapsed;
+        streak.totalMs = (streak.totalMs || 0) + msElapsed;
+        streak.longestStreak = Math.max(streak.longestStreak || 0, streak.streakDays || 0);
+        persistSettings({ streak });
+        renderStreak();
+      }
+      function reconcileStreakDay() {
+        if (!streak.lastActiveDate) return;
+        const todayStr = new Date().toISOString().slice(0, 10);
+        const diff = dayDiff(streak.lastActiveDate, todayStr);
+        if (!Number.isFinite(diff) || diff <= 0) return;
+        if (diff === 1) {
+          streak.todayMs = 0;
+        } else if (diff > 1) {
+          streak.todayMs = 0;
+          streak.streakDays = 0;
+        }
+        persistSettings({ streak });
+        renderStreak();
+      }
+      function stopSessionTimer() {
+        if (sessionStartMs === null) return;
+        const elapsed = Date.now() - sessionStartMs;
+        sessionStartMs = null;
+        applyElapsedToStreak(elapsed);
+      }
+      function startSessionTimer() {
+        if (document.hidden) return;
+        if (sessionStartMs !== null) return;
+        sessionStartMs = Date.now();
+      }
+      function flushStreakProgress() {
+        if (sessionStartMs === null) return;
+        const now = Date.now();
+        const elapsed = now - sessionStartMs;
+        sessionStartMs = now;
+        applyElapsedToStreak(elapsed);
+      }
+      function setupStreakTracking() {
+        reconcileStreakDay();
+        startSessionTimer();
+        if (streakIntervalId === null) {
+          streakIntervalId = window.setInterval(() => {
+            flushStreakProgress();
+          }, STREAK_SAVE_INTERVAL_MS);
+        }
       }
 
       function scrollReaderToTop() {
@@ -1043,6 +1197,38 @@
         if (comprehensionBody) comprehensionBody.innerHTML = '';
         if (comprehensionStatus) comprehensionStatus.textContent = '';
       }
+      function comprehensionKey() {
+        const { bookId, chapterId, langId, levelId } = state || {};
+        if (!bookId || !chapterId || !langId || !levelId) return null;
+        return `${bookId}::${chapterId}::${langId}::${levelId}`;
+      }
+      function isComprehensionSavedComplete() {
+        const key = comprehensionKey();
+        if (!key) return false;
+        return !!(userSettings.comprehension && userSettings.comprehension[key]);
+      }
+      function markComprehensionComplete() {
+        const key = comprehensionKey();
+        if (!key) return;
+        const existing = userSettings.comprehension || {};
+        if (existing[key]) return;
+        const updated = { ...existing, [key]: true };
+        persistSettings({ comprehension: updated });
+      }
+      function shuffleQuestionOptions(question) {
+        const options = [...(question.options || [])];
+        let correctIdx = Number(question.correctIndex);
+        for (let i = options.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [options[i], options[j]] = [options[j], options[i]];
+          if (i === correctIdx) {
+            correctIdx = j;
+          } else if (j === correctIdx) {
+            correctIdx = i;
+          }
+        }
+        return { ...question, options, correctIndex: correctIdx };
+      }
       function evaluateComprehension() {
         if (!questionsRequired || !comprehensionQuestions.length) {
           comprehensionComplete = true;
@@ -1058,6 +1244,7 @@
         }
         const allCorrect = comprehensionQuestions.every(q => comprehensionAnswers[q.id] === Number(q.correctIndex));
         comprehensionComplete = allCorrect;
+        if (allCorrect) markComprehensionComplete();
         if (comprehensionStatus) {
           comprehensionStatus.textContent = allCorrect
             ? 'Great! Next chapter unlocked.'
@@ -1104,6 +1291,7 @@
           return;
         }
         const qPath = level.path.replace(/\.md$/, '_q.json');
+        const storedComplete = isComprehensionSavedComplete();
         try {
           const response = await fetch(qPath, { cache: 'no-cache' });
           if (!response.ok) throw new Error(`No questions at ${qPath}`);
@@ -1113,13 +1301,16 @@
             updateChapterNav();
             return;
           }
-          questionsRequired = true;
-          comprehensionComplete = false;
-          comprehensionQuestions = questions.map(q => ({
+          questionsRequired = !storedComplete;
+          comprehensionComplete = storedComplete;
+          comprehensionQuestions = questions.map(q => shuffleQuestionOptions({
             ...q,
             correctIndex: Number(q.correctIndex),
           }));
-          renderComprehensionQuestions(questions);
+          renderComprehensionQuestions(comprehensionQuestions);
+          if (storedComplete && comprehensionStatus) {
+            comprehensionStatus.textContent = 'Comprehension already completed for this level. You can proceed.';
+          }
           updateChapterNav();
         } catch (error) {
           resetComprehension();
@@ -1557,6 +1748,22 @@
         openBookmark();
         closeSidebar();
       });
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          stopSessionTimer();
+        } else {
+          startSessionTimer();
+        }
+      });
+      window.addEventListener('pagehide', () => {
+        stopSessionTimer();
+      });
+      window.addEventListener('beforeunload', () => {
+        stopSessionTimer();
+        if (streakIntervalId !== null) {
+          window.clearInterval(streakIntervalId);
+        }
+      });
       prevChapterButton?.addEventListener('click', () => {
         if (!prevChapterTarget) return;
         state.chapterId = prevChapterTarget.chapterId;
@@ -1633,6 +1840,8 @@
       updateFloatingToggleSettingUI();
       applyFloatingTogglePosition(floatingTogglePosition);
       updateBookmarkStatus();
+      setupStreakTracking();
+      renderStreak();
       loadLibrary();
     </script>
   </body>

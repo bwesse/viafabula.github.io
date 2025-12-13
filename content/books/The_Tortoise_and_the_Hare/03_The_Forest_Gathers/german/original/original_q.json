@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welche Stimmung herrscht in der Menge?",
+      "options": [
+        "Neugierige Erwartung eines wahrscheinlichen Ergebnisses",
+        "Langeweile und Desinteresse",
+        "Angst vor einem gefährlichen Rennen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie erhöhen die Zuschauer den Wert des Rennens?",
+      "options": [
+        "Alle werden sich erinnern, was wirklich geschieht",
+        "Sie verkürzen die Strecke für die Läufer",
+        "Sie zwingen den Hasen einzuschlafen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Spannung besteht zwischen Erwartung und Handeln?",
+      "options": [
+        "Sie glauben, der Hase gewinnt, schauen aber genau hin",
+        "Sie denken, der Fuchs mogelt und ignorieren ihn",
+        "Sie meinen, die Schildkröte kommt nicht"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

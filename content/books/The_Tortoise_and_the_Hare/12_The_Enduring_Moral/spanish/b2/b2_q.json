@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué parte de la historia queda en la memoria del bosque?",
+      "options": [
+        "La carrera y su enseñanza",
+        "Solo la línea de salida",
+        "Solo la siesta de la Liebre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo resumen la moraleja principal?",
+      "options": [
+        "Lento y constante puede ganar",
+        "La velocidad siempre gana",
+        "Nadie debe volver a correr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo comparan paciencia y velocidad?",
+      "options": [
+        "La velocidad ayuda, pero la paciencia dura",
+        "La paciencia no sirve en las carreras",
+        "La velocidad y la paciencia son iguales"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

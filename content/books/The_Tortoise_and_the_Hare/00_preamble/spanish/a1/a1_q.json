@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo son estas historias?",
+      "options": [
+        "Cortas",
+        "Muy largas",
+        "Difíciles de terminar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Dónde puedes leerlas?",
+      "options": [
+        "En cualquier dispositivo",
+        "Solo en un libro",
+        "Solo en la escuela"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué mantienen las historias?",
+      "options": [
+        "Significado",
+        "Solo música",
+        "Solo dibujos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

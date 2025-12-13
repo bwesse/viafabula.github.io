@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What prompts the Tortoise to speak?",
+      "options": [
+        "He hears the Hare boasting",
+        "The Fox orders him to race",
+        "The crowd pushes him forward"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why does the forest fall silent?",
+      "options": [
+        "A slow racer challenges the fastest animal",
+        "The race is canceled",
+        "The weather turns stormy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What quality does the Tortoise show in his challenge?",
+      "options": [
+        "Calm confidence",
+        "Loud anger",
+        "Fearful doubt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

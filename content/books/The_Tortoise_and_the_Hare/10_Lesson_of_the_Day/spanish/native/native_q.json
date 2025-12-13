@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo influye la amabilidad de la Tortuga en la moraleja?",
+      "options": [
+        "Convierte la victoria en una lección de humildad, no de burla",
+        "Oculta que él ganó",
+        "Sugiere que la carrera fue injusta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué lección central nombra el bosque?",
+      "options": [
+        "La constancia puede vencer a la velocidad descuidada",
+        "Descansar siempre es el mejor plan",
+        "Es mejor evitar los retos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo se relaciona el cansancio de la Liebre con su decisión anterior?",
+      "options": [
+        "La confianza excesiva lo llevó a un esfuerzo tardío que agota",
+        "Entrenó demasiado antes de la carrera",
+        "Llevó a la Tortuga un tramo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does the Hare learn?",
+      "options": [
+        "To respect others",
+        "To sleep more",
+        "To stop running"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Who is praised for being steady?",
+      "options": [
+        "The Tortoise",
+        "The Fox",
+        "The Owl"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What happens to their race story?",
+      "options": [
+        "It becomes a lesson for everyone",
+        "It is forgotten",
+        "It turns into a different story"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie wird Bewunderung über den Hasen zu Ärger?",
+      "options": [
+        "Ständiges Prahlen überdeckt sein Talent",
+        "Sein Schweigen verwirrt den Wald",
+        "Seine Verletzungen stoppen die Rennen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was zeigt seine Behauptung, schneller als die Zeit zu sein?",
+      "options": [
+        "Seinen Hochmut und das Gefühl, unbesiegbar zu sein",
+        "Seine Angst, langsamer zu werden",
+        "Seinen Respekt vor der Schildkröte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie deutet der Text einen kommenden Wettkampf an?",
+      "options": [
+        "Er erwähnt, dass andere still über seine Grenzen nachdenken",
+        "Er sagt, dass es keine anderen Läufer gibt",
+        "Er beendet die Geschichte sofort"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

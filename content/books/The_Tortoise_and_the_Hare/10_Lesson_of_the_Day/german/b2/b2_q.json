@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie wird der Hase nach der Niederlage beschrieben?",
+      "options": [
+        "Müde und voller Reue",
+        "Wütend und laut",
+        "Stolz und lachend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie behandelt die Schildkröte den Hasen?",
+      "options": [
+        "Mit Freundlichkeit statt Prahlerei",
+        "Indem sie seinen Fehler verspottet",
+        "Indem sie ihn völlig ignoriert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Lehre zieht der Wald aus dem Rennen?",
+      "options": [
+        "Stetiger Einsatz kann reine Geschwindigkeit schlagen",
+        "Geschwindigkeit ist das Einzige, was zählt",
+        "Jedes Rennen soll unentschieden enden"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

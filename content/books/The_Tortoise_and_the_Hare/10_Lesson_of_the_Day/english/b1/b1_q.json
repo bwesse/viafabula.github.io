@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How is the Hare described after losing?",
+      "options": [
+        "Tired and regretful",
+        "Angry and shouting",
+        "Proud and laughing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the Tortoise treat the Hare?",
+      "options": [
+        "With kindness instead of boasting",
+        "By mocking his mistake",
+        "By ignoring him completely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What lesson does the forest take from the race?",
+      "options": [
+        "Steady effort can beat speed alone",
+        "Speed is the only thing that counts",
+        "Every race should end in a tie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

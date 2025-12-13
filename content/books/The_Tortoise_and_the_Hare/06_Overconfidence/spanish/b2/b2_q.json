@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué error comete la Liebre?",
+      "options": [
+        "Cree que ganó y se acuesta a dormir",
+        "Toma el camino equivocado",
+        "Abandona la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué mantiene en marcha a la Tortuga?",
+      "options": [
+        "Atención constante al camino",
+        "Miedo al público",
+        "Perseguir al Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué representa la hierba tibia para la Liebre?",
+      "options": [
+        "Comodidad que lo hace confiarse",
+        "Un lugar para esconderse",
+        "La meta final de la carrera"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

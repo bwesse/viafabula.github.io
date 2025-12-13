@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was lernt der Hase?",
+      "options": [
+        "Andere zu respektieren",
+        "Mehr zu schlafen",
+        "Mit Laufen aufzuhören"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wer wird für Beständigkeit gelobt?",
+      "options": [
+        "Die Schildkröte",
+        "Der Fuchs",
+        "Die Eule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was wird aus ihrer Renn-Geschichte?",
+      "options": [
+        "Eine Lektion für alle",
+        "Etwas Vergessenes",
+        "Eine andere Geschichte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
