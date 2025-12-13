@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was löst das Erwachen des Hasen aus?",
+      "options": [
+        "Wind, der die Blätter bewegt",
+        "Der Fuchs schüttelt ihn",
+        "Donner und Blitz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie nah ist die Schildkröte, als er schaut?",
+      "options": [
+        "Sehr nah an der Ziellinie",
+        "Noch weit hinten",
+        "Direkt neben ihm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie reagiert der Hase auf das, was er sieht?",
+      "options": [
+        "Er sprintet erschrocken los",
+        "Er wartet ruhig",
+        "Er bittet um eine Pause"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

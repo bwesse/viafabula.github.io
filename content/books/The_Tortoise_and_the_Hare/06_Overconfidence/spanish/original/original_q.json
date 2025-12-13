@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo interpreta mal la Liebre el silencio detrás de él?",
+      "options": [
+        "Lo toma como prueba de que la carrera ya está decidida",
+        "Cree que viene una tormenta",
+        "Piensa que el camino terminó"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué simboliza su siesta?",
+      "options": [
+        "La confianza cómoda que lo detiene",
+        "Una estrategia para frenar a la Tortuga",
+        "Una gestión cuidadosa del tiempo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo responde el avance de la Tortuga a la pausa de la Liebre?",
+      "options": [
+        "El progreso continuo reemplaza la velocidad desperdiciada",
+        "También decide dormir",
+        "Espera a que la Liebre despierte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

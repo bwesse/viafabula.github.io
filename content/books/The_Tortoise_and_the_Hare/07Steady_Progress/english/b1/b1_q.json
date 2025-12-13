@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the Tortoise advance along the path?",
+      "options": [
+        "With constant, steady steps",
+        "By sprinting in bursts",
+        "By leaving the path"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What key moment happens while the Hare sleeps?",
+      "options": [
+        "The Tortoise quietly passes him",
+        "The Fox ends the race",
+        "The crowd leaves"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What does not stopping show about the Tortoise?",
+      "options": [
+        "His discipline and perseverance",
+        "His fear of the Hare",
+        "His need for a map"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

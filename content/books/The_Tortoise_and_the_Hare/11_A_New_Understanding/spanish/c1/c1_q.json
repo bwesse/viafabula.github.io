@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo muestra la Liebre su crecimiento?",
+      "options": [
+        "Sustituye la arrogancia por humildad",
+        "Ya no le importa correr",
+        "Busca venganza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo considera ahora la comunidad a la Tortuga?",
+      "options": [
+        "Como ejemplo de disciplina constante",
+        "Como ganadora por suerte",
+        "Como alguien que debe dejar de correr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿De qué forma funciona la historia después de la carrera?",
+      "options": [
+        "Como recordatorio compartido cuando perseverar cuesta",
+        "Como aviso de no intentar cosas nuevas",
+        "Como secreto que se esconde a los nuevos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

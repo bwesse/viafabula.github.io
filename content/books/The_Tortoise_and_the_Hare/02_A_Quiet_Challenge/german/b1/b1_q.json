@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was bringt die Schildkröte zum Sprechen?",
+      "options": [
+        "Sie hört das Prahlen des Hasen",
+        "Der Fuchs befiehlt ihr zu laufen",
+        "Die Menge schiebt sie nach vorne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Warum wird der Wald still?",
+      "options": [
+        "Ein langsamer Läufer fordert den schnellsten heraus",
+        "Das Rennen wird abgesagt",
+        "Das Wetter wird stürmisch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welche Eigenschaft zeigt die Schildkröte?",
+      "options": [
+        "Ruhiges Selbstvertrauen",
+        "Laute Wut",
+        "Ängstliche Zweifel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

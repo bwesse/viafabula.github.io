@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo crea el entorno el giro de este capítulo?",
+      "options": [
+        "Una ráfaga despierta a la Liebre y acaba su confianza",
+        "El Zorro cancela la carrera",
+        "El camino termina de golpe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué muestra la reacción de la Liebre sobre su conciencia?",
+      "options": [
+        "Comprende tarde lo cerca que está la meta",
+        "Aún cree que no puede perder",
+        "Quiere reiniciar la carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo cambia la posición de la Tortuga la dinámica?",
+      "options": [
+        "Con tan poca distancia, la Liebre casi no tiene tiempo de recuperar",
+        "Obliga al Zorro a acortar la pista",
+        "Significa que la Tortuga debe detenerse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

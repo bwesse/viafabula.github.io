@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué hace hablar a la Tortuga?",
+      "options": [
+        "Escucha presumir a la Liebre",
+        "El Zorro la obliga a correr",
+        "La empuja la multitud"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Por qué el bosque queda callado?",
+      "options": [
+        "Un corredor lento reta al más rápido",
+        "La carrera se cancela",
+        "El clima se vuelve tormentoso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué muestra la Tortuga al retar?",
+      "options": [
+        "Confianza tranquila",
+        "Furia ruidosa",
+        "Duda con miedo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do the animals remember?",
+      "options": [
+        "The race",
+        "A song",
+        "A storm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What phrase do they repeat?",
+      "options": [
+        "\"Slow and steady can win\"",
+        "\"Sleeping is best\"",
+        "\"Speed is always first\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What quality lasts?",
+      "options": [
+        "Patience",
+        "Laziness",
+        "Anger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

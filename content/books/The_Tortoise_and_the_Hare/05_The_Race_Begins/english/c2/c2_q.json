@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the opening sprint set up the story’s contrast?",
+      "options": [
+        "The Hare vanishes in speed while the Tortoise chooses consistency",
+        "Both racers show equal speed and effort",
+        "The Fox refuses to start the race"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why is the Fox’s shout important?",
+      "options": [
+        "It gives a clear, fair start with no excuses",
+        "It scares the racers into stopping",
+        "It ends the competition early"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What early contrast hints at the later outcome?",
+      "options": [
+        "Speed without steadiness versus steadiness without speed",
+        "A lack of spectators",
+        "Both racers ignoring the course"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

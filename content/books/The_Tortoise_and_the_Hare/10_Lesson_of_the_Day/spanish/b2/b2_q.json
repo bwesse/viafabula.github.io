@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo describen a la Liebre tras perder?",
+      "options": [
+        "Cansada y arrepentida",
+        "Enojada y gritando",
+        "Orgullosa y riendo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo trata la Tortuga a la Liebre?",
+      "options": [
+        "Con amabilidad y sin presumir",
+        "Burlándose de su error",
+        "Ignorándola por completo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué lección toma el bosque de la carrera?",
+      "options": [
+        "El esfuerzo constante puede vencer a la velocidad sola",
+        "La velocidad es lo único que cuenta",
+        "Toda carrera debe terminar en empate"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

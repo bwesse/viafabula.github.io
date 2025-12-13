@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the Hare feel after the race?",
+      "options": [
+        "Tired and sad",
+        "Excited and happy",
+        "Hungry and calm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the Tortoise act?",
+      "options": [
+        "He smiles kindly",
+        "He laughs at the Hare",
+        "He runs away"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What lesson do the forest animals learn?",
+      "options": [
+        "Slow and steady can win",
+        "Sleeping wins races",
+        "Only speed matters"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

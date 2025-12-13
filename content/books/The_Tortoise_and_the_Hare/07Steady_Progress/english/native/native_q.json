@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is significant about the Tortoise passing the sleeping Hare?",
+      "options": [
+        "Persistence overtakes talent when talent rests",
+        "The race officially ends there",
+        "The Fox disqualifies the Hare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does steady pacing function as a strategy here?",
+      "options": [
+        "It removes risk from pauses or bursts",
+        "It hides his position from the crowd",
+        "It depends on surprising shortcuts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What emotion is notably absent from the Tortoise’s advance?",
+      "options": [
+        "Gloating",
+        "Joy",
+        "Hope"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welche Leseerfahrung laden die kurzen Kapitel ein?",
+      "options": [
+        "Eine Szene in einer Sitzung und auf einem Bildschirm zu beenden",
+        "Zwischen zufälligen Geschichten zu springen",
+        "Ohne Nachdenken weiterzueilen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie bestimmt die erste Geschichte den Ton?",
+      "options": [
+        "Sie zeigt kurze Szenen mit klaren Themen",
+        "Sie verschiebt die Moral bis zum letzten Buch",
+        "Sie achtet nur auf Action ohne Sinn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Welchem doppelten Zweck sollen die Geschichten dienen?",
+      "options": [
+        "Begleiter und Wegweiser für Lernende zu sein",
+        "Alles Grammatiklernen zu ersetzen",
+        "Mit langen Romanen zu konkurrieren"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

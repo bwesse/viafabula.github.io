@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welcher Teil der Geschichte bleibt im Gedächtnis?",
+      "options": [
+        "Das Rennen und seine Lehre",
+        "Nur die Startlinie",
+        "Nur das Nickerchen des Hasen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie fassen sie die Hauptmoral zusammen?",
+      "options": [
+        "Langsam und stetig kann gewinnen",
+        "Geschwindigkeit gewinnt immer",
+        "Niemand soll wieder rennen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie vergleichen sie Geduld und Geschwindigkeit?",
+      "options": [
+        "Geschwindigkeit hilft, aber Geduld bleibt",
+        "Geduld nützt in Rennen nichts",
+        "Geschwindigkeit und Geduld sind gleich"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

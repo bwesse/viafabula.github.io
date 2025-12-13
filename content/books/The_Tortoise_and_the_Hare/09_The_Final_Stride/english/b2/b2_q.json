@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why can’t the Hare win even though he runs fast?",
+      "options": [
+        "The Tortoise is already at the finish",
+        "The Fox blocks his path",
+        "He injures his leg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What do the cheers celebrate?",
+      "options": [
+        "Perseverance rather than raw speed",
+        "The Fox’s starting line",
+        "The race being canceled"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What lesson is reinforced at the finish?",
+      "options": [
+        "Steady effort can beat a late sprint",
+        "Speed always wins",
+        "Sleep helps you win races"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

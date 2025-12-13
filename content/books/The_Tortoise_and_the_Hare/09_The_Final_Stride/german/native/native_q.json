@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was feiert das Ergebnis letztlich?",
+      "options": [
+        "Ausdauer, die bis zum Schluss trägt",
+        "Ein glückliches Stolpern des Hasen",
+        "Die Tricks des Fuchses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie unterstreicht der Sprint des Hasen die Aussage?",
+      "options": [
+        "Zu spät empfundener Druck löscht frühere Selbstzufriedenheit nicht",
+        "Er beweist, dass er der wahre Sieger war",
+        "Er zeigt, dass das Publikum Geschwindigkeit liebt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Warum jubeln die Tiere der Ausdauer und nicht der Geschwindigkeit?",
+      "options": [
+        "Die Gemeinschaft schätzt ununterbrochenen Einsatz",
+        "Sie sahen den Hasen nicht laufen",
+        "Sie mögen schnelle Tiere nicht"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
