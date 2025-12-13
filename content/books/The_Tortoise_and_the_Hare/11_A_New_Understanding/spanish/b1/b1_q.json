@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué cambio ocurre en la Liebre?",
+      "options": [
+        "Gana respeto por los demás",
+        "Decide no correr nunca más",
+        "Culpa al Zorro por perder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo ve el bosque a la Tortuga?",
+      "options": [
+        "La alaba por su esfuerzo constante",
+        "La ignora después de la carrera",
+        "Le pide ir todavía más despacio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo usan los amigos la historia después?",
+      "options": [
+        "La recuerdan cuando quieren rendirse",
+        "La usan para burlarse de los lentos",
+        "Evitan hablar de ella otra vez"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

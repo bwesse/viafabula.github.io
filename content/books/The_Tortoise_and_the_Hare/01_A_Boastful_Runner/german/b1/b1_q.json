@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wie zeigt der Hase seine Arroganz?",
+      "options": [
+        "Er prahlt und verspottet Langsame",
+        "Er trainiert still jeden Tag",
+        "Er weigert sich zu laufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Was fragen sich die Waldtiere ständig?",
+      "options": [
+        "Ob ihn jemand besiegen könnte",
+        "Wie man das Rennen stoppt",
+        "Warum der Fuchs zu spät kommt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was bewirkt sein tägliches Prahlen?",
+      "options": [
+        "Seine Überheblichkeit wächst mit jedem Sieg",
+        "Er wird mit der Zeit bescheidener",
+        "Er vergisst, dass er schnell ist"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

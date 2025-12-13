@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who challenges the Hare?",
+      "options": [
+        "The Tortoise",
+        "The Fox",
+        "The Bird"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the forest react?",
+      "options": [
+        "It becomes quiet",
+        "It starts to dance",
+        "It leaves the path"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How is the Tortoise described?",
+      "options": [
+        "Calm",
+        "Angry",
+        "Sleepy"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

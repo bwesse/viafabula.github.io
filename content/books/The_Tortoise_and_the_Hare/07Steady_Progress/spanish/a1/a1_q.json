@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién sigue caminando con los mismos pasos lentos?",
+      "options": [
+        "La Tortuga",
+        "La Liebre",
+        "El Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Quién sigue dormido?",
+      "options": [
+        "La Liebre",
+        "La Tortuga",
+        "El público"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Se detiene la Tortuga?",
+      "options": [
+        "No, sigue adelante",
+        "Sí, duerme",
+        "Sí, vuelve atrás"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -737,6 +737,7 @@
         textSize: 'medium',
         bookmark: null,
         streak: { ...STREAK_DEFAULT },
+        comprehension: {},
       };
       const TEXT_SIZE_MAP = {
         small: '15px',
@@ -1115,6 +1116,38 @@
         if (comprehensionBody) comprehensionBody.innerHTML = '';
         if (comprehensionStatus) comprehensionStatus.textContent = '';
       }
+      function comprehensionKey() {
+        const { bookId, chapterId, langId, levelId } = state || {};
+        if (!bookId || !chapterId || !langId || !levelId) return null;
+        return `${bookId}::${chapterId}::${langId}::${levelId}`;
+      }
+      function isComprehensionSavedComplete() {
+        const key = comprehensionKey();
+        if (!key) return false;
+        return !!(userSettings.comprehension && userSettings.comprehension[key]);
+      }
+      function markComprehensionComplete() {
+        const key = comprehensionKey();
+        if (!key) return;
+        const existing = userSettings.comprehension || {};
+        if (existing[key]) return;
+        const updated = { ...existing, [key]: true };
+        persistSettings({ comprehension: updated });
+      }
+      function shuffleQuestionOptions(question) {
+        const options = [...(question.options || [])];
+        let correctIdx = Number(question.correctIndex);
+        for (let i = options.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [options[i], options[j]] = [options[j], options[i]];
+          if (i === correctIdx) {
+            correctIdx = j;
+          } else if (j === correctIdx) {
+            correctIdx = i;
+          }
+        }
+        return { ...question, options, correctIndex: correctIdx };
+      }
       function evaluateComprehension() {
         if (!questionsRequired || !comprehensionQuestions.length) {
           comprehensionComplete = true;
@@ -1130,6 +1163,7 @@
         }
         const allCorrect = comprehensionQuestions.every(q => comprehensionAnswers[q.id] === Number(q.correctIndex));
         comprehensionComplete = allCorrect;
+        if (allCorrect) markComprehensionComplete();
         if (comprehensionStatus) {
           comprehensionStatus.textContent = allCorrect
             ? 'Great! Next chapter unlocked.'
@@ -1176,6 +1210,7 @@
           return;
         }
         const qPath = level.path.replace(/\.md$/, '_q.json');
+        const storedComplete = isComprehensionSavedComplete();
         try {
           const response = await fetch(qPath, { cache: 'no-cache' });
           if (!response.ok) throw new Error(`No questions at ${qPath}`);
@@ -1185,13 +1220,16 @@
             updateChapterNav();
             return;
           }
-          questionsRequired = true;
-          comprehensionComplete = false;
-          comprehensionQuestions = questions.map(q => ({
+          questionsRequired = !storedComplete;
+          comprehensionComplete = storedComplete;
+          comprehensionQuestions = questions.map(q => shuffleQuestionOptions({
             ...q,
             correctIndex: Number(q.correctIndex),
           }));
-          renderComprehensionQuestions(questions);
+          renderComprehensionQuestions(comprehensionQuestions);
+          if (storedComplete && comprehensionStatus) {
+            comprehensionStatus.textContent = 'Comprehension already completed for this level. You can proceed.';
+          }
           updateChapterNav();
         } catch (error) {
           resetComprehension();

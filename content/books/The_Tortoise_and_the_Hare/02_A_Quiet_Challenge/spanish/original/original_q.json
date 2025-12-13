@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Por qué es fuerte el reto de la Tortuga con tan pocas palabras?",
+      "options": [
+        "Por su tono sereno y promesa simple",
+        "Por un discurso airado sobre justicia",
+        "Por pedir una pista más corta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Por qué importa el silencio del bosque?",
+      "options": [
+        "Muestra lo inesperado del retador",
+        "Prueba que nadie quiere la carrera",
+        "Significa que no habrá carrera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo cambia esta escena la idea de confianza?",
+      "options": [
+        "Contrasta la calma silenciosa con la arrogancia ruidosa",
+        "Prueba que la velocidad siempre gana",
+        "Sugiere que el Zorro manda en todo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

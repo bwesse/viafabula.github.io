@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué aprende la Liebre?",
+      "options": [
+        "A respetar a otros",
+        "A dormir más",
+        "A dejar de correr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Quién recibe elogios por ser constante?",
+      "options": [
+        "La Tortuga",
+        "El Zorro",
+        "El Búho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿En qué se convierte la historia de su carrera?",
+      "options": [
+        "En una lección para todos",
+        "En algo olvidado",
+        "En una historia distinta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

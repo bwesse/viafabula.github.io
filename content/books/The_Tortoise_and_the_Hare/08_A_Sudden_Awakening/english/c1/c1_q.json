@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the environment create the turning point of this chapter?",
+      "options": [
+        "A gust of wind wakes the Hare and ends his complacency",
+        "The Fox calls off the race",
+        "The path suddenly ends"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does the Hare’s reaction reveal about his awareness?",
+      "options": [
+        "He realizes too late how close the finish is",
+        "He still assumes he cannot lose",
+        "He wants to restart the race"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "How does the Tortoise’s position change the race dynamic?",
+      "options": [
+        "With so little distance left, the Hare has almost no time to recover",
+        "It forces the Fox to shorten the course",
+        "It means the Tortoise must stop and wait"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

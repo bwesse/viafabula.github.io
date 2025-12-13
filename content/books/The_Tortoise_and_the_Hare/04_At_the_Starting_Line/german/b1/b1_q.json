@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welche Aufgabe hat der Fuchs vor dem Start?",
+      "options": [
+        "Er markiert die Linie und leitet den Beginn",
+        "Er läuft neben den Teilnehmern",
+        "Er wettet auf den Sieger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie unterscheiden sich die Läufer an der Linie?",
+      "options": [
+        "Die Schildkröte ist ruhig; der Hase springt vor Energie",
+        "Beide sind wütend und schreien",
+        "Beide verstecken sich vor der Menge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie verhält sich das Publikum in diesem Moment?",
+      "options": [
+        "Es wartet still auf das Signal",
+        "Es feiert schon den Sieger",
+        "Es verlässt den Weg"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué provoca el despertar de la Liebre?",
+      "options": [
+        "El viento moviendo las hojas",
+        "El Zorro lo sacude",
+        "Truenos y relámpagos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué tan cerca está la Tortuga cuando mira?",
+      "options": [
+        "Muy cerca de la meta",
+        "Todavía muy atrás",
+        "Sentada a su lado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo responde la Liebre a lo que ve?",
+      "options": [
+        "Corre en pánico",
+        "Espera con calma",
+        "Pide atrasar la carrera"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

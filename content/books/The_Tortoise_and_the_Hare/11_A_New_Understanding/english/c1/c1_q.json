@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How does the Hare’s new respect mark his growth?",
+      "options": [
+        "It replaces arrogance with humility",
+        "It proves he no longer cares about racing",
+        "It shows he wants revenge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "How does the community regard the Tortoise now?",
+      "options": [
+        "As an example of steady discipline",
+        "As a lucky winner",
+        "As someone who should stop racing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "In what way does the story function after the race?",
+      "options": [
+        "As a shared reminder whenever perseverance feels hard",
+        "As a warning not to try new things",
+        "As a secret kept from newcomers"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

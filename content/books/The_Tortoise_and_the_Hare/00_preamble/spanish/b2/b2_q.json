@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Por qué los capítulos son breves?",
+      "options": [
+        "Para que una sola pantalla muestre la página",
+        "Para quitar ideas importantes",
+        "Para esconder el mensaje"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué equilibrio busca la colección?",
+      "options": [
+        "Lectura simple con verdadero sentido",
+        "Palabras complicadas para expertos",
+        "Solo acción rápida sin mensaje"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué presenta la primera fábula?",
+      "options": [
+        "Temas de confianza, paciencia y constancia",
+        "Una lista de reglas de gramática",
+        "Instrucciones para correr una carrera"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

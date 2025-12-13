@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué recuerdan los animales?",
+      "options": [
+        "La carrera",
+        "Una canción",
+        "Una tormenta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué frase repiten?",
+      "options": [
+        "\"Lento y constante puede ganar\"",
+        "\"Dormir es lo mejor\"",
+        "\"La velocidad siempre primero\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué cualidad dura?",
+      "options": [
+        "Paciencia",
+        "Pereza",
+        "Ira"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

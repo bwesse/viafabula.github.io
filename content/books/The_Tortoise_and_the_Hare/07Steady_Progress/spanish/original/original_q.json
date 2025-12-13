@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué significa que la Tortuga pase a la Liebre dormida?",
+      "options": [
+        "La constancia supera al talento cuando el talento descansa",
+        "Ahí termina la carrera oficialmente",
+        "El Zorro descalifica a la Liebre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo funciona aquí el ritmo constante como estrategia?",
+      "options": [
+        "Elimina riesgos de pausas o arranques",
+        "Oculta su posición al público",
+        "Depende de atajos secretos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué emoción falta en el avance de la Tortuga?",
+      "options": [
+        "Alarde",
+        "Alegría",
+        "Esperanza"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

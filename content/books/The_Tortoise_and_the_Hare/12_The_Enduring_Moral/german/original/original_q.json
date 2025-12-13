@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Warum überdauert diese Moral?",
+      "options": [
+        "Ihre Lehre über Geduld und Ausdauer bleibt nützlich",
+        "Es ist die einzige Geschichte, die sie kennen",
+        "Sie ändert sich jedes Mal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie stellt die Geschichte Geschwindigkeit und Geduld gegenüber?",
+      "options": [
+        "Geschwindigkeit hilft, aber Geduld ist dauerhaft",
+        "Geduld ist überflüssig, wenn man schnell ist",
+        "Geschwindigkeit und Geduld verschwinden schnell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was hält die Erzählung lebendig?",
+      "options": [
+        "Sie wird wiederholt, damit die Lehre bleibt",
+        "Sie ist in Geheimschrift",
+        "Sie liegt in einer Kiste"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

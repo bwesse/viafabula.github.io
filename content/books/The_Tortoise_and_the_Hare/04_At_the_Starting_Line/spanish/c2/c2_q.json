@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué sugiere la tarea del Zorro sobre la equidad?",
+      "options": [
+        "Una línea neutral mantiene el orden",
+        "Ayuda en secreto a la Liebre",
+        "Quiere detener el evento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo contrastan las mentes de los corredores antes de la señal?",
+      "options": [
+        "Serenidad constante frente a impaciencia ansiosa",
+        "Igual aburrimiento con la carrera",
+        "Miedo compartido a la multitud"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo influye la anticipación colectiva en la salida?",
+      "options": [
+        "El silencio de todos crea tensión para el primer paso",
+        "El ruido distrae a los corredores",
+        "Nadie presta atención al momento"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
