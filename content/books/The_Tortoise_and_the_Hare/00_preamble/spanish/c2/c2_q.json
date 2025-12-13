@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué tipo de lectura invitan los capítulos cortos?",
+      "options": [
+        "Terminar una escena en una sola sesión y pantalla",
+        "Saltar entre historias sin conexión",
+        "Apurar la lectura sin pensar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo marca el tono el primer relato?",
+      "options": [
+        "Modela escenas concisas con temas claros",
+        "Retrasa la moraleja hasta el último libro",
+        "Se enfoca solo en la acción sin sentido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué doble propósito dicen tener estas historias?",
+      "options": [
+        "Ser compañía y guía para quien aprende",
+        "Reemplazar todo estudio de gramática",
+        "Competir con novelas muy largas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

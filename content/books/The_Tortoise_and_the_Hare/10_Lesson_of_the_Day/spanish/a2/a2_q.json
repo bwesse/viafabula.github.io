@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo se siente la Liebre después?",
+      "options": [
+        "Cansada y triste",
+        "Contenta y feliz",
+        "Hambrienta y tranquila"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo actúa la Tortuga?",
+      "options": [
+        "Sonríe con amabilidad",
+        "Se burla de la Liebre",
+        "Corre lejos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué aprende el bosque?",
+      "options": [
+        "Que lento y constante puede ganar",
+        "Que dormir gana carreras",
+        "Que solo importa la velocidad"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

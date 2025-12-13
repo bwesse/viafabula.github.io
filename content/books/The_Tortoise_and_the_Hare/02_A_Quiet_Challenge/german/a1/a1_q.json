@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Wer fordert den Hasen heraus?",
+      "options": [
+        "Die Schildkröte",
+        "Der Fuchs",
+        "Der Vogel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie reagiert der Wald?",
+      "options": [
+        "Er wird still",
+        "Er beginnt zu tanzen",
+        "Er verlässt den Weg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wie wird die Schildkröte beschrieben?",
+      "options": [
+        "Ruhig",
+        "Wütend",
+        "Schläfrig"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué ambiente hay en la multitud reunida?",
+      "options": [
+        "Expectativa curiosa ante un resultado probable",
+        "Aburrimiento y desinterés",
+        "Miedo a que la carrera sea peligrosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo suben los testigos la importancia de la carrera?",
+      "options": [
+        "Todos recordarán lo que pase de verdad",
+        "Acortan el camino para los corredores",
+        "Obligan a la Liebre a dormirse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué tensión hay entre lo que esperan y lo que hacen?",
+      "options": [
+        "Suponen que la Liebre gana pero igual miran atentos",
+        "Creen que el Zorro hará trampa y lo ignoran",
+        "Piensan que la Tortuga no vendrá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

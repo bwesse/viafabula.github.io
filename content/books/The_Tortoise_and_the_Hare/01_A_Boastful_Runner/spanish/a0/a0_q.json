@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién corre muy rápido?",
+      "options": [
+        "La Liebre",
+        "El Zorro",
+        "La Tortuga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué hace la Liebre con los demás?",
+      "options": [
+        "Presume y se ríe",
+        "Se esconde en silencio",
+        "Pide ayuda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué se preguntan los animales?",
+      "options": [
+        "Si alguien puede ganarle",
+        "Si la carrera se cancela",
+        "Si ya terminó el día"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

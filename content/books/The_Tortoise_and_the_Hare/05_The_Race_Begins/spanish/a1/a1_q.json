@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién grita “¡Ya!”?",
+      "options": [
+        "El Zorro",
+        "La Tortuga",
+        "El Búho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Quién corre rápido y desaparece?",
+      "options": [
+        "La Liebre",
+        "La Tortuga",
+        "El Zorro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo avanza la Tortuga?",
+      "options": [
+        "Lenta y constante",
+        "Salta alto",
+        "Se sienta y para"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

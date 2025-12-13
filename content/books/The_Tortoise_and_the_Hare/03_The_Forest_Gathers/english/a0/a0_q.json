@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What do the animals do when they hear about the race?",
+      "options": [
+        "They go to the path",
+        "They go to sleep",
+        "They hide at home"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Who do most think will win?",
+      "options": [
+        "The Hare",
+        "The Tortoise",
+        "The Fox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Who waits ready to start?",
+      "options": [
+        "Both the Tortoise and the Hare",
+        "Only the Fox",
+        "Only the birds"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

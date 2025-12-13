@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Who runs very fast?",
+      "options": [
+        "The Hare",
+        "The Fox",
+        "The Tortoise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does the Hare do to others?",
+      "options": [
+        "He boasts and laughs",
+        "He hides quietly",
+        "He asks for help"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What do the animals wonder?",
+      "options": [
+        "If anyone can beat him",
+        "If the race is canceled",
+        "If the day is over"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

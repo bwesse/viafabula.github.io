@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Was tun die Tiere, als sie vom Rennen hören?",
+      "options": [
+        "Sie gehen zum Weg",
+        "Sie schlafen ein",
+        "Sie verstecken sich zu Hause"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wer soll nach Meinung der meisten gewinnen?",
+      "options": [
+        "Der Hase",
+        "Die Schildkröte",
+        "Der Fuchs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wer wartet startbereit?",
+      "options": [
+        "Hase und Schildkröte",
+        "Nur der Fuchs",
+        "Nur die Vögel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

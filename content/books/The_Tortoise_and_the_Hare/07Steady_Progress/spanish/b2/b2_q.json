@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Cómo avanza la Tortuga por el camino?",
+      "options": [
+        "Con pasos constantes y firmes",
+        "Corriendo a saltos",
+        "Saliendo del camino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué momento clave ocurre mientras la Liebre duerme?",
+      "options": [
+        "La Tortuga lo pasa en silencio",
+        "El Zorro termina la carrera",
+        "El público se va"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué muestra no detenerse sobre la Tortuga?",
+      "options": [
+        "Su disciplina y constancia",
+        "Su miedo a la Liebre",
+        "Su necesidad de un mapa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

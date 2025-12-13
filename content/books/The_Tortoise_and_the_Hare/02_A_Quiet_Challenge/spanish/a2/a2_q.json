@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Quién reta a la Liebre?",
+      "options": [
+        "La Tortuga",
+        "El Zorro",
+        "El Pájaro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo reacciona el bosque?",
+      "options": [
+        "Queda en silencio",
+        "Empieza a bailar",
+        "Se aleja del camino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Cómo describen a la Tortuga?",
+      "options": [
+        "Tranquila",
+        "Enojada",
+        "Con sueño"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
