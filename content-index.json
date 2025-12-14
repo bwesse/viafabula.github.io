@@ -4646,6 +4646,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "coffee_shop_quest",
+      "title": "Coffee Shop Quest",
+      "chapters": [
+        {
+          "id": "01_morning_choice",
+          "title": "01 Morning Choice",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/coffee_shop_quest/chapters/01_morning_choice/english/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/coffee_shop_quest/chapters/01_morning_choice/english/a1.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

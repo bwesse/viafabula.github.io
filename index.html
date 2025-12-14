@@ -368,6 +368,29 @@
         margin: 10px 0;
       }
 
+      .interactive-scene {
+        margin: 0 0 18px;
+        padding: 14px 14px 16px;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        border-radius: 12px;
+        background: var(--card);
+      }
+      .interactive-title {
+        margin: 0 0 8px;
+        font-weight: 700;
+      }
+      .interactive-choices {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .interactive-endnote {
+        margin-top: 10px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
       .catalog-book {
         margin-bottom: 18px;
         padding: 12px;
@@ -954,6 +977,104 @@
         });
 
         return blockHtml.join('');
+      }
+
+      function parseInteractiveStory(mdText) {
+        if (!mdText || mdText.indexOf('[scene:') === -1) return null;
+        const lines = mdText.split('\n');
+        const scenes = [];
+        let current = null;
+        const flush = () => {
+          if (!current) return;
+          current.body = current.body.join('\n').trim();
+          scenes.push(current);
+          current = null;
+        };
+        lines.forEach((rawLine) => {
+          const line = rawLine.trimEnd();
+          const sceneMatch = line.match(/^##\s*\[scene:([^\]]+)\]\s*(.*)$/i);
+          if (sceneMatch) {
+            flush();
+            const id = sceneMatch[1].trim();
+            const title = sceneMatch[2].trim() || id;
+            current = { id, title, body: [], choices: [] };
+            return;
+          }
+          if (!current) return;
+          if (/^\**\s*choice/i.test(line)) return; // skip the label
+          const choiceMatch = line.match(/^\s*-\s*(.+?)\s*->\s*([A-Za-z0-9_-]+)/);
+          if (choiceMatch) {
+            current.choices.push({
+              text: choiceMatch[1].trim(),
+              target: choiceMatch[2].trim(),
+            });
+            return;
+          }
+          current.body.push(rawLine);
+        });
+        flush();
+        return scenes.length ? { scenes } : null;
+      }
+
+      function renderInteractiveStory(parsed) {
+        const container = document.createElement('div');
+        container.className = 'interactive-container';
+        const sceneMap = new Map();
+
+        parsed.scenes.forEach((scene, index) => {
+          const section = document.createElement('section');
+          section.className = 'interactive-scene';
+          section.dataset.sceneId = scene.id;
+          if (index !== 0) section.hidden = true;
+
+          const title = document.createElement('h3');
+          title.className = 'interactive-title';
+          title.textContent = scene.title;
+          section.appendChild(title);
+
+          const body = document.createElement('div');
+          body.className = 'markdown-body';
+          body.innerHTML = markdownToHtml(scene.body);
+          section.appendChild(body);
+
+          if (scene.choices.length) {
+            const choices = document.createElement('div');
+            choices.className = 'interactive-choices';
+            scene.choices.forEach((choice) => {
+              const btn = document.createElement('button');
+              btn.type = 'button';
+              btn.className = 'pill-button';
+              btn.textContent = choice.text;
+              btn.addEventListener('click', () => showScene(choice.target));
+              choices.appendChild(btn);
+            });
+            section.appendChild(choices);
+          } else {
+            const endnote = document.createElement('div');
+            endnote.className = 'interactive-endnote';
+            endnote.textContent = 'The story ends here.';
+            section.appendChild(endnote);
+          }
+
+          sceneMap.set(scene.id, section);
+          container.appendChild(section);
+        });
+
+        function showScene(targetId) {
+          const next = sceneMap.get(targetId);
+          if (!next) {
+            setStatus(`That path is closed (${targetId}).`);
+            return;
+          }
+          sceneMap.forEach((node) => { node.hidden = true; });
+          next.hidden = false;
+          setStatus(`Now at scene: ${targetId}`);
+          scrollReaderToTop();
+        }
+
+        storyBody.innerHTML = '';
+        storyBody.appendChild(container);
+        setStatus('Interactive story: choose an option to play.');
       }
 
       function setStatus(text) {
@@ -1578,8 +1699,13 @@
           const response = await fetch(level.path);
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const md = await response.text();
-          storyBody.innerHTML = markdownToHtml(md);
-          setStatus(`Loaded ${lang.title} · ${level.title}`);
+          const parsedInteractive = parseInteractiveStory(md);
+          if (parsedInteractive) {
+            renderInteractiveStory(parsedInteractive);
+          } else {
+            storyBody.innerHTML = markdownToHtml(md);
+            setStatus(`Loaded ${lang.title} · ${level.title}`);
+          }
           await loadComprehensionQuestions(level);
         } catch (error) {
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
