@@ -1,0 +1,3 @@
+Había una vez una vieja mamá cerda que tenía tres cerditos y no suficiente comida para alimentarlos. Así que cuando fueron lo suficientemente grandes, los envió al mundo a buscar fortuna.
+El primer cerdito era muy perezoso. No quería trabajar en absoluto y construyó su casa de paja. El segundo cerdito trabajó un poco más duro pero también era algo perezoso y construyó su casa de palos. Luego, cantaron y bailaron y jugaron juntos el resto del día.
+El tercer cerdito trabajó duro todo el día y construyó su casa con ladrillos. Era una casa sólida completa con una bonita chimenea. Parecía que podía resistir los vientos más fuertes.
