@@ -1,0 +1,3 @@
+Es war einmal eine alte Mutterschwein, die drei kleine Schweinchen hatte und nicht genug Essen, um sie zu füttern. Als sie alt genug waren, schickte sie sie in die Welt hinaus, um ihr Glück zu suchen.
+Das erste kleine Schwein war sehr faul. Es wollte überhaupt nicht arbeiten und baute sein Haus aus Stroh. Das zweite kleine Schwein arbeitete ein bisschen härter, aber es war auch etwas faul und baute sein Haus aus Stöcken. Dann sangen und tanzten und spielten sie den Rest des Tages zusammen.
+Das dritte kleine Schwein arbeitete den ganzen Tag hart und baute sein Haus aus Ziegeln. Es war ein stabiles Haus mit einem schönen Kamin und Schornstein. Es sah so aus, als könnte es den stärksten Winden standhalten.
