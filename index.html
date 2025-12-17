@@ -587,11 +587,10 @@
         </div>
 
         <div class="controls-row">
-          <label class="small">Bookmark</label>
+          <label class="small">Bookmarks (auto-saved per book)</label>
           <div class="bookmark-actions">
-            <button type="button" id="save-bookmark" class="pill-button">Save bookmark</button>
-            <button type="button" id="go-bookmark" class="pill-button">Open bookmark</button>
-            <div id="bookmark-status" class="bookmark-status">No bookmark saved.</div>
+            <button type="button" id="go-bookmark" class="pill-button">Resume current book</button>
+            <div id="bookmark-status" class="bookmark-status">Auto-saves on page change.</div>
           </div>
         </div>
 
@@ -751,7 +750,6 @@
       const comprehensionStatus = document.getElementById('comprehension-status');
       const textSizeSelect = document.getElementById('text-size-select');
       const floatingToggleSetting = document.getElementById('floating-toggle-setting');
-      const saveBookmarkBtn = document.getElementById('save-bookmark');
       const goBookmarkBtn = document.getElementById('go-bookmark');
       const bookmarkStatus = document.getElementById('bookmark-status');
       const streakDaysEl = document.getElementById('streak-days');
@@ -773,7 +771,8 @@
         textSize: 'medium',
         floatingToggleEnabled: false,
         floatingTogglePosition: null,
-        bookmark: null,
+        bookmarks: {},
+        lastOpenedBook: null,
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
       };
@@ -794,7 +793,8 @@
       let nightMode = false;
       let floatingToggleEnabled = SETTINGS_DEFAULT.floatingToggleEnabled;
       let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
-      let bookmark = null;
+      let bookmarks = {};
+      let lastOpenedBook = null;
       let streak = { ...STREAK_DEFAULT };
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
@@ -854,7 +854,8 @@
         textSize = userSettings.textSize || SETTINGS_DEFAULT.textSize;
         floatingToggleEnabled = Boolean(userSettings.floatingToggleEnabled);
         floatingTogglePosition = userSettings.floatingTogglePosition || null;
-        bookmark = normalizeBookmark(userSettings.bookmark);
+        bookmarks = userSettings.bookmarks || {};
+        lastOpenedBook = userSettings.lastOpenedBook || null;
         streak = normalizeStreak(userSettings.streak);
         userSettings = { ...userSettings, streak };
       }
@@ -1422,22 +1423,27 @@
         const level = lang.levels.find(lv => lv.id === normalized.levelId);
         return !!level;
       }
+      function getCurrentBookmark() {
+        if (!state.bookId) return null;
+        return bookmarks[state.bookId] || null;
+      }
       function updateBookmarkStatus() {
         if (!bookmarkStatus) return;
-        if (bookmark && !library.books.length) {
+        const currentBookmark = getCurrentBookmark();
+        if (currentBookmark && !library.books.length) {
           bookmarkStatus.textContent = 'Loading bookmark…';
           if (goBookmarkBtn) goBookmarkBtn.disabled = true;
           return;
         }
-        if (!bookmarkIsValid(bookmark)) {
-          bookmarkStatus.textContent = 'No bookmark saved.';
+        if (!currentBookmark || !bookmarkIsValid(currentBookmark)) {
+          bookmarkStatus.textContent = 'Auto-saves on page change.';
           if (goBookmarkBtn) goBookmarkBtn.disabled = true;
           return;
         }
-        const book = library.books.find(b => b.id === bookmark.bookId);
-        const chapter = book?.chapters.find(ch => ch.id === bookmark.chapterId);
-        const lang = chapter?.languages.find(l => l.id === bookmark.langId);
-        const level = lang?.levels.find(lv => lv.id === bookmark.levelId);
+        const book = library.books.find(b => b.id === currentBookmark.bookId);
+        const chapter = book?.chapters.find(ch => ch.id === currentBookmark.chapterId);
+        const lang = chapter?.languages.find(l => l.id === currentBookmark.langId);
+        const level = lang?.levels.find(lv => lv.id === currentBookmark.levelId);
         const label = [book?.title, chapter?.title, lang?.title, level?.title].filter(Boolean).join(' · ');
         bookmarkStatus.textContent = label || 'Bookmark ready.';
         if (goBookmarkBtn) goBookmarkBtn.disabled = false;
@@ -1445,19 +1451,21 @@
       function saveBookmark() {
         const nextBookmark = normalizeBookmark(state);
         if (!nextBookmark) return;
-        bookmark = nextBookmark;
-        persistSettings({ bookmark });
+        bookmarks[nextBookmark.bookId] = nextBookmark;
+        lastOpenedBook = nextBookmark.bookId;
+        persistSettings({ bookmarks, lastOpenedBook });
         updateBookmarkStatus();
       }
       function openBookmark() {
-        if (!bookmarkIsValid(bookmark)) return;
-        state.bookId = bookmark.bookId;
-        state.chapterId = bookmark.chapterId;
-        state.langId = bookmark.langId;
-        learningLanguageId = bookmark.langId;
-        state.levelId = bookmark.levelId;
+        const currentBookmark = getCurrentBookmark();
+        if (!currentBookmark || !bookmarkIsValid(currentBookmark)) return;
+        state.bookId = currentBookmark.bookId;
+        state.chapterId = currentBookmark.chapterId;
+        state.langId = currentBookmark.langId;
+        learningLanguageId = currentBookmark.langId;
+        state.levelId = currentBookmark.levelId;
         populateBooks();
-        persistSettings({ bookmark, learningLanguageId });
+        persistSettings({ bookmarks, learningLanguageId });
       }
       function refreshQuickControls() {
         ensureLanguageSelections();
@@ -1541,7 +1549,7 @@
         learningLanguageId = setSelectOptions(learningLangSelect, languages, learningLanguageId || state.langId);
         ensureLanguageSelections();
         state.langId = state.langId || learningLanguageId || nativeLanguageId;
-        persistSettings({ nativeLanguageId, learningLanguageId, textSize, theme: nightMode ? 'dark' : 'light', bookmark });
+        persistSettings({ nativeLanguageId, learningLanguageId, textSize, theme: nightMode ? 'dark' : 'light' });
         populateLevels(options);
       }
       function populateLevels(options = {}) {
@@ -1565,6 +1573,9 @@
           if (nextChapterContainer) nextChapterContainer.hidden = true;
           return;
         }
+
+        // Auto-save bookmark when loading a valid selection
+        saveBookmark();
 
         readerTitle.textContent = chapter.title;
         readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
@@ -1607,18 +1618,28 @@
           return;
         }
 
-        if (bookmark && !bookmarkIsValid(bookmark)) {
-          bookmark = null;
-          persistSettings({ bookmark: null });
+        // Clean up invalid bookmarks
+        Object.keys(bookmarks).forEach((bookId) => {
+          if (!bookmarkIsValid(bookmarks[bookId])) {
+            delete bookmarks[bookId];
+          }
+        });
+        
+        // Load last opened book if valid
+        let bookmarkToLoad = null;
+        if (lastOpenedBook && bookmarks[lastOpenedBook] && bookmarkIsValid(bookmarks[lastOpenedBook])) {
+          bookmarkToLoad = bookmarks[lastOpenedBook];
         }
-        if (bookmarkIsValid(bookmark)) {
-          state.bookId = bookmark.bookId;
-          state.chapterId = bookmark.chapterId;
-          state.langId = bookmark.langId;
-          learningLanguageId = bookmark.langId;
-          state.levelId = bookmark.levelId;
+        
+        if (bookmarkToLoad) {
+          state.bookId = bookmarkToLoad.bookId;
+          state.chapterId = bookmarkToLoad.chapterId;
+          state.langId = bookmarkToLoad.langId;
+          learningLanguageId = bookmarkToLoad.langId;
+          state.levelId = bookmarkToLoad.levelId;
         }
 
+        persistSettings({ bookmarks, lastOpenedBook });
         populateBooks();
         updateBookmarkStatus();
       }
@@ -1741,9 +1762,6 @@
         updateLangToggleButton();
         if (floatingToggleEnabled) applyFloatingTogglePosition(floatingTogglePosition);
         persistSettings({ floatingToggleEnabled, floatingTogglePosition });
-      });
-      saveBookmarkBtn?.addEventListener('click', () => {
-        saveBookmark();
       });
       goBookmarkBtn?.addEventListener('click', () => {
         openBookmark();
