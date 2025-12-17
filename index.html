@@ -859,6 +859,22 @@
         streak = normalizeStreak(userSettings.streak);
         userSettings = { ...userSettings, streak };
       }
+      function cleanupInvalidBookmarks() {
+        // Clean up invalid bookmarks once during initialization
+        let changed = false;
+        Object.keys(bookmarks).forEach((bookId) => {
+          if (!bookmarkIsValid(bookmarks[bookId])) {
+            delete bookmarks[bookId];
+            changed = true;
+          }
+        });
+        if (changed) {
+          if (lastOpenedBook && !bookmarks[lastOpenedBook]) {
+            lastOpenedBook = null;
+          }
+          persistSettings({ bookmarks, lastOpenedBook });
+        }
+      }
       function applyTextSize() {
         const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
         document.documentElement.style.setProperty('--reader-font-size', size);
@@ -1451,6 +1467,16 @@
       function saveBookmark() {
         const nextBookmark = normalizeBookmark(state);
         if (!nextBookmark) return;
+        
+        // Only save if bookmark has actually changed
+        const currentBookmark = bookmarks[nextBookmark.bookId];
+        if (currentBookmark &&
+            currentBookmark.chapterId === nextBookmark.chapterId &&
+            currentBookmark.langId === nextBookmark.langId &&
+            currentBookmark.levelId === nextBookmark.levelId) {
+          return; // Bookmark unchanged, skip save
+        }
+        
         bookmarks[nextBookmark.bookId] = nextBookmark;
         lastOpenedBook = nextBookmark.bookId;
         persistSettings({ bookmarks, lastOpenedBook });
@@ -1618,12 +1644,8 @@
           return;
         }
 
-        // Clean up invalid bookmarks
-        Object.keys(bookmarks).forEach((bookId) => {
-          if (!bookmarkIsValid(bookmarks[bookId])) {
-            delete bookmarks[bookId];
-          }
-        });
+        // Clean up invalid bookmarks now that we have the library
+        cleanupInvalidBookmarks();
         
         // Load last opened book if valid
         let bookmarkToLoad = null;
@@ -1639,7 +1661,6 @@
           state.levelId = bookmarkToLoad.levelId;
         }
 
-        persistSettings({ bookmarks, lastOpenedBook });
         populateBooks();
         updateBookmarkStatus();
       }
