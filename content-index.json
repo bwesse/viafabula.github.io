@@ -4646,6 +4646,1452 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Rich_Dad_Poor_Dad",
+      "title": "Rich Dad Poor Dad",
+      "chapters": [
+        {
+          "id": "00_Introduction",
+          "title": "00 Introduction",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/00_Introduction/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_Rich_Dad_Poor_Dad",
+          "title": "01 Rich Dad, Poor Dad",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/01_Rich_Dad_Poor_Dad/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_The_Rich_Dont_Work_for_Money",
+          "title": "02 The Rich Don't Work for Money",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/02_The_Rich_Dont_Work_for_Money/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_Why_Teach_Financial_Literacy",
+          "title": "03 Why Teach Financial Literacy",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/03_Why_Teach_Financial_Literacy/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_Mind_Your_Own_Business",
+          "title": "04 Mind Your Own Business",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/04_Mind_Your_Own_Business/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_The_History_of_Taxes",
+          "title": "05 The History of Taxes",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/05_The_History_of_Taxes/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_The_Rich_Invent_Money",
+          "title": "06 The Rich Invent Money",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/06_The_Rich_Invent_Money/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_Work_to_Learn",
+          "title": "07 Work to Learn",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/07_Work_to_Learn/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_Overcoming_Obstacles",
+          "title": "08 Overcoming Obstacles",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/08_Overcoming_Obstacles/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_Getting_Started",
+          "title": "09 Getting Started",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/english/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/spanish/native/native.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Rich_Dad_Poor_Dad/09_Getting_Started/german/native/native.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
