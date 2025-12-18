@@ -259,6 +259,63 @@
         color: var(--muted);
       }
 
+      .vocab-card {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding: 10px 12px;
+        border-radius: 12px;
+        background: var(--card);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      .vocab-list {
+        font-size: 13px;
+        color: var(--accent);
+        line-height: 1.6;
+      }
+      .vocab-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 6px;
+        border-radius: 6px;
+        background: rgba(15, 23, 42, 0.04);
+        margin-bottom: 4px;
+        transition: background 140ms ease;
+      }
+      .vocab-item:hover {
+        background: rgba(15, 23, 42, 0.08);
+      }
+      .vocab-word {
+        font-weight: 600;
+        flex: 1;
+      }
+      .vocab-remove {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+        padding: 2px 6px;
+        font-size: 16px;
+        line-height: 1;
+        border-radius: 4px;
+        transition: background 140ms ease, color 140ms ease;
+      }
+      .vocab-remove:hover {
+        background: rgba(239, 68, 68, 0.1);
+        color: #ef4444;
+      }
+
+      .markdown-body .vocab-highlight {
+        background: rgba(34, 197, 94, 0.15);
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 0 2px;
+      }
+
       .sidebar-footer {
         margin-top: auto;
         padding: 12px 10px 10px;
@@ -512,6 +569,12 @@
         background: #0f172a;
         box-shadow: var(--shadow);
       }
+      body.night .vocab-item {
+        background: rgba(226, 232, 240, 0.08);
+      }
+      body.night .vocab-item:hover {
+        background: rgba(226, 232, 240, 0.12);
+      }
 
       @media (min-width: 900px) {
         aside.sidebar { width: 320px; --sidebar-width: 320px; }
@@ -609,6 +672,14 @@
         <div class="controls-row">
           <label class="small" for="theme-toggle">Night mode</label>
           <button type="button" id="theme-toggle" class="pill-button" aria-pressed="false">Off</button>
+        </div>
+
+        <div class="controls-row">
+          <label class="small">Vocabulary</label>
+          <div class="vocab-card">
+            <div id="vocab-list" class="vocab-list">No words saved yet. Double-click words while reading to add them.</div>
+            <button type="button" id="clear-vocab" class="pill-button" style="margin-top: 8px;">Clear all</button>
+          </div>
         </div>
       </div>
 
@@ -757,6 +828,8 @@
       const streakDaysEl = document.getElementById('streak-days');
       const streakLongestEl = document.getElementById('streak-longest');
       const streakTimeEl = document.getElementById('streak-time');
+      const vocabList = document.getElementById('vocab-list');
+      const clearVocabBtn = document.getElementById('clear-vocab');
 
       const STREAK_DEFAULT = {
         streakDays: 0,
@@ -776,6 +849,7 @@
         bookmark: null,
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
+        vocabulary: [],
       };
       const TEXT_SIZE_MAP = {
         small: '15px',
@@ -796,6 +870,7 @@
       let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
       let bookmark = null;
       let streak = { ...STREAK_DEFAULT };
+      let vocabulary = [];
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
       const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
@@ -856,7 +931,8 @@
         floatingTogglePosition = userSettings.floatingTogglePosition || null;
         bookmark = normalizeBookmark(userSettings.bookmark);
         streak = normalizeStreak(userSettings.streak);
-        userSettings = { ...userSettings, streak };
+        vocabulary = Array.isArray(userSettings.vocabulary) ? userSettings.vocabulary : [];
+        userSettings = { ...userSettings, streak, vocabulary };
       }
       function applyTextSize() {
         const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
@@ -917,6 +993,87 @@
         const todayLabel = formatDuration(streak.todayMs);
         const totalLabel = formatDuration(streak.totalMs);
         streakTimeEl.textContent = `${todayLabel} today · ${totalLabel} total`;
+      }
+
+      function addWordToVocabulary(word) {
+        const cleanWord = word.trim().toLowerCase();
+        if (!cleanWord || cleanWord.length < 2) return;
+        if (vocabulary.some(v => v.word === cleanWord)) return;
+        const vocabEntry = {
+          word: cleanWord,
+          addedAt: new Date().toISOString(),
+          language: state.langId || 'unknown',
+        };
+        vocabulary.push(vocabEntry);
+        persistSettings({ vocabulary });
+        renderVocabulary();
+      }
+
+      function removeWordFromVocabulary(word) {
+        vocabulary = vocabulary.filter(v => v.word !== word);
+        persistSettings({ vocabulary });
+        renderVocabulary();
+      }
+
+      function clearVocabulary() {
+        vocabulary = [];
+        persistSettings({ vocabulary });
+        renderVocabulary();
+      }
+
+      function renderVocabulary() {
+        if (!vocabList) return;
+        if (vocabulary.length === 0) {
+          vocabList.innerHTML = 'No words saved yet. Double-click words while reading to add them.';
+          if (clearVocabBtn) clearVocabBtn.disabled = true;
+          return;
+        }
+        if (clearVocabBtn) clearVocabBtn.disabled = false;
+        const grouped = {};
+        vocabulary.forEach(v => {
+          if (!grouped[v.language]) grouped[v.language] = [];
+          grouped[v.language].push(v);
+        });
+        let html = '';
+        Object.keys(grouped).sort().forEach(lang => {
+          const langTitle = getLanguageTitleById(lang) || lang;
+          html += `<div style="font-size: 11px; text-transform: uppercase; color: var(--muted); margin: 8px 0 4px; letter-spacing: 0.05em;">${escapeHtml(langTitle)}</div>`;
+          grouped[lang].forEach(v => {
+            html += `<div class="vocab-item">
+              <span class="vocab-word">${escapeHtml(v.word)}</span>
+              <button class="vocab-remove" data-word="${escapeHtml(v.word)}" aria-label="Remove ${escapeHtml(v.word)}" title="Remove">×</button>
+            </div>`;
+          });
+        });
+        vocabList.innerHTML = html;
+        vocabList.querySelectorAll('.vocab-remove').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const word = btn.getAttribute('data-word');
+            if (word) removeWordFromVocabulary(word);
+          });
+        });
+      }
+
+      function setupVocabularySelection() {
+        if (!storyBody) return;
+        storyBody.addEventListener('dblclick', (event) => {
+          const selection = window.getSelection();
+          const selectedText = selection.toString().trim();
+          if (!selectedText) return;
+          const word = selectedText.replace(/[^\w\s'-]/g, '').trim();
+          if (word && word.split(/\s+/).length === 1) {
+            addWordToVocabulary(word);
+            const range = selection.getRangeAt(0);
+            const span = document.createElement('span');
+            span.className = 'vocab-highlight';
+            try {
+              range.surroundContents(span);
+            } catch (e) {
+              // Ignore if range spans multiple elements
+            }
+            selection.removeAllRanges();
+          }
+        });
       }
 
       primeSettingsFromStorage();
@@ -1580,6 +1737,7 @@
           const md = await response.text();
           storyBody.innerHTML = markdownToHtml(md);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
+          setupVocabularySelection();
           await loadComprehensionQuestions(level);
         } catch (error) {
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
@@ -1749,6 +1907,11 @@
         openBookmark();
         closeSidebar();
       });
+      clearVocabBtn?.addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear all vocabulary words?')) {
+          clearVocabulary();
+        }
+      });
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
           stopSessionTimer();
@@ -1843,6 +2006,7 @@
       updateBookmarkStatus();
       setupStreakTracking();
       renderStreak();
+      renderVocabulary();
       loadLibrary();
     </script>
   </body>
