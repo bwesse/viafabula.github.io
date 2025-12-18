@@ -1063,15 +1063,17 @@
           const word = selectedText.replace(/[^\w\s'-]/g, '').trim();
           if (word && word.split(/\s+/).length === 1) {
             addWordToVocabulary(word);
-            const range = selection.getRangeAt(0);
-            const span = document.createElement('span');
-            span.className = 'vocab-highlight';
-            try {
-              range.surroundContents(span);
-            } catch (e) {
-              // Ignore if range spans multiple elements
+            if (selection.rangeCount > 0) {
+              const range = selection.getRangeAt(0);
+              const span = document.createElement('span');
+              span.className = 'vocab-highlight';
+              try {
+                range.surroundContents(span);
+              } catch (e) {
+                // Ignore if range spans multiple elements
+              }
+              selection.removeAllRanges();
             }
-            selection.removeAllRanges();
           }
         });
       }
