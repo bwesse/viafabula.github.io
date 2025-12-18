@@ -1046,12 +1046,6 @@
           });
         });
         vocabList.innerHTML = html;
-        vocabList.querySelectorAll('.vocab-remove').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const word = btn.getAttribute('data-word');
-            if (word) removeWordFromVocabulary(word);
-          });
-        });
       }
 
       function setupVocabularySelection() {
@@ -1998,6 +1992,16 @@
         renderAboutView();
         closeSidebar();
       });
+
+      // Event delegation for vocabulary remove buttons
+      if (vocabList) {
+        vocabList.addEventListener('click', (event) => {
+          if (event.target.classList.contains('vocab-remove')) {
+            const word = event.target.getAttribute('data-word');
+            if (word) removeWordFromVocabulary(word);
+          }
+        });
+      }
 
       updateAudioButton();
       updateVersionFooter();
