@@ -1,6 +1,4140 @@
 {
   "books": [
     {
+      "id": "how_to_win_friends_and_influence_people",
+      "title": "How to Win Friends and Influence People",
+      "chapters": [
+        {
+          "id": "00_Introduction",
+          "title": "00 Introduction",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/00_Introduction/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_Dont_Criticize_Condemn_or_Complain",
+          "title": "01 Don't Criticize, Condemn, or Complain",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/01_Dont_Criticize_Condemn_or_Complain/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_Give_Honest_and_Sincere_Appreciation",
+          "title": "02 Give Honest and Sincere Appreciation",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/02_Give_Honest_and_Sincere_Appreciation/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_Arouse_an_Eager_Want",
+          "title": "03 Arouse an Eager Want",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/03_Arouse_an_Eager_Want/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_Become_Genuinely_Interested_in_Others",
+          "title": "04 Become Genuinely Interested in Others",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/04_Become_Genuinely_Interested_in_Others/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_Smile",
+          "title": "05 Smile",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/05_Smile/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_Remember_Names",
+          "title": "06 Remember Names",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/06_Remember_Names/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_Be_a_Good_Listener",
+          "title": "07 Be a Good Listener",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/07_Be_a_Good_Listener/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_Talk_About_Others_Interests",
+          "title": "08 Talk About Others' Interests",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/08_Talk_About_Others_Interests/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_Make_Others_Feel_Important",
+          "title": "09 Make Others Feel Important",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/09_Make_Others_Feel_Important/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_Avoid_Arguments",
+          "title": "10 Avoid Arguments",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/10_Avoid_Arguments/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_Show_Respect_for_Others_Opinions",
+          "title": "11 Show Respect for Others' Opinions",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/11_Show_Respect_for_Others_Opinions/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_Admit_When_You_Are_Wrong",
+          "title": "12 Admit When You Are Wrong",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/12_Admit_When_You_Are_Wrong/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13_Begin_in_a_Friendly_Way",
+          "title": "13 Begin in a Friendly Way",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/13_Begin_in_a_Friendly_Way/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14_Get_Others_Saying_Yes",
+          "title": "14 Get Others Saying Yes",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/14_Get_Others_Saying_Yes/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "15_Let_Others_Talk_More",
+          "title": "15 Let Others Talk More",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/15_Let_Others_Talk_More/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16_Let_Others_Own_the_Idea",
+          "title": "16 Let Others Own the Idea",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/16_Let_Others_Own_the_Idea/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "17_See_From_Others_Point_of_View",
+          "title": "17 See From Others' Point of View",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/17_See_From_Others_Point_of_View/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "18_Be_Sympathetic",
+          "title": "18 Be Sympathetic",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/18_Be_Sympathetic/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19_Appeal_to_Noble_Motives",
+          "title": "19 Appeal to Noble Motives",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/19_Appeal_to_Noble_Motives/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20_Dramatize_Your_Ideas",
+          "title": "20 Dramatize Your Ideas",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/20_Dramatize_Your_Ideas/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "21_Throw_Down_a_Challenge",
+          "title": "21 Throw Down a Challenge",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/21_Throw_Down_a_Challenge/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "22_Begin_with_Praise",
+          "title": "22 Begin with Praise",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/22_Begin_with_Praise/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23_Call_Attention_to_Mistakes_Indirectly",
+          "title": "23 Call Attention to Mistakes Indirectly",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/23_Call_Attention_to_Mistakes_Indirectly/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "24_Talk_About_Your_Own_Mistakes_First",
+          "title": "24 Talk About Your Own Mistakes First",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/24_Talk_About_Your_Own_Mistakes_First/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25_Ask_Questions_Instead_of_Giving_Orders",
+          "title": "25 Ask Questions Instead of Giving Orders",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/25_Ask_Questions_Instead_of_Giving_Orders/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "26_Let_Others_Save_Face",
+          "title": "26 Let Others Save Face",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/26_Let_Others_Save_Face/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "27_Praise_Every_Improvement",
+          "title": "27 Praise Every Improvement",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/27_Praise_Every_Improvement/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "28_Give_a_Fine_Reputation_to_Live_Up_To",
+          "title": "28 Give a Fine Reputation to Live Up To",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/28_Give_a_Fine_Reputation_to_Live_Up_To/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "29_Use_Encouragement",
+          "title": "29 Use Encouragement",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/29_Use_Encouragement/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "30_Make_Others_Happy_About_Your_Suggestions",
+          "title": "30 Make Others Happy About Your Suggestions",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/30_Make_Others_Happy_About_Your_Suggestions/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "31_Conclusion",
+          "title": "31 Conclusion",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/english/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/german/c2/c2.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/How_to_Win_Friends_and_Influence_People/31_Conclusion/spanish/c2/c2.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mobby_dick",
       "title": "Mobby Dick",
       "chapters": [
