@@ -56,9 +56,12 @@ def extract_chapters(input_file):
     chapters = []
     current_chapter = None
     current_content = []
-    # Matches patterns like "Letter 1", "Chapter 1", "Letter I", "Chapter II", etc.
+    # Matches patterns like:
+    # - "Letter 1", "Chapter 1", "Stave 1"
+    # - "Letter I", "Chapter II", "Stave III" (Roman numerals)
+    # - "STAVE I: MARLEY'S GHOST" (with colon and title)
     # To support additional patterns like "Part", "Book", "Section", add them to the pattern
-    chapter_pattern = re.compile(r'^(Letter|Chapter)\s+(\d+|[IVXLCDM]+)$', re.IGNORECASE)
+    chapter_pattern = re.compile(r'^(Letter|Chapter|Stave)\s+(\d+|[IVXLCDM]+)(?:\s*:.*)?$', re.IGNORECASE)
     
     # Find where actual content starts by looking for consistent chapter headers
     # In TOC, chapter entries are usually indented or in a list
@@ -94,6 +97,16 @@ def extract_chapters(input_file):
                     if toc_count >= 2:
                         # Multiple chapter patterns nearby = TOC
                         continue
+                    
+                    # Check for TOC by looking at previous lines too
+                    # If we have chapter patterns before AND after (even just 1 after), likely TOC
+                    if toc_count >= 1 and line_num > 0:
+                        prev_lines = content_lines[max(0, line_num - 10):line_num]
+                        prev_stripped = [l.strip() for l in prev_lines if l.strip()]
+                        prev_toc_count = sum(1 for l in prev_stripped[-5:] if chapter_pattern.match(l))
+                        if prev_toc_count >= 1:
+                            # We're in the middle of a TOC list
+                            continue
                     
                     # If there's substantial text content, it's the real chapter
                     if len(next_stripped) >= 3:

@@ -8,11 +8,12 @@ A Python script that extracts chapters from plain text book files and creates th
 
 ### Features
 
-- Parses chapter breaks (supports patterns like "Letter 1", "Chapter 1", etc.)
+- Parses chapter breaks (supports patterns like "Letter 1", "Chapter 1", "Stave I", etc.)
 - Handles Project Gutenberg formatted files (skips header/footer and TOC)
 - Creates standardized folder structure: `<book_name>/chapters/XX_chapter_name/english/original/original.md`
 - Adaptive: works with different text files and chapter formats
 - Automatically converts Roman numerals to integers
+- Supports books with "Stave" chapters (e.g., A Christmas Carol)
 
 ### Usage
 
@@ -29,6 +30,13 @@ python3 scripts/extract_book_chapters.py \
     content/books/Frankenstein
 ```
 
+Extract chapters from A Christmas Carol:
+```bash
+python3 scripts/extract_book_chapters.py \
+    content/books/a_christmas_carol/original.txt \
+    content/books/a_christmas_carol
+```
+
 Extract chapters from a custom book:
 ```bash
 python3 scripts/extract_book_chapters.py \
@@ -42,7 +50,7 @@ python3 scripts/extract_book_chapters.py \
 The script works best with:
 - Plain text files with clear chapter markers
 - Project Gutenberg format books
-- Chapter headers like "Chapter 1", "Letter 1", "Part I", etc.
+- Chapter headers like "Chapter 1", "Letter 1", "Stave I", "Part I", etc.
 
 ### Output Structure
 
