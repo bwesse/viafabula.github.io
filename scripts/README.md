@@ -50,11 +50,11 @@ The script creates the following structure:
 ```
 <output_base_dir>/
   chapters/
-    00_chapter_name/
+    01_chapter_name/
       english/
         original/
           original.md
-    01_chapter_name/
+    02_chapter_name/
       english/
         original/
           original.md
@@ -67,7 +67,7 @@ This matches the structure used by other books in the project (e.g., The_Tortois
 
 - The script automatically skips Project Gutenberg headers, footers, and table of contents
 - Chapter names are converted to lowercase with underscores (e.g., "Chapter 1" → "chapter_1")
-- Each chapter is numbered sequentially starting from 00
+- Each chapter is numbered sequentially starting from 01
 - Only the `english/original/original.md` files are created; other language versions and difficulty levels can be added separately
 
 ## Other Scripts

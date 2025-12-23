@@ -195,9 +195,9 @@ def create_chapter_structure(chapters, output_base_dir, book_name):
     
     created_folders = []
     
-    for idx, (chapter_num, chapter_title, chapter_content) in enumerate(chapters):
+    for idx, (chapter_num, chapter_title, chapter_content) in enumerate(chapters, start=1):
         # Create folder name: XX_chapter_name
-        # Using sequential idx ensures consistent folder numbering even if chapters are non-sequential
+        # Using sequential numbering (starting from 01) ensures consistent folder numbering
         folder_num = f"{idx:02d}"
         folder_name = f"{folder_num}_{slugify(chapter_title)}"
         
