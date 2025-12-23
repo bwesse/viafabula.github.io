@@ -60,8 +60,9 @@ def extract_chapters(input_file):
     # - "Letter 1", "Chapter 1", "Stave 1"
     # - "Letter I", "Chapter II", "Stave III" (Roman numerals)
     # - "STAVE I: MARLEY'S GHOST" (with colon and title)
+    # - "CHAPTER I." (with period after number)
     # To support additional patterns like "Part", "Book", "Section", add them to the pattern
-    chapter_pattern = re.compile(r'^(Letter|Chapter|Stave)\s+(\d+|[IVXLCDM]+)(?:\s*:.*)?$', re.IGNORECASE)
+    chapter_pattern = re.compile(r'^(Letter|Chapter|Stave)\s+(\d+|[IVXLCDM]+)\.?(?:\s*:.*)?$', re.IGNORECASE)
     
     # Find where actual content starts by looking for consistent chapter headers
     # In TOC, chapter entries are usually indented or in a list
