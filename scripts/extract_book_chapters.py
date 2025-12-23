@@ -56,6 +56,8 @@ def extract_chapters(input_file):
     chapters = []
     current_chapter = None
     current_content = []
+    # Matches patterns like "Letter 1", "Chapter 1", "Letter I", "Chapter II", etc.
+    # To support additional patterns like "Part", "Book", "Section", add them to the pattern
     chapter_pattern = re.compile(r'^(Letter|Chapter)\s+(\d+|[IVXLCDM]+)$', re.IGNORECASE)
     
     # Find where actual content starts by looking for consistent chapter headers
@@ -87,6 +89,7 @@ def extract_chapters(input_file):
                     next_stripped = [l.strip() for l in next_lines if l.strip()]
                     
                     # If the next non-empty lines contain more chapter patterns, it's TOC
+                    # Threshold of 2 indicates a list of chapters (TOC) vs actual content
                     toc_count = sum(1 for l in next_stripped[:5] if chapter_pattern.match(l))
                     if toc_count >= 2:
                         # Multiple chapter patterns nearby = TOC
@@ -194,6 +197,7 @@ def create_chapter_structure(chapters, output_base_dir, book_name):
     
     for idx, (chapter_num, chapter_title, chapter_content) in enumerate(chapters):
         # Create folder name: XX_chapter_name
+        # Using sequential idx ensures consistent folder numbering even if chapters are non-sequential
         folder_num = f"{idx:02d}"
         folder_name = f"{folder_num}_{slugify(chapter_title)}"
         

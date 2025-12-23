@@ -61,7 +61,7 @@ The script creates the following structure:
     ...
 ```
 
-This matches the structure used by other books in the project (e.g., The_Tortoise_and_the_Hare, mobby_dick, ben_robin_wesse).
+This matches the structure used by other books in the project (e.g., The_Tortoise_and_the_Hare, moby_dick, ben_robin_wesse).
 
 ### Notes
 
