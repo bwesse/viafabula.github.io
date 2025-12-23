@@ -4646,6 +4646,869 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Frankenstein",
+      "title": "Frankenstein",
+      "chapters": [
+        {
+          "id": "01_letter_1",
+          "title": "01 Letter 1",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/01_letter_1/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_letter_2",
+          "title": "02 Letter 2",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/02_letter_2/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_letter_3",
+          "title": "03 Letter 3",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/03_letter_3/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_letter_4",
+          "title": "04 Letter 4",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/04_letter_4/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_chapter_1",
+          "title": "05 Chapter 1",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/05_chapter_1/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_chapter_2",
+          "title": "06 Chapter 2",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/06_chapter_2/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_chapter_3",
+          "title": "07 Chapter 3",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/07_chapter_3/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_chapter_4",
+          "title": "08 Chapter 4",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/08_chapter_4/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_chapter_5",
+          "title": "09 Chapter 5",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/09_chapter_5/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_chapter_6",
+          "title": "10 Chapter 6",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/10_chapter_6/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_chapter_7",
+          "title": "11 Chapter 7",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/11_chapter_7/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_chapter_8",
+          "title": "12 Chapter 8",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/12_chapter_8/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13_chapter_9",
+          "title": "13 Chapter 9",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/13_chapter_9/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14_chapter_10",
+          "title": "14 Chapter 10",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/14_chapter_10/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "15_chapter_11",
+          "title": "15 Chapter 11",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/15_chapter_11/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16_chapter_12",
+          "title": "16 Chapter 12",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/16_chapter_12/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "17_chapter_13",
+          "title": "17 Chapter 13",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/17_chapter_13/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "18_chapter_14",
+          "title": "18 Chapter 14",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/18_chapter_14/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19_chapter_15",
+          "title": "19 Chapter 15",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/19_chapter_15/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20_chapter_16",
+          "title": "20 Chapter 16",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/20_chapter_16/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "21_chapter_17",
+          "title": "21 Chapter 17",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/21_chapter_17/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "22_chapter_18",
+          "title": "22 Chapter 18",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/22_chapter_18/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23_chapter_19",
+          "title": "23 Chapter 19",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/23_chapter_19/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "24_chapter_20",
+          "title": "24 Chapter 20",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/24_chapter_20/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25_chapter_21",
+          "title": "25 Chapter 21",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/25_chapter_21/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "26_chapter_22",
+          "title": "26 Chapter 22",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/26_chapter_22/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "27_chapter_23",
+          "title": "27 Chapter 23",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/27_chapter_23/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "28_chapter_24",
+          "title": "28 Chapter 24",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Frankenstein/chapters/28_chapter_24/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a_christmas_carol",
+      "title": "A Christmas Carol",
+      "chapters": [
+        {
+          "id": "01_stave_i",
+          "title": "01 Stave I",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/a_christmas_carol/chapters/01_stave_i/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_stave_ii",
+          "title": "02 Stave Ii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/a_christmas_carol/chapters/02_stave_ii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_stave_iii",
+          "title": "03 Stave Iii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/a_christmas_carol/chapters/03_stave_iii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_stave_iv",
+          "title": "04 Stave Iv",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/a_christmas_carol/chapters/04_stave_iv/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_stave_v",
+          "title": "05 Stave V",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/a_christmas_carol/chapters/05_stave_v/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Alice's Adventures in Wonderland by Lewis Carroll",
+      "title": "Alice's Adventures in Wonderland",
+      "chapters": [
+        {
+          "id": "01_chapter_i",
+          "title": "01 Chapter I",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/01_chapter_i/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_chapter_ii",
+          "title": "02 Chapter Ii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/02_chapter_ii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_chapter_iii",
+          "title": "03 Chapter Iii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/03_chapter_iii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_chapter_iv",
+          "title": "04 Chapter Iv",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/04_chapter_iv/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_chapter_v",
+          "title": "05 Chapter V",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/05_chapter_v/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_chapter_vi",
+          "title": "06 Chapter Vi",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/06_chapter_vi/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_chapter_vii",
+          "title": "07 Chapter Vii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/07_chapter_vii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_chapter_viii",
+          "title": "08 Chapter Viii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/08_chapter_viii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_chapter_ix",
+          "title": "09 Chapter Ix",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/09_chapter_ix/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_chapter_x",
+          "title": "10 Chapter X",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/10_chapter_x/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_chapter_xi",
+          "title": "11 Chapter Xi",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/11_chapter_xi/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_chapter_xii",
+          "title": "12 Chapter Xii",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Alice's Adventures in Wonderland by Lewis Carroll/chapters/12_chapter_xii/english/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
