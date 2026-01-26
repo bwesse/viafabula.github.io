@@ -1,10 +1,10 @@
 Ich besuchte Agadir letzten Sommer. Es war mein erstes Mal in Marokko.
 
-Agadir ist Morocco's premier beach resort with year-round sunshine. Ich kam am Morgen an. Das Wetter war warm und sonnig.
+Agadir ist Marokkos führendes Strandbad mit ganzjährigem Sonnenschein. Ich kam am Morgen an. Das Wetter war warm und sonnig.
 
 Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
 
-Jeden Tag ging ich durch die Stadt. Ich sah beautiful beaches, the rebuilt modern city, the Kasbah ruins, und fresh seafood. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+Jeden Tag ging ich durch die Stadt. Ich sah die schönen Strände, die wiederaufgebaute moderne Stadt, die Kasbah-Ruinen und die frischen Meeresfrüchte. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
 
 Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
 

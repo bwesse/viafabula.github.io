@@ -1,10 +1,10 @@
 Visité Meknes el verano pasado. Era mi primera vez en Marruecos.
 
-Meknes es el imperial city with grand monuments from Morocco's golden age. Llegué por la mañana. El clima era cálido y soleado.
+Meknes es una ciudad imperial con grandes monumentos de la edad de oro de Marruecos. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi Bab Mansour gate, the royal stables, Moulay Ismail mausoleum, y nearby Roman ruins. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi la puerta Bab Mansour, las caballerizas reales, el mausoleo de Moulay Ismail y las ruinas romanas cercanas. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

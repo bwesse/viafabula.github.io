@@ -1,10 +1,10 @@
 Visité Merzouga el verano pasado. Era mi primera vez en Marruecos.
 
-Merzouga es el gateway to el Saharun desert and its magnificent golden dunes. Llegué por la mañana. El clima era cálido y soleado.
+Merzouga es la puerta de entrada al desierto del Sahara y sus magníficas dunas doradas. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi the Erg Chebbi dunes, camel treks, desert camps, y stunning sunrises in the Sahara. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi las dunas de Erg Chebbi, las caminatas en camello, los campamentos del desierto y los impresionantes amaneceres en el Sahara. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

@@ -1,10 +1,10 @@
 Visité Agadir el verano pasado. Era mi primera vez en Marruecos.
 
-Agadir es Morocco's premier beach resort with year-round sunshine. Llegué por la mañana. El clima era cálido y soleado.
+Agadir es el principal balneario de Marruecos con sol durante todo el año. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi beautiful beaches, the rebuilt modern city, the Kasbah ruins, y fresh seafood. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi las hermosas playas, la moderna ciudad reconstruida, las ruinas de la Kasbah y el marisco fresco. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

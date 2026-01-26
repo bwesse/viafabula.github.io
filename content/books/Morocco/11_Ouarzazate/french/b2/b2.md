@@ -1,10 +1,10 @@
 J'ai visité Ouarzazate l'été dernier. C'était ma première fois au Maroc.
 
-Ouarzazate est le Hollywood of Morocco where many famous films were shot. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
+Ouarzazate est le Hollywood du Maroc où de nombreux films célèbres ont été tournés. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
 
 J'ai séjourné dans un petit hôtel près du centre. Les gens étaient très sympathiques. Ils m'ont aidé avec mes bagages.
 
-Chaque jour, je me promenais dans la ville. J'ai vu film studios, Ait Benhaddou kasbah, the Atlas mountains, et desert landscapes. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
+Chaque jour, je me promenais dans la ville. J'ai vu les studios de cinéma, la kasbah d'Ait Benhaddou, les montagnes de l'Atlas et les paysages désertiques. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
 
 J'ai goûté la cuisine locale. Le tajine était délicieux. Je buvais aussi du thé à la menthe chaque après-midi. C'était très sucré et rafraîchissant.
 
