@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Welche Stadt hat der Reisende besucht?",
+      "options": [
+        "Chefchaouen",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Wie war das Wetter?",
+      "options": [
+        "Warm und sonnig",
+        "Kalt und regnerisch",
+        "Schneereich"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Was haben sie am Nachmittag getrunken?",
+      "options": [
+        "Minztee",
+        "Kaffee",
+        "Orangensaft"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
