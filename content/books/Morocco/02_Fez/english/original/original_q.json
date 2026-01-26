@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Where is Fez located?",
+      "options": [
+        "Morocco",
+        "Egypt",
+        "Tunisia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What type of experience was this trip?",
+      "options": [
+        "Cultural",
+        "Beach holiday",
+        "Mountain hiking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "What did the traveler buy as souvenirs?",
+      "options": [
+        "Spices and crafts",
+        "Books",
+        "Electronics"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+gpt placeholder
+I visited Casablanca last summer. It was my first time in Morocco.
+
+Casablanca is Morocco's cosmopolitan economic hub blending tradition with contemporary life. I arrived in the morning. The weather was warm and sunny.
+
+I stayed in a small hotel near the center. The people were very friendly. They helped me with my bags.
+
+Every day, I walked around the city. I saw Hassan II Mosque, the Corniche, Art Deco architecture, and modern shopping districts. The streets were full of life. There were many shops and cafes.
+
+I tried the local food. The tagine was delicious. I also drank mint tea every afternoon. It was very sweet and refreshing.
+
+The architecture was amazing. The buildings had beautiful colors and patterns. I took many photos.
+
+At night, the city came alive. There was music and dancing. The atmosphere was magical.
+
+I met other travelers from different countries. We shared stories about our trips. I made new friends.
+
+On my last day, I bought some souvenirs. I got spices, a carpet, and some pottery. I was sad to leave.
+
+Casablanca was an incredible experience. I want to return someday. Morocco has so much to offer. I recommend it to everyone.

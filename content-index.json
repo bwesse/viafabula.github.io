@@ -4646,6 +4646,2532 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Morocco",
+      "title": "Morocco",
+      "chapters": [
+        {
+          "id": "00_intro",
+          "title": "00 Introduction",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/00_intro/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/00_intro/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/00_intro/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/00_intro/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/00_intro/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/00_intro/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/00_intro/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/00_intro/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/00_intro/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/00_intro/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/00_intro/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/00_intro/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/00_intro/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/00_intro/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/00_intro/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/00_intro/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/00_intro/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/00_intro/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/00_intro/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/00_intro/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/00_intro/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/00_intro/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/00_intro/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/00_intro/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/00_intro/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/00_intro/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/00_intro/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/00_intro/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/00_intro/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/00_intro/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/00_intro/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/00_intro/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/00_intro/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/00_intro/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/00_intro/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/00_intro/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_Marrakesh",
+          "title": "01 Marrakesh",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/01_Marrakesh/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/01_Marrakesh/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/01_Marrakesh/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/01_Marrakesh/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/01_Marrakesh/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/01_Marrakesh/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/01_Marrakesh/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/01_Marrakesh/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/01_Marrakesh/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/01_Marrakesh/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/01_Marrakesh/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/01_Marrakesh/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/01_Marrakesh/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/01_Marrakesh/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/01_Marrakesh/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/01_Marrakesh/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/01_Marrakesh/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/01_Marrakesh/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/01_Marrakesh/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/01_Marrakesh/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/01_Marrakesh/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/01_Marrakesh/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/01_Marrakesh/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/01_Marrakesh/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/01_Marrakesh/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/01_Marrakesh/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/01_Marrakesh/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/01_Marrakesh/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_Fez",
+          "title": "02 Fez",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/02_Fez/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/02_Fez/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/02_Fez/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/02_Fez/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/02_Fez/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/02_Fez/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/02_Fez/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/02_Fez/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/02_Fez/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/02_Fez/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/02_Fez/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/02_Fez/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/02_Fez/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/02_Fez/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/02_Fez/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/02_Fez/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/02_Fez/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/02_Fez/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/02_Fez/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/02_Fez/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/02_Fez/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/02_Fez/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/02_Fez/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/02_Fez/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/02_Fez/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/02_Fez/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/02_Fez/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/02_Fez/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/02_Fez/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/02_Fez/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/02_Fez/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/02_Fez/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/02_Fez/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/02_Fez/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/02_Fez/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/02_Fez/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_Casablanca",
+          "title": "03 Casablanca",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/03_Casablanca/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/03_Casablanca/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/03_Casablanca/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/03_Casablanca/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/03_Casablanca/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/03_Casablanca/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/03_Casablanca/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/03_Casablanca/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/03_Casablanca/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/03_Casablanca/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/03_Casablanca/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/03_Casablanca/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/03_Casablanca/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/03_Casablanca/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/03_Casablanca/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/03_Casablanca/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/03_Casablanca/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/03_Casablanca/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/03_Casablanca/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/03_Casablanca/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/03_Casablanca/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/03_Casablanca/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/03_Casablanca/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/03_Casablanca/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/03_Casablanca/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/03_Casablanca/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/03_Casablanca/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/03_Casablanca/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_Rabat",
+          "title": "04 Rabat",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/04_Rabat/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/04_Rabat/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/04_Rabat/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/04_Rabat/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/04_Rabat/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/04_Rabat/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/04_Rabat/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/04_Rabat/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/04_Rabat/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/04_Rabat/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/04_Rabat/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/04_Rabat/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/04_Rabat/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/04_Rabat/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/04_Rabat/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/04_Rabat/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/04_Rabat/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/04_Rabat/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/04_Rabat/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/04_Rabat/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/04_Rabat/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/04_Rabat/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/04_Rabat/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/04_Rabat/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/04_Rabat/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/04_Rabat/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/04_Rabat/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/04_Rabat/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/04_Rabat/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/04_Rabat/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/04_Rabat/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/04_Rabat/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/04_Rabat/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/04_Rabat/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/04_Rabat/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/04_Rabat/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_Tangier",
+          "title": "05 Tangier",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/05_Tangier/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/05_Tangier/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/05_Tangier/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/05_Tangier/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/05_Tangier/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/05_Tangier/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/05_Tangier/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/05_Tangier/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/05_Tangier/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/05_Tangier/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/05_Tangier/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/05_Tangier/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/05_Tangier/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/05_Tangier/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/05_Tangier/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/05_Tangier/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/05_Tangier/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/05_Tangier/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/05_Tangier/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/05_Tangier/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/05_Tangier/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/05_Tangier/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/05_Tangier/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/05_Tangier/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/05_Tangier/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/05_Tangier/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/05_Tangier/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/05_Tangier/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/05_Tangier/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/05_Tangier/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/05_Tangier/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/05_Tangier/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/05_Tangier/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/05_Tangier/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/05_Tangier/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/05_Tangier/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_Chefchaouen",
+          "title": "06 Chefchaouen",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/06_Chefchaouen/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/06_Chefchaouen/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/06_Chefchaouen/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/06_Chefchaouen/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_Agadir",
+          "title": "07 Agadir",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/07_Agadir/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/07_Agadir/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/07_Agadir/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/07_Agadir/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/07_Agadir/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/07_Agadir/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/07_Agadir/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/07_Agadir/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/07_Agadir/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/07_Agadir/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/07_Agadir/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/07_Agadir/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/07_Agadir/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/07_Agadir/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/07_Agadir/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/07_Agadir/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/07_Agadir/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/07_Agadir/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/07_Agadir/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/07_Agadir/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/07_Agadir/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/07_Agadir/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/07_Agadir/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/07_Agadir/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/07_Agadir/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/07_Agadir/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/07_Agadir/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/07_Agadir/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/07_Agadir/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/07_Agadir/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/07_Agadir/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/07_Agadir/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/07_Agadir/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/07_Agadir/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/07_Agadir/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/07_Agadir/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_Merzouga",
+          "title": "08 Merzouga",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/08_Merzouga/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/08_Merzouga/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/08_Merzouga/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/08_Merzouga/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/08_Merzouga/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/08_Merzouga/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/08_Merzouga/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/08_Merzouga/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/08_Merzouga/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/08_Merzouga/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/08_Merzouga/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/08_Merzouga/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/08_Merzouga/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/08_Merzouga/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/08_Merzouga/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/08_Merzouga/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/08_Merzouga/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/08_Merzouga/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/08_Merzouga/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/08_Merzouga/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/08_Merzouga/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/08_Merzouga/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/08_Merzouga/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/08_Merzouga/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/08_Merzouga/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/08_Merzouga/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/08_Merzouga/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/08_Merzouga/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_Essaouira",
+          "title": "09 Essaouira",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/09_Essaouira/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/09_Essaouira/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/09_Essaouira/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/09_Essaouira/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/09_Essaouira/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/09_Essaouira/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/09_Essaouira/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/09_Essaouira/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/09_Essaouira/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/09_Essaouira/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/09_Essaouira/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/09_Essaouira/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/09_Essaouira/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/09_Essaouira/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/09_Essaouira/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/09_Essaouira/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/09_Essaouira/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/09_Essaouira/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/09_Essaouira/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/09_Essaouira/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/09_Essaouira/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/09_Essaouira/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/09_Essaouira/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/09_Essaouira/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/09_Essaouira/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/09_Essaouira/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/09_Essaouira/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/09_Essaouira/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_Meknes",
+          "title": "10 Meknes",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/10_Meknes/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/10_Meknes/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/10_Meknes/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/10_Meknes/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/10_Meknes/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/10_Meknes/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/10_Meknes/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/10_Meknes/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/10_Meknes/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/10_Meknes/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/10_Meknes/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/10_Meknes/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/10_Meknes/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/10_Meknes/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/10_Meknes/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/10_Meknes/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/10_Meknes/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/10_Meknes/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/10_Meknes/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/10_Meknes/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/10_Meknes/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/10_Meknes/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/10_Meknes/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/10_Meknes/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/10_Meknes/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/10_Meknes/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/10_Meknes/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/10_Meknes/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/10_Meknes/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/10_Meknes/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/10_Meknes/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/10_Meknes/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/10_Meknes/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/10_Meknes/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/10_Meknes/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/10_Meknes/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_Ouarzazate",
+          "title": "11 Ouarzazate",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/11_Ouarzazate/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/11_Ouarzazate/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/11_Ouarzazate/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "french",
+              "title": "French",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "NATIVE",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "ORIGINAL",
+                  "path": "content/books/Morocco/11_Ouarzazate/french/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
