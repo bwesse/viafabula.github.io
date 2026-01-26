@@ -1,20 +1,38 @@
-gpt placeholder
-Ich besuchte Morocco letzten Sommer. Es war mein erstes Mal in Marokko.
+todo
 
-Morocco ist ein land of contrasts where ancient traditions meet modern life. Ich kam am Morgen an. Das Wetter war warm und sonnig.
+# Inhaltsverzeichnis
 
-Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
+## Einführungskapitel
 
-Jeden Tag ging ich durch die Stadt. Ich sah ancient medinas, vibrant souks, the Sahara desert, Atlas mountains, beautiful coasts, und rich culture. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+1. Geografie & Umwelt
+2. Geschichte & Identität
+3. Kultur & Gesellschaft
+4. Sprache & Kommunikation
+5. Politik & Regierung
+6. Wirtschaft & Alltag
+7. Essen & Landwirtschaft
+8. Transport & Infrastruktur
+9. Sicherheit, Gesundheit & Praktisches
+10. Natur, Freizeit & Sport
+11. Etikette & Soziale Codes
+12. Weltanschauung & "Wie Menschen denken"
 
-Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
+## Städte und Orte
 
-Die Architektur war erstaunlich. Die Gebäude hatten schöne Farben und Muster. Ich machte viele Fotos.
-
-Nachts wurde die Stadt lebendig. Es gab Musik und Tanz. Die Atmosphäre war magisch.
-
-Ich traf andere Reisende aus verschiedenen Ländern. Wir teilten Geschichten über unsere Reisen. Ich fand neue Freunde.
-
-An meinem letzten Tag kaufte ich einige Souvenirs. Ich bekam Gewürze, einen Teppich und etwas Keramik. Ich war traurig zu gehen.
-
-Morocco war eine unglaubliche Erfahrung. Ich möchte eines Tages zurückkehren. Marokko hat so viel zu bieten. Ich empfehle es jedem.
+13. Tanger
+14. Chefchaouen
+15. Fes
+16. Meknes
+17. Rabat
+18. Casablanca
+19. Marrakesch
+20. Essaouira
+21. Imsouane
+22. Taghazout
+23. Agadir
+24. Sidi Ifni
+25. Taroudant
+26. Imlil
+27. Ouarzazate
+28. Tinghir
+29. Merzouga
