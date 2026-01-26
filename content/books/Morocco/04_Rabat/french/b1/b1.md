@@ -1,10 +1,10 @@
 J'ai visité Rabat l'été dernier. C'était ma première fois au Maroc.
 
-Rabat est Morocco's elegant capital with its blend of historic sites and modern amenities. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
+Rabat est l'élégante capitale du Maroc avec son mélange de sites historiques et d'équipements modernes. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
 
 J'ai séjourné dans un petit hôtel près du centre. Les gens étaient très sympathiques. Ils m'ont aidé avec mes bagages.
 
-Chaque jour, je me promenais dans la ville. J'ai vu the Hassan Tower, Royal Palace, Kasbah of the Udayas, et the mausoleum of Mohammed V. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
+Chaque jour, je me promenais dans la ville. J'ai vu la Tour Hassan, le Palais Royal, la Kasbah des Oudayas et le mausolée de Mohammed V. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
 
 J'ai goûté la cuisine locale. Le tajine était délicieux. Je buvais aussi du thé à la menthe chaque après-midi. C'était très sucré et rafraîchissant.
 

@@ -1,10 +1,10 @@
 Visité Ouarzazate el verano pasado. Era mi primera vez en Marruecos.
 
-Ouarzazate es el Hollywood of Morocco where many famous films were shot. Llegué por la mañana. El clima era cálido y soleado.
+Ouarzazate es el Hollywood de Marruecos donde se rodaron muchas películas famosas. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi film studios, Ait Benhaddou kasbah, the Atlas mountains, y desert landscapes. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi los estudios de cine, la kasbah de Ait Benhaddou, las montañas del Atlas y los paisajes desérticos. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

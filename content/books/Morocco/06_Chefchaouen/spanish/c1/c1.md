@@ -1,10 +1,10 @@
 Visité Chefchaouen el verano pasado. Era mi primera vez en Marruecos.
 
-Chefchaouen es el enchanting blue pearl nestled in el Rif mountains. Llegué por la mañana. El clima era cálido y soleado.
+Chefchaouen es la encantadora perla azul enclavada en las montañas del Rif. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi blue-painted buildings, the Kasbah museum, waterfalls, y the Rif mountains. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi los edificios pintados de azul, el museo de la Kasbah, las cascadas y las montañas del Rif. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

@@ -1,10 +1,10 @@
 Ich besuchte Marrakesh letzten Sommer. Es war mein erstes Mal in Marokko.
 
-Marrakesh ist vibrant heart of Morocco with its lively markets and stunning palaces. Ich kam am Morgen an. Das Wetter war warm und sonnig.
+Marrakesh ist das pulsierende Herz Marokkos mit seinen lebhaften Märkten und atemberaubenden Palästen. Ich kam am Morgen an. Das Wetter war warm und sonnig.
 
 Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
 
-Jeden Tag ging ich durch die Stadt. Ich sah Jemaa el-Fnaa square, Koutoubia Mosque, beautiful gardens, bustling souks, und the red city walls. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+Jeden Tag ging ich durch die Stadt. Ich sah den Jemaa el-Fnaa-Platz, die Koutoubia-Moschee, die schönen Gärten, die geschäftigen Souks und die roten Stadtmauern. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
 
 Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
 

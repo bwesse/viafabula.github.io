@@ -4,7 +4,7 @@ Chefchaouen ist enchanting blue pearl nestled in Rif mountains. Ich kam am Morge
 
 Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
 
-Jeden Tag ging ich durch die Stadt. Ich sah blue-painted buildings, the Kasbah museum, waterfalls, und the Rif mountains. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+Jeden Tag ging ich durch die Stadt. Ich sah die blau gestrichenen Gebäude, das Kasbah-Museum, die Wasserfälle und das Rif-Gebirge. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
 
 Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
 

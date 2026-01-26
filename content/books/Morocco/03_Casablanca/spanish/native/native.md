@@ -1,10 +1,10 @@
 Visité Casablanca el verano pasado. Era mi primera vez en Marruecos.
 
-Casablanca es Morocco's cosmopolitan economic hub blending tradition with contemporary life. Llegué por la mañana. El clima era cálido y soleado.
+Casablanca es el centro económico cosmopolita de Marruecos que mezcla tradición con vida contemporánea. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi Hassan II Mosque, the Corniche, Art Deco architecture, y modern shopping districts. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi la Mezquita Hassan II, la Corniche, la arquitectura Art Déco y los modernos distritos comerciales. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

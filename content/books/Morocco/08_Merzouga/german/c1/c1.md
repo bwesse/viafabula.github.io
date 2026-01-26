@@ -1,10 +1,10 @@
 Ich besuchte Merzouga letzten Sommer. Es war mein erstes Mal in Marokko.
 
-Merzouga ist gateway to Saharein desert and its magnificent golden dunes. Ich kam am Morgen an. Das Wetter war warm und sonnig.
+Merzouga ist das Tor zur Sahara-Wüste und ihren prächtigen goldenen Dünen. Ich kam am Morgen an. Das Wetter war warm und sonnig.
 
 Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
 
-Jeden Tag ging ich durch die Stadt. Ich sah the Erg Chebbi dunes, camel treks, desert camps, und stunning sunrises in the Sahara. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+Jeden Tag ging ich durch die Stadt. Ich sah die Erg-Chebbi-Dünen, die Kamelwanderungen, die Wüstencamps und die atemberaubenden Sonnenaufgänge in der Sahara. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
 
 Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
 

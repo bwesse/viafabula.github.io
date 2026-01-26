@@ -1,10 +1,10 @@
 Visité Tangier el verano pasado. Era mi primera vez en Marruecos.
 
-Tangier es el gateway between Africun and Europe with un rich literary and artistic history. Llegué por la mañana. El clima era cálido y soleado.
+Tangier es la puerta entre África y Europa con una rica historia literaria y artística. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi the Kasbah, Caves of Hercules, Cap Spartel, y views across the Strait of Gibraltar. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi la Kasbah, las Cuevas de Hércules, Cabo Espartel y las vistas al Estrecho de Gibraltar. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

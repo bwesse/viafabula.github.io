@@ -1,10 +1,10 @@
 Visité Rabat el verano pasado. Era mi primera vez en Marruecos.
 
-Rabat es Morocco's elegant capital with its blend of historic sites and modern amenities. Llegué por la mañana. El clima era cálido y soleado.
+Rabat es la elegante capital de Marruecos con su mezcla de sitios históricos y comodidades modernas. Llegué por la mañana. El clima era cálido y soleado.
 
 Me alojé en un pequeño hotel cerca del centro. La gente era muy amable. Me ayudaron con mis maletas.
 
-Todos los días, caminaba por la ciudad. Vi the Hassan Tower, Royal Palace, Kasbah of the Udayas, y the mausoleum of Mohammed V. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
+Todos los días, caminaba por la ciudad. Vi la Torre Hassan, el Palacio Real, la Kasbah de los Udayas y el mausoleo de Mohammed V. Las calles estaban llenas de vida. Había muchas tiendas y cafés.
 
 Probé la comida local. El tajín estaba delicioso. También bebí té de menta todas las tardes. Era muy dulce y refrescante.
 

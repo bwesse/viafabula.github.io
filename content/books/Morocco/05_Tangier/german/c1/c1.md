@@ -4,7 +4,7 @@ Tangier ist gateway between Africein and Europe with ein rich literary and artis
 
 Ich übernachtete in einem kleinen Hotel in der Nähe des Zentrums. Die Menschen waren sehr freundlich. Sie halfen mir mit meinen Taschen.
 
-Jeden Tag ging ich durch die Stadt. Ich sah the Kasbah, Caves of Hercules, Cap Spartel, und views across the Strait of Gibraltar. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
+Jeden Tag ging ich durch die Stadt. Ich sah die Kasbah, die Herkulesgrotten, Kap Spartel und den Blick über die Straße von Gibraltar. Die Straßen waren voller Leben. Es gab viele Geschäfte und Cafés.
 
 Ich probierte das lokale Essen. Die Tajine war köstlich. Ich trank auch jeden Nachmittag Minztee. Er war sehr süß und erfrischend.
 

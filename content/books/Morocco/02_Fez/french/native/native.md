@@ -1,10 +1,10 @@
 J'ai visité Fez l'été dernier. C'était ma première fois au Maroc.
 
-Fez est Morocco's cultural and spiritual capital with its maze-like medieval streets. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
+Fez est la capitale culturelle et spirituelle du Maroc avec ses rues médiévales labyrinthiques. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
 
 J'ai séjourné dans un petit hôtel près du centre. Les gens étaient très sympathiques. Ils m'ont aidé avec mes bagages.
 
-Chaque jour, je me promenais dans la ville. J'ai vu the world's oldest university, the ancient medina, traditional tanneries, et artisan workshops. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
+Chaque jour, je me promenais dans la ville. J'ai vu la plus ancienne université du monde, l'ancienne médina, les tanneries traditionnelles et les ateliers d'artisans. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
 
 J'ai goûté la cuisine locale. Le tajine était délicieux. Je buvais aussi du thé à la menthe chaque après-midi. C'était très sucré et rafraîchissant.
 
