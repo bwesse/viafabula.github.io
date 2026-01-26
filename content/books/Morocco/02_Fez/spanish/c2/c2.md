@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Fez el verano pasado. Era mi primera vez en Marruecos.
 
 Fez es la capital cultural y espiritual de Marruecos con sus calles medievales laberínticas. Llegué por la mañana. El clima era cálido y soleado.

@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Meknes el verano pasado. Era mi primera vez en Marruecos.
 
 Meknes es una ciudad imperial con grandes monumentos de la edad de oro de Marruecos. Llegué por la mañana. El clima era cálido y soleado.

@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Fez l'été dernier. C'était ma première fois au Maroc.
 
 Fez est la capitale culturelle et spirituelle du Maroc avec ses rues médiévales labyrinthiques. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Marrakesh l'été dernier. C'était ma première fois au Maroc.
 
 Marrakesh est le cœur vibrant du Maroc avec ses marchés animés et ses palais magnifiques. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

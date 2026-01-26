@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Morocco l'été dernier. C'était ma première fois au Maroc.
 
 Morocco est une land of contrasts where ancient traditions meet modern life. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

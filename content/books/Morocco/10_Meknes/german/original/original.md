@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Meknes letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Meknes ist imperial city with grand monuments from Morocco's golden age. Ich kam am Morgen an. Das Wetter war warm und sonnig.

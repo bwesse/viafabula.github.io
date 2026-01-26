@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Agadir letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Agadir ist Morocco's premier beach resort with year-round sunshine. Ich kam am Morgen an. Das Wetter war warm und sonnig.

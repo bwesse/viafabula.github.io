@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Chefchaouen el verano pasado. Era mi primera vez en Marruecos.
 
 Chefchaouen es la encantadora perla azul enclavada en las montañas del Rif. Llegué por la mañana. El clima era cálido y soleado.

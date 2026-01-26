@@ -1,3 +1,4 @@
+gpt placeholder
 I visited Fez last summer. It was my first time in Morocco.
 
 Fez is Morocco's cultural and spiritual capital with its maze-like medieval streets. I arrived in the morning. The weather was warm and sunny.

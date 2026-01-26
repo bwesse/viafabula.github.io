@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Merzouga l'été dernier. C'était ma première fois au Maroc.
 
 Merzouga est la porte d'entrée du désert du Sahara et de ses magnifiques dunes dorées. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Tangier el verano pasado. Era mi primera vez en Marruecos.
 
 Tangier es el gateway between Africun and Europe with un rich literary and artistic history. Llegué por la mañana. El clima era cálido y soleado.

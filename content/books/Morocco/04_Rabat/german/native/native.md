@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Rabat letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Rabat ist Marokkos elegante Hauptstadt mit ihrer Mischung aus historischen Stätten und modernen Annehmlichkeiten. Ich kam am Morgen an. Das Wetter war warm und sonnig.

@@ -1,3 +1,4 @@
+gpt placeholder
 I visited Merzouga last summer. It was my first time in Morocco.
 
 Merzouga is the gateway to the Sahara desert and its magnificent golden dunes. I arrived in the morning. The weather was warm and sunny.

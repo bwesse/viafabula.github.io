@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Chefchaouen l'été dernier. C'était ma première fois au Maroc.
 
 Chefchaouen est le enchanting blue pearl nestled in le Rif mountains. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

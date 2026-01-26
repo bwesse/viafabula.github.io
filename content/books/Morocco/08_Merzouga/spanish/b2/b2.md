@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Merzouga el verano pasado. Era mi primera vez en Marruecos.
 
 Merzouga es la puerta de entrada al desierto del Sahara y sus magníficas dunas doradas. Llegué por la mañana. El clima era cálido y soleado.

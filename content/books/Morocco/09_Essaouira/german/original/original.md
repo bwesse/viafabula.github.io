@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Essaouira letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Essaouira ist charming coastal town known for its winds and artistic community. Ich kam am Morgen an. Das Wetter war warm und sonnig.

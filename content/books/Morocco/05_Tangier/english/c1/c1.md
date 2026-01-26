@@ -1,3 +1,4 @@
+gpt placeholder
 I visited Tangier last summer. It was my first time in Morocco.
 
 Tangier is the gateway between Africa and Europe with a rich literary and artistic history. I arrived in the morning. The weather was warm and sunny.

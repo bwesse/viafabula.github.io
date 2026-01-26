@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Marrakesh el verano pasado. Era mi primera vez en Marruecos.
 
 Marrakesh es el vibrante corazón de Marruecos con sus animados mercados y palacios impresionantes. Llegué por la mañana. El clima era cálido y soleado.

@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Fez letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Fez ist Morocco's cultural and spiritual capital with its maze-like medieval streets. Ich kam am Morgen an. Das Wetter war warm und sonnig.
