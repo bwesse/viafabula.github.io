@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Casablanca el verano pasado. Era mi primera vez en Marruecos.
 
 Casablanca es el centro económico cosmopolita de Marruecos que mezcla tradición con vida contemporánea. Llegué por la mañana. El clima era cálido y soleado.

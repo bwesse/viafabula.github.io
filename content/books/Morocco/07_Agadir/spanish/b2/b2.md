@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Agadir el verano pasado. Era mi primera vez en Marruecos.
 
 Agadir es el principal balneario de Marruecos con sol durante todo el año. Llegué por la mañana. El clima era cálido y soleado.

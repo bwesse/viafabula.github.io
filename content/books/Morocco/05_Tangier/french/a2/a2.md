@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Tangier l'été dernier. C'était ma première fois au Maroc.
 
 Tangier est la porte entre l'Afrique et l'Europe avec une riche histoire littéraire et artistique. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Morocco el verano pasado. Era mi primera vez en Marruecos.
 
 Morocco es un land of contrasts where ancient traditions meet modern life. Llegué por la mañana. El clima era cálido y soleado.

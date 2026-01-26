@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Merzouga el verano pasado. Era mi primera vez en Marruecos.
 
 Merzouga es el gateway to el Saharun desert and its magnificent golden dunes. Llegué por la mañana. El clima era cálido y soleado.

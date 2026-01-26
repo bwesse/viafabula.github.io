@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Ouarzazate el verano pasado. Era mi primera vez en Marruecos.
 
 Ouarzazate es el Hollywood de Marruecos donde se rodaron muchas películas famosas. Llegué por la mañana. El clima era cálido y soleado.

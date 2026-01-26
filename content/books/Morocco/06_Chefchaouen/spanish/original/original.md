@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Chefchaouen el verano pasado. Era mi primera vez en Marruecos.
 
 Chefchaouen es el enchanting blue pearl nestled in el Rif mountains. Llegué por la mañana. El clima era cálido y soleado.

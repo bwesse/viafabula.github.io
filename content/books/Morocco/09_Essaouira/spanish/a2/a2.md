@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Essaouira el verano pasado. Era mi primera vez en Marruecos.
 
 Essaouira es una encantadora ciudad costera conocida por sus vientos y comunidad artística. Llegué por la mañana. El clima era cálido y soleado.

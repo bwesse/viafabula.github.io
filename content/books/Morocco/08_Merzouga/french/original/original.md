@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Merzouga l'été dernier. C'était ma première fois au Maroc.
 
 Merzouga est le gateway to le Saharune desert and its magnificent golden dunes. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

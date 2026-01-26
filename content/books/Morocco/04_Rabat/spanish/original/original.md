@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Rabat el verano pasado. Era mi primera vez en Marruecos.
 
 Rabat es Morocco's elegant capital with its blend of historic sites and modern amenities. Llegué por la mañana. El clima era cálido y soleado.

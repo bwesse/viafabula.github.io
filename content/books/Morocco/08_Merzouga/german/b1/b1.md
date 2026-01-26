@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Merzouga letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Merzouga ist das Tor zur Sahara-Wüste und ihren prächtigen goldenen Dünen. Ich kam am Morgen an. Das Wetter war warm und sonnig.

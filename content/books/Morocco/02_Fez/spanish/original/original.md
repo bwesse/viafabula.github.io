@@ -1,3 +1,4 @@
+gpt placeholder
 Visité Fez el verano pasado. Era mi primera vez en Marruecos.
 
 Fez es Morocco's cultural and spiritual capital with its maze-like medieval streets. Llegué por la mañana. El clima era cálido y soleado.

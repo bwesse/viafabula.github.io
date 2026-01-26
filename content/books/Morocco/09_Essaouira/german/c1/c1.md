@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Essaouira letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Essaouira ist eine charmante Küstenstadt, bekannt für ihre Winde und künstlerische Gemeinschaft. Ich kam am Morgen an. Das Wetter war warm und sonnig.

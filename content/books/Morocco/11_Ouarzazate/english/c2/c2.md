@@ -1,3 +1,4 @@
+gpt placeholder
 I visited Ouarzazate last summer. It was my first time in Morocco.
 
 Ouarzazate is the Hollywood of Morocco where many famous films were shot. I arrived in the morning. The weather was warm and sunny.

@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Agadir l'été dernier. C'était ma première fois au Maroc.
 
 Agadir est la première station balnéaire du Maroc avec un ensoleillement toute l'année. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

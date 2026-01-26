@@ -1,3 +1,4 @@
+gpt placeholder
 J'ai visité Meknes l'été dernier. C'était ma première fois au Maroc.
 
 Meknes est la ville impériale avec de grands monuments de l'âge d'or du Maroc. Je suis arrivé le matin. Le temps était chaud et ensoleillé.

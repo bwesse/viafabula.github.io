@@ -1,3 +1,4 @@
+gpt placeholder
 Ich besuchte Casablanca letzten Sommer. Es war mein erstes Mal in Marokko.
 
 Casablanca ist Morocco's cosmopolitan economic hub blending tradition with contemporary life. Ich kam am Morgen an. Das Wetter war warm und sonnig.
