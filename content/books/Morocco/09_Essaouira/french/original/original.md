@@ -1,10 +1,10 @@
 J'ai visité Essaouira l'été dernier. C'était ma première fois au Maroc.
 
-Essaouira est le charming coastal town known for its winds and artistic community. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
+Essaouira est la charmante ville côtière connue pour ses vents et sa communauté artistique. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
 
 J'ai séjourné dans un petit hôtel près du centre. Les gens étaient très sympathiques. Ils m'ont aidé avec mes bagages.
 
-Chaque jour, je me promenais dans la ville. J'ai vu the old port, ramparts, fresh fish markets, windsurfing, et the laid-back atmosphere. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
+Chaque jour, je me promenais dans la ville. J'ai vu le vieux port, les remparts, les marchés aux poissons frais, la planche à voile et l'atmosphère décontractée. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
 
 J'ai goûté la cuisine locale. Le tajine était délicieux. Je buvais aussi du thé à la menthe chaque après-midi. C'était très sucré et rafraîchissant.
 
