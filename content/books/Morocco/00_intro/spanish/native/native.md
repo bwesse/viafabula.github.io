@@ -2,7 +2,7 @@ todo
 
 # Tabla de contenidos
 
-## Capítulos introductorios
+## Temas generales
 
 1. Geografía & Medio ambiente
 2. Historia & Identidad
@@ -17,22 +17,22 @@ todo
 11. Etiqueta & Códigos sociales
 12. Cosmovisión & "Cómo piensan las personas"
 
-## Ciudades y lugares
+## Lugares
 
-13. Tánger
-14. Chefchaouen
-15. Fez
-16. Meknes
-17. Rabat
-18. Casablanca
-19. Marrakech
-20. Essaouira
-21. Imsouane
-22. Taghazout
-23. Agadir
-24. Sidi Ifni
-25. Taroudant
-26. Imlil
-27. Ouarzazate
-28. Tinghir
-29. Merzouga
+1. Tánger
+2. Chefchaouen
+3. Fez
+4. Meknes
+5. Rabat
+6. Casablanca
+7. Marrakech
+8. Essaouira
+9. Imsouane
+10. Taghazout
+11. Agadir
+12. Sidi Ifni
+13. Taroudant
+14. Imlil
+15. Ouarzazate
+16. Tinghir
+17. Merzouga

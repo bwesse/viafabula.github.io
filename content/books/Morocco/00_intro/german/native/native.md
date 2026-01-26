@@ -2,7 +2,7 @@ todo
 
 # Inhaltsverzeichnis
 
-## Einführungskapitel
+## Allgemeine Themen
 
 1. Geografie & Umwelt
 2. Geschichte & Identität
@@ -17,22 +17,22 @@ todo
 11. Etikette & Soziale Codes
 12. Weltanschauung & "Wie Menschen denken"
 
-## Städte und Orte
+## Orte
 
-13. Tanger
-14. Chefchaouen
-15. Fes
-16. Meknes
-17. Rabat
-18. Casablanca
-19. Marrakesch
-20. Essaouira
-21. Imsouane
-22. Taghazout
-23. Agadir
-24. Sidi Ifni
-25. Taroudant
-26. Imlil
-27. Ouarzazate
-28. Tinghir
-29. Merzouga
+1. Tanger
+2. Chefchaouen
+3. Fes
+4. Meknes
+5. Rabat
+6. Casablanca
+7. Marrakesch
+8. Essaouira
+9. Imsouane
+10. Taghazout
+11. Agadir
+12. Sidi Ifni
+13. Taroudant
+14. Imlil
+15. Ouarzazate
+16. Tinghir
+17. Merzouga
