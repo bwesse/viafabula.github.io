@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Qué ciudad visitó el viajero?",
+      "options": [
+        "Rabat",
+        "París",
+        "Londres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Cómo estaba el tiempo?",
+      "options": [
+        "Cálido y soleado",
+        "Frío y lluvioso",
+        "Nevado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué bebida tomaron por la tarde?",
+      "options": [
+        "Té de menta",
+        "Café",
+        "Zumo de naranja"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
