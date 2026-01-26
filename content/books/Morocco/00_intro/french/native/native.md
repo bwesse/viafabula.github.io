@@ -1,20 +1,38 @@
-gpt placeholder
-J'ai visité Morocco l'été dernier. C'était ma première fois au Maroc.
+todo
 
-Morocco est une land of contrasts where ancient traditions meet modern life. Je suis arrivé le matin. Le temps était chaud et ensoleillé.
+# Table des matières
 
-J'ai séjourné dans un petit hôtel près du centre. Les gens étaient très sympathiques. Ils m'ont aidé avec mes bagages.
+## Chapitres d'introduction
 
-Chaque jour, je me promenais dans la ville. J'ai vu ancient medinas, vibrant souks, the Sahara desert, Atlas mountains, beautiful coasts, et rich culture. Les rues étaient pleines de vie. Il y avait beaucoup de magasins et de cafés.
+1. Géographie & Environnement
+2. Histoire & Identité
+3. Culture & Société
+4. Langue & Communication
+5. Politique & Gouvernance
+6. Économie & Vie quotidienne
+7. Alimentation & Agriculture
+8. Transport & Infrastructure
+9. Sécurité, Santé & Aspects pratiques
+10. Nature, Loisirs & Sports
+11. Étiquette & Codes sociaux
+12. Vision du monde & "Comment les gens pensent"
 
-J'ai goûté la cuisine locale. Le tajine était délicieux. Je buvais aussi du thé à la menthe chaque après-midi. C'était très sucré et rafraîchissant.
+## Villes et lieux
 
-L'architecture était incroyable. Les bâtiments avaient de belles couleurs et motifs. J'ai pris beaucoup de photos.
-
-Le soir, la ville s'animait. Il y avait de la musique et de la danse. L'atmosphère était magique.
-
-J'ai rencontré d'autres voyageurs de différents pays. Nous avons partagé des histoires sur nos voyages. Je me suis fait de nouveaux amis.
-
-Le dernier jour, j'ai acheté des souvenirs. J'ai obtenu des épices, un tapis et de la poterie. J'étais triste de partir.
-
-Morocco était une expérience incroyable. Je veux y retourner un jour. Le Maroc a tant à offrir. Je le recommande à tous.
+13. Tanger
+14. Chefchaouen
+15. Fès
+16. Meknès
+17. Rabat
+18. Casablanca
+19. Marrakech
+20. Essaouira
+21. Imsouane
+22. Taghazout
+23. Agadir
+24. Sidi Ifni
+25. Taroudant
+26. Imlil
+27. Ouarzazate
+28. Tinghir
+29. Merzouga
