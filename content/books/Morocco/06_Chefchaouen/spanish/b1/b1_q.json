@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿Dónde está Chefchaouen?",
+      "options": [
+        "Marruecos",
+        "Egipto",
+        "Túnez"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué tipo de experiencia fue este viaje?",
+      "options": [
+        "Cultural",
+        "Vacaciones de playa",
+        "Senderismo de montaña"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "¿Qué compró el viajero como recuerdos?",
+      "options": [
+        "Especias y artesanías",
+        "Libros",
+        "Electrónica"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
