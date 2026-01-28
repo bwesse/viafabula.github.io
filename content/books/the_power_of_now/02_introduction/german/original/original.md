@@ -1,197 +1,195 @@
-# Introduction
+# Einführung
 
-INTRODUCTION
+EINFÜHRUNG
 
-THE ORIGIN OF THIS BOOK
-I have little use for the past and rarely think about it; however, I would
-briefly like to tell you how I came to be a spiritual teacher and how this
-book came into existence.
-Until my thirtieth year, I lived in a state of almost continuous anxiety
-interspersed with periods of suicidal depression. It feels now as if I am
-talking about some past lifetime or somebody else's life.
-One night not long after my twenty-ninth birthday, I woke up in the
-early hours with a feeling of absolute dread. I had woken up with such a
-feeling many times before, but this time it was more intense than it had ever
-been. The silence of the night, the vague outlines of the furniture in the dark
-room,
-the distant noise of a passing train everything felt so alien, so hostile,
-and so utterly meaningless that it created in me a deep loathing of the
-world. The most loathsome thing of all, however, was my own existence.
-What was the point m continuing to live with this burden of misery? Why
-carry on with this continuous struggle? I could feel that a deep longing for
-annihilation, for nonexistence, was now becoming much stronger than the
-instinctive desire to continue to live.
-“I cannot live with myself any longer.” This was the thought that kept
-repeating itself in my mind. Then suddenly I became aware of what a
-peculiar thought it was. "Am I one or two? If I cannot live with myself,
-there must be two of me:
-the 'I' and the 'self' that 'I' cannot live with.“ ”Maybe,“ I thought, ”only
-one of them is real."
-I was so stunned by this strange realization that my mind stopped. I
-was fully conscious, but there were no more thoughts. Then I felt drawn
-into what seemed like a vortex of energy. It was a slow movement at first
-and then accelerated. I was gripped by an intense fear, and my body started
-to shake. I heard the words “resist nothing,” as if spoken inside my chest. I
-could feel myself being sucked into a void. It felt as if the void was inside
-myself rather than outside. Suddenly,
-there was no more fear, and I let myself fall into that void. I have no
-recollection of what happened after that.
-I was awakened by the chirping of a bird outside the window. I had
-never heard such a sound before. My eyes were still closed, and I saw the
+DER URSPRUNG DIESES BUCHES
+Ich habe wenig Verwendung für die Vergangenheit und denke selten darüber nach; dennoch möchte ich
+Ihnen kurz erzählen, wie ich dazu kam, spiritueller Lehrer zu werden, und wie dieses
+Buch entstanden ist.
+Bis zu meinem dreißigsten Lebensjahr lebte ich in einem Zustand nahezu ständiger Angst,
+unterbrochen von Phasen suizidaler Depression. Es fühlt sich jetzt an, als spräche ich
+über ein vergangenes Leben oder das Leben eines anderen.
+Eines Nachts, nicht lange nach meinem neunundzwanzigsten Geburtstag, wachte ich in den
+frühen Morgenstunden mit einem Gefühl absoluter Furcht auf. Ich war schon viele Male zuvor mit einem solchen
+Gefühl aufgewacht, aber diesmal war es intensiver, als es je
+gewesen war. Die Stille der Nacht, die vagen Umrisse der Möbel in dem dunklen
+Zimmer,
+das entfernte Geräusch eines vorbeifahrenden Zuges – alles fühlte sich so fremd, so feindselig,
+und so völlig bedeutungslos an, dass es in mir einen tiefen Ekel vor der
+Welt hervorrief. Das Widerwärtigste von allem jedoch war meine eigene Existenz.
+Wozu überhaupt weiterleben mit dieser Last des Elends? Warum
+weitermachen mit diesem fortwährenden Kampf? Ich konnte fühlen, dass eine tiefe Sehnsucht nach
+Vernichtung, nach Nichtexistenz, jetzt viel stärker wurde als der
+instinktive Wunsch, weiterzuleben.
+„Ich kann nicht mehr mit mir selbst leben.“ Das war der Gedanke, der sich
+immer wieder in meinem Geist wiederholte. Dann wurde mir plötzlich bewusst, was für ein
+seltsamer Gedanke das war. „Bin ich einer oder zwei? Wenn ich nicht mit mir selbst leben kann,
+dann muss es zwei von mir geben:
+das ‚Ich‘ und das ‚Selbst‘, mit dem ‚ich‘ nicht leben kann.“ „Vielleicht“, dachte ich, „ist nur
+einer von beiden real.“
+Ich war so verblüfft über diese seltsame Erkenntnis, dass mein Geist stoppte. Ich
+war vollkommen wach, aber es gab keine Gedanken mehr. Dann fühlte ich mich hineingezogen
+in das, was wie ein Energiesog erschien. Es war zunächst eine langsame Bewegung
+und beschleunigte dann. Ich wurde von intensiver Angst gepackt, und mein Körper begann
+zu zittern. Ich hörte die Worte „widerstehe nichts“, als ob sie in meiner Brust gesprochen würden. Ich
+konnte fühlen, wie ich in ein Nichts hineingesogen wurde. Es fühlte sich an, als sei das Nichts in
+mir selbst statt außerhalb. Plötzlich
+gab es keine Angst mehr, und ich ließ mich in dieses Nichts fallen. Ich habe keine
+Erinnerung daran, was danach geschah.
+Ich wurde vom Zwitschern eines Vogels draußen vor dem Fenster geweckt. Ich hatte
+nie zuvor einen solchen Klang gehört. Meine Augen waren noch geschlossen, und ich sah das
 
-image of a precious diamond. Yes, if a diamond could make a sound, this is
-what it would be like. I opened my eyes. The first light of dawn was
-filtering through the curtains. Without any thought, I felt, I knew, that there
-is infinitely more to light than we realize. That soft luminosity filtering
-through the curtains was love itself. Tears came into my eyes. I got up and
-walked around the room. I recognized the room, and yet I knew that I had
-never truly seen it before. Everything was fresh and pristine, as if it had just
-come into existence. I picked up things, a pencil, an empty bottle,
-marveling at the beauty and aliveness of it all.
-That day I walked around the city in utter amazement at the miracle of
-life on earth, as if I had just been born into this world.
-For the next five months, I lived in a state of uninterrupted deep peace
-and bliss. After that, it diminished somewhat in intensity, or perhaps it just
-seemed to because it became my natural state. I could still function in the
-world, although I realized that nothing I ever did could possibly add
-anything to what I already had.
-I knew, of course, that something profoundly significant had happened
-to me, but I didn't understand it at all. It wasn't until several years later,
-after I had read spiritual texts and spent time with spiritual teachers, that I
-realized that what everybody was looking for had already happened to me. I
-understood that the intense pressure of suffering that night must have forced
-my consciousness to withdraw from its identification with the unhappy and
-deeply fearful self, which is ultimately a fiction of the mind. This
-withdrawal must have been so complete that this false, suffering self
-immediately collapsed, just as if a plug had been pulled out of an inflatable
-toy. What was left then was my true nature as the ever-present I am:
-consciousness in its pure state prior to identification with form. Later I also
-learned to go into that inner timeless and deathless realm that I had
-originally perceived as a void and remain fully conscious. I dwelt in states
-of such indescribable bliss and sacredness that even the original experience
-I just described pales in comparison. A time came when, for a while, I was
-left with nothing on the physical plane. I had no relationships, no job, no
-home, no socially defined identity. I spent almost two years sitting on park
-benches in a state of the most intense joy.
-But even the most beautiful experiences come and go. More
-fundamental, perhaps, than any experience is the undercurrent of peace that
-has never left me since then. Sometimes it is very strong, almost palpable,
-and others can feel it too. At other times, it is somewhere in the
-background, like a distant melody.
+Bild eines kostbaren Diamanten. Ja, wenn ein Diamant einen Klang erzeugen könnte, wäre es
+so. Ich öffnete die Augen. Das erste Licht der Morgendämmerung
+drang durch die Vorhänge. Ohne irgendeinen Gedanken fühlte ich, wusste ich, dass da
+unendlich mehr an Licht ist, als wir begreifen. Dieses sanfte Leuchten, das
+durch die Vorhänge fiel, war die Liebe selbst. Tränen stiegen mir in die Augen. Ich stand auf und
+ging im Zimmer umher. Ich erkannte das Zimmer, und doch wusste ich, dass ich es
+nie wirklich zuvor gesehen hatte. Alles war frisch und makellos, als wäre es gerade erst
+entstanden. Ich nahm Dinge in die Hand, einen Bleistift, eine leere Flasche,
+und staunte über die Schönheit und Lebendigkeit von allem.
+An jenem Tag ging ich in völliger Verwunderung durch die Stadt über das Wunder des
+Lebens auf der Erde, als wäre ich gerade erst in diese Welt geboren worden.
+In den nächsten fünf Monaten lebte ich in einem Zustand ununterbrochenen tiefen Friedens
+und Glückseligkeit. Danach nahm es etwas an Intensität ab, oder vielleicht schien es nur so,
+weil es mein natürlicher Zustand wurde. Ich konnte weiterhin in der Welt funktionieren,
+obwohl ich erkannte, dass nichts, was ich je tat, irgendetwas zu dem hinzufügen konnte,
+was ich bereits hatte.
+Ich wusste natürlich, dass mir etwas zutiefst Bedeutendes widerfahren war,
+aber ich verstand es überhaupt nicht. Erst mehrere Jahre später,
+nachdem ich spirituelle Texte gelesen und Zeit mit spirituellen Lehrern verbracht hatte, wurde mir
+klar, dass das, wonach alle suchten, mir bereits widerfahren war. Ich
+verstand, dass der enorme Druck des Leidens in jener Nacht mein
+Bewusstsein gezwungen haben musste, sich aus seiner Identifikation mit dem unglücklichen und
+zutiefst ängstlichen Selbst zurückzuziehen, das letztlich eine Fiktion des Geistes ist. Dieser
+Rückzug musste so vollständig gewesen sein, dass dieses falsche, leidende Selbst
+sofort zusammenbrach, als wäre der Stöpsel aus einem aufblasbaren
+Spielzeug gezogen worden. Was dann übrig blieb, war meine wahre Natur als das immer gegenwärtige Ich bin:
+Bewusstsein in seinem reinen Zustand vor der Identifikation mit Form. Später lernte ich auch,
+in jenes innere zeitlose und unsterbliche Reich einzutreten, das ich ursprünglich als ein Nichts
+wahrgenommen hatte, und dabei völlig bewusst zu bleiben. Ich verweilte in Zuständen
+so unbeschreiblicher Glückseligkeit und Heiligkeit, dass selbst die ursprüngliche Erfahrung,
+die ich gerade beschrieben habe, im Vergleich dazu verblasst. Es kam eine Zeit, in der ich
+für eine Weile auf der physischen Ebene mit nichts zurückblieb. Ich hatte keine Beziehungen, keinen Job, kein
+Zuhause, keine sozial definierte Identität. Fast zwei Jahre verbrachte ich damit, auf Parkbänken zu sitzen
+in einem Zustand der intensivsten Freude.
+Doch selbst die schönsten Erfahrungen kommen und gehen. Grundlegender,
+vielleicht, als jede Erfahrung ist die Strömung von Frieden, die mich seitdem nie verlassen hat. Manchmal
+ist sie sehr stark, fast greifbar,
+und andere können sie ebenfalls fühlen. Zu anderen Zeiten ist sie irgendwo im
+Hintergrund, wie eine ferne Melodie.
 
-Later, people would occasionally come up to me and say: “I want what
-you have. Can you give it to me, or show me how to get it?” And I would
-say: “You have it already. You just can't feel it because your mind is
-making too much noise.” That answer later grew into the book that you are
-holding in your hands.
-Before I knew it, I had an external identity again. I had become a
-spiritual teacher.
+Später kamen gelegentlich Menschen zu mir und sagten: „Ich will, was du hast.
+Kannst du es mir geben oder mir zeigen, wie ich es bekomme?“ Und ich sagte:
+„Du hast es bereits. Du kannst es nur nicht fühlen, weil dein Geist zu viel Lärm macht.“
+Diese Antwort wuchs später zu dem Buch heran, das du in deinen Händen hältst.
+Ehe ich mich versah, hatte ich wieder eine äußere Identität. Ich war
+ein spiritueller Lehrer geworden.
 
-THE TRUTH THAT IS WITHIN YOU
-This book represents the essence of my work, as far as it can be
-conveyed in words, with individuals and small groups of spiritual seekers
-during the past ten years, in Europe and in North America. In deep love and
-appreciation, I would like to thank those exceptional people for their
-courage, their willingness to embrace inner change, thought that kept
-repeating itself in my mind. Then suddenly I became aware of what a
-peculiar thought it was. “Am I one or two? If I cannot live with myself,
-there must be two of me: the 'I' and the 'self' that 'I' cannot live with.”
-“Maybe,” I thought, “only one of them is real.” their challenging questions,
-and their readiness to listen. This book would not have come into existence
-without them. They belong to what is as yet a small but fortunately growing
-minority of spiritual pioneers: people who are reaching a point where they
-become capable of breaking out of inherited collective mind-patterns that
-have kept humans in bondage to suffering for eons.
-I trust that this book will find its way to those who are ready for such
-radical inner transformation and so act as a catalyst for it. I also hope that it
-will reach many others who will find its content worthy of consideration,
-although they may not be ready to fully live or practice it. It is possible that
-at a later time, the seed that was sown when reading this book will merge
-with the seed of enlightenment that each human being carries within, and
-suddenly that seed will sprout and come alive within them.
-The book in its present form originated, often spontaneously, in
-response to questions asked by individuals in seminars, meditation classes
-and private counseling sessions, and so I have kept the question-and-answer
-format. I learned and received as much in those classes and sessions as the
-questioners. Some of the questions and answers I wrote down almost
-verbatim. Others are generic, which is to say I combined certain types of
-questions that were frequently asked into one, and extracted the essence
-from different answers to form one generic answer. Sometimes, in the
-process of writing, an entirely new answer came that was more profound or
-insightful than anything I had ever uttered. Some additional questions were
-asked by the editor so as to provide further clarification of certain points.
-You will find that from the first to the last page, the
+DIE WAHRHEIT, DIE IN DIR IST
+Dieses Buch stellt die Essenz meiner Arbeit dar, soweit sie sich
+in Worten vermitteln lässt, mit Einzelnen und kleinen Gruppen spiritueller Suchender
+während der vergangenen zehn Jahre, in Europa und in Nordamerika. In tiefer Liebe und
+Wertschätzung möchte ich jenen außergewöhnlichen Menschen danken für ihren
+Mut, ihre Bereitschaft, inneren Wandel zu umarmen, Gedanke, der sich
+immer wieder in meinem Geist wiederholte. Dann wurde mir plötzlich bewusst, was für ein
+seltsamer Gedanke das war. „Bin ich einer oder zwei? Wenn ich nicht mit mir selbst leben kann,
+dann muss es zwei von mir geben: das ‚Ich‘ und das ‚Selbst‘, mit dem ‚ich‘ nicht leben kann.“
+„Vielleicht“, dachte ich, „ist nur einer von beiden real.“ ihre herausfordernden Fragen,
+und ihre Bereitschaft zuzuhören. Dieses Buch wäre ohne sie nicht entstanden. Sie gehören zu dem,
+was noch immer eine kleine, aber glücklicherweise wachsende
+Minderheit spiritueller Pioniere ist: Menschen, die einen Punkt erreichen, an dem sie
+fähig werden, aus ererbten kollektiven Denk-Mustern auszubrechen, die die Menschen
+seit Äonen in der Knechtschaft des Leidens gehalten haben.
+Ich vertraue darauf, dass dieses Buch seinen Weg zu denen findet, die für eine solche
+radikale innere Transformation bereit sind, und so als Katalysator dafür wirkt. Ich hoffe auch, dass es
+viele andere erreicht, die seinen Inhalt der Betrachtung würdig finden,
+auch wenn sie vielleicht nicht bereit sind, ihn vollständig zu leben oder zu praktizieren. Es ist möglich, dass
+zu einem späteren Zeitpunkt der Samen, der beim Lesen dieses Buches gesät wurde, sich
+mit dem Samen der Erleuchtung vereint, den jeder Mensch in sich trägt, und
+plötzlich wird dieser Samen in ihnen sprießen und lebendig werden.
+Das Buch in seiner gegenwärtigen Form entstand, oft spontan, als
+Antwort auf Fragen, die von Einzelnen in Seminaren, Meditationskursen
+und privaten Beratungssitzungen gestellt wurden, und so habe ich das Frage-und-Antwort-
+Format beibehalten. Ich lernte und empfing in jenen Kursen und Sitzungen ebenso viel wie die
+Fragenden. Einige der Fragen und Antworten schrieb ich nahezu
+wortwörtlich auf. Andere sind generisch, das heißt, ich fasste bestimmte Arten von
+Fragen, die häufig gestellt wurden, zu einer zusammen und zog die Essenz
+aus verschiedenen Antworten heraus, um eine generische Antwort zu formen. Manchmal kam im
+Prozess des Schreibens eine völlig neue Antwort, die tiefgründiger oder
+einsichtsvoller war als alles, was ich je ausgesprochen hatte. Einige zusätzliche Fragen wurden
+vom Lektor gestellt, um bestimmte Punkte weiter zu klären.
+Du wirst feststellen, dass vom ersten bis zum letzten Seite die
 
-dialogues continuously alternate between two different levels. On one
-level, I draw your attention to what is false in you. I speak of the nature of
-human unconsciousness and dysfunction as well as its most common
-behavioral manifestations, from conflict in relationships to warfare between
-tribes or nations. Such knowledge is vital, for unless you learn to recognize
-the false as false as not you there can be no lasting transformation, and you
-would always end up being drawn back into illusion and into some form of
-pain. On this level, I also show you how not to make that which is false in
-you into a self and into a personal problem,
-for that is how the false perpetuates itself. On another level, I speak of
-a profound transformation of human consciousness not as a distant future
-possibility, but available now no matter who or where you are. You are
-shown how to free yourself from enslavement to the mind, enter into this
-enlightened state of consciousness and sustain it in everyday life.
-On this level of the book, the words are not always concerned with
-information, but often designed to draw you into this new consciousness as
-you read. Again and again, I endeavor to take you with me into that
-timeless state of intense conscious presence in the Now, so as to give you a
-taste of enlightenment. Until you are able to experience what I speak of,
-you may find those passages somewhat repetitive. As soon as you do,
-however, I believe you will realize that they contain a great deal of spiritual
-power, and they may become for you the most rewarding parts of the book.
-Moreover, since every person carries the seed of enlightenment within, I
-often address myself to the knower in you who dwells behind the thinker,
-the deeper self that immediately recognizes spiritual truth, resonates with it,
-and gains strength from it.
-The pause symbol ¤ after certain passages is a suggestion that you may
-want to stop reading for a moment, become still, and feel and experience
-the truth of what has just been said. There may be other places in the text
-where you will do this naturally and spontaneously.
-As you begin reading the book, the meaning of certain words, such as
-“Being” or “presence,” may not be entirely clear to you at first. Just read
-on. Questions or objections may occasionally come into your mind as you
-read. They will probably be answered later in the book, or they may turn
-out to be irrelevant as you go more deeply into the teaching and into
-yourself.
-Don't read with the mind only. Watch out for any “feeling-response”
-as you read and a sense of recognition from deep within. I cannot tell you
-any spiritual truth that deep within you don't know already. All I can do is
+Dialoge fortwährend zwischen zwei verschiedenen Ebenen wechseln. Auf der einen
+Ebene lenke ich deine Aufmerksamkeit auf das, was in dir falsch ist. Ich spreche über die Natur
+menschlicher Unbewusstheit und Dysfunktion sowie über deren häufigste
+Verhaltensmanifestationen, von Konflikten in Beziehungen bis hin zu Krieg zwischen
+Stämmen oder Nationen. Solches Wissen ist lebenswichtig, denn wenn du nicht lernst,
+das Falsche als falsch zu erkennen – als nicht du – kann es keine dauerhafte Transformation geben, und du
+würdest immer wieder zurück in Illusion und in irgendeine Form von
+Schmerz gezogen werden. Auf dieser Ebene zeige ich dir auch, wie du das, was in dir falsch ist,
+nicht zu einem Selbst und zu einem persönlichen Problem machst,
+denn so erhält sich das Falsche selbst. Auf einer anderen Ebene spreche ich von
+einer tiefgreifenden Transformation des menschlichen Bewusstseins nicht als einer fernen zukünftigen
+Möglichkeit, sondern als jetzt verfügbar, ganz gleich wer oder wo du bist. Dir wird gezeigt,
+wie du dich von der Versklavung durch den Geist befreist, in diesen
+erleuchteten Bewusstseinszustand eintrittst und ihn im Alltagsleben aufrechterhältst.
+Auf dieser Ebene des Buches geht es den Worten nicht immer um
+Information, sondern sie sind oft darauf ausgerichtet, dich in dieses neue Bewusstsein hineinzuziehen, während
+du liest. Immer wieder bemühe ich mich, dich mit mir in jenen
+zeitlosen Zustand intensiver bewusster Gegenwärtigkeit im Jetzt zu nehmen, um dir einen
+Vorgeschmack auf Erleuchtung zu geben. Bis du fähig bist zu erfahren, wovon ich spreche,
+könnten dir diese Passagen etwas repetitiv erscheinen. Sobald du es jedoch tust,
+glaube ich, wirst du erkennen, dass sie eine große Menge spiritueller
+Kraft enthalten, und sie könnten für dich die lohnendsten Teile des Buches werden.
+Außerdem, da jeder Mensch den Samen der Erleuchtung in sich trägt, wende ich mich
+oft an den Wissenden in dir, der hinter dem Denker wohnt,
+das tiefere Selbst, das spirituelle Wahrheit unmittelbar erkennt, mit ihr in Resonanz geht,
+und aus ihr Kraft gewinnt.
+Das Pausensymbol ¤ nach bestimmten Passagen ist ein Vorschlag, dass du
+für einen Moment aufhören möchtest zu lesen, still werden und die
+Wahrheit dessen fühlen und erfahren, was gerade gesagt wurde. Es kann andere Stellen im Text geben,
+an denen du dies ganz natürlich und spontan tust.
+Wenn du beginnst, das Buch zu lesen, ist die Bedeutung bestimmter Wörter, wie
+„Sein“ oder „Gegenwärtigkeit“, dir vielleicht anfangs nicht ganz klar. Lies einfach
+weiter. Fragen oder Einwände könnten dir gelegentlich in den Sinn kommen, während du
+liest. Sie werden wahrscheinlich später im Buch beantwortet, oder sie könnten sich als
+irrelevant erweisen, während du tiefer in die Lehre und in
+dich selbst gehst.
+Lies nicht nur mit dem Verstand. Achte auf jede „Gefühlsreaktion“
+während du liest und auf ein Gefühl des Wiedererkennens aus tiefstem Inneren. Ich kann dir
+keine spirituelle Wahrheit sagen, die du tief in dir nicht schon kennst. Alles, was ich tun kann, ist
 
-remind you of what you have forgotten. Living knowledge, ancient and yet
-ever new, is then activated and released from within every cell of your
-body.
-The mind always wants to categorize and compare, but this book will
-work better for you if you do not attempt to compare its terminology with
-that of other teachings; otherwise, you will probably become confused. I
-use words such as “mind,” “happiness,” and “consciousness” in ways that
-do not necessarily correlate with other teachings. Don't get attached to any
-words. They are only stepping stones, to be left behind as quickly as
-possible.
-When I occasionally quote the words of Jesus or the Buddha, from A
-Course in Miracles or from other teachings, I do so not in order to compare,
-but to draw your attention to the fact that in essence there is and always has
-been only one spiritual teaching, although it comes in many forms. Some of
-these forms, such as the ancient religions, have become so overlaid with
-extraneous matter that their spiritual essence has become almost completely
-obscured by it. To a large extent, therefore, their deeper meaning is no
-longer recognized and their transformative power lost. When I quote from
-the ancient religions or other teachings, it is to reveal their deeper meaning
-and thereby restore their transformative power particularly for those readers
-who are followers of these religions or teachings. I say to them: there is no
-need to go elsewhere for the truth. Let me show you how to go more deeply
-into what you already have.
-Mostly, however, I have endeavored to use terminology that is as
-neutral as possible in order to reach a wide range of people. This book can
-be seen as a restatement for our time of that one timeless spiritual teaching,
-the essence of all religions. It is not derived from external sources, but from
-the one true Source within, so it contains no theory or speculation. I speak
-from inner experience, and if at times I speak forcefully, it is to cut through
-heavy layers of mental resistance and to reach that place within you where
-you already know, just as I know, and where the truth is recognized when it
-is heard. There is then a feeling of exaltation and heightened aliveness, as
-something within you says: “Yes. I know this is true.”
+dich an das zu erinnern, was du vergessen hast. Lebendiges Wissen, uralt und doch
+immer neu, wird dann aktiviert und aus jeder Zelle deines
+Körpers freigesetzt.
+Der Geist will immer kategorisieren und vergleichen, aber dieses Buch wird für dich
+besser wirken, wenn du nicht versuchst, seine Terminologie mit der anderer Lehren zu vergleichen;
+sonst wirst du vermutlich verwirrt werden. Ich verwende Worte wie „Geist“,
+„Glück“ und „Bewusstsein“ auf eine Weise, die
+nicht unbedingt mit anderen Lehren korreliert. Hänge dich nicht an irgendwelche
+Worte. Sie sind nur Trittsteine, die so schnell wie möglich hinter sich gelassen werden sollten.
+Wenn ich gelegentlich die Worte Jesu oder Buddhas zitiere, aus Ein
+Kurs in Wundern oder aus anderen Lehren, tue ich das nicht, um zu vergleichen,
+sondern um deine Aufmerksamkeit darauf zu lenken, dass es im Wesentlichen nur eine
+spirituelle Lehre gibt und immer gegeben hat, auch wenn sie in vielen Formen erscheint. Einige
+dieser Formen, wie die alten Religionen, sind so sehr mit
+fremdem Material überlagert worden, dass ihre spirituelle Essenz dadurch fast vollständig
+verdeckt wurde. Zu einem großen Teil wird daher ihre tiefere Bedeutung
+nicht mehr erkannt und ihre transformierende Kraft geht verloren. Wenn ich aus
+den alten Religionen oder anderen Lehren zitiere, dann, um ihre tiefere Bedeutung zu enthüllen
+und dadurch ihre transformierende Kraft wiederherzustellen – besonders für jene Leser,
+die Anhänger dieser Religionen oder Lehren sind. Ich sage ihnen: Es gibt keine
+Notwendigkeit, anderswo nach der Wahrheit zu suchen. Lass mich dir zeigen, wie du tiefer
+in das gehst, was du bereits hast.
+Meistens jedoch habe ich mich bemüht, eine Terminologie zu verwenden, die so
+neutral wie möglich ist, um ein breites Spektrum von Menschen zu erreichen. Dieses Buch kann
+als eine Neuformulierung für unsere Zeit jener einen zeitlosen spirituellen Lehre gesehen werden,
+der Essenz aller Religionen. Es ist nicht aus äußeren Quellen abgeleitet, sondern aus
+der einen wahren Quelle im Inneren, und so enthält es keine Theorie oder Spekulation. Ich spreche
+aus innerer Erfahrung, und wenn ich manchmal nachdrücklich spreche, dann, um durch
+schwere Schichten mentalen Widerstands hindurchzuschneiden und jenen Ort in dir zu erreichen, wo
+du bereits weißt, so wie ich weiß, und wo die Wahrheit erkannt wird, wenn sie
+gehört wird. Dann gibt es ein Gefühl der Erhebung und gesteigerten Lebendigkeit, wenn
+etwas in dir sagt: „Ja. Ich weiß, dass das wahr ist.“

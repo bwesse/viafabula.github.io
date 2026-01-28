@@ -3,9 +3,7 @@
 INTRODUCTION
 
 THE ORIGIN OF THIS BOOK
-I have little use for the past and rarely think about it; however, I would
-briefly like to tell you how I came to be a spiritual teacher and how this
-book came into existence.
+I have little use for the past and rarely think about it; however, I would briefly like to tell you how I came to be a spiritual teacher and how this book came into existence.
 Until my thirtieth year, I lived in a state of almost continuous anxiety
 interspersed with periods of suicidal depression. It feels now as if I am
 talking about some past lifetime or somebody else's life.
