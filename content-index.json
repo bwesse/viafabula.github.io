@@ -10952,6 +10952,2079 @@
           ]
         }
       ]
+    },
+    {
+      "id": "the_power_of_now",
+      "title": "The Power of Now",
+      "chapters": [
+        {
+          "id": "00_foreword",
+          "title": "00 Foreword",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/00_foreword/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/00_foreword/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/00_foreword/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/00_foreword/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/00_foreword/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/00_foreword/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/00_foreword/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/00_foreword/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/00_foreword/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/00_foreword/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/00_foreword/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/00_foreword/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/00_foreword/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/00_foreword/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/00_foreword/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/00_foreword/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/00_foreword/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/00_foreword/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/00_foreword/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_acknowledgments",
+          "title": "01 Acknowledgments",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/01_acknowledgments/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_introduction",
+          "title": "02 Introduction",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/02_introduction/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/02_introduction/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/02_introduction/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/02_introduction/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/02_introduction/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/02_introduction/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/02_introduction/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/02_introduction/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/02_introduction/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/02_introduction/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/02_introduction/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/02_introduction/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/02_introduction/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/02_introduction/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/02_introduction/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/02_introduction/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/02_introduction/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/02_introduction/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/02_introduction/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_you_are_not_your_mind",
+          "title": "03 You Are Not Your Mind",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/03_you_are_not_your_mind/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_consciousness_the_way_out_of_pain",
+          "title": "04 Consciousness: The Way Out of Pain",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/04_consciousness_the_way_out_of_pain/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_moving_deeply_into_the_now",
+          "title": "05 Moving Deeply Into the Now",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/05_moving_deeply_into_the_now/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_mind_strategies_for_avoiding_the_now",
+          "title": "06 Mind Strategies for Avoiding the Now",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/06_mind_strategies_for_avoiding_the_now/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_the_state_of_presence",
+          "title": "07 The State of Presence",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/07_the_state_of_presence/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_the_inner_body",
+          "title": "08 The Inner Body",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/08_the_inner_body/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_portals_into_the_unmanifested",
+          "title": "09 Portals Into the Unmanifested",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/09_portals_into_the_unmanifested/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_enlightened_relationships",
+          "title": "10 Enlightened Relationships",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/10_enlightened_relationships/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_beyond_happiness_and_unhappiness",
+          "title": "11 Beyond Happiness and Unhappiness",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/11_beyond_happiness_and_unhappiness/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_the_meaning_of_surrender",
+          "title": "12 The Meaning of Surrender",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/spanish/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/the_power_of_now/12_the_meaning_of_surrender/german/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
