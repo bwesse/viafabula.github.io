@@ -1,519 +1,178 @@
-# You Are Not Your Mind
+**03 Du bist nicht dein Verstand**
+**Kapitel Eins**
 
-Chapter One
+**DU BIST NICHT DEIN VERSTAND**
 
-YOU ARE NOT YOUR MIND
+### DAS GRÖSSTE HINDERNIS
 
-THE GREATEST OBSTACLE TO
-ENLIGHTENMENT
-Enlightenment what is that?
-A beggar had been sitting by the side of a road for over thirty years.
-One day a stranger walked by. “Spare some change?” mumbled the beggar,
-mechanically holding out his old baseball cap. “I have nothing to give you,”
-said the stranger. Then he asked: “What's that you are sitting on? ” “
-Nothing,” replied the beggar. “Just an old box. I have been sitting on it for
-as long as I can remember. ” “ Ever looked inside?” asked the stranger.
-“No,” said the beggar. “Whats the point? There's nothing in there.” “Have a
-look inside,” insisted the stranger. The beggar managed to pry open the lid.
-With astonishment, disbelief, and elation, he saw that the box was filled
-with gold.
-I am that stranger who has nothing to give you and who is telling you
-to look inside. Not inside any box, as in the parable, but somewhere even
-closer, inside yourself.
-“But I am not a beggar,” I can hear you say.
-Those who have not found their true wealth, which is the radiant joy of
-Being and the deep, unshakable peace that comes with it, are beggars, even
-if they have great material wealth. They are looking outside for scraps of
-pleasure or fulfillment, for validation, security, or love, while they have a
-treasure within that not only includes all those things but is infinitely
-greater than anything the world can offer.
-The word enlightenment conjures up the idea of some superhuman
-accomplishment, and the ego likes to keep it that way, but it is simply your
-natural state of felt oneness with Being. It is a state of connectedness with
-something immeasurable and indestructible, something that, almost
-paradoxically, is essentially you and yet is much greater than you. It is
-finding your true nature beyond name and form. The inability to feel this
-connectedness gives rise to the illusion of separation, from yourself and
-from the world around you. You then perceive yourself, consciously or
-unconsciously, as an isolated fragment. Fear arises, and conflict within and
-without becomes the norm.
+### AUF DEM WEG ZUR ERLEUCHTUNG
 
-I love the Buddha's simple definition of enlightenment as “the end of
-suffering.” There is nothing superhuman in that, is there? Of course, as a
-definition, it is incomplete. It only tells you what enlightenment is not: no
-suffering. But what's left when there is no more suffering? The Buddha is
-silent on that, and his silence implies that you'll have to find out for
-yourself. He uses a negative definition so that the mind cannot make it into
-something to believe in or into a superhuman accomplishment, a goal that is
-impossible for you to attain. Despite this precaution, the majority of
-Buddhists still believe that enlightenment is for the Buddha, not for them, at
-least not in this lifetime.
-You used the word Being. Can you explain what you mean by that?
-Being is the eternal, ever-present One Life beyond the myriad forms of
-life that are subject to birth and death. However, Being is not only beyond
-but also deep within every form as its innermost invisible and indestructible
-essence. This means that it is accessible to you now as your own deepest
-self, your true nature. But don't seek to grasp it with your mind. Don't try to
-understand it. You can know it only when the mind is still. When you are
-present, when your attention is fully and intensely in the Now, Being can be
-felt, but it can never be understood mentally. To regain awareness of Being
-and to abide in that state of “feeling- realization” is enlightenment.
-¤
-When you say Being, are you talking about God? If you are, then why
-don't you say it?
-The word God has become empty of meaning through thousands of
-years of misuse. I use it sometimes, but I do so sparingly. By misuse, I
-mean that people who have never even glimpsed the realm of the sacred,
-the infinite vastness behind that word, use it with great conviction, as if
-they knew what they are talking about. Or they argue against it, as if they
-knew what it is that they are denying. This misuse gives rise to absurd
-beliefs, assertions, and egoic delusions, such as “My or our God is the only
-true God, and your God is false,” or Nietzsche's famous statement “God is
-dead.”
-The word God has become a closed concept. The moment the word is
-uttered, a mental image is created, no longer, perhaps, of an old man with a
-white beard, but still a mental representation of someone or something
-outside you, and, yes, almost inevitably a male someone or something.
-Neither God nor Being nor any other word can define or explain the
-ineffable reality behind the word, so the only important question is whether
-the word is a help or a hindrance in enabling you to experience That toward
+Erleuchtung – was ist das?
 
-which it points. Does it point beyond itself to that transcendental reality, or
-does it lend itself too easily to becoming no more than an idea in your head
-that you believe in, a mental idol?
-The word Being explains nothing, but nor does God. Being, however,
-has the advantage that it is an open concept. It does not reduce the infinite
-invisible to a finite entity. It is impossible to form a mental image of it.
-Nobody can claim exclusive possession of Being. It is your very essence,
-and it is immediately accessible to you as the feeling of your own presence,
-the realization I am that is prior to I am this or I am that. So it is only a
-small step from the word Being to the experience of Being.
-¤
-What is the greatest obstacle to experiencing this reality?
-Identification with your mind, which causes thought to become
-compulsive. Not to be able to stop thinking is a dreadful affliction, but we
-don't realize this because almost everybody is suffering from it, so it is
-considered normal. This incessant mental noise prevents you from finding
-that realm of inner stillness that is inseparable from Being. It also creates a
-false mind-made self that casts a shadow of fear and suffering. We will look
-at all that in more detail later.
-The philosopher Descartes believed that he had found the most
-fundamental truth when he made his famous statement: “I think, therefore I
-am.” He had, in fact, given expression to the most basic error, to equate
-thinking with Being and identity with thinking. The compulsive thinker,
-which means almost everyone, lives in a state of apparent separateness, in
-an insanely complex world of continuous problems and conflict, a world
-that reflects the ever- increasing fragmentation of the mind. Enlightenment
-is a state of wholeness, of being “at one” and therefore at peace. At one
-with life in its manifested aspect, the world, as well as with your deepest
-self and life unmanifested at one with Being. Enlightenment is not only the
-end of suffering and of continuous conflict within and without, but also the
-end of the dreadful enslavement to incessant thinking. What an incredible
-liberation this is! Identification with your mind creates an opaque screen of
-concepts, labels, images, words, judgments, and definitions that blocks all
-true relationship. It comes between you and yourself, between you and your
-fellow man and woman, between you and nature, between you and God. It
-is this screen of thought that creates the illusion of separateness,
-the illusion that there is you and a totally separate “other.” You then
-forget the essential fact that, underneath the level of physical appearances
-and separate forms, you are one with all that is. By “forget,” I mean that
+Ein Bettler saß über dreißig Jahre lang am Rand einer Straße. Eines Tages kam ein Fremder vorbei. „Hast du etwas Kleingeld?“, murmelte der Bettler und hielt mechanisch seine alte Baseballkappe hin.
+„Ich habe dir nichts zu geben“, sagte der Fremde. Dann fragte er: „Worauf sitzt du da?“
+„Auf nichts“, antwortete der Bettler. „Nur auf einer alten Kiste. Ich sitze schon so lange darauf, wie ich mich erinnern kann.“
+„Hast du jemals hineingeschaut?“, fragte der Fremde.
+„Nein“, sagte der Bettler. „Wozu auch? Da ist nichts drin.“
+„Schau hinein“, drängte der Fremde.
+Der Bettler schaffte es, den Deckel aufzubrechen. Mit Staunen, Unglauben und Glückseligkeit sah er, dass die Kiste voller Gold war.
 
-you can no longer feel this oneness as self-evident reality. You may believe
-it to be true, but you no longer know it to be true. A belief may be
-comforting. Only through your own experience, however, does it become
-liberating.
-Thinking has become a disease. Disease happens when things get out
-of balance. For example, there is nothing wrong with cells dividing and
-multiplying in the body, but when this process continues in disregard of the
-total organism, cells proliferate and we have disease.
-The mind is a superb instrument if used rightly. Used wrongly,
-however, it becomes very destructive. To put it more accurately, it is not so
-much that you use your mind wrongly you usually don't use it at all. It uses
-you. This is the disease. You believe that you are your mind. This is the
-delusion. The instrument has taken you over.
-I don't quite agree. It is true that I do a lot of aimless thinking, like
-most people, but I can still choose to use my mind to get and accomplish
-things, and I do that all the time.
-Just because you can solve a crossword puzzle or build an atom bomb
-doesn't mean that you use your mind. Just as dogs love to chew bones, the
-mind loves to get its teeth into problems. Thats why it does crossword
-puzzles and builds atom bombs. You have no interest in either. Let me ask
-you this: can you be free of your mind whenever you want to? Have you
-found the “off” button?
-You mean stop thinking altogether? No, I can't, except maybe for a
-moment or two.
-Then the mind is using you. You are unconsciously identified with it,
-so you don't even know that you are its slave. It's almost as if you were
-possessed without knowing it,
-and so you take the possessing entity to be yourself. The beginning of
-freedom is the realization that you are not the possessing entity the thinker.
-Knowing this enables you to observe the entity. The moment you start
-watching the thinker, a higher level of consciousness becomes activated.
-You then begin to realize that there is a vast realm of intelligence beyond
-thought, that thought is only a tiny aspect of that intelligence. You also
-realize that all the things that truly matter beauty, love, creativity, joy, inner
-peace arise from beyond the mind. You begin to awaken.
+Ich bin dieser Fremde, der nichts zu geben hat und der dir sagt, du sollst nach innen schauen. Nicht in eine Kiste wie in diesem Gleichnis, sondern an einen Ort, der noch viel näher liegt: in dich selbst.
+
+„Aber ich bin doch kein Bettler“, höre ich dich sagen.
+
+Diejenigen, die ihren wahren Reichtum nicht gefunden haben – die strahlende Freude des Seins und den tiefen, unerschütterlichen Frieden, der damit einhergeht –, sind Bettler, selbst wenn sie großen materiellen Reichtum besitzen. Sie suchen im Außen nach Brotkrumen von Vergnügen oder Erfüllung, nach Bestätigung, Sicherheit oder Liebe, während sie einen Schatz in sich tragen, der all das nicht nur umfasst, sondern unendlich viel größer ist als alles, was die Welt zu bieten hat.
+
+Das Wort Erleuchtung ruft die Vorstellung einer übermenschlichen Leistung hervor, und das Ego hält diese Vorstellung gern aufrecht. In Wahrheit ist Erleuchtung jedoch einfach dein natürlicher Zustand der gefühlten Einheit mit dem Sein. Es ist ein Zustand der Verbundenheit mit etwas Unermesslichem und Unzerstörbarem – etwas, das paradoxerweise im Wesentlichen du selbst bist und doch weit größer als du. Es ist das Finden deiner wahren Natur jenseits von Name und Form. Die Unfähigkeit, diese Verbundenheit zu fühlen, erzeugt die Illusion der Getrenntheit – von dir selbst und von der Welt um dich herum. Dann nimmst du dich bewusst oder unbewusst als isoliertes Fragment wahr. Angst entsteht, und Konflikte im Inneren wie im Äußeren werden zur Norm.
+
+Ich liebe Buddhas einfache Definition von Erleuchtung als „das Ende des Leidens“. Daran ist nichts Übermenschliches, oder? Natürlich ist diese Definition unvollständig. Sie sagt dir nur, was Erleuchtung nicht ist: kein Leiden. Doch was bleibt, wenn es kein Leiden mehr gibt? Darüber schweigt Buddha, und sein Schweigen impliziert, dass du es selbst herausfinden musst. Er verwendet eine negative Definition, damit der Verstand daraus nichts macht, woran man glauben kann, oder eine übermenschliche Leistung, ein Ziel, das für dich unerreichbar wäre. Trotz dieser Vorsichtsmaßnahme glauben die meisten Buddhisten immer noch, dass Erleuchtung für den Buddha bestimmt ist, nicht für sie – zumindest nicht in diesem Leben.
+
+Du hast das Wort Sein benutzt. Kannst du erklären, was du damit meinst?
+
+Sein ist das ewige, immer gegenwärtige Eine Leben jenseits der unzähligen Lebensformen, die Geburt und Tod unterworfen sind. Doch Sein ist nicht nur jenseits aller Formen, sondern zugleich tief in jeder Form als ihr innerstes, unsichtbares und unzerstörbares Wesen. Das bedeutet, dass es dir jetzt zugänglich ist – als dein eigenes tiefstes Selbst, deine wahre Natur. Versuche jedoch nicht, es mit dem Verstand zu erfassen. Versuche nicht, es zu verstehen. Du kannst es nur erkennen, wenn der Verstand still ist. Wenn du gegenwärtig bist, wenn deine Aufmerksamkeit ganz und intensiv im Jetzt ruht, kann Sein gefühlt werden – aber es kann niemals gedanklich verstanden werden. Das Wiedererlangen des Gewahrseins des Seins und das Verweilen in diesem Zustand der „gefühlten Verwirklichung“ ist Erleuchtung.
+
 ¤
 
-FREEING YOURSELF FROM YOUR MIND
-What exactly do you mean by “watching the thinker”?
-When someone goes to the doctor and says, “I hear a voice in my
-head,” he or she will most likely be sent to a psychiatrist. The fact is that, in
-a very similar way, virtually everyone hears a voice, or several voices, in
-their head all the time: the involuntary thought processes that you don't
-realize you have the power to stop. Continuous monologues or dialogues.
-You have probably come across “mad” people in the street incessantly
-talking or muttering to themselves. Well, thats not much different from
-what you and all other “normal” people do, except that you don't do it out
-loud. The voice comments, speculates, judges, compares, complains, likes,
-dislikes, and so on. The voice isn't necessarily relevant to the situation you
-find yourself in at the time; it may be reviving the recent or distant past or
-rehearsing or imagining possible future situations. Here it often imagines
-things going wrong and negative outcomes; this is called worry. Sometimes
-this soundtrack is accompanied by visual images or “mental movies.” Even
-if the voice is relevant to the situation at hand, it will interpret it in terms of
-the past. This is because the voice belongs to your conditioned mind, which
-is the result of all your past history as well as of the collective cultural
-mind-set you inherited. So you see and judge the present through the eyes
-of the past and get a totally distorted view of it. It is not uncommon for the
-voice to be a person's own worst enemy. Many people live with a tormentor
-in their head that continuously attacks and punishes them and drains them
-of vital energy. It is the cause of untold misery and unhappiness, as well as
-of disease.
-The good news is that you can free yourself from your mind. This is
-the only true liberation. You can take the first step right now. Start listening
-to the voice in your head as often as you can. Pay particular attention to any
-repetitive thought patterns, those old gramophone records that have been
-playing in your head perhaps for many years. This is what I mean by
-“watching the thinker,” which is another way of saying: listen to the voice
-in your head, be there as the witnessing presence.
-When you listen to that voice, listen to it impartially. That is to say, do
-not judge. Do not judge or condemn what you hear, for doing so would
+Wenn du vom Sein sprichst – meinst du damit Gott? Und wenn ja, warum sagst du es dann nicht?
 
-mean that the same voice has come in again through the back door. You'll
-soon realize: there is the voice, and here I am listening to it, watching it.
-This I am realization, this sense of your own presence, is not a thought. It
-arises from beyond the mind.
+Das Wort Gott ist durch tausendjährigen Missbrauch leer geworden. Ich benutze es manchmal, aber sehr sparsam. Mit Missbrauch meine ich, dass Menschen, die niemals auch nur einen Blick in den Bereich des Heiligen geworfen haben – in die unendliche Weite hinter diesem Wort –, es mit großer Überzeugung verwenden, als wüssten sie, wovon sie sprechen. Oder sie argumentieren dagegen, als wüssten sie genau, was sie da leugnen. Dieser Missbrauch erzeugt absurde Glaubenssätze, Behauptungen und egoische Wahnvorstellungen wie: „Mein oder unser Gott ist der einzig wahre Gott, und dein Gott ist falsch“, oder Nietzsches berühmte Aussage „Gott ist tot“.
+
+Das Wort Gott ist zu einem geschlossenen Konzept geworden. In dem Moment, in dem das Wort ausgesprochen wird, entsteht ein mentales Bild – vielleicht nicht mehr das eines alten Mannes mit weißem Bart, aber dennoch eine mentale Vorstellung von jemandem oder etwas außerhalb von dir, und ja, fast unvermeidlich eine männliche Person oder Instanz.
+
+Weder Gott noch Sein noch irgendein anderes Wort kann die unaussprechliche Wirklichkeit hinter dem Wort definieren oder erklären. Die einzig wichtige Frage ist daher, ob das Wort hilfreich ist oder hinderlich, um dir zu ermöglichen, das zu erfahren, worauf es verweist. Verweist es über sich selbst hinaus auf diese transzendente Wirklichkeit, oder eignet es sich allzu leicht dazu, nicht mehr als eine Idee in deinem Kopf zu werden, an die du glaubst – ein mentales Götzenbild?
+
+Das Wort Sein erklärt nichts, aber das tut Gott auch nicht. Sein hat jedoch den Vorteil, ein offenes Konzept zu sein. Es reduziert das unendliche Unsichtbare nicht auf ein endliches Etwas. Es ist unmöglich, sich ein mentales Bild davon zu machen. Niemand kann exklusiven Besitz am Sein beanspruchen. Es ist dein eigentliches Wesen und dir unmittelbar zugänglich als das Gefühl deiner eigenen Gegenwärtigkeit, als die Verwirklichung „Ich bin“, die allem vorausgeht, was „Ich bin dies“ oder „Ich bin das“ heißt. Daher ist es nur ein kleiner Schritt vom Wort Sein zur Erfahrung des Seins.
+
 ¤
-So when you listen to a thought, you are aware not only of the thought
-but also of yourself as the witness of the thought. A new dimension of
-consciousness has come in. As you listen to the thought, you feel a
-conscious presence your deeper self behind or underneath the thought, as it
-were. The thought then loses its power over you and quickly subsides,
-because you are no longer energizing the mind through identification with
-it. This is the beginning of the end of involuntary and compulsive thinking.
-When a thought subsides, you experience a discontinuity in the mental
-stream a gap of “no-mind.” At first, the gaps will be short, a few seconds
-perhaps, but gradually they will become longer. When these gaps occur,
-you feel a certain stillness and peace inside you. This is the beginning of
-your natural state of felt oneness with Being, which is usually obscured by
-the mind. With practice, the sense of stillness and peace will deepen. In
-fact, there is no end to its depth. You will also feel a subtle emanation of
-joy arising from deep within: the joy of Being.
-It is not a trancelike state. Not at all. There is no loss of consciousness
-here. The opposite is the case. If the price of peace were a lowering of your
-consciousness, and the price of stillness a lack of vitality and alertness, then
-they would not be worth having. In this state of inner connectedness, you
-are much more alert, more awake than in the mind-identified state. You are
-fully present. It also raises the vibrational frequency of the energy field that
-gives life to the physical body.
-As you go more deeply into this realm of no-mind, as it is sometimes
-called in the East, you realize the state of pure consciousness. In that state,
-you feel your own presence with such intensity and such joy that all
-thinking, all emotions, your physical body, as well as the whole external
-world become relatively insignificant in comparison to it. And yet this is
-not a selfish but a selfless state. It takes you beyond what you previously
-thought of as “your self.” That presence is essentially you and at the same
-time inconceivably greater than you. What I am trying to convey here may
-sound paradoxical or even contradictory, but there is no other way that I can
-express it.
+
+Was ist das größte Hindernis, diese Wirklichkeit zu erfahren?
+
+Die Identifikation mit deinem Verstand, die dazu führt, dass Denken zwanghaft wird. Nicht aufhören zu können zu denken ist ein schreckliches Leiden, doch wir erkennen es nicht als solches, weil fast jeder darunter leidet und es daher als normal gilt. Dieses unaufhörliche mentale Geräusch hindert dich daran, jenen Bereich innerer Stille zu finden, der untrennbar mit dem Sein verbunden ist. Es erschafft außerdem ein falsches, vom Verstand gemachtes Selbst, das einen Schatten aus Angst und Leiden wirft. Darauf werden wir später noch ausführlicher eingehen.
+
+Der Philosoph Descartes glaubte, die grundlegendste Wahrheit gefunden zu haben, als er seinen berühmten Satz formulierte: „Ich denke, also bin ich.“ In Wirklichkeit brachte er damit den grundlegendsten Irrtum zum Ausdruck: Denken mit Sein gleichzusetzen und Identität mit Denken. Der zwanghafte Denker – und das sind fast alle – lebt in einem Zustand scheinbarer Getrenntheit, in einer wahnsinnig komplexen Welt ständiger Probleme und Konflikte, einer Welt, die die immer weiter zunehmende Fragmentierung des Verstandes widerspiegelt. Erleuchtung ist ein Zustand der Ganzheit, des Einsseins – und daher des Friedens. Eins mit dem Leben in seiner manifestierten Erscheinung, der Welt, ebenso wie eins mit deinem tiefsten Selbst und mit dem unmanifestierten Leben, eins mit dem Sein. Erleuchtung ist nicht nur das Ende des Leidens und der unaufhörlichen inneren und äußeren Konflikte, sondern auch das Ende der schrecklichen Versklavung durch unablässiges Denken. Was für eine unglaubliche Befreiung!
+
+Die Identifikation mit dem Verstand erschafft einen undurchsichtigen Schirm aus Konzepten, Etiketten, Bildern, Worten, Urteilen und Definitionen, der jede echte Beziehung blockiert. Er steht zwischen dir und dir selbst, zwischen dir und deinen Mitmenschen, zwischen dir und der Natur, zwischen dir und Gott. Dieser Gedankenschirm erzeugt die Illusion der Getrenntheit – die Illusion, dass es dich gibt und einen völlig getrennten „Anderen“. Dann vergisst du die wesentliche Tatsache, dass du unterhalb der Ebene physischer Erscheinungen und getrennter Formen eins bist mit allem, was ist. Mit „vergessen“ meine ich, dass du diese Einheit nicht mehr als selbstverständliche Wirklichkeit fühlen kannst. Du magst daran glauben, doch du weißt es nicht mehr. Ein Glaube kann trösten. Befreiend wird es jedoch nur durch eigene Erfahrung.
+
+Denken ist zu einer Krankheit geworden. Krankheit entsteht, wenn Dinge aus dem Gleichgewicht geraten. So ist es zum Beispiel nichts Falsches daran, dass sich Zellen im Körper teilen und vermehren. Wenn dieser Prozess jedoch ohne Rücksicht auf den Gesamtorganismus weitergeht, vermehren sich Zellen unkontrolliert – und wir sprechen von Krankheit.
+
+Der Verstand ist ein großartiges Instrument, wenn er richtig eingesetzt wird. Falsch eingesetzt jedoch wird er äußerst zerstörerisch. Genauer gesagt: Es ist nicht so sehr so, dass du deinen Verstand falsch benutzt – meist benutzt du ihn überhaupt nicht. Er benutzt dich. Das ist die Krankheit. Du glaubst, du seist dein Verstand. Das ist die Täuschung. Das Instrument hat dich übernommen.
+
+Ich stimme dem nicht ganz zu. Es stimmt, dass ich viel ziellos denke, wie die meisten Menschen, aber ich kann meinen Verstand dennoch bewusst einsetzen, um Dinge zu planen und zu erreichen, und das tue ich ständig.
+
+Nur weil du ein Kreuzworträtsel lösen oder eine Atombombe bauen kannst, heißt das nicht, dass du deinen Verstand benutzt. So wie Hunde gern an Knochen kauen, liebt es der Verstand, sich in Probleme zu verbeißen. Deshalb löst er Kreuzworträtsel und baut Atombomben. Du hast an beidem kein wirkliches Interesse. Lass mich dich etwas fragen: Kannst du frei von deinem Verstand sein, wann immer du willst? Hast du den „Aus“-Knopf gefunden?
+
+Du meinst, ganz mit dem Denken aufzuhören? Nein, das kann ich nicht – vielleicht für einen Moment oder zwei.
+
+Dann benutzt der Verstand dich. Du bist unbewusst mit ihm identifiziert, sodass du nicht einmal weißt, dass du sein Sklave bist. Es ist fast so, als wärst du besessen, ohne es zu wissen, und würdest das Besitz ergreifende Wesen für dich selbst halten. Der Beginn der Freiheit ist die Erkenntnis, dass du nicht dieses besitzergreifende Wesen bist – nicht der Denker. Diese Erkenntnis ermöglicht es dir, das Wesen zu beobachten. In dem Moment, in dem du beginnst, den Denker zu beobachten, wird eine höhere Ebene des Bewusstseins aktiviert. Du erkennst dann, dass es einen weiten Bereich von Intelligenz jenseits des Denkens gibt und dass Denken nur ein winziger Aspekt dieser Intelligenz ist. Du erkennst auch, dass all die Dinge, die wirklich zählen – Schönheit, Liebe, Kreativität, Freude, innerer Frieden – aus einem Bereich jenseits des Verstandes entstehen. Du beginnst zu erwachen.
+
 ¤
-Instead of “watching the thinker,” you can also create a gap in the
 
-mind stream simply by directing the focus of your attention into the Now.
-Just become intensely conscious of the present moment. This is a deeply
-satisfying thing to do. In this way, you draw consciousness away from mind
-activity and create a gap of no-mind in which you are highly alert and
-aware but not thinking. This is the essence of meditation.
-In your everyday life, you can practice this by taking any routine
-activity that normally is only a means to an end and giving it your fullest
-attention, so that it becomes an end in itself. For example, every time you
-walk up and down the stairs in your house or place of work, pay close
-attention to every step, every movement, even your breathing. Be totally
-present. Or when you wash your hands, pay attention to all the sense
-perceptions associated with the activity: the sound and feel of the water, the
-movement of your hands, the scent of the soap, and so on. Or when you get
-into your car, after you close the door, pause for a few seconds and observe
-the flow of your breath. Become aware of a silent but powerful sense of
-presence. There is one certain criterion by which you can measure your
-success in this practice: the degree of peace that you feel within.
+### DICH VON DEINEM VERSTAND BEFREIEN
+
+Was genau meinst du mit „den Denker beobachten“?
+
+Wenn jemand zum Arzt geht und sagt: „Ich höre eine Stimme in meinem Kopf“, wird er oder sie höchstwahrscheinlich zu einem Psychiater geschickt. Tatsache ist jedoch, dass auf sehr ähnliche Weise fast jeder ständig eine Stimme oder sogar mehrere Stimmen im Kopf hört: die unwillkürlichen Denkprozesse, von denen du nicht merkst, dass du die Macht hast, sie zu stoppen. Endlose Monologe oder Dialoge.
+
+Du bist vermutlich schon „verrückten“ Menschen auf der Straße begegnet, die unaufhörlich mit sich selbst reden oder vor sich hin murmeln. Nun, das unterscheidet sich nicht wesentlich von dem, was du und alle anderen „normalen“ Menschen tun – außer dass ihr es nicht laut tut. Die Stimme kommentiert, spekuliert, urteilt, vergleicht, klagt, mag oder mag nicht und so weiter. Die Stimme ist nicht notwendigerweise relevant für die Situation, in der du dich gerade befindest; sie kann die jüngere oder fernere Vergangenheit wiederbeleben oder mögliche zukünftige Situationen proben oder ausmalen. Oft stellt sie sich vor, wie Dinge schiefgehen und negative Ergebnisse eintreten – das nennt man Sorgen. Manchmal wird dieser innere Tonfilm von visuellen Bildern oder „mentalen Filmen“ begleitet. Selbst wenn die Stimme zur aktuellen Situation passt, interpretiert sie diese in Begriffen der Vergangenheit. Das liegt daran, dass die Stimme zu deinem konditionierten Verstand gehört, der das Ergebnis deiner gesamten bisherigen Geschichte ist sowie des kollektiven kulturellen Denkmusters, das du übernommen hast. So siehst und beurteilst du die Gegenwart durch die Augen der Vergangenheit und erhältst ein völlig verzerrtes Bild von ihr. Es ist nicht ungewöhnlich, dass die Stimme der schlimmste Feind eines Menschen ist. Viele Menschen leben mit einem Peiniger im Kopf, der sie unaufhörlich angreift und bestraft und ihnen vitale Energie entzieht. Er ist die Ursache unermesslichen Leids und Unglücks sowie von Krankheit.
+
+Die gute Nachricht ist: Du kannst dich von deinem Verstand befreien. Das ist die einzige wahre Befreiung. Du kannst jetzt sofort den ersten Schritt tun. Beginne, so oft du kannst, der Stimme in deinem Kopf zuzuhören. Achte besonders auf wiederkehrende Denkmuster – jene alten Schallplatten, die vielleicht schon seit vielen Jahren in deinem Kopf laufen. Das ist es, was ich mit „den Denker beobachten“ meine – oder anders gesagt: der Stimme in deinem Kopf zuhören und dabei als beobachtende Präsenz anwesend sein.
+
+Wenn du dieser Stimme zuhörst, dann höre ihr unparteiisch zu. Das heißt: urteile nicht. Verurteile oder verurteile nicht, was du hörst, denn sonst ist dieselbe Stimme durch die Hintertür wieder hereingekommen. Bald wirst du erkennen: Da ist die Stimme, und hier bin ich, der ihr zuhört, der sie beobachtet. Dieses „Ich bin“-Gewahrsein, dieses Gefühl deiner eigenen Gegenwart, ist kein Gedanke. Es entsteht jenseits des Verstandes.
+
 ¤
-So the single most vital step on your journey toward enlightenment is
-this: learn to disidentify from your mind. Every time you create a gap in the
-stream of mind, the light of your consciousness grows stronger.
-One day you may catch yourself smiling at the voice in your head, as
-you would smile at the antics of a child. This means that you no longer take
-the content of your mind all that seriously, as your sense of self does not
-depend on it.
 
-ENLIGHTENMENT: RISING ABOVE
-THOUGHT
-Isn't thinking essential in order to survive in this world?
-Your mind is an instrument, a tool. It is there to be used for a specific
-task, and when the task is completed, you lay it down. As it is, I would say
-about 8o to 90 percent of most people's thinking is not only repetitive and
-useless, but because of its dysfunctional and often negative nature, much of
-it is also harmful. Observe your mind and you will find this to be true. It
-causes a serious leakage of vital energy.
-This kind of compulsive thinking is actually an addiction. What
-characterizes an addiction? Quite simply this:
-you no longer feel that you have the choice to stop. It seems stronger
-than you. It also gives you a false sense of pleasure, pleasure that invariably
-turns into pain. Why should we be addicted to thinking?
-Because you are identified with it, which means that you derive your
-sense of self from the content and activity of your mind. Because you
-believe that you would cease to be if you stopped thinking. As you grow up,
-you form a mental image of who you are, based on your personal and
-cultural conditioning. We may call this phantom self the ego. It consists of
-mind activity and can only be kept going through constant thinking. The
-term ego means different things to different people, but when I use it here it
-means a false self, created by unconscious identification with the mind.
-To the ego, the present moment hardly exists. Only past and future are
-considered important. This total reversal of the truth accounts for the fact
-that in the ego mode the mind is so dysfunctional. It is always concerned
-with keeping the past alive, because without it who are you? It constantly
-projects itself into the future to ensure its continued survival and to seek
-some kind of release or fulfillment there. It says: “One day, when this, that,
-or the other happens, I am going to be okay, happy, at peace.” Even when
-the ego seems to be concerned with the present, it is not the present that it
-sees: It misperceives it completely because it looks at it through the eyes of
-the past. Or it reduces the present to a means to an end, an end that always
-lies in the mind-projected future. Observe your mind and you'll see that this
+Wenn du also einem Gedanken zuhörst, bist du dir nicht nur des Gedankens bewusst, sondern auch deiner selbst als Zeuge dieses Gedankens. Eine neue Dimension des Bewusstseins ist hinzugekommen. Während du dem Gedanken zuhörst, fühlst du eine bewusste Präsenz – dein tieferes Selbst – hinter oder unter dem Gedanken, sozusagen. Der Gedanke verliert dann seine Macht über dich und verebbt rasch, weil du den Verstand nicht länger durch Identifikation mit ihm mit Energie versorgst. Dies ist der Anfang vom Ende des unwillkürlichen und zwanghaften Denkens.
 
-is how it works.
-The present moment holds the key to liberation. But you cannot find
-the present moment as long as you are your mind.
-I don't want to lose my ability to analyze and discriminate. I wouldn't
-mind learning to think more clearly, in a more focused way, but I don't want
-to lose my mind. The gift of thought is the most precious thing we have.
-Without it, we would just be another species of animal. The predominance
-of mind is no more than a stage in the evolution of consciousness. We need
-to go on to the next stage now as a matter of urgency; otherwise, we will be
-destroyed by the mind, which has grown into a monster. I will talk about
-this in more detail later. Thinking and consciousness are not synonymous.
-Thinking is only a small aspect of consciousness. Thought cannot exist
-without consciousness, but consciousness does not need thought.
-Enlightenment means rising above thought, not filling back to a level
-below thought, the level of an animal or a plant. In the enlightened state,
-you still use your thinking mind when needed, but in a much more focused
-and effective way than before. You use it mostly for practical purposes, but
-you are free of the involuntary internal dialogue, and there is inner stillness.
-When you do use your mind, and particularly when a creative solution is
-needed, you oscillate every few minutes or so between thought and
-stillness, between mind and no-mind. No-mind is consciousness without
-thought. Only in that way is it possible to think creatively, because only in
-that way does thought have any real power. Thought alone, when it is no
-longer connected with the much vaster realm of consciousness, quickly
-becomes barren, insane, destructive.
-The mind is essentially a survival machine. Attack and defense against
-other minds, gathering, storing, and analyzing information this is what it is
-good at, but it is not at all creative. All true artists, whether they know it or
-not, create from a place of no-mind, from inner stillness. The mind then
-gives form to the creative impulse or insight. Even the great scientists have
-reported that their creative breakthroughs came at a time of mental
-quietude. The surprising result of a nation-wide inquiry among America's
-most eminent mathematicians, including Einstein, to find out their working
-methods, was that thinking “plays only a subordinate part in the brief,
-decisive phase of the creative act itself.” So I would say that the simple
-reason why the majority of scientists are not creative is not because they
-don't know how to think but because they don't know how to stop thinking!
-It wasn't through the mind, through thinking, that the miracle that is
-life on earth or your body were created and are being sustained. There is
+Wenn ein Gedanke abklingt, erlebst du eine Unterbrechung im mentalen Strom – eine Lücke des „Nicht-Geistes“. Anfangs sind diese Lücken vielleicht nur kurz, ein paar Sekunden, doch allmählich werden sie länger. Wenn diese Lücken auftreten, spürst du eine gewisse Stille und einen Frieden in dir. Das ist der Beginn deines natürlichen Zustands der gefühlten Einheit mit dem Sein, der gewöhnlich vom Verstand verdeckt wird. Mit Übung vertieft sich dieses Gefühl von Stille und Frieden. Tatsächlich gibt es keine Grenze für seine Tiefe. Du wirst auch eine feine Ausstrahlung von Freude spüren, die aus der Tiefe deines Inneren aufsteigt – die Freude des Seins.
 
-clearly an intelligence at work that is far greater than the mind. How can a
-single human cell measuring 1/1,000 of an inch across contain instructions
-within its DNA that would fill 1,000 books of 600 pages each? The more
-we learn about the workings of the body, the more we realize just how vast
-is the intelligence at work within it and how little we know. When the mind
-reconnects with that, it becomes a most wonderful tool. It then serves
-something greater than itself.
+Dies ist kein tranceähnlicher Zustand. Ganz und gar nicht. Es gibt hier keinen Verlust von Bewusstsein – im Gegenteil. Wäre der Preis für Frieden eine Verringerung deines Bewusstseins und der Preis für Stille ein Mangel an Vitalität und Wachheit, dann wären sie es nicht wert. In diesem Zustand innerer Verbundenheit bist du viel wacher, viel präsenter als im Zustand der Identifikation mit dem Verstand. Du bist ganz da. Zudem erhöht sich die Schwingungsfrequenz des Energiefeldes, das dem physischen Körper Leben verleiht.
 
-EMOTION: THE BODY'S REACTION TO
-YOUR MIND
-What about emotions? I get caught up in my emotions more than I do
-in my mind.
-Mind, in the way I use the word, is not just thought. It includes your
-emotions as well as all unconscious mental- emotional reactive patterns.
-Emotion arises at the place where mind and body meet. It is the body's
-reaction to your mind or you might say, a reflection of your mind in the
-body. For example, an attack thought or a hostile thought will create a
-build-up of energy in the body that we call anger The body is getting ready
-to fight. The thought that you are being threatened, physically or
-psychologically, causes the body to contract, and this is the physical side of
-what we call fear. Research has shown that strong emotions even cause
-changes in the biochemistry of the body. These biochemical changes
-represent the physical or material aspect of the emotion. Of course, you are
-not usually conscious of all your thought patterns, and it is often only
-through watching your emotions that you can bring them into awareness.
-The more you are identified with your thinking, your likes and
-dislikes, judgments and interpretations, which is to say the less present you
-are as the watching consciousness, the stronger the emotional energy charge
-will be, whether you are aware of it or not. If you cannot feel your
-emotions, if you are cut off from them, you will eventually experience them
-on a purely physical level, as a physical problem or symptom. A great deal
-has been written about this in recent years, so we don't need to go into it
-here. A strong unconscious emotional pattern may even manifest as an
-external event that appears to just happen to you. For example, I have
-observed that people who carry a lot of anger inside without being aware of
-it and without expressing it are more likely to be attacked, verbally or even
-physically, by other angry people, and often for no apparent reason. They
-have a strong emanation of anger that certain people pick up subliminally
-and that triggers their own latent anger.
-If you have difficulty feeling your emotions, start by focusing attention
-on the inner energy field of your body. Feel the body from within. This will
+Wenn du tiefer in diesen Bereich des Nicht-Geistes eintauchst, wie er im Osten manchmal genannt wird, erkennst du den Zustand reinen Bewusstseins. In diesem Zustand fühlst du deine eigene Gegenwart mit einer solchen Intensität und Freude, dass alles Denken, alle Emotionen, dein physischer Körper sowie die gesamte äußere Welt im Vergleich dazu relativ unbedeutend werden. Und doch ist dies kein egoistischer, sondern ein selbstloser Zustand. Er führt dich über das hinaus, was du zuvor als „dich selbst“ betrachtet hast. Diese Präsenz bist im Wesentlichen du – und zugleich unvorstellbar viel größer als du. Was ich hier zu vermitteln versuche, mag paradox oder sogar widersprüchlich klingen, doch es gibt keine andere Möglichkeit, es auszudrücken.
 
-also put you in touch with your emotions. We will explore this in more
-detail later.
 ¤
-You sap that an emotion is the mind's reflection in the body. But
-sometimes there is a conflict between the two: the mind saps “no” while the
-emotion saps "yes,' or the other way around. If you really want to know
-your mind, the body will always give you a truthful reflection, so look at
-the emotion or rather feel it in your body. If there is an apparent conflict
-between them, the thought will be the lie, the emotion will be the truth.
-Not the ultimate truth of who you are, but the relative truth of your
-state of mind at that time.
-Conflict between surface thoughts and unconscious mental processes
-is certainly common. You may not yet be able to bring your unconscious
-mind activity into awareness as thoughts, but it will always be reflected in
-the body as an emotion, and of this you can become aware. To watch an
-emotion in this way is basically the same as listening to or watching a
-thought, which I described earlier. The only difference is that, while a
-thought is in your head, an emotion has a strong physical component and so
-is primarily felt in the body. You can then allow the emotion to be there
-without being controlled by it. You no longer are the emotion; you are the
-watcher, the observing presence. If you practice this, all that is unconscious
-in you will be brought into the light of consciousness.
-So observing our emotions is as important as observing our thoughts?
-Yes. Make it a habit to ask yourself. Whats going on inside me at this
-moment? That question will point you in the right direction. But don't
-analyze, just watch. Focus your attention within. Feel the energy of the
-emotion. If there is no emotion present, take your attention more deeply
-into the inner energy field of your body. It is the doorway into Being.
-¤ An emotion usually represents an amplified and energized thought
-pattern, and because of its often overpowering energetic charge, it is not
-easy initially to stay present enough to be able to watch it. It wants to take
-you over, and it usually succeeds unless there is enough presence in you.
-If you are pulled into unconscious identification with the emotion
-through lack of presence, which is normal, the emotion temporarily
-becomes “you.” Often a vicious circle builds up between your thinking and
-the emotion: they feed each other. The thought pattern creates a magnified
-reflection of itself in the form of an emotion, and the vibrational frequency
-of the emotion keeps feeding the original thought pattern. By dwelling
-mentally on the situation, event, or person that is the perceived cause of the
 
-emotion, the thought feeds energy to the emotion, which in turn energizes
-the thought pattern, and so on.
-Basically, all emotions are modifications of one primordial,
-undifferentiated emotion that has its origin in the loss of awareness of who
-you are beyond name and form. Because of its undifferentiated nature, it is
-hard to find a name that precisely describes this emotion. “Fear” comes
-close, but apart from a continuous sense of threat, it also includes a deep
-sense of abandonment and incompleteness. It may be best to use a term that
-is as undifferentiated as that basic emotion and simply call it “pain.” One of
-the main tasks of the mind is to fight or remove that emotional pain, which
-is one of the reasons for its incessant activity, but all it can ever achieve is
-to cover it up temporarily. In fact, the harder the mind struggles to get rid of
-the pain, the greater the pain. The mind can never find the solution, nor can
-it afford to allow you to find the solution, because it is itself an intrinsic part
-of the “problem.” Imagine a chief of police trying to find an arsonist when
-the arsonist is the chief of police. You will not be free of that pain until you
-cease to derive your sense of self from identification with the mind, which
-is to say from ego. The mind is then toppled from its place of power and
-Being reveals itself as your true nature. Yes, I know what you are going to
-ask.
-I was going to ask: What about positive emotions such as love and
-joy?
-They are inseparable from your natural state of inner connectedness
-with Being. Glimpses of love and joy or brief moments of deep peace are
-possible whenever a gap occurs in the stream of thought. For most people,
-such gaps happen rarely and only accidentally, in moments when the mind
-is rendered “speechless,” sometimes triggered by great beauty, extreme
-physical exertion, or even great danger. Suddenly, there is inner stillness.
-And within that stillness there is a subtle but intense joy, there is love, there
-is peace.
-Usually, such moments are short-lived, as the mind quickly resumes its
-noise-making activity that we call thinking. Love, joy, and peace cannot
-flourish until you have freed yourself from mind dominance. But they are
-not what I would call emotions. They lie beyond the emotions, on a much
-deeper level. So you need to become fully conscious of your emotions and
-be able to feel them before you can feel that which lies beyond them.
-Emotion literally means “disturbance.” The word comes from the Latin
-emovere, meaning “to disturb.”
-Love, joy, and peace are deep states of Being or rather three aspects of
+Anstatt den Denker zu beobachten, kannst du auch einfach eine Lücke im Gedankenstrom erzeugen, indem du den Fokus deiner Aufmerksamkeit in das Jetzt lenkst. Werde dir des gegenwärtigen Moments intensiv bewusst. Das ist zutiefst erfüllend. Auf diese Weise ziehst du Bewusstsein von der geistigen Aktivität ab und schaffst eine Lücke des Nicht-Geistes, in der du hochwach und aufmerksam bist, ohne zu denken. Das ist das Wesen der Meditation.
 
-the state of inner connectedness with Being. As such, they have no
-opposite. This is because they arise from beyond the mind. Emotions, on
-the other hand, being part of the dualistic mind, are subject to the law of
-opposites. This simply means that you cannot have good without bad. So in
-the unenlightened, mind-identified condition, what is sometimes wrongly
-called joy is the usually short-lived pleasure side of the continuously
-alternating pain/pleasure cycle. Pleasure is always derived from something
-outside you, whereas joy arises from within. The very thing that gives you
-pleasure today will give you pain tomorrow, or it will leave you, so its
-absence will give you pain. And what is often referred to as love may be
-pleasurable and exciting for a while, but it is an addictive clinging, an
-extremely needy condition that can turn into its opposite at the flick of a
-switch. Many “love” relationships, after the initial euphoria has passed,
-actually oscillate between “love” and hate, attraction and attack.
-Real love doesn't make you suffer. How could it? It doesn't suddenly
-turn into hate, nor does real joy turn into pain. As I said, even before you
-are enlightened before you have freed yourself from your mind you may get
-glimpses of true joy, true love, or of a deep inner peace, still but vibrantly
-alive. These are aspects of your true nature, which is usually obscured by
-the mind. Even within a "normal'' addictive relationship, there can be
-moments when the presence of something more genuine, something
-incorruptible, can be felt. But they will only be glimpses, soon to be
-covered up again through mind interference. It may then seem that you had
-something very precious and lost it, or your mind may convince you that it
-was all an illusion anyway. The truth is that it wasn't an illusion, and you
-cannot lose it. It is part of your natural state, which can be obscured but can
-never be destroyed by the mind. Even when the sky is heavily overcast, the
-sun hasn't disappeared. It's still there on the other side of the clouds.
-The Buddha says that pain or suffering arises through desire or craving
-and that to be free of pain we need to cut the bonds of desire.
-All cravings are the mind seeking salvation or fulfillment in external
-things and in the future as a substitute for the joy of Being. As long as I am
-my mind, I am those cravings, those needs, wants, attachments, and
-aversions, and apart from them there is no 'I' except as a mere possibility,
-an unfulfilled potential, a seed that has not yet sprouted. In that state, even
-my desire to become free or enlightened is just another craving for
-fulfillment or completion in the future. So don't seek to become free of
-desire or “achieve” enlightenment. Become present. Be there as the
-observer of the mind. Instead of quoting the Buddha, be the Buddha, be
+Im Alltag kannst du dies üben, indem du jede routinemäßige Tätigkeit, die normalerweise nur Mittel zum Zweck ist, mit deiner vollen Aufmerksamkeit ausführst, sodass sie zum Zweck an sich wird. Achte zum Beispiel jedes Mal, wenn du in deinem Haus oder an deinem Arbeitsplatz eine Treppe hinauf- oder hinuntergehst, ganz bewusst auf jeden Schritt, jede Bewegung, sogar auf deinen Atem. Sei vollkommen präsent. Oder wenn du dir die Hände wäschst, richte deine Aufmerksamkeit auf alle Sinneswahrnehmungen, die mit dieser Tätigkeit verbunden sind: das Geräusch und das Gefühl des Wassers, die Bewegung deiner Hände, den Duft der Seife und so weiter. Oder wenn du in dein Auto steigst, halte nach dem Schließen der Tür für ein paar Sekunden inne und beobachte den Fluss deines Atems. Werde dir eines stillen, aber kraftvollen Gefühls von Präsenz bewusst. Es gibt ein sicheres Kriterium, an dem du deinen Erfolg in dieser Praxis messen kannst: den Grad des inneren Friedens, den du empfindest.
 
-“the awakened one,” which is what the word buddha means.
-Humans have been in the grip of pain for eons, ever since they fell
-from the state of grace, entered the realm of time and mind, and lost
-awareness of Being. At that point, they started to perceive themselves as
-meaningless fragments in an alien universe, unconnected to the Source and
-to each other.
-Pain is inevitable as long as you are identified with your mind, which
-is to say as long as you are unconscious, spiritually speaking. I am talking
-here primarily of emotional pain, which is also the main cause of physical
-pain and physical disease. Resentment, hatred, self-pity, guilt, anger,
-depression, jealousy, and so on, even the slightest irritation, are all forms of
-pain. And every pleasure or emotional high contains within itself the seed
-of pain: its inseparable opposite, which will manifest in time.
-Anybody who has ever taken drugs to get “high” will know that the
-high eventually turns into a low, that the pleasure turns into some form of
-pain. Many people also know from their own experience how easily and
-quickly an intimate relationship can turn from a source of pleasure to a
-source of pain. Seen from a higher perspective, both the negative and the
-positive polarities are faces of the same coin,
-are both part of the underlying pain that is inseparable from the mind-
-identified egoic state of consciousness.
-There are two levels to your pain: the pain that you create now, and the
-pain from the past that still lives on in your mind and body. Ceasing to
-create pain in the present and dissolving past pain this is what I want to talk
-about now.
+¤
+
+Der wichtigste einzelne Schritt auf deinem Weg zur Erleuchtung ist also dieser: Lerne, dich von deinem Verstand zu lösen. Jedes Mal, wenn du eine Lücke im Gedankenstrom erzeugst, wird das Licht deines Bewusstseins stärker.
+
+Eines Tages wirst du dich vielleicht dabei ertappen, wie du über die Stimme in deinem Kopf lächelst, so wie man über die Streiche eines Kindes lächelt. Das bedeutet, dass du den Inhalt deines Verstandes nicht mehr allzu ernst nimmst, da dein Selbstgefühl nicht mehr von ihm abhängt.
+
+### ERLEUCHTUNG:
+
+### ÜBER DAS DENKEN HINAUSWACHSEN
+
+Ist Denken nicht notwendig, um in dieser Welt zu überleben?
+
+Dein Verstand ist ein Instrument, ein Werkzeug. Er ist dafür da, für eine bestimmte Aufgabe benutzt zu werden, und wenn diese Aufgabe erledigt ist, legst du ihn beiseite. So wie es derzeit ist, würde ich sagen, dass etwa 80 bis 90 Prozent des Denkens der meisten Menschen nicht nur repetitiv und nutzlos sind, sondern aufgrund ihrer dysfunktionalen und oft negativen Natur auch schädlich. Beobachte deinen Verstand, und du wirst feststellen, dass dies zutrifft. Er verursacht einen erheblichen Abfluss an Lebensenergie.
+
+Diese Art zwanghaften Denkens ist tatsächlich eine Sucht. Was kennzeichnet eine Sucht? Ganz einfach dies: Du hast nicht mehr das Gefühl, wählen zu können, aufzuhören. Es erscheint stärker als du. Außerdem verschafft es dir ein falsches Gefühl von Vergnügen – ein Vergnügen, das sich unweigerlich in Schmerz verwandelt. Warum sollten wir süchtig nach Denken sein?
+
+Weil du mit ihm identifiziert bist, das heißt, weil du dein Selbstgefühl aus dem Inhalt und der Aktivität deines Verstandes beziehst. Weil du glaubst, nicht mehr zu existieren, wenn du aufhörst zu denken. Während du aufwächst, formst du ein mentales Bild davon, wer du bist, basierend auf deiner persönlichen und kulturellen Prägung. Dieses Phantom-Selbst nennen wir Ego. Es besteht aus geistiger Aktivität und kann nur durch ständiges Denken aufrechterhalten werden. Der Begriff Ego bedeutet für verschiedene Menschen Unterschiedliches, doch so wie ich ihn hier verwende, meint er ein falsches Selbst, das durch unbewusste Identifikation mit dem Verstand entsteht.
+
+Für das Ego existiert der gegenwärtige Moment kaum. Nur Vergangenheit und Zukunft gelten als wichtig. Diese vollständige Umkehrung der Wahrheit erklärt, warum der Verstand im Ego-Modus so dysfunktional ist. Er ist ständig damit beschäftigt, die Vergangenheit am Leben zu erhalten, denn ohne sie – wer bist du dann? Unaufhörlich projiziert er sich in die Zukunft, um sein Fortbestehen zu sichern und dort irgendeine Form von Erlösung oder Erfüllung zu suchen. Er sagt: „Eines Tages, wenn dies oder das geschieht, werde ich in Ordnung sein, glücklich sein, in Frieden sein.“ Selbst wenn das Ego sich scheinbar mit der Gegenwart beschäftigt, ist es nicht die Gegenwart, die es sieht: Es nimmt sie völlig falsch wahr, weil es sie durch die Augen der Vergangenheit betrachtet. Oder es reduziert die Gegenwart zu einem Mittel zum Zweck – einem Zweck, der immer in der vom Verstand projizierten Zukunft liegt. Beobachte deinen Verstand, und du wirst sehen, dass er so funktioniert.
+
+Der gegenwärtige Moment trägt den Schlüssel zur Befreiung in sich. Doch du kannst den gegenwärtigen Moment nicht finden, solange du dein Verstand bist.
+
+Ich möchte meine Fähigkeit zu analysieren und zu unterscheiden nicht verlieren. Es wäre mir recht, klarer und fokussierter denken zu lernen, aber ich möchte meinen Verstand nicht verlieren. Die Gabe des Denkens ist das Kostbarste, was wir haben. Ohne sie wären wir nur eine weitere Tierart. Die Vorherrschaft des Verstandes ist lediglich eine Phase in der Evolution des Bewusstseins. Wir müssen nun dringend zur nächsten Phase übergehen; andernfalls werden wir vom Verstand zerstört werden, der zu einem Monster herangewachsen ist. Darauf werde ich später noch genauer eingehen. Denken und Bewusstsein sind nicht dasselbe. Denken ist nur ein kleiner Aspekt des Bewusstseins. Gedanken können ohne Bewusstsein nicht existieren – Bewusstsein jedoch kann ohne Denken bestehen.
+
+…Bewusstsein jedoch kann ohne Denken bestehen.
+
+Gedanken können ohne Bewusstsein nicht existieren, aber Bewusstsein braucht keine Gedanken.
+
+Erleuchtung bedeutet, über das Denken hinauszuwachsen, nicht es abzuschaffen. Du benutzt deinen Verstand weiterhin, aber du bist nicht mehr von ihm benutzt. Du bist nicht mehr unbewusst mit ihm identifiziert. In der erleuchteten Verfassung liegt dein Verstand wieder an seinem richtigen Platz: Er ist ein Werkzeug – und du bist derjenige, der es benutzt.
+
+Wie kann ich wissen, ob ich mit meinem Verstand identifiziert bin?
+
+Wenn du nicht mehr weißt, dass du denkst, wenn du dich in Gedanken verlierst. Wenn ein Gedanke dich vollständig einnimmt, sodass du ihn nicht als Gedanken erkennst, sondern als „die Wirklichkeit“. Dann bist du identifiziert. Oder wenn du innerlich reagierst, dich verletzt fühlst, dich verteidigst, recht haben musst, dich angegriffen fühlst – all das sind Signale. Das Ego lebt von der Identifikation mit Gedankenformen.
+
+Und was ist mit Emotionen? Sind sie nicht ein Zeichen, dass etwas wirklich ist?
+
+Emotionen sind die Reaktionen des Körpers auf den Verstand. Ein Gedanke wird geglaubt, und der Körper antwortet darauf mit einer Emotion. Es gibt eine enge Verbindung zwischen Denken und Emotion. Der Gedanke ist die Interpretation, die Emotion ist die körperliche Entsprechung. Das ist kein Urteil gegen Emotionen. Es ist ein Hinweis: Wenn du deine Emotion beobachtest, kannst du die zugrunde liegende Gedankenstruktur erkennen. Und wenn du die Gedankenstruktur erkennst, kannst du dich davon lösen.
+
+Manchmal entstehen Emotionen so schnell. Ich merke gar nicht, was ich gedacht habe.
+
+Das ist normal. Viele Gedanken laufen unterhalb der Schwelle deines bewussten Wahrnehmens. Der Körper reagiert dann scheinbar „von selbst“. Aber du kannst über den Körper einen Zugang finden: Werde dir der Emotion bewusst, spüre sie direkt im Körper. Wo ist sie? Wie fühlt sie sich an? Gib ihr Raum, ohne sie zu benennen, ohne eine Geschichte daraus zu machen. Allein durch dieses bewusste Spüren entsteht ein Abstand zum Verstand. Du wirst zur Präsenz, die fühlt – statt zur Geschichte, die denkt.
+
+Das klingt so, als wäre das Denken das Problem.
+
+Denken ist nicht das Problem. Zwanghaftes Denken ist das Problem. Denken ist nützlich, wenn es gebraucht wird. Aber wenn Denken ununterbrochen läuft, wenn es dich aus der Gegenwart reißt, wenn es dich in Sorgen, Erinnerungen, Selbstbilder, Urteile und Konflikte verstrickt, dann ist es nicht mehr Werkzeug – es ist Herrscher.
+
+Wenn ich nicht denke, werde ich dann nicht passiv oder dumm?
+
+Im Gegenteil. Wenn du nicht in zwanghaftem Denken gefangen bist, ist deine Wahrnehmung klarer. Intelligenz ist nicht dasselbe wie Denken. Denken ist ein kleiner, spezifischer Ausdruck von Intelligenz. Tiefe Intelligenz zeigt sich als Präsenz, als unmittelbares Erkennen, als kreatives Handeln aus dem Moment heraus. Viele der besten Einsichten kommen gerade dann, wenn der Verstand still ist.
+
+Aber wie soll ich in einem komplexen Leben ohne ständiges Denken funktionieren?
+
+Du brauchst Denken für bestimmte Aufgaben: planen, organisieren, rechnen, kommunizieren. Doch danach kannst du es wieder ruhen lassen. In der Praxis heißt das: Du denkst, wenn du denkst. Und wenn du nicht denken musst, bist du einfach da. Das ist nicht weltfremd. Es ist der natürliche Zustand. Das ständige Denken ist das Unnatürliche – und dennoch für die meisten zur Gewohnheit geworden.
+
+Du sagst also, die Gegenwart ist der Schlüssel.
+
+Ja. Die Gegenwart ist der Schlüssel, weil der Verstand – als Ego-Verstand – in Vergangenheit und Zukunft lebt. Das Ego braucht Zeit. Es ernährt sich von „damals“ und „später“. Das Jetzt ist für das Ego bedrohlich, weil im Jetzt seine Geschichten verblassen. Im Jetzt gibt es kein Problem, das nicht durch Denken zu einem Problem gemacht wird. Es gibt eine Situation, ja – aber das Problem ist die mentale Interpretation plus Widerstand.
+
+Was meinst du mit Widerstand?
+
+Widerstand ist ein inneres „Nein“ zu dem, was ist. Es ist der Versuch, den gegenwärtigen Moment nicht so sein zu lassen, wie er ist. Widerstand erzeugt Spannung, Leid, Angst, Ärger. Akzeptanz bedeutet nicht, dass du nichts tust. Es bedeutet, dass du die Realität des Moments anerkennst, ohne innerlich dagegen anzukämpfen. Aus dieser Klarheit heraus kann Handeln entstehen – oft viel wirksamer.
+
+Wenn ich das jetzt lese, versteht mein Verstand es. Aber wie erlebe ich es?
+
+Indem du übst, immer wieder. Nicht indem du noch mehr darüber nachdenkst. Ein einfacher Einstieg: Spüre deinen Atem. Spüre deine Hände. Spüre die Energie im Körper. Höre die Geräusche um dich herum, ohne sie zu benennen. Schau, ohne sofort zu kommentieren. Und sobald Gedanken auftauchen, bemerke sie: „Ah, Denken.“ Das ist alles. Du musst sie nicht bekämpfen. Du musst nur nicht mitgehen.
+
+Und wenn ich doch mitgehe?
+
+Dann bemerkst du es später. Und auch das ist Bewusstsein. Der Moment, in dem du erkennst „Ich war weg“, ist bereits ein Moment des Wachseins. Du kehrst zurück. Ohne Selbstvorwurf. Der Verstand wird dich oft dafür kritisieren – doch auch das ist nur eine weitere Stimme, ein weiteres Muster. Du beobachtest es. Und du kehrst zurück.
+
+Das klingt fast zu simpel.
+
+Der Verstand liebt Komplexität. Er liebt es, aus allem ein Problem zu machen. Präsenz ist schlicht. Aber schlicht heißt nicht leicht – weil die Gewohnheit des Verstandes stark ist. Dennoch ist es einfach in dem Sinne, dass der Weg immer derselbe ist: bewusst werden, zurückkehren, gegenwärtig sein.
+
+Was verändert sich, wenn man nicht mehr mit dem Verstand identifiziert ist?
+
+Du wirst weniger reaktiv. Du leidest weniger. Konflikte verlieren ihre Schärfe. Du nimmst Gedanken als Gedanken wahr, nicht als absolute Wahrheit. Du fühlst mehr Frieden. Und paradoxerweise wirst du gleichzeitig lebendiger. Kreativität, Freude, Liebe – all das fließt freier, weil es nicht mehr durch den ständigen inneren Lärm verdeckt wird.
+
+Und das ist Erleuchtung?
+
+Erleuchtung ist nicht ein besonderer Zustand, den du irgendwann „besitzt“. Es ist das Ende von Unbewusstheit. Es ist Gegenwärtigkeit. Es ist das Erkennen dessen, was du jenseits von Gedanken, Geschichten und Formen bist. Es beginnt immer jetzt.
