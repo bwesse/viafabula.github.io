@@ -1,2 +1,7 @@
-# 10 Slowing Down The Aging Process
+# Slowing Down The Aging Process
 
+SLOWING DOWN THE AGING PROCESS In the meantime, awareness of the inner body has other benefits in the physical realm. One of them is a significant slowing down of the aging of the physical body. Whereas the outer body normally appears to grow old and wither fairly quickly, the inner body does not change with time, except that you may feel it more deeply and become it more fully. If you are twenty years old now, the energy field of your inner body will feel just the same when you are eighty. It will be just as vibrantly alive. As soon as your habitual state changes from being out-of-the-body and trapped in your mind to being in- the-body and present in the Now, your physical body will feel lighter, clearer, more alive.
+
+As there is more consciousness in the body, its molecular structure actually becomes less dense. More consciousness means a lessening of the illusion of materiality. When you become identified more with the timeless inner body than with the outer body, when presence becomes your normal mode of consciousness and past and future no longer dominate your attention, you do not accumulate time anymore in your psyche and in the cells of the body. The accumulation of time as the psychological burden of past and future greatly impairs the cells' capacity for self-renewal. So if you inhabit the inner body, the outer body will grow old at a much slower rate, and even when it does, your timeless essence will shine through the outer form, and you will not give the appearance of an old person.
+
+Is there any scientific evidence for this? Try it out and you will be the evidence.

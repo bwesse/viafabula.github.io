@@ -1,2 +1,11 @@
-# 03 Ego Identification With The Pain Body
+# Ego Identification With The Pain Body
 
+EGO IDENTIFICATION WITH THE PAIN- BODY The process that I have just described is profoundly powerful yet simple. It could be taught to a child, and hopefully one day it will be one of the first things children learn in school. Once you have understood the basic principle of being present as the watcher of what happens inside you and you “understand” it by experiencing it you have at your disposal the most potent transformational tool.
+
+This is not to deny that you may encounter intense inner resistance to disidentifying from your pain. This will be the case particularly if you have lived closely identified with your emotional pain-body for most of your life and the whole or a large part of your sense of self is invested in it. What this means is that you have made an unhappy self out of your pain-body and believe that this mind-made fiction is who you are. In that case, unconscious fear of losing your identity will create strong resistance to any disidentification. In other words, you would rather be in pain be the pain- body than take a leap into the unknown and risk losing the familiar unhappy self.
+
+If this applies to you, observe the resistance within yourself. Observe the attachment to your pain. Be very alert. Observe the peculiar pleasure you derive from being unhappy. Observe the compulsion to talk or think about it. The resistance will cease if you make it conscious. You can then take your attention into the pain-body, stay present as the witness, and so initiate its transmutation.
+
+Only you can do this. Nobody can do it for you. But if you are fortunate enough to find someone who is intensely conscious, if you can be with them and join them in the state of presence, that can be helpful and will accelerate things. In this way, your own light will quickly grow stronger. When a log that has only just started to burn is placed next to one that is burning fiercely, and after a while they are separated again, the first log will be burning with much greater intensity. After all, it is the same fire. To be such a fire is one of the functions of a spiritual teacher.
+
+Some therapists may also be able to fulfill that function, provided that they have gone beyond the level of mind and can create and sustain a state of intense conscious presence while they are working with you.

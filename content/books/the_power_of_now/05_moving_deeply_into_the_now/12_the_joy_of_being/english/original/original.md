@@ -1,2 +1,19 @@
-# 12 The Joy Of Being
+# The Joy Of Being
 
+THE JOY OF BEING To alert you that you have allowed yourself to be taken over by psychological time, you can use a simple criterion. Ask yourself: Is there joy, ease, and lightness in what I am doing? If there isn't, then time is covering up the present moment, and life is perceived as a burden or a struggle.
+
+If there is no joy, ease, or lightness in what you are doing, it does not necessarily mean that you need to change what you are doing. It may be sufficient to change the how. “How” is always more important than “what.” See if you can give much more attention to the doing than to the result that you want to achieve through it. Give your fullest attention to whatever the moment presents. This implies that you also completely accept what is, because you cannot give your full attention to something and at the same time resist it.
+
+As soon as you honor the present moment, all unhappiness and struggle dissolve, and life begins to flow with joy and ease. When you act out of present-moment awareness, whatever you do becomes imbued with a sense of quality, care, and love even the most simple action.
+¤
+So do not be concerned with the fruit of your action just give attention to the action itself. The fruit will come of its own accord. This is a powerful spiritual practice. In the Bhagavad Gita, one of the oldest and most beautiful spiritual teachings in existence, non-attachment to the fruit of your action is called Karma Yoga. It is described as the path of “consecrated action.” When the compulsive striving away from the Now ceases, the joy of Being flows into everything you do. The moment your attention turns to the Now, you feel a presence, a stillness, a peace. You no longer depend on the future for fulfillment and satisfaction you don't look to it for salvation.
+
+Therefore, you are not attached to the results. Neither failure nor success has the power to change your inner state of Being. You have found the life underneath your life situation. In the absence of psychological time, your sense of self is derived from Being, not from your personal past. Therefore, the psychological need to become anything other than who you are already is no longer there. In the world, on the level of your life situation, you may indeed become wealthy, knowledgeable, successful, free of this or that, but in the deeper dimension of Being you are complete and whole now.
+
+In that state of wholeness, would we still be able or willing to pursue external goals ?
+
+Of course, but you will not have illusory expectations that anything or anybody in the future will save you or make you happy. As far as your life situation is concerned, there may be things to be attained or acquired. Thats the world of form, of gain and loss. Yet on a deeper level you are already complete, and when you realize that, there is a playful, joyous energy behind what you do.
+
+Being free of psychological time, you no longer pursue your goals with grim determination, driven by fear, anger, discontent, or the need to become someone. Nor will you remain inactive through fear of failure, which to the ego is loss of self. When your deeper sense of self is derived from Being, when you are free of “becoming” as a psychological need, neither your happiness nor your sense of self depends on the outcome, and so there is freedom from fear. You don't seek permanency where it cannot be found: in the world of form, of gain and loss, birth and death. You don't demand that situations, conditions, places, or people should make you happy, and then suffer when they don't live up to your expectations.
+
+Everything is honored, but nothing matters. Forms are born and die, yet you are aware of the eternal underneath the forms. You know that “nothing real can be threatened.” When this is your state of Being, how can you not succeed? You have succeeded already.

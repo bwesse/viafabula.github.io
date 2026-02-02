@@ -1,2 +1,4 @@
-# 13 Creative Use Of Mind
+# Creative Use Of Mind
 
+CREATIVE USE OF MIND If you need to use your mind for a specific purpose, use it in conjunction with your inner body. Only if you are able to be conscious without thought can you use your mind creatively, and the easiest way to enter that state is through your body. Whenever an answer, a solution, or a creative idea is needed, stop thinking for a moment by focusing attention on your inner energy field. Become aware of the stillness. When you resume thinking, it will be fresh and creative. In any thought activity, make it a habit to go back and forth every few minutes or so between thinking and an inner kind of listening, an inner stillness. We could say. don't just think with your head, think with your whole body.
+¤

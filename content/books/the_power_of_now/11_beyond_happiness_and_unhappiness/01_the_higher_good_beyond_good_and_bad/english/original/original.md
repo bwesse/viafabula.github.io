@@ -1,2 +1,24 @@
-# 01 The Higher Good Beyond Good And Bad
+# The Higher Good Beyond Good And Bad
 
+THE HIGHER GOOD BEYOND GOOD AND BAD Is there a difference between happiness and inner peace?
+
+Yes. Happiness depends on conditions being perceived as positive; inner peace does not. Is it not possible to attract only positive conditions into our life? If our attitude and our thinking are always positive, we would manifest only positive events and situations, wouldn't we?
+
+Do you truly know what is positive and what is negative? Do you have the total picture? There have been many people for whom limitation, failure, loss, illness, or pain in whatever form turned out to be their greatest teacher. It taught them to let go of false self-images and superficial ego- dictated goals and desires. It gave them depth, humility, and compassion. It made them more real.
+
+Whenever anything negative happens to you, there is a deep lesson concealed within it, although you may not see it at the time. Even a brief illness or an accident can show you what is real and unreal in your life, what ultimately matters and what doesnt. Seen from a higher perspective, conditions are always positive. To be more precise: they are neither positive nor negative. They are as they are. And when you live in complete acceptance of what is which is the only sane way to live there is no “good” or “bad” in your life anymore. There is only a higher good which includes the “bad.” Seen from the perspective of the mind, however, there is good- bad, like-dislike, love-hate. Hence, in the Book of Genesis, it is said that Adam and Eve were no longer allowed to dwell in “paradise” when they “ate of the tree of the knowledge of good and evil.” This sounds to me like denial and self-deception. When something dreadful happens to me or someone close to me accident, illness, pain of some kind or death I can pretend that it isn't bad, but the fact remains that it is bad, so why deny it?
+
+You are not pretending anything. You are allowing it to be as it is, thats all. This “allowing to be” takes you beyond the mind with its resistance patterns that create the positive- negative polarities. It is an essential aspect of forgiveness. Forgiveness of the present is even more important than forgiveness of the past. If you forgive every moment allow it to be as it is then there will be no accumulation of resentment that needs to be forgiven at some later time.
+
+Remember that we are not talking about happiness here. For example, when a loved one has just died, or you feel your own death approaching, you cannot be happy. It is impossible. But you can be at peace. There may be sadness and tears, but provided that you have relinquished resistance, underneath the sadness you will feel a deep serenity, a stillness, a sacred presence. This is the emanation of Being, this is inner peace, the good that has no opposite. What if it is a situation that I can do something about?
+
+How can I allow it to be and change it at the same time? Do what you have to do. In the meantime, accept what is. Since mind and resistance are synonymous, acceptance immediately frees you from mind dominance and thus reconnects you with Being. As a result, the usual ego motivations for “doing” fear, greed, control, defending or feeding the false sense of self will cease to operate. An intelligence much greater than the mind is now in charge, and so a different quality of consciousness will flow into your doing.
+
+“Accept whatever comes to you woven in the pattern of your destiny, for what could more aptly fit your needs?” This was written 2,000 years ago by Marcus Aurelius, one of those exceedingly rare humans who possessed worldly power as well as wisdom.
+
+It seems that most people need to experience a great deal of suffering before they will relinquish resistance and accept before they will forgive. As soon as they do, one of the greatest miracles happens: the awakening of Being- consciousness through what appears as evil, the transmutation of suffering into inner peace. The ultimate effect of all the evil and suffering in the world is that it will force humans into realizing who they are beyond name and form. Thus, what we perceive as evil from our limited perspective is actually part of the higher good that has no opposite. This, however, does not become true for you except through forgiveness. Until that happens, evil has not been redeemed and therefore remains evil.
+
+Through forgiveness, which essentially means recognizing the insubstantiality of the past and allowing the present moment to be as it is, the miracle of transformation happens not only within but also without. A silent space of intense presence arises both in you and around you.
+
+Whoever or whatever enters that field of consciousness will be affected by it, sometimes visibly and immediately, sometimes at deeper levels with visible changes appearing at a later time. You dissolve discord, heal pain, dispel unconsciousness without doing anything simply by being and holding that frequency of intense presence.
+¤

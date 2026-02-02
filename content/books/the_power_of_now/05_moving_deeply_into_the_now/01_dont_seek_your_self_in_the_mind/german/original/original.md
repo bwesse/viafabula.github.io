@@ -1,2 +1,34 @@
-# 01 Dont Seek Your Self In The Mind
+# Don't Seek Your Self In The Mind
 
+DON'T SEEK YOUR SELF IN THE MIND
+I feel that there is still ct great deal I need to learn about the workings
+of my mind before I can get anywhere near full consciousness or spiritual
+enlightenment.
+No, you don't. The problems of the mind cannot be solved on the level
+of the mind. Once you have understood the basic dysfunction, there isnt
+really much else that you need to learn or understand. Studying the
+complexities of the mind may make you a good psychologist, but doing so
+won't take you beyond the mind, just as the study of madness isn't enough
+to create sanity. You have already understood the basic mechanics of the
+unconscious state: identification with the mind, which creates a false self,
+the ego, as a substitute for your true self rooted in Being. You become as a
+“branch cut off from the vine,” as Jesus puts it.
+The ego's needs are endless. It feels vulnerable and threatened and so
+lives in a state of fear and want. Once you know how the basic dysfunction
+operates, there is no need to explore all its countless manifestations, no
+need to make it into a complex personal problem. The ego, of course, loves
+that. It is always seeking for something to attach itself to in order to uphold
+and strengthen its illusory sense of self, and it will readily attach itself to
+your problems. This is why, for so many people, a large part of their sense
+of self is intimately connected with their problems. Once this has happened,
+the last thing they want is to become free of them; that would mean loss of
+self. There can be a great deal of unconscious ego investment in pain and
+suffering.
+So once you recognize the root of unconsciousness as identification
+with the mind, which of course includes the emotions, you step out of it.
+You become present. When you are present, you can allow the mind to be
+as it is without getting entangled in it. The mind in itself is not
+dysfunctional.
+It is a wonderful tool. Dysfunction sets in when you seek your self in it
+and mistake it for who you are. It then becomes the egoic mind and takes
+over your whole life.

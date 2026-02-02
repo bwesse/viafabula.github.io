@@ -1,2 +1,9 @@
-# 04 Dissolving Ordinary Unconsciousness
+# Dissolving Ordinary Unconsciousness
 
+DISSOLVING ORDINARY UNCONSCIOUSNESS So how can we be free of this affliction? Make it conscious. Observe the many ways in which unease, discontent, and tension arise within you through unnecessary judgment, resistance to what is, and denial of the Now. Anything unconscious dissolves when you shine the light of consciousness on it. Once you know how to dissolve ordinary unconsciousness, the light of your presence will shine brightly, and it will be much easier to deal with deep unconsciousness whenever you feel its gravitational pull. However, ordinary unconsciousness may not be easy to detect initially because it is so normal.
+
+Make it a habit to monitor your mental-emotional state through self- observation. 'Am I at ease at this moment?“ is a good question to ask yourself frequently. Or you can ask: ”Whats going on inside me at this moment?" Be at least as interested in what goes on inside you as what happens outside. If you get the inside right, the outside will fall into place.
+
+Primary reality is within, secondary reality without. But dont answer these questions immediately. Direct your attention inward. Have a look inside yourself. What kind of thoughts is your mind producing? What do you feel?
+
+Direct your attention into the body. Is there any tension? Once you detect that there is a low level of unease, the background static, see in what way you are avoiding, resisting, or denying life by denying the Now. There are many ways in which people unconsciously resist the present moment. I will give you a few examples. With practice, your power of self- observation, of monitoring your inner state, will become sharpened.

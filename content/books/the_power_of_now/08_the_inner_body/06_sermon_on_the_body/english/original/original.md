@@ -1,2 +1,5 @@
-# 06 Sermon On The Body
+# Sermon On The Body
 
+SERMON ON THE BODY What you perceive as a dense physical structure called the body, which is subject to disease, old age, and death, is not ultimately real is not you. It is a misperception of your essential reality that is beyond birth and death, and is due to the limitations of your mind, which, having lost touch with Being, creates the body as evidence of its illusory belief in separation and to justify its state of fear. But do not turn away from the body, for within that symbol of impermanence, limitation, and death that you perceive as the illusory creation of your mind is concealed the splendor of your essential and immortal reality. Do not turn your attention elsewhere in your search for the Truth, for it is nowhere else to be found but within your body.
+
+Do not fight against the body, for in doing so you are fighting against your own reality. You are your body. The body that you can see and touch is only a thin illusory veil. Underneath it lies the invisible inner body, the doorway into Being, into Life Unmanifested. Through the inner body, you are inseparably connected to this unmanifested One Life birthless, deathless, eternally present. Through the inner body, you are forever one with God. ¤

@@ -1,2 +1,74 @@
-# 05 Accessing The Power Of The Now
+# Accessing The Power Of The Now
 
+ACCESSING THE POWER OF THE NOW
+A moment ago, when you talked about the eternal present and the
+unreality of past and future, I found myself looking at that tree outside the
+window. I had looked at it a few times before, but this time it was different.
+The external perception had not changed much, except that the colors
+seemed brighter and more vibrant. But there was now an added dimension
+to it. This is hard to explain. I don't know how, but I was aware of
+something invisible that I felt was the essence of that tree, its inner spirit, if
+you like. And somehow I was part of that. I realize now that I hadn't truly
+seen the tree before, just a flat and dead image of it. When I look at the tree
+now, some of that awareness is still present, but I can feel it slipping away.
+You see, the experience is already receding into the past. Can something
+like this ever be more than affecting glimpse?
+You were free of time for a moment. You moved into the Now and
+therefore perceived the tree without the screen of mind. The awareness of
+Being became part of your perception. With the timeless dimension comes
+a different kind of knowing, one that does not “kill” the spirit that lives
+within every creature and every thing. A knowing that does not destroy the
+sacredness and mystery of life but contains a deep love and reverence for
+all that is. A knowing of which the mind knows nothing.
+The mind cannot know the tree. It can only know facts or information
+about the tree. My mind cannot know you, only labels, judgments, facts,
+and opinions about you. Being alone knows directly.
+There is a place for mind and mind knowledge. It is in the practical
+realm of day-to-day living. However, when it takes over all aspects of your
+life, including your relationships with other human beings and with nature,
+it becomes a monstrous parasite that, unchecked, may well end up killing
+all life on the planet and finally itself by killing its host.
+You have had a glimpse of how the timeless can transform your
+perceptions. But an experience is not enough, no matter how beautiful or
+profound. What is needed and what we are concerned with is a permanent
+shift in consciousness.
+So break the old pattern of present-moment denial and present-
+moment resistance. Make it your practice to withdraw attention from past
+
+and future whenever they are not needed. Step out of the time dimension as
+much as possible in everyday life. If you find it hard to enter the Now
+directly, start by observing the habitual tendency of your mind to want to
+escape from the Now. You will observe that the future is usually imagined
+as either better or worse than the present. If the imagined future is better, it
+gives you hope or pleasurable anticipation. If it is worse, it creates anxiety.
+Both are illusory. Through self-observation, more presence comes into your
+life automatically. The moment you realize you are not present, you are
+present. Whenever you are able to observe your mind, you are no longer
+trapped in it. Another factor has come in, something that is not of the mind:
+the witnessing presence. Be present as the watcher of your mind of
+your thoughts and emotions as well as your reactions in various situations.
+Be at least as interested in your reactions as in the situation or person that
+causes you to react. Notice also how often your attention is in the past or
+future. Don't judge or analyze what you observe. Watch the thought, feel
+the emotion, observe the reaction. Dont make a personal problem out of
+them. You will then feel something more powerful than any of those things
+that you observe: the still, observing presence itself behind the content of
+your mind, the silent watcher. ¤
+Intense presence is needed when certain situations trigger a reaction
+with a strong emotional charge, such as when your self-image is threatened,
+a challenge comes into your life that triggers fear, things “go wrong,” or an
+emotional complex from the past is brought up. In those instances, the
+tendency is for you to become “unconscious.” The reaction or emotion
+takes you over you “become” it. You act it out. You justify, make wrong,
+attack, defend . . . except that it isn't you, it's the reactive pattern, the mind
+in its habitual survival mode.
+Identification with the mind gives it more energy;, observation of the
+mind withdraws energy from it. Identification with the mind creates more
+time; observation of the mind opens up the dimension of the timeless. The
+energy that is withdrawn from the mind turns into presence. Once you can
+feel what it means to be present, it becomes much easier to simply choose
+to step out of the time dimension whenever time is not needed for practical
+purposes and move more deeply into the Now. This does not impair your
+ability to use time past or future when you need to refer to it for practical
+matters. Nor does it impair your ability to use your mind. In fact, it
+enhances it. When you do use your mind, it will be sharper, more focused.

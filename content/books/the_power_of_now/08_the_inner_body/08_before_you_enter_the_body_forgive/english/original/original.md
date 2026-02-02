@@ -1,2 +1,15 @@
-# 08 Before You Enter The Body Forgive
+# Before You Enter The Body Forgive
 
+BEFORE YOU ENTER THE BODY, FORGIVE I felt very uncomfortable when I tried to put my attention on the inner body. There was a feeling of agitation and some nausea. So I haven't been able to experience what you are talking about.
+
+What you felt was a lingering emotion that you were probably unaware of, until you started putting some attention into the body. Unless you first give it some attention, the emotion will prevent you from gaining access to the inner body, which lies at a deeper level underneath it.
+
+Attention does not mean that you start thinking about it. It means to just observe the emotion, to feel it fully, and so to acknowledge and accept it as it is. Some emotions are easily identified: anger, fear, grief, and so on.
+
+Others may be much harder to label. They may just be vague feelings of unease, heaviness, or constriction, halfway between an emotion and a physical sensation. In any case, what matters is not whether you can attach a mental label to it but whether you can bring the feeling of it into awareness as much as possible. Attention is the key to transformation and full attention also implies acceptance. Attention is like a beam of light the focused power of your consciousness that transmutes everything into itself.
+
+In a fully functional organism, an emotion has a very short life span. It is like a momentary ripple or wave on the surface of your Being. When you are not in your body, however, an emotion can survive inside you for days or weeks, or join with other emotions of a similar frequency that have merged and become the pain-body, a parasite that can live inside you for years, feed on your energy, lead to physical illness, and make your life miserable (see Chapter 2).
+
+So place your attention on feeling the emotion, and check whether your mind is holding on to a grievance pattern such as blame, self-pity, or resentment that is feeding the emotion. If that is the case, it means that you haven't forgiven. Nonforgiveness is often toward another person or yourself, but it may just as well be toward any situation or condition past, present or future that your mind refuses to accept. Yes, there can be nonforgiveness even with regard to the future. This is the mind's refusal to accept uncertainty, to accept that the future is ultimately beyond its control. Forgiveness is to relinquish your grievance and so to let go of grief. It happens naturally once you realize that your grievance serves no purpose except to strengthen a false sense of self. Forgiveness is to offer no resistance to life to allow life to live through you. The alternatives are pain and suffering, a greatly restricted flow of life energy, and in many cases physical disease.
+
+The moment you truly forgive, you have reclaimed your power from the mind. Nonforgiveness is the very nature of the mind, just as the mind- made false self, the ego, cannot survive without strife and conflict. The mind cannot forgive. Only you can. You become present, you enter your body, you feel the vibrant peace and stillness that emanate from Being. That is why Jesus said: “Before you enter the temple, forgive.” ¤

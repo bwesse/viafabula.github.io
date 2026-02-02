@@ -1,2 +1,15 @@
-# 01 Loss Of Now The Core Delusion
+# Loss Of Now The Core Delusion
 
+LOSS OF NOW: THE CORE DELUSION Even if I completely accept that ultimately time is an illusion, what difference is that going to make in my life? I still have to live in a world that is completely dominated by time.
+
+Intellectual agreement is just another belief and won't make much difference to your life. To realize this truth, you need to live it. When every cell of your body is so present that it feels vibrant with life, and when you can feel that life every moment as the joy of Being, then it can be said that you are free of time.
+
+But I still have to pay the bills tomorrow, and I am still going to grow old and die just like everybody else. So how can I ever say that I am free of time?
+
+Tomorrow's bills are not the problem. The dissolution of the physical body is not a problem. Loss of Now is the problem, or rather: the core delusion that turns a mere situation, event, or emotion into a personal problem and into suffering. Loss of Now is loss of Being.
+
+To be free of time is to be free of the psychological need of past for your identity and future for your fulfillment. It represents the most profound transformation of consciousness that you can imagine. In some rare cases, this shift in consciousness happens dramatically and radically, once and for all. When it does, it usually comes about through total surrender in the midst of intense suffering. Most people, however, have to work at it.
+
+When you have had your first few glimpses of the timeless state of consciousness, you begin to move back and forth between the dimensions of time and presence. First you become aware of just how rarely your attention is truly in the Now. But to know that you are not present is a great success: that knowing is presence even if initially it only lasts for a couple of seconds of dock time before it is lost again. Then, with increasing frequency, you choose to have the focus of your consciousness in the present moment rather than in the past or future, and whenever you realize that you had lost the Now, you are able to stay in it not just for a couple of seconds, but for longer periods as perceived from the external perspective of dock time. So before you are firmly established in the state of presence, which is to say before you are fully conscious, you shift back and forth for a while between consciousness and unconsciousness, between the state of presence and the state of mind identification. You lose the Now, and you return to it, again and again. Eventually, presence becomes your predominant state.
+
+For most people, presence is experienced either never at all or only accidentally and briefly on rare occasions without being recognized for what it is. Most humans alternate not between consciousness and unconsciousness but only between different levels of unconsciousness.
