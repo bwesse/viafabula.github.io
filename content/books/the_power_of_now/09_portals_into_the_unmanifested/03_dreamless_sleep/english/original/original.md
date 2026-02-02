@@ -1,0 +1,9 @@
+# Dreamless Sleep
+
+DREAMLESS SLEEP You take a journey into the Unmanifested every night when you enter the phase of deep dreamless sleep. You merge with the Source. You draw from it the vital energy that sustains you for a while when you return to the manifested, the world of separate forms. This energy is much more vital than food: “Man does not live by bread alone.” But in dreamless sleep, you don't go into it consciously. Although the bodily functions are still operating, “you” no longer exist in that state. Can you imagine what it would be like to go into dreamless sleep with full consciousness? It is impossible to imagine it, because that state has no content.
+
+The Unmanifested does not liberate you until you enter it consciously. Thats why Jesus did not say:. the truth will make you free, but rather: “You will know the truth, and the truth will make you free.” This is not a conceptual truth. It is the truth of eternal life beyond form, which is known directly or not at all. But don't attempt to stay conscious in dreamless sleep.
+
+It is highly unlikely that you will succeed. At most, you may remain conscious during the dream phase, but not beyond that. This is called lucid dreaming, which may be interesting and fascinating, but it is not liberating.
+
+So use your inner body as a portal through which you 134 enter the Unmanifested, and keep that portal open so that you stay connected with the Source at all times. It makes no difference, as far as the inner body is concerned, whether your outer physical body is old or young, frail or strong. The inner body is timeless. If you are not yet able to feel the inner body, use one of the

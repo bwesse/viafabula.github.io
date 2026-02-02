@@ -1,0 +1,17 @@
+# The Past Cannot Survive In Your Presence
+
+THE PAST CANNOT SURVIVE IN YOUR PRESENCE You mentioned that thinking or talking about the past unnecessarily is one of the ways in which we avoid the present. But apart from the past that we remember and perhaps identify with, isn't there another level of past within us that is much more deep-seated? I am talking about the unconscious past that conditions our lives, especially through early childhood experiences, perhaps even past-life experiences. And then there is our cultural conditioning, which has to do with where we live geographically and the historical time period in which we live. All these things determine how we see the world, how we react, what we think, what kind of relationships we have, how we live our lives. How could we ever become conscious of all that or get rid of it? How long would that take?
+
+And even if we did, what would there be left? What is left when illusion ends? There is no need to investigate the unconscious past in you except as it manifests at this moment as a thought, an emotion, a desire, a reaction, or an external event that happens to you.
+
+Whatever you need to know about the unconscious past in you, the challenges of the present will bring it out. If you delve into the past, it will become a bottomless pit: There is always more. You may think that you need more time to understand the past or become free of it, in other words, that the future will eventually free you of the past. This is a delusion. Only the present can free you of the past. More time cannot free you of time.
+
+Access the power of Now. That is the key. What is the power of Now?
+
+None other than the power of your presence, your consciousness liberated from thought forms. So deal with the past on the level of the present. The more attention you give to the past, the more you energize it, and the more likely you are to make a “self” out of it. Dont misunderstand: Attention is essential, but not to the past as past. Give attention to the present; give attention to your behavior, to your reactions, moods, thoughts, emotions, fears, and desires as they occur in the present. There's the past in you. If you can be present enough to watch all those things, not critically or analytically but nonjudgmentally, then you are dealing with the past and dissolving it through the power of your presence. You cannot find yourself by going into the past. You find yourself by coming into the present.
+
+Isn't it helpful to understand the past and so understand why we do certain things, react in certain ways, or why we unconsciously create our particular kind of drama, patterns in relationships, and so on?
+
+As you become more conscious of your present reality, you may suddenly get certain insights as to why your conditioning functions in those particular ways; for example, why your relationships follow certain patterns, and you may remember things that happened in the past or see them more dearly. That is fine and can be helpful, but it is not essential.
+
+What is essential is your conscious presence. That dissolves the past. That is the transformative agent. So don't seek to understand the past, but be as present as you can. The past cannot survive in your presence. It can only survive in your absence.

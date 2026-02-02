@@ -1,0 +1,16 @@
+# Transforming Illness Into Enlightenment
+
+TRANSFORMING ILLNESS INTO ENLIGHTENMENT 
+If someone is seriously ill and completely accepts their condition and surrenders to the illness, would they not have given up their will to get back to health? The determination to fight the illness would not be there any more, would it?
+
+Surrender is inner acceptance of what is without any reservations. We are talking about your life this instant not the conditions or circumstances of your life, not what I call your life situation. We have spoken about this already.
+
+With regard to illness, this is what it means. Illness is part of your life situation. As such, it has a past and a future. Past and future form an uninterrupted continuum, unless the redeeming power of the Now is activated through your conscious presence. As you know, underneath the various conditions that make up your life situation, which exists in time, there is something deeper, more essential: your Life, your very Being in the timeless Now.
+
+As there are no problems in the Now, there is no illness either. The belief in a label that someone attaches to your condition keeps the condition in place, empowers it, and makes a seemingly solid reality out of a temporary imbalance. It gives it not only reality and solidity but also a continuity in time that it did not have before. By focusing on this instant and refraining from labeling it mentally, illness is reduced to one or several of these factors: physical pain, weakness, discomfort, or disability. That is what you surrender to now. You do not surrender to the idea of “illness.” Allow the suffering to force you into the present moment, into a state of intense conscious presence. Use it for enlightenment.
+
+Surrender does not transform what is, at least not directly. Surrender transforms you. When you are transformed, your whole world is transformed, because the world is only a reflection. We spoke about this earlier.
+
+If you looked in the mirror and did not like what you saw, you would have to be mad to attack the image in the mirror. That is precisely what you do when you are in a state of nonacceptance. And, of course, if you attack the image, it attacks you back. If you accept the image, no matter what it is, if you become friendly toward it, it cannot not become friendly toward you.
+
+This is how you change the world. Illness is not the problem. You are the problem as long as the egoic mind is in control. When you are ill or disabled, do not feel that you have failed in some way, do not feel guilty. Do not blame life for treating you unfairly, but do not blame yourself either. All that is resistance. If you have a major illness, use it for enlightenment. Anything “bad” that happens in your life use it for enlightenment. Withdraw time from the illness. Do not give it any past or future. Let it force you into intense present-moment awareness and see what happens. Become an alchemist. Transmute base metal into gold, suffering into consciousness, disaster into enlightenment. Are you seriously ill and feeling angry now about what I have just said? Then that is a clear sign that the illness has become part of your sense of self and that you are now protecting your identity as well as protecting the illness. The condition that is labeled “illness” has nothing to do with who you truly are.

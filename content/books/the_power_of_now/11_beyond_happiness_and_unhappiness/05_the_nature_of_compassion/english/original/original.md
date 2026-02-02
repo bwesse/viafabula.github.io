@@ -1,0 +1,21 @@
+# The Nature Of Compassion
+
+THE NATURE OF COMPASSION Having gone beyond the mind-made opposites, you become like a deep lake. The outer situation of your life and whatever happens there, is the surface of the lake. Sometimes calm, sometimes windy and rough, according to the cycles and seasons. Deep down, however, the lake is always undisturbed. You are the whole lake, not just the surface, and you are in touch with your own depth, which remains absolutely still. You don't resist change by mentally clinging to any situation. Your inner peace does not depend on it. You abide in Being unchanging, timeless, deathless and you are no longer dependent for fulfillment or happiness on the outer world of constantly fluctuating forms. You can enjoy them, play with them, create new forms, appreciate the beauty of it all. But there will be no need to attach yourself to any of it.
+
+When you become this detached, does it not mean that you also become remote from other human beings?
+
+On the contrary. As long as you are unaware of Being, the reality of other humans will elude you, because you have not found your own. Your mind will like or dislike their form, which is not just their body but includes their mind as well. True relationship becomes possible only when there is an awareness of Being. Coming from Being, you will perceive another person's body and mind as just a screen, as it were, behind which you can feel their true reality, as you feel yours.
+
+So, when confronted with someone else's suffering or unconscious behavior, you stay present and in touch with Being and are thus able to look beyond the form and feel the other person's radiant and pure Being through your own. At the level of Being, all suffering is recognized as an illusion.
+
+Suffering is due to identification with form. Miracles of healing sometimes occur through this realization, by awakening Being-consciousness in others if they are ready. Is that what compassion is? Yes. Compassion is the awareness of a deep bond between yourself and all creatures. But there are two sides to compassion, two sides to this bond. On the one hand, since you are still here as a physical body, you share the vulnerability and mortality of your physical form with every other human and with every living being. Next time you say “I have nothing in common with this person,” remember that you have a great deal in common: A few years from now two years or seventy years, it doesnt make much difference both of you will have become rotting corpses, then piles of dust, then nothing at all. This is a sobering and humbling realization that leaves little room for pride. Is this a negative thought? No, it is a fact. Why close your eyes to it? In that sense, there is total equality between you and every other creature.
+
+One of the most powerful spiritual practices is to meditate deeply on the mortality of physical forms, including your own. This is called: Die before you die. Go into it deeply. Your physical form is dissolving, is no more. Then a moment comes when all mind-forms or thoughts also die. Yet you are still there the divine presence that you are. Radiant, fully awake.
+
+Nothing that was real ever died, only names, forms, and illusions.
+
+¤ The realization of this deathless dimension, your true nature, is the other side of compassion. On a deep feeling-level, you now recognize not only your own immortality but through your own that of every other creature as well. On the level of form, you share mortality and the precariousness of existence.
+
+On the level of Being, you share eternal, radiant life. These are the two aspects of compassion. In compassion, the seemingly opposite feelings of sadness and joy merge into one and become transmuted into a deep inner peace, This is the peace of God. It is one of the most noble feelings that humans are capable of, and it has great healing and transformative power.
+
+But true compassion, as I have just described it, is as yet rare. To have deep empathy for the suffering of another being certainly requires a high degree of consciousness but represents only one side of compassion. It is not complete. True compassion goes beyond empathy or sympathy. It does not happen until sadness merges with joy, the joy of Being beyond form, the joy of eternal life.

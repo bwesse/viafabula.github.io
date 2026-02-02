@@ -567,6 +567,11 @@
           <select id="chapter-select" aria-label="Select chapter"></select>
         </div>
 
+        <div class="controls-row" id="subchapter-row" style="display: none;">
+          <label for="subchapter-select" class="small">Section</label>
+          <select id="subchapter-select" aria-label="Select section"></select>
+        </div>
+
         <div class="controls-row">
           <label for="level-select" class="small">Level</label>
           <select id="level-select" aria-label="Select level"></select>
@@ -740,6 +745,8 @@
 
       const bookSelect = document.getElementById('book-select');
       const chapterSelect = document.getElementById('chapter-select');
+      const subchapterSelect = document.getElementById('subchapter-select');
+      const subchapterRow = document.getElementById('subchapter-row');
       const levelSelect = document.getElementById('level-select');
       const nativeLangSelect = document.getElementById('native-lang-select');
       const learningLangSelect = document.getElementById('learning-lang-select');
@@ -801,7 +808,7 @@
       const STREAK_SAVE_INTERVAL_MS = 60000;
       const FALLBACK_NATIVE_ID = 'english';
       let library = { books: [] };
-      const state = { bookId: null, chapterId: null, langId: null, levelId: null };
+      const state = { bookId: null, chapterId: null, subchapterId: null, langId: null, levelId: null };
       let userSettings = SETTINGS_DEFAULT;
       let nativeLanguageId = SETTINGS_DEFAULT.nativeLanguageId;
       let learningLanguageId = null;
@@ -1149,35 +1156,105 @@
       function findChapter() {
         return findBook()?.chapters.find(ch => ch.id === state.chapterId) || null;
       }
+      function findSubchapter() {
+        const chapter = findChapter();
+        if (!chapter) return null;
+        // If chapter has subchapters, find the selected one
+        if (chapter.subchapters && chapter.subchapters.length > 0) {
+          return chapter.subchapters.find(sub => sub.id === state.subchapterId) || null;
+        }
+        // If no subchapters, return null (chapter itself has languages)
+        return null;
+      }
       function findLanguage() {
-        return findChapter()?.languages.find(l => l.id === state.langId) || null;
+        // First check if we're in a subchapter structure
+        const subchapter = findSubchapter();
+        if (subchapter) {
+          return subchapter.languages?.find(l => l.id === state.langId) || null;
+        }
+        // Fall back to chapter-level languages (for books without subchapters)
+        return findChapter()?.languages?.find(l => l.id === state.langId) || null;
       }
       function findLevel() {
         return findLanguage()?.levels.find(lv => lv.id === state.levelId) || null;
       }
       function availableLanguages() {
+        // Check subchapter first, then fall back to chapter
+        const subchapter = findSubchapter();
+        if (subchapter) return subchapter.languages || [];
         return findChapter()?.languages || [];
       }
       function findPrevChapterSelection() {
         const book = findBook();
         if (!book) return null;
         const chapters = book.chapters || [];
-        const idx = chapters.findIndex(ch => ch.id === state.chapterId);
-        if (idx === -1) return null;
-        for (let i = idx - 1; i >= 0; i -= 1) {
+        const chapterIdx = chapters.findIndex(ch => ch.id === state.chapterId);
+        if (chapterIdx === -1) return null;
+        
+        const currentChapter = chapters[chapterIdx];
+        
+        // If current chapter has subchapters, try previous subchapter first
+        if (currentChapter.subchapters && currentChapter.subchapters.length > 0) {
+          const subchapterIdx = currentChapter.subchapters.findIndex(sub => sub.id === state.subchapterId);
+          if (subchapterIdx > 0) {
+            // Go to previous subchapter in same chapter
+            const prevSubchapter = currentChapter.subchapters[subchapterIdx - 1];
+            const lang = prevSubchapter.languages?.find(l => l.id === state.langId);
+            if (lang) {
+              const level = lang.levels.find(lv => lv.id === state.levelId);
+              if (level) {
+                return {
+                  chapterId: currentChapter.id,
+                  subchapterId: prevSubchapter.id,
+                  chapterTitle: prevSubchapter.title,
+                  langId: lang.id,
+                  levelId: level.id,
+                  langTitle: lang.title,
+                  levelTitle: level.title,
+                };
+              }
+            }
+          }
+        }
+        
+        // Otherwise, try previous chapter (last subchapter if it has them)
+        for (let i = chapterIdx - 1; i >= 0; i -= 1) {
           const candidate = chapters[i];
-          const lang = candidate.languages.find(l => l.id === state.langId);
-          if (!lang) continue;
-          const level = lang.levels.find(lv => lv.id === state.levelId);
-          if (!level) continue;
-          return {
-            chapterId: candidate.id,
-            chapterTitle: candidate.title,
-            langId: lang.id,
-            levelId: level.id,
-            langTitle: lang.title,
-            levelTitle: level.title,
-          };
+          
+          // If candidate has subchapters, go to last subchapter
+          if (candidate.subchapters && candidate.subchapters.length > 0) {
+            for (let j = candidate.subchapters.length - 1; j >= 0; j -= 1) {
+              const subchapter = candidate.subchapters[j];
+              const lang = subchapter.languages?.find(l => l.id === state.langId);
+              if (!lang) continue;
+              const level = lang.levels.find(lv => lv.id === state.levelId);
+              if (!level) continue;
+              return {
+                chapterId: candidate.id,
+                subchapterId: subchapter.id,
+                chapterTitle: subchapter.title,
+                langId: lang.id,
+                levelId: level.id,
+                langTitle: lang.title,
+                levelTitle: level.title,
+              };
+            }
+          } else {
+            // No subchapters in candidate
+            const lang = candidate.languages?.find(l => l.id === state.langId);
+            if (!lang) continue;
+            const level = lang.levels.find(lv => lv.id === state.levelId);
+            if (!level) continue;
+            return {
+              chapterId: candidate.id,
+              subchapterId: null,
+              chapterTitle: candidate.title,
+              langId: lang.id,
+              levelId: level.id,
+              langTitle: lang.title,
+              levelTitle: level.title,
+            };
+          }
         }
         return null;
       }
@@ -1185,22 +1262,73 @@
         const book = findBook();
         if (!book) return null;
         const chapters = book.chapters || [];
-        const idx = chapters.findIndex(ch => ch.id === state.chapterId);
-        if (idx === -1) return null;
-        for (let i = idx + 1; i < chapters.length; i += 1) {
+        const chapterIdx = chapters.findIndex(ch => ch.id === state.chapterId);
+        if (chapterIdx === -1) return null;
+        
+        const currentChapter = chapters[chapterIdx];
+        
+        // If current chapter has subchapters, try next subchapter first
+        if (currentChapter.subchapters && currentChapter.subchapters.length > 0) {
+          const subchapterIdx = currentChapter.subchapters.findIndex(sub => sub.id === state.subchapterId);
+          if (subchapterIdx >= 0 && subchapterIdx < currentChapter.subchapters.length - 1) {
+            // Go to next subchapter in same chapter
+            const nextSubchapter = currentChapter.subchapters[subchapterIdx + 1];
+            const lang = nextSubchapter.languages?.find(l => l.id === state.langId);
+            if (lang) {
+              const level = lang.levels.find(lv => lv.id === state.levelId);
+              if (level) {
+                return {
+                  chapterId: currentChapter.id,
+                  subchapterId: nextSubchapter.id,
+                  chapterTitle: nextSubchapter.title,
+                  langId: lang.id,
+                  levelId: level.id,
+                  langTitle: lang.title,
+                  levelTitle: level.title,
+                };
+              }
+            }
+          }
+        }
+        
+        // Otherwise, try next chapter (first subchapter if it has them)
+        for (let i = chapterIdx + 1; i < chapters.length; i += 1) {
           const candidate = chapters[i];
-          const lang = candidate.languages.find(l => l.id === state.langId);
-          if (!lang) continue;
-          const level = lang.levels.find(lv => lv.id === state.levelId);
-          if (!level) continue;
-          return {
-            chapterId: candidate.id,
-            chapterTitle: candidate.title,
-            langId: lang.id,
-            levelId: level.id,
-            langTitle: lang.title,
-            levelTitle: level.title,
-          };
+          
+          // If candidate has subchapters, go to first subchapter
+          if (candidate.subchapters && candidate.subchapters.length > 0) {
+            for (let j = 0; j < candidate.subchapters.length; j += 1) {
+              const subchapter = candidate.subchapters[j];
+              const lang = subchapter.languages?.find(l => l.id === state.langId);
+              if (!lang) continue;
+              const level = lang.levels.find(lv => lv.id === state.levelId);
+              if (!level) continue;
+              return {
+                chapterId: candidate.id,
+                subchapterId: subchapter.id,
+                chapterTitle: subchapter.title,
+                langId: lang.id,
+                levelId: level.id,
+                langTitle: lang.title,
+                levelTitle: level.title,
+              };
+            }
+          } else {
+            // No subchapters in candidate
+            const lang = candidate.languages?.find(l => l.id === state.langId);
+            if (!lang) continue;
+            const level = lang.levels.find(lv => lv.id === state.levelId);
+            if (!level) continue;
+            return {
+              chapterId: candidate.id,
+              subchapterId: null,
+              chapterTitle: candidate.title,
+              langId: lang.id,
+              levelId: level.id,
+              langTitle: lang.title,
+              levelTitle: level.title,
+            };
+          }
         }
         return null;
       }
@@ -1214,9 +1342,13 @@
         if (comprehensionStatus) comprehensionStatus.textContent = '';
       }
       function comprehensionKey() {
-        const { bookId, chapterId, langId, levelId } = state || {};
+        const { bookId, chapterId, subchapterId, langId, levelId } = state || {};
         if (!bookId || !chapterId || !langId || !levelId) return null;
-        return `${bookId}::${chapterId}::${langId}::${levelId}`;
+        // Include subchapterId in key if present
+        const parts = [bookId, chapterId];
+        if (subchapterId) parts.push(subchapterId);
+        parts.push(langId, levelId);
+        return parts.join('::');
       }
       function isComprehensionSavedComplete() {
         const key = comprehensionKey();
@@ -1421,9 +1553,10 @@
       }
       function normalizeBookmark(raw) {
         if (!raw || typeof raw !== 'object') return null;
-        const { bookId, chapterId, langId, levelId } = raw;
+        const { bookId, chapterId, subchapterId, langId, levelId } = raw;
         if (!bookId || !chapterId || !langId || !levelId) return null;
-        return { bookId, chapterId, langId, levelId };
+        // subchapterId is optional (only for chapters with subchapters)
+        return { bookId, chapterId, subchapterId: subchapterId || null, langId, levelId };
       }
       function bookmarkIsValid(bm) {
         const normalized = normalizeBookmark(bm);
@@ -1432,7 +1565,20 @@
         if (!book) return false;
         const chapter = book.chapters.find(ch => ch.id === normalized.chapterId);
         if (!chapter) return false;
-        const lang = chapter.languages.find(l => l.id === normalized.langId);
+        
+        // If chapter has subchapters, validate subchapterId
+        if (chapter.subchapters && chapter.subchapters.length > 0) {
+          if (!normalized.subchapterId) return false;
+          const subchapter = chapter.subchapters.find(sub => sub.id === normalized.subchapterId);
+          if (!subchapter) return false;
+          const lang = subchapter.languages?.find(l => l.id === normalized.langId);
+          if (!lang) return false;
+          const level = lang.levels.find(lv => lv.id === normalized.levelId);
+          return !!level;
+        }
+        
+        // For chapters without subchapters
+        const lang = chapter.languages?.find(l => l.id === normalized.langId);
         if (!lang) return false;
         const level = lang.levels.find(lv => lv.id === normalized.levelId);
         return !!level;
@@ -1451,9 +1597,24 @@
         }
         const book = library.books.find(b => b.id === bookmark.bookId);
         const chapter = book?.chapters.find(ch => ch.id === bookmark.chapterId);
-        const lang = chapter?.languages.find(l => l.id === bookmark.langId);
-        const level = lang?.levels.find(lv => lv.id === bookmark.levelId);
-        const label = [book?.title, chapter?.title, lang?.title, level?.title].filter(Boolean).join(' · ');
+        
+        // Handle subchapter-based structure
+        let lang, level, subchapterTitle = null;
+        if (chapter?.subchapters && bookmark.subchapterId) {
+          const subchapter = chapter.subchapters.find(sub => sub.id === bookmark.subchapterId);
+          lang = subchapter?.languages?.find(l => l.id === bookmark.langId);
+          level = lang?.levels.find(lv => lv.id === bookmark.levelId);
+          subchapterTitle = subchapter?.title;
+        } else {
+          lang = chapter?.languages?.find(l => l.id === bookmark.langId);
+          level = lang?.levels.find(lv => lv.id === bookmark.levelId);
+        }
+        
+        const parts = [book?.title, chapter?.title];
+        if (subchapterTitle) parts.push(subchapterTitle);
+        parts.push(lang?.title, level?.title);
+        const label = parts.filter(Boolean).join(' · ');
+        
         bookmarkStatus.textContent = label || 'Bookmark ready.';
         if (goBookmarkBtn) goBookmarkBtn.disabled = false;
       }
@@ -1468,6 +1629,7 @@
         if (!bookmarkIsValid(bookmark)) return;
         state.bookId = bookmark.bookId;
         state.chapterId = bookmark.chapterId;
+        state.subchapterId = bookmark.subchapterId || null;
         state.langId = bookmark.langId;
         learningLanguageId = bookmark.langId;
         state.levelId = bookmark.levelId;
@@ -1547,11 +1709,25 @@
       function populateChapters(options = {}) {
         const book = findBook();
         state.chapterId = setSelectOptions(chapterSelect, book?.chapters || [], state.chapterId);
+        populateSubchapters(options);
+      }
+      function populateSubchapters(options = {}) {
+        const chapter = findChapter();
+        // Check if this chapter has subchapters
+        if (chapter?.subchapters && chapter.subchapters.length > 0) {
+          // Show subchapter selector
+          if (subchapterRow) subchapterRow.style.display = '';
+          state.subchapterId = setSelectOptions(subchapterSelect, chapter.subchapters, state.subchapterId);
+        } else {
+          // Hide subchapter selector for chapters without subchapters
+          if (subchapterRow) subchapterRow.style.display = 'none';
+          state.subchapterId = null;
+        }
         populateLanguages(options);
       }
       function populateLanguages(options = {}) {
-        const chapter = findChapter();
-        const languages = chapter?.languages || [];
+        // Get languages from subchapter if available, otherwise from chapter
+        const languages = availableLanguages();
         nativeLanguageId = setSelectOptions(nativeLangSelect, languages, nativeLanguageId);
         learningLanguageId = setSelectOptions(learningLangSelect, languages, learningLanguageId || state.langId);
         ensureLanguageSelections();
@@ -1570,6 +1746,7 @@
         const { scrollToTop = false } = options;
         const book = findBook();
         const chapter = findChapter();
+        const subchapter = findSubchapter();
         const lang = findLanguage();
         const level = findLevel();
 
@@ -1581,7 +1758,9 @@
           return;
         }
 
-        readerTitle.textContent = chapter.title;
+        // Use subchapter title if available, otherwise chapter title
+        const displayTitle = subchapter ? subchapter.title : chapter.title;
+        readerTitle.textContent = displayTitle;
         readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
         prepareAudio(level);
 
@@ -1629,6 +1808,7 @@
         if (bookmarkIsValid(bookmark)) {
           state.bookId = bookmark.bookId;
           state.chapterId = bookmark.chapterId;
+          state.subchapterId = bookmark.subchapterId || null;
           state.langId = bookmark.langId;
           learningLanguageId = bookmark.langId;
           state.levelId = bookmark.levelId;
@@ -1656,10 +1836,19 @@
 
       bookSelect.addEventListener('change', () => {
         state.bookId = bookSelect.value;
+        state.subchapterId = null; // Reset subchapter when changing book
         populateChapters();
         updateDownloadButtonState();
       });
-      chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
+      chapterSelect.addEventListener('change', () => { 
+        state.chapterId = chapterSelect.value;
+        state.subchapterId = null; // Reset subchapter when changing chapter
+        populateSubchapters(); 
+      });
+      subchapterSelect.addEventListener('change', () => { 
+        state.subchapterId = subchapterSelect.value; 
+        populateLanguages(); 
+      });
       nativeLangSelect?.addEventListener('change', () => {
         nativeLanguageId = nativeLangSelect.value;
         ensureLanguageSelections();
@@ -1724,6 +1913,7 @@
       prevChapterButton?.addEventListener('click', () => {
         if (!prevChapterTarget) return;
         state.chapterId = prevChapterTarget.chapterId;
+        state.subchapterId = prevChapterTarget.subchapterId || null;
         state.langId = prevChapterTarget.langId;
         state.levelId = prevChapterTarget.levelId;
         populateChapters({ scrollToTop: true });
@@ -1731,6 +1921,7 @@
       nextChapterButton?.addEventListener('click', () => {
         if (!nextChapterTarget) return;
         state.chapterId = nextChapterTarget.chapterId;
+        state.subchapterId = nextChapterTarget.subchapterId || null;
         state.langId = nextChapterTarget.langId;
         state.levelId = nextChapterTarget.levelId;
         populateChapters({ scrollToTop: true });

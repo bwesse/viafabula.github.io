@@ -1,0 +1,17 @@
+# Other Portals
+
+other portals, although ultimately they are all one.
+
+Some I have spoken about at length already, but I'll mention them again briefly here. OTHER PORTALS The Now can be seen as the main portal. It is an essential aspect of every other portal, including the inner body. You cannot be in your body without being intensely present in the Now. Time and the manifested are as inextricably linked as are the timeless Now and the Unmanifested. When you dissolve psychological time through intense present-moment awareness, you become conscious of the Unmanifested both directly and indirectly. Directly, you feel it as the radiance and power of your conscious presence no content, just presence.
+
+Indirectly, you are aware of the Unmanifested in and through the sensory realm. In other words, you feel the God-essence in every creature, every flower, every stone, and you realize: 'All that is, is holy.“ This is why Jesus, speaking entirely from his essence or Christ identity, says in the Gospel of Thomas: ”Split a piece of wood; I am there. Lift up a stone, and you will find me there."
+
+Another portal into the Unmanifested is created through the cessation of thinking. This can start with a very simple thing, such as taking one conscious breath or looking, in a state of intense alertness, at a flower, so that there is no mental commentary running at the same time. There are many ways to create a gap in the incessant stream of thought. This is what meditation is all about. Thought is part of the realm of the manifested.
+
+Continuous mind activity keeps you imprisoned in the world of form and becomes an opaque screen that prevents you from becoming conscious of the Unmanifested, conscious of the formless and timeless God- essence in yourself and in all things and all creatures. When you are intensely present, you don't need to be concerned about the cessation of thinking, of course, because the mind then stops automatically. Thats why I said the Now is an essential aspect of every other portal.
+
+Surrender the letting go of mental-emotional resistance to what is also becomes a portal into the Unmanifested. The reason for this is simple: inner resistance cuts you off from other people, from yourself, from the world around you. It strengthens the feeling of separateness on which the ego depends for its survival. The stronger the feeling of separateness, the more you are bound to the manifested, to the world of separate forms. The more you are bound to the world of form, the harder and more impenetrable your form identity becomes. The portal is closed, and you are cut off from the inner dimension, the dimension of depth. In the state of surrender, your form identity softens and becomes somewhat “transparent,” as it were, so the Unmanifested can shine through you.
+
+Its up to you to open a portal in your life that gives you conscious access to the Unmanifested. Get in touch with the energy field of the inner body, be intensely present, disidentify from the mind, surrender to what is; these are all portals you can use but you only need to use one.
+
+Surely love must also be one of those portals? No, it isn't. As soon as one of the portals is open, love is present in you as the “feeling-realization” of oneness. Love isn't a portal; ifs what comes through the portal into this world. As long as you are completely trapped in your form identity, there can be no love. Your task is not to search for love but to find a portal through which love can enter.

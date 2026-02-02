@@ -1,0 +1,16 @@
+# When Disaster Strikes
+
+WHEN DISASTER STRIKES 
+As far as the still unconscious majority of the population is concerned, only a critical limit-situation has the potential to crack the hard shell of the ego and force them into surrender and so into the awakened state. A limit- situation arises when through some disaster, drastic upheaval, deep loss, or suffering your whole world is shattered and doesn't make sense anymore. It is an encounter with death, be it physical or psychological. The egoic mind, the creator of this world, collapses. Out of the ashes of the old world, a new world can then come into being.
+
+There is no guarantee, of course, that even a limit- situation will do it, but the potential is always there. Some people's resistance to what is even intensifies in such a situation, and so it becomes a descent into hell. In others, there may only be partial surrender, but even that will give them a certain depth and serenity that were not there before. Parts of the ego shell break off, and this allows small amounts of the radiance and peace that lie beyond the mind to shine through.
+
+Limit-situations have produced many miracles. There have been murderers in death row waiting for execution who, in the last few hours of their lives, experienced the egoless state and the deep joy and peace that come with it. The inner resistance to the situation they found themselves in became so intense as to produce unbearable suffering, and there was nowhere to run and nothing to do to escape it, not even a mind-projected future. So they were forced into complete acceptance of the unacceptable.
+
+They were forced into surrender. In this way, they were able to enter the state of grace with which comes redemption: complete release from the past. Of course, it is not really the limit-situation that makes room for the miracle of grace and redemption but the act of surrender.
+
+So whenever any kind of disaster strikes, or something goes seriously “wrong” illness, disability, loss of home or fortune or of a socially defined identity, break-up or a close relationship, death or suffering of a loved one, or your own impending death know that there is another side to it, that you are just one step away from something incredible: a complete alchemical transmutation of the base metal of pain and suffering into gold. That one step is called surrender.
+
+I do not mean to say that you will become happy in such a situation. You will not. But fear and pain will become transmuted into an inner peace and serenity that come from a very deep place from the Unmanifested itself.
+
+It is “the peace of God, which passes all understanding.” Compared to that, happiness is quite a shallow thing. With this radiant peace comes the realization not on the level of mind but within the depth of your Being that you are indestructible, immortal. This is not a belief. It is absolute certainty that needs no external evidence or proof from some secondary source.

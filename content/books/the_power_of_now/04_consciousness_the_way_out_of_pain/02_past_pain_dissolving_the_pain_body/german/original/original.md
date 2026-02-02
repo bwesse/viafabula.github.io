@@ -1,0 +1,142 @@
+# Past Pain Dissolving The Pain Body
+
+PAST PAIN: DISSOLVING THE PAIN-
+BODY
+As long as you are unable to access the power of the Now, every
+emotional pain that you experience leaves behind a residue of pain that
+lives on in you. It merges with the pain from the past, which was already
+there, and becomes lodged in your mind and body. This, of course, includes
+the pain you suffered as a child, caused by the unconsciousness of the world
+into which you were born.
+This accumulated pain is a negative energy field that occupies your
+body and mind. If you look on it as an invisible entity in its own right, you
+are getting quite close to the truth. Its the emotional pain-body. It has two
+modes of being: dormant and active. A pain-body may be dormant 90
+percent of the time; in a deeply unhappy person, though, it may be active up
+to mo percent of the time. Some people live almost entirely through their
+pain-body, while others may experience it only in certain situations, such as
+intimate relationships, or situations linked with past loss or abandonment,
+physical or emotional hurt, and so on. Anything can trigger it, particularly if
+it resonates with a pain pattern from your past. When it is ready to awaken
+from its dormant stage, even a thought or an innocent remark made by
+someone close to you can activate it.
+Some pain-bodies are obnoxious but relatively harmless, for example
+like a child who won't stop whining. Others are vicious and destructive
+monsters, true demons. Some are physically violent; many more are
+emotionally violent. Some will attack people around you or close to you,
+while others may attack you, their host. Thoughts and feelings you have
+about your life then become deeply negative and self- destructive. Illnesses
+and accidents are often created in this way. Some pain-bodies drive their
+hosts to suicide. When you thought you knew a person and then you are
+suddenly confronted with this alien, nasty creature for the first time, you are
+in for quite a shock. However, it's more important to observe it in yourself
+than in someone else. Watch out for any sign of unhappiness in yourself, in
+whatever form it may be the awakening pain-body. This can take the form
+of irritation, impatience, a somber mood, a desire to hurt, anger, rage,
+
+depression, a need to have some drama in your relationship, and so on.
+Catch it the moment it awakens from its dormant state. The pain-body
+wants to survive, just like every other entity in existence, and it can only
+survive if it gets you to unconsciously identify with it. It can then rise up,
+take you over, “become you,” and live through you. It needs to get its
+“food” through you. It will feed on any experience that resonates with its
+own kind of energy, anything that creates further pain in whatever form:
+anger, destructiveness, hatred, grief, emotional drama, violence, and even
+illness. So the pain-body, when it has taken you over, will create a situation
+in your life that reflects back its own energy frequency for it to feed on.
+Pain can only feed on pain. Pain cannot feed on joy. It finds it quite
+indigestible.
+Once the pain-body has taken you over, you want more pain. You
+become a victim or a perpetrator. You want to inflict pain, or you want to
+suffer pain, or both. There isn't really much difference between the two.
+You are not conscious of this, of course, and will vehemently claim that
+you do not want pain. But look closely and you will find that your thinking
+and behavior are designed to keep the pain going, for yourself and others. If
+you were truly conscious of it, the pattern would dissolve, for to want more
+pain is insanity, and nobody is consciously insane.
+The pain-body, which is the dark shadow cast by the ego, is actually
+afraid of the light of your consciousness. It is afraid of being found out. Its
+survival depends on your unconscious identification with it, as well as on
+your unconscious fear of facing the pain that lives in you. But if you don't
+face it, if you don't bring the light of your consciousness into the pain, you
+will be forced to relive it again and again. The pain-body may seem to you
+like a dangerous monster that you cannot bear to look at, but I assure you
+that it is an insubstantial phantom that cannot prevail against the power of
+your presence.
+Some spiritual teachings state that all pain is ultimately an illusion, and
+this is true. The question is: Is it true for you? A mere belief doesn't make it
+true. Do you want to experience pain for the rest of your life and keep
+saying that it is an illusion? Does that free you from the pain? What we are
+concerned with here is how you can realize this truth that is, make it real in
+your own experience.
+So the pain-body doesn't want you to observe it directly and see it for
+what it is. The moment you observe it, feel its energy field within you, and
+take your attention into it, the identification is broken. A higher dimension
+of consciousness has come in. I call it presence. You are now the witness or
+
+the watcher of the pain-body. This means that it cannot use you anymore by
+pretending to be you, and it can no longer replenish itself through you. You
+have found your own innermost strength. You have accessed the power of
+Now.
+What happens to the pain-body when we become conscious enough to
+break our identification with it?
+Unconsciousness creates it; consciousness transmutes it into itself. St.
+Paul expressed this universal principle beautifully:. “Everything is shown
+up by being exposed to the light, and whatever is exposed to the light itself
+becomes light.” Just as you cannot fight the darkness, you cannot fight the
+pain-body.
+Trying to do so would create inner conflict and thus further pain.
+Watching it is enough. Watching it implies accepting it as part of what is at
+that moment.
+The pain-body consists of trapped life-energy that has split off from
+your total energy field and has temporarily become autonomous through the
+unnatural process of mind identification. It has turned in on itself and
+become anti-life, like an animal trying to devour its own tail. Why do you
+think our civilization has become so life-destructive? But even the life-
+destructive forces are still life-energy.
+When you start to disidentify and become the watcher, the pain-body
+will continue to operate for a while and will try to trick you into identifying
+with it again. Although you are no longer energizing it through your
+identification, it has a certain momentum, just like a spinning wheel that
+will keep turning for a while even when it is no longer being propelled. At
+this stage, it may also create physical aches and pains in different parts of
+the body, but they wont last. Stay present, stay conscious. Be the ever-alert
+guardian of your inner space. You need to be present enough to be able to
+watch the pain-body directly and feel its energy. It then cannot control your
+thinking. The moment your thinking is aligned with the energy field of the
+pain-body, you are identified with it and again feeding it with your
+thoughts.
+For example, if anger is the predominant energy vibration of the pain-
+body and you think angry thoughts, dwelling on what someone did to you
+or what you are going to do to him or her, then you have become
+unconscious, and the pain-body has become “you.” Where there is anger,
+there is always pain underneath. Or when a dark mood comes upon you and
+you start getting into a negative mind-pattern and thinking how dreadful
+your life is, your thinking has become aligned with the pain-body, and you
+
+have become unconscious and vulnerable to the pain-body's attack.
+“Unconscious,” the way that I use the word here, means to be identified
+with some mental or emotional pattern. It implies a complete absence of the
+watcher.
+Sustained conscious attention severs the link between the pain-body
+and your thought processes and brings about the process of transmutation. It
+is as if the pain becomes fuel for the flame of your consciousness, which
+then burns more brightly as a result. This is the esoteric meaning of the
+ancient art of alchemy:, the transmutation of base metal into gold, of
+suffering into consciousness. The split within is healed, and you become
+whole again. Your responsibility then is not to create further pain.
+Let me summarize the process. Focus attention on the feeling inside
+you. Know that it is the pain-body. Accept that it is there. Don't think about
+it don't let the feeling turn into thinking. Don't judge or analyze. Don't make
+an identity for yourself out of it. Stay present, and continue to be the
+observer of what is happening inside you. Become aware not only of the
+emotional pain but also of “the one who observes,” the silent watcher. This
+is the power of the Now, the power of your own conscious presence. Then
+see what happens.
+¤
+For many women, the pain-body awakens particularly at the time
+preceding the menstrual flow. I will talk about this and the reason for it in
+more detail later. Right now, let me just say this: If you are able to stay alert
+and present at that time and watch whatever you feel within, rather than be
+taken over by it, it affords an opportunity for the most powerful spiritual
+practice, and a rapid transmutation of all past pain becomes possible.

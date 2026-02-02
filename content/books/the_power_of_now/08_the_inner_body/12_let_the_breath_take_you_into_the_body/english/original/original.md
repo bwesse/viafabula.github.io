@@ -1,0 +1,6 @@
+# Let The Breath Take You Into The Body
+
+LET THE BREATH TAKE YOU INTO THE BODY At times, when my mind has been very active, it has acquired such momentum that I find it impossible to take my attention away from it and feel the inner body. This happens particularly when I get into a worry or anxiety pattern. Do you have any suggestions?
+
+If at any time you are finding it hard to get in touch with the inner body, it is usually easier to focus on your breathing first. Conscious breathing, which is a powerful meditation in its own right, will gradually put you in touch with the body. Follow the breath with your attention as it moves in and out of your body. Breathe into the body, and feel your abdomen expanding and contracting slightly with each inhalation and exhalation. If you find it easy to visualize, close your eyes and see yourself surrounded by light or immersed in a luminous substance a sea of consciousness. Then breathe in that light. Feel that luminous substance filling up your body and making it luminous also. Then gradually focus more on the feeling. You are now in your body. Don't get attached to any visual image.
+¤
