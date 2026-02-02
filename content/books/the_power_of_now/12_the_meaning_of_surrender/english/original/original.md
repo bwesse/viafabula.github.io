@@ -1,7 +1,9 @@
 # The Meaning Of Surrender
 Chapter Ten
 THE MEANING OF SURRENDER
-ACCEPTANCE OF THE NOW You mentioned “surrender” a few times. I don't like that idea. It sounds somewhat fatalistic. If we always accept the way things are, we are not going to make any effort to improve them. It seems to me what progress is all about, both in our personal lives and collectively, is not to accept the limitations of the present but to strive to go beyond them and create something better. If we hadn't done this, we would still be living in caves.
+
+ACCEPTANCE OF THE NOW 
+You mentioned “surrender” a few times. I don't like that idea. It sounds somewhat fatalistic. If we always accept the way things are, we are not going to make any effort to improve them. It seems to me what progress is all about, both in our personal lives and collectively, is not to accept the limitations of the present but to strive to go beyond them and create something better. If we hadn't done this, we would still be living in caves.
 
 How do you reconcile surrender with changing things and getting things done?
 
@@ -33,7 +35,8 @@ In the state of surrender, you see very clearly what needs to be done, and you t
 
 Do not confuse surrender with an attitude of “I can't be bothered anymore” or “I just don't care anymore.” If you look at it closely, you will find that such an attitude is tainted with negativity in the form of hidden resentment and so is not surrender at all but masked resistance. As you surrender, direct your attention inward to check if there is any trace of resistance left inside you. Be very alert when you do so; otherwise, a pocket of resistance may continue to hide in some dark corner in the form of a thought or an unacknowledged emotion.
 
-FROM MIND ENERGY TO SPIRITUAL ENERGY Letting go of resistance is easier said than done. I still don't see clearly how to let go. If you say it is by surrendering, the question remains: “How?” Start by acknowledging that there is resistance. Be there when it happens, when the resistance arises. Observe how your mind creates it, how it labels the situation, yourself, or others. Look at the thought process involved. Feel the energy of the emotion. By witnessing the resistance, you will see that it serves no purpose. By focusing all your attention on the Now, the unconscious resistance is made conscious, and that is the end of it.
+FROM MIND ENERGY TO SPIRITUAL ENERGY 
+Letting go of resistance is easier said than done. I still don't see clearly how to let go. If you say it is by surrendering, the question remains: “How?” Start by acknowledging that there is resistance. Be there when it happens, when the resistance arises. Observe how your mind creates it, how it labels the situation, yourself, or others. Look at the thought process involved. Feel the energy of the emotion. By witnessing the resistance, you will see that it serves no purpose. By focusing all your attention on the Now, the unconscious resistance is made conscious, and that is the end of it.
 
 You cannot be conscious and unhappy, conscious and in negativity. Negativity, unhappiness, or suffering in whatever form means that there is resistance, and resistance is always unconscious. Surely I can be conscious of my unhappy feelings? Would you choose unhappiness? If you did not choose it, how did it arise? What is its purpose? Who is keeping it alive?
 
@@ -43,7 +46,8 @@ Until you practice surrender, the spiritual dimension is something you read abou
 
 Jesus referred to this energy when he made his famous prophetic statement in the Sermon on the Mount: “Blessed are the gentle; they shall have the earth for their possession.” It is a silent but intense presence that dissolves the unconscious patterns of the mind. They may still remain active for a while, but they won't run your life anymore. The external conditions that were being resisted also tend to shift or dissolve quickly through surrender. It is a powerful transformer of situations and people. If conditions do not shift immediately, your acceptance of the Now enables you to rise above them. Either way, you are free.
 
-SURRENDER IN PERSONAL RELATIONSHIPS What about people who want to use me, manipulate or control me?
+SURRENDER IN PERSONAL RELATIONSHIPS 
+What about people who want to use me, manipulate or control me?
 
 Am I to surrender to them? They are cut off from Being, so they unconsciously attempt to get energy and power from you. It is true that only an unconscious person will try to use or manipulate others, but it is equally true that only an unconscious person can be used and manipulated. If you resist or fight unconscious behavior in others, you become unconscious yourself. But surrender doesn't mean that you allow yourself to be used by unconscious people. Not at all. It is perfectly possible to say “no” firmly and clearly to a person or to walk away from a situation and be in a state of complete inner nonresistance at the same time. When you say “no” to a person or a situation, let it come not from reaction but from insight, from a clear realization of what is right or not right for you at that moment. Let it be a nonreactive “no,” a high-quality “no,” a “no” that is free of all negativity and so creates no further suffering.
 
@@ -63,7 +67,8 @@ Having said that, “doing nothing” when you are in a state of intense presenc
 
 On the other hand, if action is required, you will no longer react from your conditioned mind, but you will respond to the situation out of your conscious presence. In that state, your mind is free of concepts, including the concept of nonviolence. So who can predict what you will do? The ego believes that in your resistance lies your strength, whereas in truth resistance cuts you off from Being, the only place of true power. Resistance is weakness and fear masquerading as strength. What the ego sees as weakness is your Being in its purity, innocence, and power. What it sees as strength is weakness. So the ego exists in a continuous resistance-mode and plays counterfeit roles to cover up your “weakness,” which in truth is your power. Until there is surrender, unconscious role-playing constitutes a large part of human interaction. In surrender, you no longer need ego defenses and false masks. You become very simple, very real. “Thats dangerous,” says the ego. “You'll get hurt. You'll become vulnerable.” What the ego doesn't know, of course, is that only through the letting go of resistance, through becoming “vulnerable,” can you discover your true and essential invulnerability.
 
-TRANSFORMING ILLNESS INTO ENLIGHTENMENT If someone is seriously ill and completely accepts their condition and surrenders to the illness, would they not have given up their will to get back to health? The determination to fight the illness would not be there any more, would it?
+TRANSFORMING ILLNESS INTO ENLIGHTENMENT 
+If someone is seriously ill and completely accepts their condition and surrenders to the illness, would they not have given up their will to get back to health? The determination to fight the illness would not be there any more, would it?
 
 Surrender is inner acceptance of what is without any reservations. We are talking about your life this instant not the conditions or circumstances of your life, not what I call your life situation. We have spoken about this already.
 
@@ -77,7 +82,8 @@ If you looked in the mirror and did not like what you saw, you would have to be 
 
 This is how you change the world. Illness is not the problem. You are the problem as long as the egoic mind is in control. When you are ill or disabled, do not feel that you have failed in some way, do not feel guilty. Do not blame life for treating you unfairly, but do not blame yourself either. All that is resistance. If you have a major illness, use it for enlightenment. Anything “bad” that happens in your life use it for enlightenment. Withdraw time from the illness. Do not give it any past or future. Let it force you into intense present-moment awareness and see what happens. Become an alchemist. Transmute base metal into gold, suffering into consciousness, disaster into enlightenment. Are you seriously ill and feeling angry now about what I have just said? Then that is a clear sign that the illness has become part of your sense of self and that you are now protecting your identity as well as protecting the illness. The condition that is labeled “illness” has nothing to do with who you truly are.
 
-WHEN DISASTER STRIKES As far as the still unconscious majority of the population is concerned, only a critical limit-situation has the potential to crack the hard shell of the ego and force them into surrender and so into the awakened state. A limit- situation arises when through some disaster, drastic upheaval, deep loss, or suffering your whole world is shattered and doesn't make sense anymore. It is an encounter with death, be it physical or psychological. The egoic mind, the creator of this world, collapses. Out of the ashes of the old world, a new world can then come into being.
+WHEN DISASTER STRIKES 
+As far as the still unconscious majority of the population is concerned, only a critical limit-situation has the potential to crack the hard shell of the ego and force them into surrender and so into the awakened state. A limit- situation arises when through some disaster, drastic upheaval, deep loss, or suffering your whole world is shattered and doesn't make sense anymore. It is an encounter with death, be it physical or psychological. The egoic mind, the creator of this world, collapses. Out of the ashes of the old world, a new world can then come into being.
 
 There is no guarantee, of course, that even a limit- situation will do it, but the potential is always there. Some people's resistance to what is even intensifies in such a situation, and so it becomes a descent into hell. In others, there may only be partial surrender, but even that will give them a certain depth and serenity that were not there before. Parts of the ego shell break off, and this allows small amounts of the radiance and peace that lie beyond the mind to shine through.
 
@@ -91,7 +97,8 @@ I do not mean to say that you will become happy in such a situation. You will no
 
 It is “the peace of God, which passes all understanding.” Compared to that, happiness is quite a shallow thing. With this radiant peace comes the realization not on the level of mind but within the depth of your Being that you are indestructible, immortal. This is not a belief. It is absolute certainty that needs no external evidence or proof from some secondary source.
 
-TRANSFORMING SUFFERING INTO PEACE I read about a stoic philosopher in ancient Greece who, when he was told that his son had died in an accident, replied, “I knew he was not immortal.” Is that surrender? If it is, I don't want it. There are some situations in which surrender seems unnatural and inhuman.
+TRANSFORMING SUFFERING INTO PEACE 
+I read about a stoic philosopher in ancient Greece who, when he was told that his son had died in an accident, replied, “I knew he was not immortal.” Is that surrender? If it is, I don't want it. There are some situations in which surrender seems unnatural and inhuman.
 
 Being cut off from your feelings is not surrender. But we don't know what his inner state was when he said those words. In certain extreme situations, it may still be impossible for you to accept the Now. But you always get a second chance at surrender.
 
@@ -156,7 +163,11 @@ The whole concept of forgiveness then becomes unnecessary. And how do I get to t
 
 When you surrender to what is and so become fully present, the past ceases to have any power. You do not need it anymore. Presence is the key. The Now is the key. How will I know when I have surrendered?
 
-When you no longer need to ask the question. END Table of Contents
+When you no longer need to ask the question. 
+
+
+END 
+Table of Contents
 FOREWORD
 ACKNOWLEDGMENTS
 INTRODUCTION
