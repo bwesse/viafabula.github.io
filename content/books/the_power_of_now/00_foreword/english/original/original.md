@@ -2,13 +2,8 @@
 
 FOREWORD
 BY RUSSELL E. DICARLO Author of Towards a New World View
-Blanketed by an azure sky, the orange-yellow rays of the setting sun can, at
-special times, gift us with a moment of such consider able beauty, we find
-ourselves momentarily stunned, with frozen gaze. The splendor of the
-moment so dazzles us, our compulsively chattering minds give pause, so as
-not to mentally whisk us away to a place other than the here-and-now.
-Bathed in luminescence, a door seems to open to another reality, always
-present, yet rarely witnessed.
+
+Blanketed by an azure sky, the orange-yellow rays of the setting sun can, at special times, gift us with a moment of such consider able beauty, we find ourselves momentarily stunned, with frozen gaze. The splendor of the moment so dazzles us, our compulsively chattering minds give pause, so as not to mentally whisk us away to a place other than the here-and-now. Bathed in luminescence, a door seems to open to another reality, always present, yet rarely witnessed.
 Abraham Maslow called these “peak experiences,” since they
 represent the high moments of life where we joyfully find ourselves
 catapulted beyond the confines of the mundane and ordinary. He might just
