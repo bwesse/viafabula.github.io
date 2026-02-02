@@ -373,20 +373,6 @@
         margin: 10px 0;
       }
 
-      .catalog-book {
-        margin-bottom: 18px;
-        padding: 12px;
-        border-radius: 10px;
-        background: var(--card);
-      }
-      .catalog-book h3 {
-        margin: 0 0 6px;
-      }
-      .catalog-meta {
-        color: var(--muted);
-        font-size: 13px;
-        margin-bottom: 8px;
-      }
       .chip {
         display: inline-flex;
         align-items: center;
@@ -513,10 +499,6 @@
         background: rgba(226, 232, 240, 0.05);
         border-color: rgba(148, 163, 184, 0.28);
       }
-      body.night .catalog-book {
-        background: #0f172a;
-        box-shadow: var(--shadow);
-      }
       body.night .markdown-body p:nth-of-type(even) {
         background: rgba(226, 232, 240, 0.05);
       }
@@ -621,7 +603,6 @@
       </div>
 
       <nav class="menu" aria-label="Links">
-        <a href="#" id="book-catalog-link">Book catalog</a>
         <a href="#" id="about-link">About</a>
       </nav>
 
@@ -744,7 +725,6 @@
       const readerPanel = document.getElementById('reader');
       const storyBody = document.getElementById('story-body');
       const statusLine = document.getElementById('status-line');
-      const catalogLink = document.getElementById('book-catalog-link');
       const aboutLink = document.getElementById('about-link');
       const themeToggle = document.getElementById('theme-toggle');
       const footerVersion = document.getElementById('footer-version');
@@ -1567,7 +1547,7 @@
         const level = findLevel();
 
         if (!book || !chapter || !lang || !level) {
-          storyBody.textContent = 'Pick a story, chapter, level, and languages that exist in the catalog.';
+          storyBody.textContent = 'Pick a story, chapter, level, and languages that exist.';
           setStatus('Waiting for a valid selection.');
           resetAudio();
           if (nextChapterContainer) nextChapterContainer.hidden = true;
@@ -1597,20 +1577,20 @@
       }
 
       async function loadLibrary() {
-        setStatus('Loading catalog…');
+        setStatus('Loading library…');
         try {
           const response = await fetch('./content-index.json');
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           library = await response.json();
         } catch (error) {
           storyBody.textContent = 'Could not read content-index.json. Place it next to index.html to drive the dropdowns.';
-          setStatus('Catalog missing or unreadable.');
+          setStatus('Library missing or unreadable.');
           console.error(error);
           return;
         }
 
         if (!library.books?.length) {
-          storyBody.textContent = 'No books found in the catalog.';
+          storyBody.textContent = 'No books found in the library.';
           setStatus('Add books under content/books to begin.');
           return;
         }
@@ -1629,70 +1609,6 @@
 
         populateBooks();
         updateBookmarkStatus();
-      }
-
-      function renderCatalogView() {
-        readerTitle.textContent = 'Book catalog';
-        readerMeta.textContent = 'Pick a level to jump into a story';
-        resetAudio();
-        storyBody.innerHTML = '';
-        if (nextChapterContainer) nextChapterContainer.hidden = true;
-        setStatus('Tap a language/level to open it.');
-        updateScrollTopVisibility();
-
-        if (!library.books.length) {
-          storyBody.textContent = 'Catalog is empty.';
-          return;
-        }
-
-        library.books.forEach((book) => {
-          const bookDiv = document.createElement('div');
-          bookDiv.className = 'catalog-book';
-
-          const heading = document.createElement('h3');
-          heading.textContent = book.title;
-          bookDiv.appendChild(heading);
-
-          const meta = document.createElement('div');
-          meta.className = 'catalog-meta';
-          meta.textContent = `${book.chapters.length} chapter(s)`;
-          bookDiv.appendChild(meta);
-
-          book.chapters.forEach((chapter) => {
-            const chapterMeta = document.createElement('div');
-            chapterMeta.className = 'catalog-meta';
-            chapterMeta.textContent = chapter.title;
-            bookDiv.appendChild(chapterMeta);
-
-            chapter.languages.forEach((lang) => {
-              const langLabel = document.createElement('div');
-              langLabel.className = 'catalog-meta';
-              langLabel.textContent = lang.title;
-              bookDiv.appendChild(langLabel);
-
-              lang.levels.forEach((level) => {
-                const chip = document.createElement('button');
-                chip.type = 'button';
-                chip.className = 'chip';
-                chip.textContent = `${lang.title} · ${level.title}`;
-                chip.addEventListener('click', () => {
-                  state.bookId = book.id;
-                  populateBooks();
-                  state.chapterId = chapter.id;
-                  populateChapters();
-                  state.langId = lang.id;
-                  populateLanguages();
-                  state.levelId = level.id;
-                  populateLevels();
-                  closeSidebar();
-                });
-                bookDiv.appendChild(chip);
-              });
-            });
-          });
-
-          storyBody.appendChild(bookDiv);
-        });
       }
 
       function renderAboutView() {
@@ -1831,11 +1747,6 @@
         });
       }
 
-      catalogLink.addEventListener('click', (event) => {
-        event.preventDefault();
-        renderCatalogView();
-        closeSidebar();
-      });
       aboutLink.addEventListener('click', (event) => {
         event.preventDefault();
         renderAboutView();
