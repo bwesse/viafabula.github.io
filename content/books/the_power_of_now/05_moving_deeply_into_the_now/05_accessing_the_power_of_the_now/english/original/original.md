@@ -1,6 +1,6 @@
 # Accessing The Power Of The Now
 
-ACCESSING THE POWER OF THE NOW A moment ago, when you talked about the eternal present and the unreality of past and future, I found myself looking at that tree outside the window. I had looked at it a few times before, but this time it was different.
+A moment ago, when you talked about the eternal present and the unreality of past and future, I found myself looking at that tree outside the window. I had looked at it a few times before, but this time it was different.
 
 The external perception had not changed much, except that the colors seemed brighter and more vibrant. But there was now an added dimension to it. This is hard to explain. I don't know how, but I was aware of something invisible that I felt was the essence of that tree, its inner spirit, if you like. And somehow I was part of that. I realize now that I hadn't truly seen the tree before, just a flat and dead image of it. When I look at the tree now, some of that awareness is still present, but I can feel it slipping away.
 

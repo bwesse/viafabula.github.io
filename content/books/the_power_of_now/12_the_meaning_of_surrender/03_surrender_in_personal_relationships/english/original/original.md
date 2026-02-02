@@ -1,6 +1,5 @@
 # Surrender In Personal Relationships
 
-SURRENDER IN PERSONAL RELATIONSHIPS 
 What about people who want to use me, manipulate or control me?
 
 Am I to surrender to them? They are cut off from Being, so they unconsciously attempt to get energy and power from you. It is true that only an unconscious person will try to use or manipulate others, but it is equally true that only an unconscious person can be used and manipulated. If you resist or fight unconscious behavior in others, you become unconscious yourself. But surrender doesn't mean that you allow yourself to be used by unconscious people. Not at all. It is perfectly possible to say “no” firmly and clearly to a person or to walk away from a situation and be in a state of complete inner nonresistance at the same time. When you say “no” to a person or a situation, let it come not from reaction but from insight, from a clear realization of what is right or not right for you at that moment. Let it be a nonreactive “no,” a high-quality “no,” a “no” that is free of all negativity and so creates no further suffering.

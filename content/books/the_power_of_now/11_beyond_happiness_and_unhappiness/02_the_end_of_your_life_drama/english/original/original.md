@@ -1,6 +1,6 @@
 # The End Of Your Life Drama
 
-THE END OF YOUR LIFE DRAMA In that state of acceptance and inner peace, even though you may not call it “bad,' can anything still come into your life that would be called ”bad" from a perspective of ordinary consciousness?
+In that state of acceptance and inner peace, even though you may not call it “bad,' can anything still come into your life that would be called ”bad" from a perspective of ordinary consciousness?
 
 Most of the so-called bad things that happen in people's lives are due to unconsciousness. They are self-created, or rather ego-created. I sometimes refer to those things as “drama.” When you are fully conscious, drama does not come into your life anymore. Let me remind you briefly how the ego operates and how it creates drama.
 

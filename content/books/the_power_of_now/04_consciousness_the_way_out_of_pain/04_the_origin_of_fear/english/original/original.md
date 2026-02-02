@@ -1,6 +1,6 @@
 # The Origin Of Fear
 
-THE ORIGIN OF FEAR You mentioned fear as being part of our basic underlying emotional pain. How does fear arise, and why is there so much of it in people's lives?
+You mentioned fear as being part of our basic underlying emotional pain. How does fear arise, and why is there so much of it in people's lives?
 
 And isn't a certain amount of fear just healthy self protection? If I didn't have a fear of fire, I might put my hand in it and get burned. The reason why you don't put your hand in the fire is not because of fear, ifs because you know that you'll get burned. You don't need fear to avoid unnecessary danger just a minimum of intelligence and common sense. For such practical matters, it is useful to apply the lessons learned in the past. Now if someone threatened you with fire or with physical violence, you might experience something like fear. This is an instinctive shrinking back from danger, but not the psychological condition of fear that we are talking about here.
 

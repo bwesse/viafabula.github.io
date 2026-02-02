@@ -1,6 +1,5 @@
 # From Mind Energy To Spiritual Energy
 
-FROM MIND ENERGY TO SPIRITUAL ENERGY 
 Letting go of resistance is easier said than done. I still don't see clearly how to let go. If you say it is by surrendering, the question remains: “How?” Start by acknowledging that there is resistance. Be there when it happens, when the resistance arises. Observe how your mind creates it, how it labels the situation, yourself, or others. Look at the thought process involved. Feel the energy of the emotion. By witnessing the resistance, you will see that it serves no purpose. By focusing all your attention on the Now, the unconscious resistance is made conscious, and that is the end of it.
 
 You cannot be conscious and unhappy, conscious and in negativity. Negativity, unhappiness, or suffering in whatever form means that there is resistance, and resistance is always unconscious. Surely I can be conscious of my unhappy feelings? Would you choose unhappiness? If you did not choose it, how did it arise? What is its purpose? Who is keeping it alive?

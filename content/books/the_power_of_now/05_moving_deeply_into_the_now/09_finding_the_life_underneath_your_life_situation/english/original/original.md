@@ -1,6 +1,6 @@
 # Finding The Life Underneath Your Life Situation
 
-FINDING THE LIFE UNDERNEATH YOUR LIFE SITUATION I don't see how I can be free now. As it happens, I am extremely unhappy with my life at the moment. This is a fact, and I would be deluding myself if I tried to convince myself that all is well when it definitely isn't.
+I don't see how I can be free now. As it happens, I am extremely unhappy with my life at the moment. This is a fact, and I would be deluding myself if I tried to convince myself that all is well when it definitely isn't.
 
 To me, the present moment is very unhappy; it is not liberating at all. What keeps me going is the hope or possibility of some improvement in the future. You think that your attention is in the present moment when it's actually taken up completely by time. You cannot be both unhappy and fully present in the Now.
 

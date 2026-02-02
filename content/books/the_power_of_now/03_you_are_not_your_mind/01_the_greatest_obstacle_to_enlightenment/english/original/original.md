@@ -1,6 +1,6 @@
 # The Greatest Obstacle To Enlightenment
 
-THE GREATEST OBSTACLE TO ENLIGHTENMENT Enlightenment what is that? A beggar had been sitting by the side of a road for over thirty years. One day a stranger walked by. “Spare some change?” mumbled the beggar, mechanically holding out his old baseball cap. “I have nothing to give you,” said the stranger. Then he asked: “What's that you are sitting on? ” “ Nothing,” replied the beggar. “Just an old box. I have been sitting on it for as long as I can remember. ” “ Ever looked inside?” asked the stranger.
+Enlightenment what is that? A beggar had been sitting by the side of a road for over thirty years. One day a stranger walked by. “Spare some change?” mumbled the beggar, mechanically holding out his old baseball cap. “I have nothing to give you,” said the stranger. Then he asked: “What's that you are sitting on? ” “ Nothing,” replied the beggar. “Just an old box. I have been sitting on it for as long as I can remember. ” “ Ever looked inside?” asked the stranger.
 
 “No,” said the beggar. “Whats the point? There's nothing in there.” “Have a look inside,” insisted the stranger. The beggar managed to pry open the lid. With astonishment, disbelief, and elation, he saw that the box was filled with gold.
 

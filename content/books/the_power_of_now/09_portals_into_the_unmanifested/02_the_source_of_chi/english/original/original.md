@@ -1,6 +1,6 @@
 # The Source Of Chi
 
-THE SOURCE OF CHI Is the Unmanifested what in the East is called chi, a kind of universal life energy?
+Is the Unmanifested what in the East is called chi, a kind of universal life energy?
 
 No, it isn't. The Unmanifested is the source of chi. Chi is the inner energy, field of your body. It is the bridge between the outer you and the Source. It lies halfway between the manifested, the world of form, and the Unmanifested. Chi can be likened to a river or an energy stream. If you take the focus of your consciousness deeply into the inner body, you are tracing the course of this river back to its Source. Chi is movement; the Unmanifested is stillness. When you reach a point of absolute stillness, which is nevertheless vibrant with life, you have gone beyond the inner body and beyond chi to the Source itself: the Unmanifested. Chi is the link between the Unmanifested and the physical universe.
 

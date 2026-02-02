@@ -1,6 +1,6 @@
 # End The Delusion Of Time
 
-END THE DELUSION OF TIME It seems almost impossible to disidentify from the mind. We are all immersed in it. How do you teach a fish to fly?
+It seems almost impossible to disidentify from the mind. We are all immersed in it. How do you teach a fish to fly?
 
 Here is the key: End the delusion of time. Time and mind are inseparable. Remove time from the mind and it stops unless you choose to use it. To be identified with your mind is to be trapped in time: the compulsion to live almost exclusively through memory and anticipation.
 

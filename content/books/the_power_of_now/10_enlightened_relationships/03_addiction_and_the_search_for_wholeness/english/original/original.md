@@ -1,6 +1,6 @@
 # Addiction And The Search For Wholeness
 
-ADDICTION AND THE SEARCH FOR WHOLENESS Why should we become addicted to another person?
+Why should we become addicted to another person?
 
 The reason why the romantic love relationship is such an intense and universally sought-after experience is that it seems to offer liberation from a deep-seated state of fear, need, lack, and incompleteness that is part of the human condition in its unredeemed and unenlightened state. There is a physical as well as a psychological dimension to this state.
 

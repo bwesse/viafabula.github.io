@@ -1,7 +1,5 @@
 # The Way Of The Cross
 
-THE WAY OF THE CROSS
-¤
 ¤ There are many accounts of people who say they have found God through their deep suffering, and there is the Christian expression “the way of the cross, ” which I suppose points to the same thing. We are concerned with nothing else here. Strictly speaking, they did not find God through their suffering, because suffering implies resistance.
 
 They found God through surrender, through total acceptance of what is, into which they were forced by their intense suffering. They must have realized on some level that their pain was self- created. How do you equate surrender with finding God? Since resistance is inseparable from the mind, relinquishment of resistance surrender is the end of the mind as your master, the impostor pretending to be “you,” the false god. All judgment and all negativity dissolve. The realm of Being, which had been obscured by the mind, then opens up. Suddenly, a great stillness arises within you, an unfathomable sense of peace. And within that peace, there is great joy. And within that joy, there is love. And at the innermost core, there is the sacred, the immeasurable, That which cannot be named.

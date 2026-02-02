@@ -1,6 +1,6 @@
 # It's Not What You Think It Is
 
-IT'S NOT WHAT YOU THINK IT IS You keep talking about the state of presence as the key. I think I understand it intellectually, but I don't know if I have ever truly experienced it. I wonder is it what I think it is, or is it something entirely different?
+You keep talking about the state of presence as the key. I think I understand it intellectually, but I don't know if I have ever truly experienced it. I wonder is it what I think it is, or is it something entirely different?
 
 Its not what you think it is! You can't think about presence, and the mind can't understand it. Understanding presence is being present. Try a little experiment. Close your eyes and say to yourself: “I wonder what my next thought is going to be.” Then become very alert and wait for the next thought. Be like a cat watching a mouse hole. What thought is going to come out of the mouse hole? Try it now.
 ¤

@@ -1,6 +1,6 @@
 # Wherever You Are Be There Totally
 
-WHEREVER YOU ARE, BE THERE TOTALLY Can you give some more examples of ordinary unconsciousness?
+Can you give some more examples of ordinary unconsciousness?
 
 See if you can catch yourself complaining, in either speech or thought, about a situation you find yourself in, what other people do or say, your surroundings, your life situation, even the weather. To complain is always nonacceptance of what is.
 

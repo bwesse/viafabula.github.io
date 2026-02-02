@@ -1,6 +1,6 @@
 # Letting Go Of Psychological Time
 
-LETTING GO OF PSYCHOLOGICAL TIME Learn to use time in the practical aspects of your life we may call this “clock time” but immediately return to present-moment awareness when those practical matters have been dealt with. In this way, there will be no build-up of “psychological time,” which is identification with the past and continuous compulsive projection into the future.
+Learn to use time in the practical aspects of your life we may call this “clock time” but immediately return to present-moment awareness when those practical matters have been dealt with. In this way, there will be no build-up of “psychological time,” which is identification with the past and continuous compulsive projection into the future.
 
 Clock time is not just making an appointment or planning a trip. It includes learning from the past so that we don't repeat the same mistakes over and over. Setting goals and working toward them. Predicting the future by means of patterns and laws, physical, mathematical and so on, learned from the past and taking appropriate action on the basis of our predictions.
 

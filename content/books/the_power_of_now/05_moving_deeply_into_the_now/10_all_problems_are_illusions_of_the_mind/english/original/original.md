@@ -1,6 +1,6 @@
 # All Problems Are Illusions Of The Mind
 
-ALL PROBLEMS ARE ILLUSIONS OF THE MIND It feels as if a heavy burden has been lifted. A sense of lightness. I feel clear . . . but my problems are still there waiting for me, aren't they? They haven't been solved. Am I not just temporarily evading them?
+It feels as if a heavy burden has been lifted. A sense of lightness. I feel clear . . . but my problems are still there waiting for me, aren't they? They haven't been solved. Am I not just temporarily evading them?
 
 If you found yourself in paradise, it wouldn't be long before your mind would say “yes, but . . . ”Ultimately, this is not about solving your problems. Ifs about realizing that there are no problems. Only situations to be dealt with now, or to be left alone and accepted as part of the "isness' of the present moment until they change or can be dealt with. Problems are mind-made and need time to survive. They cannot survive in the actuality of the Now.
 

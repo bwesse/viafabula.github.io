@@ -1,6 +1,5 @@
 # When Disaster Strikes
 
-WHEN DISASTER STRIKES 
 As far as the still unconscious majority of the population is concerned, only a critical limit-situation has the potential to crack the hard shell of the ego and force them into surrender and so into the awakened state. A limit- situation arises when through some disaster, drastic upheaval, deep loss, or suffering your whole world is shattered and doesn't make sense anymore. It is an encounter with death, be it physical or psychological. The egoic mind, the creator of this world, collapses. Out of the ashes of the old world, a new world can then come into being.
 
 There is no guarantee, of course, that even a limit- situation will do it, but the potential is always there. Some people's resistance to what is even intensifies in such a situation, and so it becomes a descent into hell. In others, there may only be partial surrender, but even that will give them a certain depth and serenity that were not there before. Parts of the ego shell break off, and this allows small amounts of the radiance and peace that lie beyond the mind to shine through.

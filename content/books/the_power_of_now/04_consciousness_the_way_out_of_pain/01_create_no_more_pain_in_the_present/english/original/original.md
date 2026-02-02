@@ -1,6 +1,6 @@
 # Create No More Pain In The Present
 
-CREATE NO MORE PAIN IN THE PRESENT Nobody's life is entirely free of pain and sorrow. Isn't it a question of learning to live with them rather than trying to avoid them?
+Nobody's life is entirely free of pain and sorrow. Isn't it a question of learning to live with them rather than trying to avoid them?
 
 The greater part of human pain is unnecessary. It is self- created as long as the unobserved mind runs your life. The pain that you create now is always some form of nonacceptance, some form of unconscious resistance to what is. On the level of thought, the resistance is some form of judgment. On the emotional level, it is some form of negativity. The intensity of the pain depends on the degree of resistance to the present moment, and this in turn depends on how strongly you are identified with your mind. The mind always seeks to deny the Now and to escape from it. In other words, the more you are identified with your mind, the more you suffer. Or you may put it like this: the more you are able to honor and accept the Now, the more you are free of pain, of suffering and free of the egoic mind.
 

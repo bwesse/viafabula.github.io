@@ -1,6 +1,6 @@
 # The Higher Good Beyond Good And Bad
 
-THE HIGHER GOOD BEYOND GOOD AND BAD Is there a difference between happiness and inner peace?
+Is there a difference between happiness and inner peace?
 
 Yes. Happiness depends on conditions being perceived as positive; inner peace does not. Is it not possible to attract only positive conditions into our life? If our attitude and our thinking are always positive, we would manifest only positive events and situations, wouldn't we?
 

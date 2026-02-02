@@ -1,6 +1,6 @@
 # From Addictive To Enlightened Relationships
 
-FROM ADDICTIVE TO ENLIGHTENED RELATIONSHIPS Can we change an addictive relationship into a true one ?
+Can we change an addictive relationship into a true one ?
 
 Yes. Being present and intensifying your presence by taking your attention ever more deeply into the Now:. Whether you are living alone or with a partner, this remains the key. For love to flourish, the light of your presence needs to be strong enough so that you no longer get taken over by the thinker or the pain-body and mistake them for who you are. To know yourself as the Being underneath the thinker, the stillness underneath the mental noise, the love and joy underneath the pain, is freedom, salvation, enlightenment. To disidentify from the pain-body is to bring presence into the pain and thus transmute it. To disidentify from thinking is to be the silent watcher of your thoughts and behavior, especially the repetitive patterns of your mind and the roles played by the ego.
 

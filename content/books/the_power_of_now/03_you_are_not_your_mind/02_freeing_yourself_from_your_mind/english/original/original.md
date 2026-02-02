@@ -1,6 +1,6 @@
 # Freeing Yourself From Your Mind
 
-FREEING YOURSELF FROM YOUR MIND What exactly do you mean by “watching the thinker”?
+What exactly do you mean by “watching the thinker”?
 
 When someone goes to the doctor and says, “I hear a voice in my head,” he or she will most likely be sent to a psychiatrist. The fact is that, in a very similar way, virtually everyone hears a voice, or several voices, in their head all the time: the involuntary thought processes that you don't realize you have the power to stop. Continuous monologues or dialogues.
 

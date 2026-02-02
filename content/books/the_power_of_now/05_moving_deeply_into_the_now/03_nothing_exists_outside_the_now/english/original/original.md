@@ -1,6 +1,6 @@
 # Nothing Exists Outside The Now
 
-NOTHING EXISTS OUTSIDE THE NOW Aren't past and future just as real, sometimes even more real, than the present? After all, the past determines who we are, as well as how we perceive and behave in the present. And our future goals determine which actions we take in the present.
+Aren't past and future just as real, sometimes even more real, than the present? After all, the past determines who we are, as well as how we perceive and behave in the present. And our future goals determine which actions we take in the present.
 
 You havent yet grasped the essence of what I am saying because you are trying to understand it mentally. The mind cannot understand this. Only you can. Please just listen. Have you ever experienced, done, thought, or felt anything outside the Now? Do you think you ever will? Is it possible for anything to happen or be outside the Now? The answer is obvious, is it not? Nothing ever happened in the past; it happened in the Now.
 

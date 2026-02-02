@@ -1,6 +1,6 @@
 # Love Hate Relationships
 
-LOVE/HATE RELATIONSHIPS Unless and until you access the consciousness frequency of presence, all relationships, and particularly intimate relationships, are deeply flawed and ultimately dysfunctional.
+Unless and until you access the consciousness frequency of presence, all relationships, and particularly intimate relationships, are deeply flawed and ultimately dysfunctional.
 
 They may seem perfect for a while, such as when you are “in love,” but invariably that apparent perfection gets disrupted as arguments, conflicts, dissatisfaction, and emotional or even physical violence occur with increasing frequency. It seems that most “love relationships” become love/hate relationships before long. Love can then turn into savage attack, feelings of hostility, or complete withdrawal of affection at the flick of a switch. This is considered normal. The relationship then oscillates for a while, a few months or a few years, between the polarities of “love” and hate, and it gives you as much pleasure as it gives you pain. It is not uncommon for couples to become addicted to those cycles. Their drama makes them feel alive. When a balance between the positive/negative polarities is lost and the negative, destructive cycles occur with increasing frequency and intensity, which tends to happen sooner or later, then it will not be long before the relationship finally collapses.
 

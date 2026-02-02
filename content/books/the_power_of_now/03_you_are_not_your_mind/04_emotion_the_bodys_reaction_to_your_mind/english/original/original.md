@@ -1,6 +1,6 @@
 # Emotion The Bodys Reaction To Your Mind
 
-EMOTION: THE BODY'S REACTION TO YOUR MIND What about emotions? I get caught up in my emotions more than I do in my mind. Mind, in the way I use the word, is not just thought. It includes your emotions as well as all unconscious mental- emotional reactive patterns.
+What about emotions? I get caught up in my emotions more than I do in my mind. Mind, in the way I use the word, is not just thought. It includes your emotions as well as all unconscious mental- emotional reactive patterns.
 
 Emotion arises at the place where mind and body meet. It is the body's reaction to your mind or you might say, a reflection of your mind in the body. For example, an attack thought or a hostile thought will create a build-up of energy in the body that we call anger The body is getting ready to fight. The thought that you are being threatened, physically or psychologically, causes the body to contract, and this is the physical side of what we call fear. Research has shown that strong emotions even cause changes in the biochemistry of the body. These biochemical changes represent the physical or material aspect of the emotion. Of course, you are not usually conscious of all your thought patterns, and it is often only through watching your emotions that you can bring them into awareness.
 

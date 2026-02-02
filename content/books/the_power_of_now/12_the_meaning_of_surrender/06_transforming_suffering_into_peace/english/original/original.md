@@ -1,6 +1,5 @@
 # Transforming Suffering Into Peace
 
-TRANSFORMING SUFFERING INTO PEACE 
 I read about a stoic philosopher in ancient Greece who, when he was told that his son had died in an accident, replied, “I knew he was not immortal.” Is that surrender? If it is, I don't want it. There are some situations in which surrender seems unnatural and inhuman.
 
 Being cut off from your feelings is not surrender. But we don't know what his inner state was when he said those words. In certain extreme situations, it may still be impossible for you to accept the Now. But you always get a second chance at surrender.

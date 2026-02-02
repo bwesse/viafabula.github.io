@@ -1,6 +1,6 @@
 # Going Deeply Into The Body
 
-GOING DEEPLY INTO THE BODY I can feel the energy inside my body, especially in my arms and legs, but I don't seem to be able to go more deeply, as you suggested earlier. Make it into a meditation. It needn't take long. Ten to fifteen minutes of clock time should be sufficient. Make sure first that there are no external distractions such as telephones or people who are likely to interrupt you. Sit on a chair, but don't lean back. Keep the spine erect. Doing so will help you to stay alert. Alternatively, choose your own favorite position for meditation.
+I can feel the energy inside my body, especially in my arms and legs, but I don't seem to be able to go more deeply, as you suggested earlier. Make it into a meditation. It needn't take long. Ten to fifteen minutes of clock time should be sufficient. Make sure first that there are no external distractions such as telephones or people who are likely to interrupt you. Sit on a chair, but don't lean back. Keep the spine erect. Doing so will help you to stay alert. Alternatively, choose your own favorite position for meditation.
 
 Make sure the body is relaxed. Close your eyes. Take a few deep breaths. Feel yourself breathing into the lower abdomen, as it were. Observe how it expands and contracts slightly with each in and out breath.
 

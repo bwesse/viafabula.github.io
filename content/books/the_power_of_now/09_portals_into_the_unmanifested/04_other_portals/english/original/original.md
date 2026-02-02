@@ -1,6 +1,6 @@
 # Other Portals
 
-other portals, although ultimately they are all one.
+There are other portals, although ultimately they are all one.
 
 Some I have spoken about at length already, but I'll mention them again briefly here. OTHER PORTALS The Now can be seen as the main portal. It is an essential aspect of every other portal, including the inner body. You cannot be in your body without being intensely present in the Now. Time and the manifested are as inextricably linked as are the timeless Now and the Unmanifested. When you dissolve psychological time through intense present-moment awareness, you become conscious of the Unmanifested both directly and indirectly. Directly, you feel it as the radiance and power of your conscious presence no content, just presence.
 

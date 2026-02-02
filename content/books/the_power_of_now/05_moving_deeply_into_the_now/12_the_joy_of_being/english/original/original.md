@@ -1,6 +1,6 @@
 # The Joy Of Being
 
-THE JOY OF BEING To alert you that you have allowed yourself to be taken over by psychological time, you can use a simple criterion. Ask yourself: Is there joy, ease, and lightness in what I am doing? If there isn't, then time is covering up the present moment, and life is perceived as a burden or a struggle.
+To alert you that you have allowed yourself to be taken over by psychological time, you can use a simple criterion. Ask yourself: Is there joy, ease, and lightness in what I am doing? If there isn't, then time is covering up the present moment, and life is perceived as a burden or a struggle.
 
 If there is no joy, ease, or lightness in what you are doing, it does not necessarily mean that you need to change what you are doing. It may be sufficient to change the how. “How” is always more important than “what.” See if you can give much more attention to the doing than to the result that you want to achieve through it. Give your fullest attention to whatever the moment presents. This implies that you also completely accept what is, because you cannot give your full attention to something and at the same time resist it.
 

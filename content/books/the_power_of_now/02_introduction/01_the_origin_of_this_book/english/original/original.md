@@ -1,6 +1,6 @@
 # The Origin Of This Book
 
-THE ORIGIN OF THIS BOOK I have little use for the past and rarely think about it; however, I would briefly like to tell you how I came to be a spiritual teacher and how this book came into existence. Until my thirtieth year, I lived in a state of almost continuous anxiety interspersed with periods of suicidal depression. It feels now as if I am talking about some past lifetime or somebody else's life.
+I have little use for the past and rarely think about it; however, I would briefly like to tell you how I came to be a spiritual teacher and how this book came into existence. Until my thirtieth year, I lived in a state of almost continuous anxiety interspersed with periods of suicidal depression. It feels now as if I am talking about some past lifetime or somebody else's life.
 
 One night not long after my twenty-ninth birthday, I woke up in the early hours with a feeling of absolute dread. I had woken up with such a feeling many times before, but this time it was more intense than it had ever been. The silence of the night, the vague outlines of the furniture in the dark room, the distant noise of a passing train everything felt so alien, so hostile, and so utterly meaningless that it created in me a deep loathing of the world. The most loathsome thing of all, however, was my own existence.
 

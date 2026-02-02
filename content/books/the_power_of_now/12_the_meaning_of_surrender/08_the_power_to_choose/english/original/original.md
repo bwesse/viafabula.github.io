@@ -1,6 +1,6 @@
 # The Power To Choose
 
-THE POWER TO CHOOSE What about all those people who, it seems, actually want to suffer? I have a friend whose partner is physically abusive toward her, and her previous relationship was of a similar kind. Why does she choose such men, and why is she refusing to get out of that situation now? Why do so many people actually choose pain?
+What about all those people who, it seems, actually want to suffer? I have a friend whose partner is physically abusive toward her, and her previous relationship was of a similar kind. Why does she choose such men, and why is she refusing to get out of that situation now? Why do so many people actually choose pain?
 
 I know that the word choose is a favorite New Age term, but it isn't entirely accurate in this context. It is misleading to say that somebody “chose” a dysfunctional relationship or any other negative situation in his or her life. Choice implies consciousness a high degree of consciousness.
 

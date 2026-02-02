@@ -1,6 +1,6 @@
 # A Quantum Leap In The Evolution Of Consciousness
 
-A QUANTUM LEAP IN THE EVOLUTION OF CONSCIOUSNESS I have had glimpses of this state off freedom from mind and time that you describe, but past and future are so overwhelmingly strong that I cannot keep them out for long.
+I have had glimpses of this state off freedom from mind and time that you describe, but past and future are so overwhelmingly strong that I cannot keep them out for long.
 
 The time-bound mode of consciousness is deeply embedded in the human psyche. But what we are doing here is part of a profound transformation that is taking place in the collective consciousness of the planet and beyond: the awakening of consciousness from the dream of matter, form, and separation. The ending of time. We are breaking mind patterns that have dominated human life for eons. Mind patterns that have created unimaginable suffering on a vast scale. I am not using the word evil. It is more helpful to call it unconsciousness or insanity.
 

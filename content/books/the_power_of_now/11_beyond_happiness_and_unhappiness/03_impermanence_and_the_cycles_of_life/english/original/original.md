@@ -1,6 +1,6 @@
 # Impermanence And The Cycles Of Life
 
-IMPERMANENCE AND THE CYCLES OF LIFE However, as long as you are in the physical dimension and linked to the collective human psyche, physical pain although rare is still possible. This is not to be confused with suffering, with mental-emotional pain. All suffering is ego-created and is due to resistance. Also, as long as you are in this dimension, you are still subject to its cyclical nature and to the law of impermanence of all things, but you no longer perceive this as “bad” it just is.
+However, as long as you are in the physical dimension and linked to the collective human psyche, physical pain although rare is still possible. This is not to be confused with suffering, with mental-emotional pain. All suffering is ego-created and is due to resistance. Also, as long as you are in this dimension, you are still subject to its cyclical nature and to the law of impermanence of all things, but you no longer perceive this as “bad” it just is.
 
 Through allowing the “isness” of all things, a deeper dimension underneath the play of opposites reveals itself to you as an abiding presence, an unchanging deep stillness, an uncaused joy beyond good and bad. This is the joy of Being, the peace of God.
 

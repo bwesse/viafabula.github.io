@@ -1,6 +1,6 @@
 # Being Is Your Deepest Self
 
-BEING IS YOUR DEEPEST SELF You spoke earlier about the importance of having deep roots within or inhabiting the body. Can you explain what you meant by that?
+You spoke earlier about the importance of having deep roots within or inhabiting the body. Can you explain what you meant by that?
 
 The body can become a point of access into the realm of Being. Lets go into that more deeply now. I am still not quite sure if I fully understand what you mean by Being.
 
