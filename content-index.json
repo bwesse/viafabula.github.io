@@ -13025,6 +13025,4464 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Frankenstein",
+      "title": "Frankenstein",
+      "chapters": [
+        {
+          "id": "00_Letter_1_To_Saville",
+          "title": "00 Letter 1 To Saville",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/00_Letter_1_To_Saville/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01_Letter_2_Archangel",
+          "title": "01 Letter 2 Archangel",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/01_Letter_2_Archangel/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02_Letter_3_Progress",
+          "title": "02 Letter 3 Progress",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/02_Letter_3_Progress/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03_Letter_4_Strange_Accident",
+          "title": "03 Letter 4 Strange Accident",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/03_Letter_4_Strange_Accident/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04_Chapter_1_Geneva_Birth",
+          "title": "04 Chapter 1 Geneva Birth",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/04_Chapter_1_Geneva_Birth/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05_Chapter_2_Childhood",
+          "title": "05 Chapter 2 Childhood",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/05_Chapter_2_Childhood/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06_Chapter_3_University",
+          "title": "06 Chapter 3 University",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/06_Chapter_3_University/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07_Chapter_4_Natural_Philosophy",
+          "title": "07 Chapter 4 Natural Philosophy",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/07_Chapter_4_Natural_Philosophy/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "08_Chapter_5_Creation",
+          "title": "08 Chapter 5 Creation",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/08_Chapter_5_Creation/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09_Chapter_6_Clerval_Letter",
+          "title": "09 Chapter 6 Clerval Letter",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/09_Chapter_6_Clerval_Letter/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10_Chapter_7_Fathers_Letter",
+          "title": "10 Chapter 7 Fathers Letter",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/10_Chapter_7_Fathers_Letter/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11_Chapter_8_Trial",
+          "title": "11 Chapter 8 Trial",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/11_Chapter_8_Trial/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12_Chapter_9_Despair",
+          "title": "12 Chapter 9 Despair",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/12_Chapter_9_Despair/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13_Chapter_10_Valley",
+          "title": "13 Chapter 10 Valley",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/13_Chapter_10_Valley/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14_Chapter_11_Creature_Awakens",
+          "title": "14 Chapter 11 Creature Awakens",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/14_Chapter_11_Creature_Awakens/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "15_Chapter_12_Observations",
+          "title": "15 Chapter 12 Observations",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/15_Chapter_12_Observations/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16_Chapter_13_Cottagers_Story",
+          "title": "16 Chapter 13 Cottagers Story",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/16_Chapter_13_Cottagers_Story/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "17_Chapter_14_Friends_History",
+          "title": "17 Chapter 14 Friends History",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/17_Chapter_14_Friends_History/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "18_Chapter_15_Education",
+          "title": "18 Chapter 15 Education",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/18_Chapter_15_Education/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19_Chapter_16_Cursed_Creator",
+          "title": "19 Chapter 16 Cursed Creator",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/19_Chapter_16_Cursed_Creator/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20_Chapter_17_Companion_Request",
+          "title": "20 Chapter 17 Companion Request",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/20_Chapter_17_Companion_Request/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "21_Chapter_18_Return_Geneva",
+          "title": "21 Chapter 18 Return Geneva",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/21_Chapter_18_Return_Geneva/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "22_Chapter_19_London",
+          "title": "22 Chapter 19 London",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/22_Chapter_19_London/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23_Chapter_20_Laboratory",
+          "title": "23 Chapter 20 Laboratory",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/23_Chapter_20_Laboratory/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "24_Chapter_21_Magistrate",
+          "title": "24 Chapter 21 Magistrate",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/24_Chapter_21_Magistrate/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25_Chapter_22_Paris",
+          "title": "25 Chapter 22 Paris",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/25_Chapter_22_Paris/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "26_Chapter_23_Wedding",
+          "title": "26 Chapter 23 Wedding",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/26_Chapter_23_Wedding/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "27_Chapter_24_Final_Pursuit",
+          "title": "27 Chapter 24 Final Pursuit",
+          "languages": [
+            {
+              "id": "english",
+              "title": "English",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/english/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "german",
+              "title": "German",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/german/original/original.md"
+                }
+              ]
+            },
+            {
+              "id": "spanish",
+              "title": "Spanish",
+              "levels": [
+                {
+                  "id": "a0",
+                  "title": "A0",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/a0/a0.md"
+                },
+                {
+                  "id": "a1",
+                  "title": "A1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/a1/a1.md"
+                },
+                {
+                  "id": "a2",
+                  "title": "A2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/a2/a2.md"
+                },
+                {
+                  "id": "b1",
+                  "title": "B1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/b1/b1.md"
+                },
+                {
+                  "id": "b2",
+                  "title": "B2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/b2/b2.md"
+                },
+                {
+                  "id": "c1",
+                  "title": "C1",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/c1/c1.md"
+                },
+                {
+                  "id": "c2",
+                  "title": "C2",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/c2/c2.md"
+                },
+                {
+                  "id": "native",
+                  "title": "Native",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/native/native.md"
+                },
+                {
+                  "id": "original",
+                  "title": "Original",
+                  "path": "content/books/Frankenstein/27_Chapter_24_Final_Pursuit/spanish/original/original.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
