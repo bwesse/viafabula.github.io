@@ -185,6 +185,23 @@
         transition: background 140ms ease;
       }
       nav.menu a:hover { background: rgba(15, 23, 42, 0.08); }
+      nav.menu button {
+        appearance: none;
+        border: 0;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        background: rgba(15, 23, 42, 0.04);
+        transition: background 140ms ease;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        font-family: inherit;
+      }
+      nav.menu button:hover { background: rgba(15, 23, 42, 0.08); }
+      nav.menu button:disabled { opacity: 0.5; cursor: not-allowed; }
 
       .sidebar-section {
         display: flex;
@@ -474,6 +491,10 @@
         background: rgba(226, 232, 240, 0.08);
       }
       body.night nav.menu a:hover { background: rgba(226, 232, 240, 0.12); }
+      body.night nav.menu button {
+        background: rgba(226, 232, 240, 0.08);
+      }
+      body.night nav.menu button:hover { background: rgba(226, 232, 240, 0.12); }
       body.night .reader-panel {
         background: #0f172a;
         box-shadow: var(--shadow);
@@ -603,6 +624,7 @@
       </div>
 
       <nav class="menu" aria-label="Links">
+        <button type="button" id="download-book-button" disabled aria-label="Download current book for offline reading">📥 Download Book</button>
         <a href="#" id="about-link">About</a>
       </nav>
 
@@ -610,6 +632,7 @@
         <div id="footer-version" class="version-line">Version 0.1</div>
         <div id="footer-updated" class="updated-line">Last updated —</div>
         <div id="footer-cache" class="cache-line">Checking…</div>
+        <div id="footer-download" class="cache-line" style="display: none;">Download: —</div>
       </div>
     </aside>
 
@@ -745,6 +768,8 @@
       const streakDaysEl = document.getElementById('streak-days');
       const streakLongestEl = document.getElementById('streak-longest');
       const streakTimeEl = document.getElementById('streak-time');
+      const downloadBookButton = document.getElementById('download-book-button');
+      const footerDownload = document.getElementById('footer-download');
 
       const STREAK_DEFAULT = {
         streakDays: 0,
@@ -754,6 +779,7 @@
         todayMs: 0,
       };
       const SETTINGS_KEY = 'reader-settings';
+      const DOWNLOADED_BOOKS_KEY = 'reader-downloaded-books';
       const SETTINGS_DEFAULT = {
         nativeLanguageId: 'english',
         learningLanguageId: null,
@@ -1609,6 +1635,7 @@
 
         populateBooks();
         updateBookmarkStatus();
+        updateDownloadButtonState();
       }
 
       function renderAboutView() {
@@ -1626,7 +1653,7 @@
         updateScrollTopVisibility();
       }
 
-      bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); });
+      bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); updateDownloadButtonState(); });
       chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
       nativeLangSelect?.addEventListener('change', () => {
         nativeLanguageId = nativeLangSelect.value;
@@ -1752,6 +1779,144 @@
         renderAboutView();
         closeSidebar();
       });
+
+      // Download book functionality
+      function getDownloadedBooks() {
+        try {
+          const stored = localStorage.getItem(DOWNLOADED_BOOKS_KEY);
+          return stored ? JSON.parse(stored) : {};
+        } catch (err) {
+          return {};
+        }
+      }
+
+      function setDownloadedBook(bookId, status) {
+        try {
+          const books = getDownloadedBooks();
+          books[bookId] = status;
+          localStorage.setItem(DOWNLOADED_BOOKS_KEY, JSON.stringify(books));
+        } catch (err) {
+          console.error('Failed to save download status:', err);
+        }
+      }
+
+      function updateDownloadButtonState() {
+        if (!downloadBookButton) return;
+        const book = findBook();
+        if (!book) {
+          downloadBookButton.disabled = true;
+          downloadBookButton.textContent = '📥 Download Book';
+          return;
+        }
+
+        const downloaded = getDownloadedBooks();
+        const isDownloaded = downloaded[book.id] === 'complete';
+        
+        downloadBookButton.disabled = false;
+        downloadBookButton.textContent = isDownloaded ? '✓ Book Downloaded' : '📥 Download Book';
+        downloadBookButton.setAttribute('aria-label', isDownloaded 
+          ? `Book ${book.title} already downloaded for offline reading`
+          : `Download ${book.title} for offline reading`);
+      }
+
+      async function downloadCurrentBook() {
+        const book = findBook();
+        if (!book) {
+          setDownloadStatus('No book selected');
+          return;
+        }
+
+        if (!navigator.serviceWorker || !navigator.serviceWorker.controller) {
+          setDownloadStatus('Service worker not ready');
+          return;
+        }
+
+        // Collect all URLs for the book
+        const urls = [];
+        book.chapters.forEach(chapter => {
+          chapter.languages.forEach(language => {
+            language.levels.forEach(level => {
+              if (level.path) {
+                urls.push(level.path);
+                // Also add comprehension questions file
+                const qPath = level.path.replace(/\.md$/, '_q.json');
+                urls.push(qPath);
+              }
+            });
+          });
+        });
+
+        if (urls.length === 0) {
+          setDownloadStatus('No content found');
+          return;
+        }
+
+        setDownloadStatus(`Downloading ${urls.length} files...`);
+        downloadBookButton.disabled = true;
+        downloadBookButton.textContent = '⏳ Downloading...';
+
+        try {
+          // Send message to service worker to cache the book
+          navigator.serviceWorker.controller.postMessage({
+            type: 'DOWNLOAD_BOOK',
+            bookId: book.id,
+            urls: urls
+          });
+
+          // Listen for download progress
+          const handleMessage = (event) => {
+            if (event.data && event.data.type === 'DOWNLOAD_PROGRESS') {
+              if (event.data.bookId === book.id) {
+                const { current, total, status } = event.data;
+                if (status === 'complete') {
+                  setDownloadedBook(book.id, 'complete');
+                  setDownloadStatus(`Downloaded ${book.title}`);
+                  updateDownloadButtonState();
+                  navigator.serviceWorker.removeEventListener('message', handleMessage);
+                } else if (status === 'error') {
+                  setDownloadStatus(`Download failed: ${event.data.error || 'Unknown error'}`);
+                  downloadBookButton.disabled = false;
+                  downloadBookButton.textContent = '📥 Download Book';
+                  navigator.serviceWorker.removeEventListener('message', handleMessage);
+                } else {
+                  setDownloadStatus(`Downloaded ${current}/${total} files`);
+                }
+              }
+            }
+          };
+
+          navigator.serviceWorker.addEventListener('message', handleMessage);
+
+          // Timeout after 5 minutes
+          setTimeout(() => {
+            navigator.serviceWorker.removeEventListener('message', handleMessage);
+            if (getDownloadedBooks()[book.id] !== 'complete') {
+              setDownloadStatus('Download timeout');
+              downloadBookButton.disabled = false;
+              downloadBookButton.textContent = '📥 Download Book';
+            }
+          }, 300000);
+
+        } catch (error) {
+          console.error('Download error:', error);
+          setDownloadStatus('Download failed');
+          downloadBookButton.disabled = false;
+          downloadBookButton.textContent = '📥 Download Book';
+        }
+      }
+
+      function setDownloadStatus(message) {
+        if (footerDownload) {
+          footerDownload.textContent = `Download: ${message}`;
+          footerDownload.style.display = 'block';
+        }
+      }
+
+      if (downloadBookButton) {
+        downloadBookButton.addEventListener('click', () => {
+          downloadCurrentBook();
+        });
+      }
 
       updateAudioButton();
       updateVersionFooter();
