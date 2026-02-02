@@ -1,6 +1,6 @@
 # Dissolving The Collective Female Pain Body
 
-DISSOLVING THE COLLECTIVE FEMALE PAIN-BODY Why is the pain-body more of an obstacle for women?
+Why is the pain-body more of an obstacle for women?
 
 The pain-body usually has a collective as well as a personal aspect. The personal aspect is the accumulated residue of emotional pain suffered in one's own past. The collective one is the pain accumulated in the collective human psyche over thousands of years through disease, torture, war, murder, cruelty, madness, and so on. Everyone's personal pain-body also partakes of this collective pain-body. There are different strands in the collective pain-body. For example, certain races or countries in which extreme forms of strife and violence occur have a heavier collective pain- body than others. Anyone with a strong pain-body and not enough consciousness to disidentify from it will not only continuously or periodically be forced to relive their emotional pain but may also easily become either the perpetrator or the victim of violence, depending on whether their pain-body is predominantly active or passive. On the other hand, they may also be potentially closer to enlightenment. This potential isn't necessarily realized, of course, but if you are trapped in a nightmare you will probably be more strongly motivated to awaken than someone who is just caught in the ups and downs of an ordinary dream.
 

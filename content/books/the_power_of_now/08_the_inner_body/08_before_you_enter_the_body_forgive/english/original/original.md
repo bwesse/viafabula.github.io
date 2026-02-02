@@ -1,6 +1,6 @@
 # Before You Enter The Body Forgive
 
-BEFORE YOU ENTER THE BODY, FORGIVE I felt very uncomfortable when I tried to put my attention on the inner body. There was a feeling of agitation and some nausea. So I haven't been able to experience what you are talking about.
+I felt very uncomfortable when I tried to put my attention on the inner body. There was a feeling of agitation and some nausea. So I haven't been able to experience what you are talking about.
 
 What you felt was a lingering emotion that you were probably unaware of, until you started putting some attention into the body. Unless you first give it some attention, the emotion will prevent you from gaining access to the inner body, which lies at a deeper level underneath it.
 

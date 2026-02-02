@@ -1,6 +1,6 @@
 # Have Deep Roots Within
 
-HAVE DEEP ROOTS WITHIN The key is to be in a state of permanent connectedness with your inner body to feel it at all times. This will rapidly deepen and transform your life. The more consciousness you direct into the inner body, the higher its vibrational frequency becomes, much like a light that grows brighter as you turn up the dimmer switch and so increase the flow of electricity. At this higher energy level, negativity cannot affect you anymore, and you tend to attract new circumstances that reflect this higher frequency.
+The key is to be in a state of permanent connectedness with your inner body to feel it at all times. This will rapidly deepen and transform your life. The more consciousness you direct into the inner body, the higher its vibrational frequency becomes, much like a light that grows brighter as you turn up the dimmer switch and so increase the flow of electricity. At this higher energy level, negativity cannot affect you anymore, and you tend to attract new circumstances that reflect this higher frequency.
 
 If you keep your attention in the body as much as possible, you will be anchored in the Now. You won't lose yourself in the external world, and you wont lose yourself in your mind. Thoughts and emotions, fears and desires, may still be there to some extent, but they won't take you over.
 

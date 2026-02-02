@@ -1,6 +1,5 @@
 # Acceptance Of The Now
 
-ACCEPTANCE OF THE NOW 
 You mentioned “surrender” a few times. I don't like that idea. It sounds somewhat fatalistic. If we always accept the way things are, we are not going to make any effort to improve them. It seems to me what progress is all about, both in our personal lives and collectively, is not to accept the limitations of the present but to strive to go beyond them and create something better. If we hadn't done this, we would still be living in caves.
 
 How do you reconcile surrender with changing things and getting things done?

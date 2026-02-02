@@ -1,6 +1,6 @@
 # The Inner Purpose Of Your Life's Journey
 
-THE INNER PURPOSE OF YOUR LIFE'S JOURNEY I can see the truth of what you are saying, but I still think that we must have purpose on our life's journey; otherwise we just drift, and purpose means future, doesn't it? How do we reconcile that with living in the present?
+I can see the truth of what you are saying, but I still think that we must have purpose on our life's journey; otherwise we just drift, and purpose means future, doesn't it? How do we reconcile that with living in the present?
 
 When you are on a journey, it is certainly helpful to know where you are going or at least the general direction in which you are moving, but don't forget: the only thing that is ultimately real about your journey is the step that you are taking at this moment. Thats all there ever is.
 

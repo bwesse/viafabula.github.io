@@ -1,6 +1,6 @@
 # Enlightenment Rising Above Thought
 
-ENLIGHTENMENT: RISING ABOVE THOUGHT Isn't thinking essential in order to survive in this world?
+Isn't thinking essential in order to survive in this world?
 
 Your mind is an instrument, a tool. It is there to be used for a specific task, and when the task is completed, you lay it down. As it is, I would say about 8o to 90 percent of most people's thinking is not only repetitive and useless, but because of its dysfunctional and often negative nature, much of it is also harmful. Observe your mind and you will find this to be true. It causes a serious leakage of vital energy.
 

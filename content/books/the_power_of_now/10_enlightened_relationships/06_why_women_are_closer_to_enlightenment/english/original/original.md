@@ -1,6 +1,6 @@
 # Why Women Are Closer To Enlightenment
 
-WHY WOMEN ARE CLOSER TO ENLIGHTENMENT Are the obstacles to enlightenment the same for a man as for a woman?
+Are the obstacles to enlightenment the same for a man as for a woman?
 
 Yes, but the emphasis is different. Generally speaking, it is easier for a woman to feel and be in her body, so she is naturally closer to Being and potentially closer to enlightenment than a man. This is why many ancient cultures instinctively chose female figures or analogies to represent or describe the formless and transcendental reality. It was often seen as a womb that gives birth to everything in creation and sustains and nourishes it during its life as form. In the Tao Te Ching, one of the most ancient and profound books ever written, the Tao, which could be translated as Being, is described as “infinite, eternally present, the mother of the universe.” Naturally, women are closer to it than men since they virtually “embody” the Unmanifested. What is more, all creatures and all things must eventually return to the Source. 'All things vanish into the Tao. It alone endures." Since the Source is seen as female, this is represented as the light and dark sides of the archetypal feminine in psychology and mythology.
 

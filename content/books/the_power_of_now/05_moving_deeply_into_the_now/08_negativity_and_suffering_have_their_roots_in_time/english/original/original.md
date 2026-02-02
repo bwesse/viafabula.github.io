@@ -1,6 +1,6 @@
 # Negativity And Suffering Have Their Roots In Time
 
-NEGATIVITY AND SUFFERING HAVE THEIR ROOTS IN TIME But the belief that the future will be better than the present is not always an illusion. The present can be dreadful, and things can get better in the future, and often they do.
+But the belief that the future will be better than the present is not always an illusion. The present can be dreadful, and things can get better in the future, and often they do.
 
 Usually, the future is a replica of the past. Superficial changes are possible, but real transformation is rare and depends upon whether you can become present enough to dissolve the past by accessing the power of the Now. What you perceive as future is an intrinsic part of your state of consciousness now. If your mind carries a heavy burden of past, you will experience more of the same. The past perpetuates itself through lack of presence. The quality of your consciousness at this moment is what shapes the future which, of course, can only be experienced as the Now.
 

@@ -1,6 +1,6 @@
 # Silence
 
-SILENCE Are there any other portals apart from those you just mentioned?
+Are there any other portals apart from those you just mentioned?
 
 Yes, there are. The Unmanifested is not separate from the manifested. It pervades this world, but it is so well disguised that almost everybody misses it completely. If you know where to look, you'll find it everywhere.
 

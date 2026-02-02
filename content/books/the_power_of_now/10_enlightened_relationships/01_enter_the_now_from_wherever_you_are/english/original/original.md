@@ -1,6 +1,6 @@
 # Enter The Now From Wherever You Are
 
-ENTER THE NOW FROM WHEREVER YOU ARE I always thought that true enlightenment is not possible except through love in a relationship between a man and a woman. Isn't this what makes us whole again? How can one's life be fulfilled until that happens?
+I always thought that true enlightenment is not possible except through love in a relationship between a man and a woman. Isn't this what makes us whole again? How can one's life be fulfilled until that happens?
 
 Is that true in your experience? Has this happened to you? Not yet, but how could it be otherwise? I know that it will happen. In other words, you are waiting for an event in time to save you. Is this not the core error that we have been talking about?
 

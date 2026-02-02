@@ -1,6 +1,6 @@
 # Your Link With The Unmanifested
 
-YOUR LINK WITH THE UNMANIFESTED What is the relationship between presence and the inner body?
+What is the relationship between presence and the inner body?
 
 Presence is pure consciousness consciousness that has been reclaimed from the mind, from the world of form. The inner body is your link with the Unmanifested, and in its deepest aspect is the Unmanifested: the Source from which consciousness emanates as light emanates from the sun.
 

@@ -1,6 +1,6 @@
 # Ordinary Unconsciousness And Deep Unconsciousness
 
-ORDINARY UNCONSCIOUSNESS AND DEEP UNCONSCIOUSNESS What do you mean by different levels of unconsciousness? As you probably know, in sleep you constantly move between the phases of dreamless sleep and the dream state. Similarly, in wakefulness most people only shift between ordinary unconsciousness and deep unconsciousness.
+What do you mean by different levels of unconsciousness? As you probably know, in sleep you constantly move between the phases of dreamless sleep and the dream state. Similarly, in wakefulness most people only shift between ordinary unconsciousness and deep unconsciousness.
 
 What I call ordinary unconsciousness means being identified with your thought processes and emotions, your reactions, desires, and aversions. It is most people's normal state. In that state, you are run by the egoic mind, and you are unaware of Being.
 

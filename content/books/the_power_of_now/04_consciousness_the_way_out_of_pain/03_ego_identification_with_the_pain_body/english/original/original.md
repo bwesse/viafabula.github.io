@@ -1,6 +1,6 @@
 # Ego Identification With The Pain Body
 
-EGO IDENTIFICATION WITH THE PAIN- BODY The process that I have just described is profoundly powerful yet simple. It could be taught to a child, and hopefully one day it will be one of the first things children learn in school. Once you have understood the basic principle of being present as the watcher of what happens inside you and you “understand” it by experiencing it you have at your disposal the most potent transformational tool.
+The process that I have just described is profoundly powerful yet simple. It could be taught to a child, and hopefully one day it will be one of the first things children learn in school. Once you have understood the basic principle of being present as the watcher of what happens inside you and you “understand” it by experiencing it you have at your disposal the most potent transformational tool.
 
 This is not to deny that you may encounter intense inner resistance to disidentifying from your pain. This will be the case particularly if you have lived closely identified with your emotional pain-body for most of your life and the whole or a large part of your sense of self is invested in it. What this means is that you have made an unhappy self out of your pain-body and believe that this mind-made fiction is who you are. In that case, unconscious fear of losing your identity will create strong resistance to any disidentification. In other words, you would rather be in pain be the pain- body than take a leap into the unknown and risk losing the familiar unhappy self.
 

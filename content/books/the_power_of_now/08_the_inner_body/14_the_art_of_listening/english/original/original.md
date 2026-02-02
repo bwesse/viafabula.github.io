@@ -1,6 +1,6 @@
 # The Art Of Listening
 
-THE ART OF LISTENING When listening to another person, don't just listen with your mind, listen with your whole body. Feel the energy field of your inner body as you listen. That takes attention away from thinking and creates a still space that enables you to truly listen without the mind interfering. You are giving the other person space space to be. It is the most precious gift you can give.
+When listening to another person, don't just listen with your mind, listen with your whole body. Feel the energy field of your inner body as you listen. That takes attention away from thinking and creates a still space that enables you to truly listen without the mind interfering. You are giving the other person space space to be. It is the most precious gift you can give.
 
 Most people don't know how to listen because the major part of their attention is taken up by thinking. They pay more attention to that than to what the other person is saying, and none at all to what really matters: the Being of the other person underneath the words and the mind. Of course, you cannot feel someone else's Being except through your own. This is the beginning of the realization of oneness, which is love. At the deepest level of Being, you are one with all that is.
 

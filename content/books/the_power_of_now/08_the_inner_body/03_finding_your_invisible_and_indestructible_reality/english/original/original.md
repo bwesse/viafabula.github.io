@@ -1,6 +1,6 @@
 # Finding Your Invisible And Indestructible Reality
 
-FINDING YOUR INVISIBLE AND INDESTRUCTIBLE REALITY You said that identification with our physical form is part of the illusion, so how can the body, the physical form, bring you to a realization of Being?
+You said that identification with our physical form is part of the illusion, so how can the body, the physical form, bring you to a realization of Being?
 
 The body that you can see and touch cannot take you into Being. But that visible and tangible body is only an outer shell, or rather a limited and distorted perception of a deeper reality. In your natural state of connectedness with Being, this deeper reality can be felt every moment as the invisible inner body, the animating presence within you. So to “inhabit the body” is to feel the body from within, to feel the life inside the body and thereby come to know that you are beyond the outer form.
 

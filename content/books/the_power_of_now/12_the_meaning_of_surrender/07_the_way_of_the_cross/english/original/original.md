@@ -1,6 +1,5 @@
 # The Way Of The Cross
 
-THE WAY OF THE CROSS
 ¤
 ¤ There are many accounts of people who say they have found God through their deep suffering, and there is the Christian expression “the way of the cross, ” which I suppose points to the same thing. We are concerned with nothing else here. Strictly speaking, they did not find God through their suffering, because suffering implies resistance.
 

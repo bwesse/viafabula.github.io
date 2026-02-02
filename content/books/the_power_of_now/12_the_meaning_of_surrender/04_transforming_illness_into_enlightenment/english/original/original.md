@@ -1,6 +1,5 @@
 # Transforming Illness Into Enlightenment
 
-TRANSFORMING ILLNESS INTO ENLIGHTENMENT 
 If someone is seriously ill and completely accepts their condition and surrenders to the illness, would they not have given up their will to get back to health? The determination to fight the illness would not be there any more, would it?
 
 Surrender is inner acceptance of what is without any reservations. We are talking about your life this instant not the conditions or circumstances of your life, not what I call your life situation. We have spoken about this already.

@@ -1,6 +1,6 @@
 # Realizing Pure Consciousness
 
-REALIZING PURE CONSCIOUSNESS Is presence the same as Being? When you become conscious of Being, what is really happening is that Being becomes conscious of itself. When Being becomes conscious of itself thats presence. Since Being, consciousness, and life are synonymous, we could say that presence means consciousness becoming conscious of itself, or life attaining self-consciousness. But don't get attached to the words, and don't make an effort to understand this. There is nothing that you need to understand before you can become present.
+Is presence the same as Being? When you become conscious of Being, what is really happening is that Being becomes conscious of itself. When Being becomes conscious of itself thats presence. Since Being, consciousness, and life are synonymous, we could say that presence means consciousness becoming conscious of itself, or life attaining self-consciousness. But don't get attached to the words, and don't make an effort to understand this. There is nothing that you need to understand before you can become present.
 
 I do understand what you just said, but it seems to imply that Being, the ultimate transcendental reality, is not yet complete, that it is undergoing a process of development. Does God need time for personal growth?
 

@@ -1,6 +1,6 @@
 # Loss Of Now The Core Delusion
 
-LOSS OF NOW: THE CORE DELUSION Even if I completely accept that ultimately time is an illusion, what difference is that going to make in my life? I still have to live in a world that is completely dominated by time.
+Even if I completely accept that ultimately time is an illusion, what difference is that going to make in my life? I still have to live in a world that is completely dominated by time.
 
 Intellectual agreement is just another belief and won't make much difference to your life. To realize this truth, you need to live it. When every cell of your body is so present that it feels vibrant with life, and when you can feel that life every moment as the joy of Being, then it can be said that you are free of time.
 
