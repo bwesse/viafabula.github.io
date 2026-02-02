@@ -780,6 +780,7 @@
       };
       const SETTINGS_KEY = 'reader-settings';
       const DOWNLOADED_BOOKS_KEY = 'reader-downloaded-books';
+      const DOWNLOAD_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
       const SETTINGS_DEFAULT = {
         nativeLanguageId: 'english',
         learningLanguageId: null,
@@ -1653,7 +1654,11 @@
         updateScrollTopVisibility();
       }
 
-      bookSelect.addEventListener('change', () => { state.bookId = bookSelect.value; populateChapters(); updateDownloadButtonState(); });
+      bookSelect.addEventListener('change', () => {
+        state.bookId = bookSelect.value;
+        populateChapters();
+        updateDownloadButtonState();
+      });
       chapterSelect.addEventListener('change', () => { state.chapterId = chapterSelect.value; populateLanguages(); });
       nativeLangSelect?.addEventListener('change', () => {
         nativeLanguageId = nativeLangSelect.value;
@@ -1895,7 +1900,7 @@
               downloadBookButton.disabled = false;
               downloadBookButton.textContent = '📥 Download Book';
             }
-          }, 300000);
+          }, DOWNLOAD_TIMEOUT_MS);
 
         } catch (error) {
           console.error('Download error:', error);
