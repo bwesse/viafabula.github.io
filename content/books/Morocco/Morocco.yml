@@ -1,0 +1,96 @@
+---
+id: Morocco
+title: Morocco
+description: Travel stories about various cities and locations in Morocco, designed for language learning at multiple CEFR levels.
+author: VIA Fabula
+languages:
+  - english
+  - spanish
+  - german
+  - french
+places:
+  - id: 01_Tangier
+    name: Tangier
+    description: The gateway between Africa and Europe
+    latitude: 35.7595
+    longitude: -5.8340
+  - id: 02_Chefchaouen
+    name: Chefchaouen
+    description: The enchanting blue pearl
+    latitude: 35.1688
+    longitude: -5.2636
+  - id: 03_Fez
+    name: Fez
+    description: Morocco's cultural and spiritual capital
+    latitude: 34.0331
+    longitude: -5.0003
+  - id: 04_Meknes
+    name: Meknes
+    description: The imperial city
+    latitude: 33.8935
+    longitude: -5.5473
+  - id: 05_Rabat
+    name: Rabat
+    description: Morocco's elegant capital
+    latitude: 34.0209
+    longitude: -6.8416
+  - id: 06_Casablanca
+    name: Casablanca
+    description: Morocco's cosmopolitan economic hub
+    latitude: 33.5731
+    longitude: -7.5898
+  - id: 07_Marrakesh
+    name: Marrakesh
+    description: The vibrant heart of Morocco
+    latitude: 31.6295
+    longitude: -7.9811
+  - id: 08_Essaouira
+    name: Essaouira
+    description: The charming coastal town
+    latitude: 31.5085
+    longitude: -9.7595
+  - id: 09_Imsouane
+    name: Imsouane
+    description: A peaceful fishing village and surf spot
+    latitude: 30.8500
+    longitude: -9.8167
+  - id: 10_Taghazout
+    name: Taghazout
+    description: A surfer's paradise on the Atlantic coast
+    latitude: 30.5483
+    longitude: -9.7083
+  - id: 11_Agadir
+    name: Agadir
+    description: Morocco's premier beach resort
+    latitude: 30.4278
+    longitude: -9.5981
+  - id: 12_Sidi_Ifni
+    name: Sidi Ifni
+    description: A coastal town with Spanish colonial heritage
+    latitude: 29.3797
+    longitude: -10.1731
+  - id: 13_Taroudant
+    name: Taroudant
+    description: The Berber city surrounded by red walls
+    latitude: 30.4728
+    longitude: -8.8778
+  - id: 14_Imlil
+    name: Imlil
+    description: Gateway to Mount Toubkal in the Atlas Mountains
+    latitude: 31.1358
+    longitude: -7.9211
+  - id: 15_Ouarzazate
+    name: Ouarzazate
+    description: The Hollywood of Morocco
+    latitude: 30.9335
+    longitude: -6.9370
+  - id: 16_Tinghir
+    name: Tinghir
+    description: Gateway to the Todra Gorge
+    latitude: 31.5147
+    longitude: -5.5328
+  - id: 17_Merzouga
+    name: Merzouga
+    description: Gateway to the Sahara desert
+    latitude: 31.0801
+    longitude: -4.0132
