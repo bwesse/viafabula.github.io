@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="icon" type="image/png" href="./icon512.png" />
     <link rel="manifest" href="./manifest.json" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
     <title>Story Reader PWA</title>
 
     <style>
@@ -469,43 +466,81 @@
         border-radius: 14px;
         overflow: hidden;
         box-shadow: var(--shadow);
+        background: #fff;
+        position: relative;
       }
       #map-container.active {
-        display: block;
+        display: flex;
+        flex-direction: column;
       }
       #map {
         width: 100%;
         height: 100%;
+        position: relative;
+        background: #f0f0f0;
+        overflow: auto;
       }
-      .leaflet-popup-content-wrapper {
-        border-radius: 8px;
+      #map svg {
+        display: block;
+        margin: 0 auto;
       }
-      .leaflet-popup-content {
-        margin: 12px 14px;
+      .map-marker {
+        cursor: pointer;
+        transition: r 0.2s;
       }
-      .map-popup-title {
+      .map-marker:hover {
+        r: 8;
+      }
+      .map-marker-label {
+        font-size: 12px;
+        fill: var(--accent);
+        pointer-events: none;
+        text-anchor: middle;
+      }
+      .map-info {
+        padding: 16px;
+        background: white;
+        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+      }
+      .map-info-title {
+        font-size: 18px;
         font-weight: 600;
-        font-size: 16px;
-        margin-bottom: 6px;
-        color: var(--accent);
+        margin-bottom: 4px;
       }
-      .map-popup-desc {
+      .map-info-desc {
         font-size: 13px;
         color: var(--muted);
-        margin-bottom: 10px;
       }
-      .map-popup-link {
-        display: inline-block;
-        padding: 6px 12px;
-        background: var(--accent);
-        color: #fff;
-        text-decoration: none;
+      .map-location-list {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: white;
+        border-radius: 8px;
+        padding: 12px;
+        max-width: 250px;
+        max-height: calc(100% - 32px);
+        overflow-y: auto;
+        box-shadow: var(--shadow);
+      }
+      .map-location-item {
+        padding: 8px;
+        margin-bottom: 4px;
         border-radius: 6px;
+        cursor: pointer;
         font-size: 13px;
-        transition: opacity 0.2s;
+        transition: background 0.2s;
       }
-      .map-popup-link:hover {
-        opacity: 0.8;
+      .map-location-item:hover {
+        background: rgba(15, 23, 42, 0.06);
+      }
+      .map-location-name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+      .map-location-desc {
+        font-size: 11px;
+        color: var(--muted);
       }
 
       /* Night mode overrides */
@@ -698,6 +733,10 @@
 
     <main class="reader" role="main">
       <div id="map-container">
+        <div class="map-info">
+          <div class="map-info-title">Morocco Story Locations</div>
+          <div class="map-info-desc">Explore the places featured in this book</div>
+        </div>
         <div id="map"></div>
       </div>
       <article class="reader-panel" id="reader">
@@ -2181,18 +2220,13 @@
       loadLibrary();
     </script>
     
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
-    
     <!-- Map functionality -->
     <script>
-      let mapInstance = null;
-      let mapMarkers = [];
       const mapContainer = document.getElementById('map-container');
+      const mapElement = document.getElementById('map');
       const readerPanel = document.getElementById('reader');
       const mapViewButton = document.getElementById('map-view-button');
+      let currentPlaces = [];
 
       async function loadBookMetadata(bookId) {
         try {
@@ -2262,14 +2296,114 @@
         return metadata;
       }
 
-      function initializeMap() {
-        if (!mapInstance) {
-          mapInstance = L.map('map').setView([30, -5], 3);
+      function createMap(places) {
+        if (!places || places.length === 0) {
+          mapElement.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--muted);">No locations available for this book</div>';
+          return;
+        }
+
+        // Find map bounds
+        let minLat = Infinity, maxLat = -Infinity;
+        let minLon = Infinity, maxLon = -Infinity;
+        
+        places.forEach(place => {
+          minLat = Math.min(minLat, place.latitude);
+          maxLat = Math.max(maxLat, place.latitude);
+          minLon = Math.min(minLon, place.longitude);
+          maxLon = Math.max(maxLon, place.longitude);
+        });
+
+        // Add padding
+        const latPadding = (maxLat - minLat) * 0.15;
+        const lonPadding = (maxLon - minLon) * 0.15;
+        minLat -= latPadding;
+        maxLat += latPadding;
+        minLon -= lonPadding;
+        maxLon += lonPadding;
+
+        // SVG dimensions
+        const width = 800;
+        const height = 600;
+
+        // Create projection function (simple Mercator-like)
+        function projectPoint(lat, lon) {
+          const x = ((lon - minLon) / (maxLon - minLon)) * width;
+          const y = ((maxLat - lat) / (maxLat - minLat)) * height;
+          return { x, y };
+        }
+
+        // Build SVG
+        let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">`;
+        
+        // Background
+        svg += `<rect width="${width}" height="${height}" fill="#e8f4f8"/>`;
+        
+        // Grid lines
+        for (let i = 0; i <= 10; i++) {
+          const x = (i / 10) * width;
+          const y = (i / 10) * height;
+          svg += `<line x1="${x}" y1="0" x2="${x}" y2="${height}" stroke="#ccc" stroke-width="0.5" opacity="0.3"/>`;
+          svg += `<line x1="0" y1="${y}" x2="${width}" y2="${y}" stroke="#ccc" stroke-width="0.5" opacity="0.3"/>`;
+        }
+
+        // Add connection lines between sequential places
+        for (let i = 0; i < places.length - 1; i++) {
+          const p1 = projectPoint(places[i].latitude, places[i].longitude);
+          const p2 = projectPoint(places[i + 1].latitude, places[i + 1].longitude);
+          svg += `<line x1="${p1.x}" y1="${p1.y}" x2="${p2.x}" y2="${p2.y}" stroke="#94a3b8" stroke-width="1.5" opacity="0.4" stroke-dasharray="5,5"/>`;
+        }
+
+        // Add markers and labels for each place
+        places.forEach((place, index) => {
+          const point = projectPoint(place.latitude, place.longitude);
+          const color = `hsl(${(index * 360) / places.length}, 70%, 50%)`;
           
-          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
-          }).addTo(mapInstance);
+          // Marker circle
+          svg += `<circle cx="${point.x}" cy="${point.y}" r="6" fill="${color}" stroke="white" stroke-width="2" class="map-marker" data-place-id="${place.id}" style="cursor: pointer;"/>`;
+          
+          // Label
+          svg += `<text x="${point.x}" y="${point.y - 12}" class="map-marker-label" fill="#0f172a" font-size="11" font-weight="600" text-anchor="middle">${place.name}</text>`;
+        });
+
+        svg += '</svg>';
+
+        // Create location list
+        let locationList = '<div class="map-location-list">';
+        locationList += '<div style="font-weight: 600; margin-bottom: 8px; font-size: 14px;">Locations</div>';
+        places.forEach((place, index) => {
+          const color = `hsl(${(index * 360) / places.length}, 70%, 50%)`;
+          locationList += `<div class="map-location-item" data-place-id="${place.id}" style="border-left: 3px solid ${color};">`;
+          locationList += `<div class="map-location-name">${place.name}</div>`;
+          locationList += `<div class="map-location-desc">${place.description}</div>`;
+          locationList += '</div>';
+        });
+        locationList += '</div>';
+
+        mapElement.innerHTML = svg + locationList;
+
+        // Add click handlers
+        document.querySelectorAll('.map-marker, .map-location-item').forEach(el => {
+          el.addEventListener('click', (e) => {
+            const placeId = e.currentTarget.getAttribute('data-place-id');
+            navigateToPlace(placeId);
+          });
+        });
+      }
+
+      function navigateToPlace(placeId) {
+        showReader();
+        
+        // Navigate to the chapter
+        const book = library.books.find(b => b.id === state.bookId);
+        if (book) {
+          const chapter = book.chapters.find(ch => ch.id === placeId);
+          if (chapter) {
+            const chapterIndex = book.chapters.indexOf(chapter);
+            if (chapterSelect) {
+              chapterSelect.selectedIndex = chapterIndex;
+              chapterSelect.dispatchEvent(new Event('change'));
+            }
+          }
         }
       }
 
@@ -2277,69 +2411,15 @@
         // Hide reader, show map
         if (readerPanel) readerPanel.style.display = 'none';
         if (mapContainer) mapContainer.classList.add('active');
-        
-        // Initialize map if not already done
-        initializeMap();
-        
-        // Force Leaflet to recalculate size
-        setTimeout(() => {
-          if (mapInstance) mapInstance.invalidateSize();
-        }, 100);
 
         // Load current book's metadata
         if (state.bookId) {
           const metadata = await loadBookMetadata(state.bookId);
-          if (metadata && metadata.places) {
-            // Clear existing markers
-            mapMarkers.forEach(marker => marker.remove());
-            mapMarkers = [];
-
-            // Add markers for each place
-            metadata.places.forEach(place => {
-              const marker = L.marker([place.latitude, place.longitude], {
-                title: place.name
-              }).addTo(mapInstance);
-
-              const popupContent = `
-                <div class="map-popup-title">${place.name}</div>
-                <div class="map-popup-desc">${place.description}</div>
-                <a href="#" class="map-popup-link" data-place-id="${place.id}">View Chapter</a>
-              `;
-
-              marker.bindPopup(popupContent);
-              mapMarkers.push(marker);
-
-              // Add click handler for the link in popup
-              marker.on('popupopen', () => {
-                const link = document.querySelector(`.map-popup-link[data-place-id="${place.id}"]`);
-                if (link) {
-                  link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    showReader();
-                    closeSidebar();
-                    
-                    // Navigate to the chapter
-                    const book = library.books.find(b => b.id === state.bookId);
-                    if (book) {
-                      const chapter = book.chapters.find(ch => ch.id === place.id);
-                      if (chapter) {
-                        const chapterIndex = book.chapters.indexOf(chapter);
-                        if (chapterSelect) {
-                          chapterSelect.selectedIndex = chapterIndex;
-                          chapterSelect.dispatchEvent(new Event('change'));
-                        }
-                      }
-                    }
-                  });
-                }
-              });
-            });
-
-            // Fit map to show all markers
-            if (mapMarkers.length > 0) {
-              const group = L.featureGroup(mapMarkers);
-              mapInstance.fitBounds(group.getBounds().pad(0.1));
-            }
+          if (metadata && metadata.places && metadata.places.length > 0) {
+            currentPlaces = metadata.places;
+            createMap(currentPlaces);
+          } else {
+            mapElement.innerHTML = '<div style="padding: 40px; text-align: center; color: var(--muted);"><div style="font-size: 48px; margin-bottom: 16px;">🗺️</div><div style="font-size: 16px; margin-bottom: 8px;">No map data available</div><div style="font-size: 13px;">This book doesn\'t have location data yet.</div></div>';
           }
         }
       }
