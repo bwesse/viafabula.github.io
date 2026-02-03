@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="icon" type="image/png" href="./icon512.png" />
     <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
     <title>Story Reader PWA</title>
 
     <style>
@@ -457,6 +460,54 @@
         color: var(--muted);
       }
 
+      /* Map container styles */
+      #map-container {
+        display: none;
+        width: 100%;
+        height: calc(100vh - var(--bar-height) - 80px);
+        min-height: 500px;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+      }
+      #map-container.active {
+        display: block;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+      .leaflet-popup-content-wrapper {
+        border-radius: 8px;
+      }
+      .leaflet-popup-content {
+        margin: 12px 14px;
+      }
+      .map-popup-title {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 6px;
+        color: var(--accent);
+      }
+      .map-popup-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 10px;
+      }
+      .map-popup-link {
+        display: inline-block;
+        padding: 6px 12px;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 13px;
+        transition: opacity 0.2s;
+      }
+      .map-popup-link:hover {
+        opacity: 0.8;
+      }
+
       /* Night mode overrides */
       html.night, body.night {
         --accent: #e5e7eb;
@@ -629,6 +680,7 @@
       </div>
 
       <nav class="menu" aria-label="Links">
+        <button type="button" id="map-view-button" aria-label="View map of story locations">🗺️ Map View</button>
         <button type="button" id="download-book-button" disabled aria-label="Download current book for offline reading">📥 Download Book</button>
         <a href="#" id="about-link">About</a>
       </nav>
@@ -645,6 +697,9 @@
     <button type="button" id="floating-lang-toggle" class="floating-toggle" aria-pressed="false" aria-label="Toggle language"></button>
 
     <main class="reader" role="main">
+      <div id="map-container">
+        <div id="map"></div>
+      </div>
       <article class="reader-panel" id="reader">
         <header class="reader-head">
           <div class="eyebrow" id="reader-meta">Loading…</div>
@@ -2124,6 +2179,183 @@
       setupStreakTracking();
       renderStreak();
       loadLibrary();
+    </script>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    
+    <!-- Map functionality -->
+    <script>
+      let mapInstance = null;
+      let mapMarkers = [];
+      const mapContainer = document.getElementById('map-container');
+      const readerPanel = document.getElementById('reader');
+      const mapViewButton = document.getElementById('map-view-button');
+
+      async function loadBookMetadata(bookId) {
+        try {
+          const response = await fetch(`content/books/${bookId}/${bookId}.yml`);
+          if (!response.ok) return null;
+          const yamlText = await response.text();
+          return parseYAML(yamlText);
+        } catch (error) {
+          console.error('Error loading book metadata:', error);
+          return null;
+        }
+      }
+
+      // Simple YAML parser for our specific format
+      function parseYAML(yamlText) {
+        const metadata = {
+          id: '',
+          title: '',
+          description: '',
+          places: []
+        };
+
+        const lines = yamlText.split('\n');
+        let currentPlace = null;
+        let inPlaces = false;
+
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i];
+          const trimmed = line.trim();
+
+          if (trimmed.startsWith('id:') && !inPlaces) {
+            metadata.id = trimmed.substring(3).trim();
+          } else if (trimmed.startsWith('title:') && !inPlaces) {
+            metadata.title = trimmed.substring(6).trim();
+          } else if (trimmed.startsWith('description:') && !inPlaces) {
+            metadata.description = trimmed.substring(12).trim();
+          } else if (trimmed === 'places:') {
+            inPlaces = true;
+          } else if (inPlaces && trimmed.startsWith('- id:')) {
+            if (currentPlace) {
+              metadata.places.push(currentPlace);
+            }
+            currentPlace = {
+              id: trimmed.substring(5).trim(),
+              name: '',
+              description: '',
+              latitude: 0,
+              longitude: 0
+            };
+          } else if (inPlaces && currentPlace) {
+            if (trimmed.startsWith('name:')) {
+              currentPlace.name = trimmed.substring(5).trim();
+            } else if (trimmed.startsWith('description:')) {
+              currentPlace.description = trimmed.substring(12).trim();
+            } else if (trimmed.startsWith('latitude:')) {
+              currentPlace.latitude = parseFloat(trimmed.substring(9).trim());
+            } else if (trimmed.startsWith('longitude:')) {
+              currentPlace.longitude = parseFloat(trimmed.substring(10).trim());
+            }
+          }
+        }
+
+        if (currentPlace) {
+          metadata.places.push(currentPlace);
+        }
+
+        return metadata;
+      }
+
+      function initializeMap() {
+        if (!mapInstance) {
+          mapInstance = L.map('map').setView([30, -5], 3);
+          
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+          }).addTo(mapInstance);
+        }
+      }
+
+      async function showMap() {
+        // Hide reader, show map
+        if (readerPanel) readerPanel.style.display = 'none';
+        if (mapContainer) mapContainer.classList.add('active');
+        
+        // Initialize map if not already done
+        initializeMap();
+        
+        // Force Leaflet to recalculate size
+        setTimeout(() => {
+          if (mapInstance) mapInstance.invalidateSize();
+        }, 100);
+
+        // Load current book's metadata
+        if (state.bookId) {
+          const metadata = await loadBookMetadata(state.bookId);
+          if (metadata && metadata.places) {
+            // Clear existing markers
+            mapMarkers.forEach(marker => marker.remove());
+            mapMarkers = [];
+
+            // Add markers for each place
+            metadata.places.forEach(place => {
+              const marker = L.marker([place.latitude, place.longitude], {
+                title: place.name
+              }).addTo(mapInstance);
+
+              const popupContent = `
+                <div class="map-popup-title">${place.name}</div>
+                <div class="map-popup-desc">${place.description}</div>
+                <a href="#" class="map-popup-link" data-place-id="${place.id}">View Chapter</a>
+              `;
+
+              marker.bindPopup(popupContent);
+              mapMarkers.push(marker);
+
+              // Add click handler for the link in popup
+              marker.on('popupopen', () => {
+                const link = document.querySelector(`.map-popup-link[data-place-id="${place.id}"]`);
+                if (link) {
+                  link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showReader();
+                    closeSidebar();
+                    
+                    // Navigate to the chapter
+                    const book = library.books.find(b => b.id === state.bookId);
+                    if (book) {
+                      const chapter = book.chapters.find(ch => ch.id === place.id);
+                      if (chapter) {
+                        const chapterIndex = book.chapters.indexOf(chapter);
+                        if (chapterSelect) {
+                          chapterSelect.selectedIndex = chapterIndex;
+                          chapterSelect.dispatchEvent(new Event('change'));
+                        }
+                      }
+                    }
+                  });
+                }
+              });
+            });
+
+            // Fit map to show all markers
+            if (mapMarkers.length > 0) {
+              const group = L.featureGroup(mapMarkers);
+              mapInstance.fitBounds(group.getBounds().pad(0.1));
+            }
+          }
+        }
+      }
+
+      function showReader() {
+        // Show reader, hide map
+        if (mapContainer) mapContainer.classList.remove('active');
+        if (readerPanel) readerPanel.style.display = 'block';
+      }
+
+      if (mapViewButton) {
+        mapViewButton.addEventListener('click', () => {
+          showMap();
+          closeSidebar();
+        });
+      }
     </script>
   </body>
 </html>
