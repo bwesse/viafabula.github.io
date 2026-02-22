@@ -1,3 +1,5 @@
 /.vscode
 /.pipervenv
 /models
+__pycache__/
+*.pyc
