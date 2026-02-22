@@ -548,6 +548,32 @@
         overflow-y: auto;
       }
       body.desktop-mode .desktop-native-panel { display: block; }
+
+      /* Mobile: plain e-reader style — no card boards */
+      @media (max-width: 767px) {
+        html, body {
+          background: #fff;
+        }
+        main.reader {
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .reader-panel {
+          border-radius: 0;
+          box-shadow: none;
+          padding: 16px 20px 32px;
+        }
+        .markdown-body p {
+          padding: 0;
+          border-radius: 0;
+        }
+        body.night html, body.night {
+          background: #0b1220;
+        }
+        body.night .reader-panel {
+          background: #0b1220;
+        }
+      }
     </style>
   </head>
   <body>
