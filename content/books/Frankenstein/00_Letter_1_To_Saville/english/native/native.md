@@ -1,1 +1,27 @@
-todo
+Letter 1
+
+_To Mrs. Saville, England._
+
+St. Petersburgh, Dec. 11th, 17--.
+
+You will be glad to hear that the expedition has started without any disaster, despite all the bad feelings you had about it. I arrived here yesterday, and the first thing I wanted to do was write and tell you, dear sister, that I am safe and feeling more confident about the success of the journey.
+
+I am already far north of London, and when I walk through the streets of Petersburgh, the cold northern wind on my face makes me feel alert, strong, and strangely happy. Do you know that feeling? The wind seems to come straight from the very places I am heading toward, and it gives me a preview of those icy regions. It fills my imagination. I know I ought to think of the pole as a place of frost and emptiness, but I cannot; I keep picturing it as beautiful. There, Margaret, I imagine the sun always visible, skimming the horizon and casting a constant light. And there, if earlier sailors can be trusted at all, perhaps snow and frost are not the whole story. Perhaps, over a calm sea, we may be carried to a land more beautiful and more astonishing than any yet discovered. Its living things and landscapes may be unlike anything we know, and the sky itself may show wonders never properly studied. What might be found in a country of unending light? I may discover the force that draws the compass needle and make sense of celestial observations that now seem inconsistent. I may finally see a part of the world no one has seen before, and even walk where no human foot has yet been. Those possibilities tempt me enough to master any fear of danger or death and send me on this hard voyage with the excitement of a child pushing off in a little boat on a holiday adventure. And even if all those hopes turn out to be wrong, the voyage may still benefit humanity by finding a passage near the pole to distant countries, or by uncovering the secret of magnetism, if that can be done at all.
+
+Thinking this way has settled the anxiety I felt when I started writing. My heart is warm again with enthusiasm, because nothing calms the mind like a clear purpose, something steady for the soul to fix on. This expedition has been my favorite dream since childhood. I have read eagerly every account I could find of voyages made in hopes of reaching the North Pacific through the seas around the pole. You will remember that Uncle Thomas's library was almost entirely books about voyages of discovery. My formal education was neglected, but I loved reading with all my heart. Those books were my companions day and night, and the more I knew them, the more I regretted learning that Father's dying wish had forbidden my uncle to let me go to sea.
+
+That dream faded for a time when I first discovered poetry. Those poets stirred me so deeply that I felt lifted out of myself. I became a poet too, and for a year I lived in a paradise of my own making, convinced I might someday win a place beside Homer and Shakespeare. You know how that ended, and how hard I took the failure. But just then I inherited my cousin's fortune, and my mind naturally turned back to its earlier direction.
+
+It has been six years since I made my decision, and I can still remember the exact hour in which I gave myself to this enterprise. I began by training myself to endure hardship. I joined whaling voyages in the North Sea, willingly putting up with cold, hunger, thirst, and too little sleep. I often worked harder than the ordinary sailors by day, then spent the nights studying mathematics, medical theory, and the parts of physical science most useful to a seafaring adventurer. Twice I hired on as an under-mate in a Greenland whaler, and by all accounts I did well. I will admit I felt proud when my captain offered me the second post on the vessel and strongly urged me to stay because he valued my service so highly.
+
+And now, dear Margaret, do I not deserve to achieve something great? I could have lived in comfort and luxury, but I chose glory over everything wealth offered me. If only someone would say, plainly, that I am right to do so. My courage and determination are firm, but my hopes rise and fall, and I am often low. I am about to undertake a long and difficult voyage, and every emergency in it will demand courage. I must be ready not only to keep up the spirits of others, but sometimes to keep up my own when theirs fail.
+
+This is the best time of year for traveling in Russia. People fly over the snow in sledges, and it is genuinely pleasant, much better, to my mind, than an English stagecoach. The cold is manageable if you are wrapped in furs, which I have already adopted. There is a great difference between moving about on deck and sitting still for hours, when no exercise keeps the blood from seeming to freeze in your veins. I have no wish to die on the road between St. Petersburgh and Archangel.
+
+I expect to leave for Archangel in two or three weeks. Once there, I mean to hire a ship, which should be easy enough if I pay the owner's insurance, and then recruit as many sailors as I need from men used to whaling. I do not intend to sail before June. And when will I return? Ah, dear sister, how can I say? If I succeed, many months, perhaps years, may pass before we meet again. If I fail, you will either see me soon, or never.
+
+Farewell, my dear, excellent Margaret. May Heaven bless you, and keep me safe, so that I may again and again show my gratitude for all your love and kindness.
+
+Your affectionate brother,
+
+R. Walton
