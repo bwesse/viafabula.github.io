@@ -528,6 +528,28 @@
         aside.sidebar { width: 320px; --sidebar-width: 320px; }
         .reader-panel { padding: 26px 28px 34px; }
       }
+
+      /* Desktop split-screen mode */
+      .desktop-native-panel { display: none; }
+      body.desktop-mode main.reader {
+        flex-direction: row;
+        align-items: stretch;
+        height: 100vh;
+        min-height: 100vh;
+        padding: calc(var(--bar-height) + 12px) 12px 12px;
+        overflow: hidden;
+        gap: 12px;
+        box-sizing: border-box;
+      }
+      body.desktop-mode .reader-panel {
+        max-width: none;
+        flex: 1;
+        min-width: 0;
+        overflow-y: auto;
+      }
+      body.desktop-mode .desktop-native-panel { display: block; }
+      body.desktop-mode #lang-toggle { display: none; }
+      body.desktop-mode .level-stepper { display: none; }
     </style>
   </head>
   <body>
@@ -594,6 +616,15 @@
             <option value="medium">Medium</option>
             <option value="large">Large</option>
             <option value="xlarge">Extra large</option>
+          </select>
+        </div>
+
+        <div class="controls-row">
+          <label class="small" for="device-mode-select">Device</label>
+          <select id="device-mode-select" aria-label="Select device mode">
+            <option value="mobile">Mobile</option>
+            <option value="desktop">Desktop (Split Screen)</option>
+            <option value="ereader">E-reader</option>
           </select>
         </div>
 
@@ -666,6 +697,13 @@
           </div>
         </div>
         <div class="status-line" id="status-line" role="status"></div>
+      </article>
+      <article class="reader-panel desktop-native-panel" id="reader-native" aria-label="Native language content">
+        <header class="reader-head">
+          <div class="eyebrow" id="reader-meta-native"></div>
+          <h1 id="reader-title-native"></h1>
+        </header>
+        <div class="markdown-body" id="story-body-native" aria-live="polite"></div>
       </article>
     </main>
 
@@ -769,6 +807,11 @@
       const comprehensionStatus = document.getElementById('comprehension-status');
       const textSizeSelect = document.getElementById('text-size-select');
       const floatingToggleSetting = document.getElementById('floating-toggle-setting');
+      const deviceModeSelect = document.getElementById('device-mode-select');
+      const readerNativePanel = document.getElementById('reader-native');
+      const storyBodyNative = document.getElementById('story-body-native');
+      const readerTitleNative = document.getElementById('reader-title-native');
+      const readerMetaNative = document.getElementById('reader-meta-native');
       const saveBookmarkBtn = document.getElementById('save-bookmark');
       const goBookmarkBtn = document.getElementById('go-bookmark');
       const bookmarkStatus = document.getElementById('bookmark-status');
@@ -798,6 +841,7 @@
         bookmark: null,
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
+        deviceMode: 'mobile',
       };
       const TEXT_SIZE_MAP = {
         small: '15px',
@@ -818,6 +862,7 @@
       let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
       let bookmark = null;
       let streak = { ...STREAK_DEFAULT };
+      let deviceMode = SETTINGS_DEFAULT.deviceMode;
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
       const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
@@ -879,6 +924,7 @@
         bookmark = normalizeBookmark(userSettings.bookmark);
         streak = normalizeStreak(userSettings.streak);
         userSettings = { ...userSettings, streak };
+        deviceMode = userSettings.deviceMode || SETTINGS_DEFAULT.deviceMode;
       }
       function applyTextSize() {
         const size = TEXT_SIZE_MAP[textSize] || TEXT_SIZE_MAP.medium;
@@ -892,6 +938,68 @@
         floatingToggleSetting.setAttribute('aria-label', floatingToggleEnabled
           ? 'Disable floating language toggle'
           : 'Enable floating language toggle');
+      }
+      function applyDeviceMode() {
+        document.body.classList.toggle('desktop-mode', deviceMode === 'desktop');
+        if (deviceModeSelect) deviceModeSelect.value = deviceMode;
+        if (deviceMode === 'desktop' && learningLanguageId && state.langId !== learningLanguageId) {
+          state.langId = learningLanguageId;
+          if (levelSelect) {
+            const language = findLanguage();
+            state.levelId = setSelectOptions(levelSelect, language?.levels || [], state.levelId);
+          }
+        }
+      }
+      let _scrollSyncing = false;
+      function setupScrollSync() {
+        if (!readerPanel || !readerNativePanel) return;
+        readerPanel.addEventListener('scroll', () => {
+          if (deviceMode !== 'desktop' || _scrollSyncing) return;
+          _scrollSyncing = true;
+          const maxScroll = readerPanel.scrollHeight - readerPanel.clientHeight;
+          const ratio = maxScroll > 0 ? readerPanel.scrollTop / maxScroll : 0;
+          const nativeMax = readerNativePanel.scrollHeight - readerNativePanel.clientHeight;
+          readerNativePanel.scrollTop = ratio * Math.max(0, nativeMax);
+          requestAnimationFrame(() => { _scrollSyncing = false; });
+        });
+        readerNativePanel.addEventListener('scroll', () => {
+          if (deviceMode !== 'desktop' || _scrollSyncing) return;
+          _scrollSyncing = true;
+          const maxScroll = readerNativePanel.scrollHeight - readerNativePanel.clientHeight;
+          const ratio = maxScroll > 0 ? readerNativePanel.scrollTop / maxScroll : 0;
+          const learningMax = readerPanel.scrollHeight - readerPanel.clientHeight;
+          readerPanel.scrollTop = ratio * Math.max(0, learningMax);
+          requestAnimationFrame(() => { _scrollSyncing = false; });
+        });
+      }
+      async function loadNativeContent(chapterTitle) {
+        if (deviceMode !== 'desktop' || !storyBodyNative) {
+          if (storyBodyNative) storyBodyNative.innerHTML = '';
+          if (readerTitleNative) readerTitleNative.textContent = '';
+          if (readerMetaNative) readerMetaNative.textContent = '';
+          return;
+        }
+        const languages = availableLanguages();
+        const nativeLang = languages.find(l => l.id === nativeLanguageId);
+        if (!nativeLang) {
+          storyBodyNative.innerHTML = '<p>Native language not available for this chapter.</p>';
+          return;
+        }
+        const nativeLevel = nativeLang.levels.find(lv => lv.id === state.levelId) || nativeLang.levels[0];
+        if (!nativeLevel) {
+          storyBodyNative.innerHTML = '<p>No content available for native language.</p>';
+          return;
+        }
+        if (readerTitleNative) readerTitleNative.textContent = chapterTitle || '';
+        if (readerMetaNative) readerMetaNative.textContent = `${nativeLang.title} · ${nativeLevel.title}`;
+        try {
+          const response = await fetch(nativeLevel.path);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const md = await response.text();
+          storyBodyNative.innerHTML = markdownToHtml(md);
+        } catch (error) {
+          storyBodyNative.innerHTML = '<p>Unable to load native language content.</p>';
+        }
       }
 
       const FLOATING_PADDING = 12;
@@ -1774,7 +1882,10 @@
           const md = await response.text();
           storyBody.innerHTML = markdownToHtml(md);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
-          await loadComprehensionQuestions(level);
+          await Promise.all([
+            loadComprehensionQuestions(level),
+            loadNativeContent(displayTitle),
+          ]);
         } catch (error) {
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
           setStatus('Failed to load markdown content.');
@@ -1886,6 +1997,12 @@
         updateLangToggleButton();
         if (floatingToggleEnabled) applyFloatingTogglePosition(floatingTogglePosition);
         persistSettings({ floatingToggleEnabled, floatingTogglePosition });
+      });
+      deviceModeSelect?.addEventListener('change', () => {
+        deviceMode = deviceModeSelect.value;
+        persistSettings({ deviceMode });
+        applyDeviceMode();
+        loadCurrentSelection();
       });
       saveBookmarkBtn?.addEventListener('click', () => {
         saveBookmark();
@@ -2118,6 +2235,8 @@
       updateVersionFooter();
       applyTextSize();
       applyTheme();
+      applyDeviceMode();
+      setupScrollSync();
       updateFloatingToggleSettingUI();
       applyFloatingTogglePosition(floatingTogglePosition);
       updateBookmarkStatus();
