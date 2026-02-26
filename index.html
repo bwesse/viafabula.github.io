@@ -89,6 +89,11 @@
         background: rgba(15, 23, 42, 0.16);
       }
       .audio-toggle.playing .dot { background: #22c55e; }
+      .tts-word.tts-active {
+        background-color: #fef08a;
+        border-radius: 2px;
+        outline: 1px solid #eab308;
+      }
 
       .topbar-actions {
         margin-left: auto;
@@ -934,6 +939,8 @@
       let ttsMode = false;
       let ttsUtterance = null;
       let ttsPlaying = false;
+      let ttsOriginalHTML = null;
+      let ttsWordSpans = null;
       let floatingDragPointerId = null;
       let floatingDragOffset = { x: 0, y: 0 };
       let floatingDragMoved = false;
@@ -1256,7 +1263,67 @@
         ttsMode = false;
         ttsUtterance = null;
         ttsPlaying = false;
+        ttsWordSpans = null;
+        restoreTtsDOM();
         updateAudioButton();
+      }
+      function restoreTtsDOM() {
+        if (ttsOriginalHTML !== null) {
+          storyBody.innerHTML = ttsOriginalHTML;
+          ttsOriginalHTML = null;
+          ttsWordSpans = null;
+        }
+      }
+      function prepareTtsDOM() {
+        ttsOriginalHTML = storyBody.innerHTML;
+        const walker = document.createTreeWalker(storyBody, NodeFilter.SHOW_TEXT);
+        const textNodes = [];
+        let node;
+        while ((node = walker.nextNode())) textNodes.push(node);
+        let charOffset = 0;
+        textNodes.forEach(textNode => {
+          const text = textNode.textContent;
+          const fragment = document.createDocumentFragment();
+          const wordRegex = /\S+/g;
+          let lastIndex = 0;
+          let match;
+          while ((match = wordRegex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+              fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+            }
+            const span = document.createElement('span');
+            span.className = 'tts-word';
+            span.dataset.ttsOffset = String(charOffset + match.index);
+            span.textContent = match[0];
+            fragment.appendChild(span);
+            lastIndex = match.index + match[0].length;
+          }
+          if (lastIndex < text.length) {
+            fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+          }
+          charOffset += text.length;
+          textNode.parentNode.replaceChild(fragment, textNode);
+        });
+        ttsWordSpans = Array.from(storyBody.querySelectorAll('.tts-word'));
+      }
+      function highlightTtsWord(charIndex) {
+        if (!ttsWordSpans || ttsWordSpans.length === 0) return;
+        let lo = 0, hi = ttsWordSpans.length - 1, best = -1;
+        while (lo <= hi) {
+          const mid = (lo + hi) >>> 1;
+          if (parseInt(ttsWordSpans[mid].dataset.ttsOffset, 10) <= charIndex) {
+            best = mid;
+            lo = mid + 1;
+          } else {
+            hi = mid - 1;
+          }
+        }
+        if (best !== -1) {
+          const prev = storyBody.querySelector('.tts-word.tts-active');
+          if (prev) prev.classList.remove('tts-active');
+          ttsWordSpans[best].classList.add('tts-active');
+          ttsWordSpans[best].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        }
       }
       function deriveAudioPath(levelPath) {
         if (!levelPath) return null;
@@ -1312,16 +1379,19 @@
               updateAudioButton();
             } else {
               window.speechSynthesis.cancel();
-              const text = storyBody?.innerText || '';
+              const text = storyBody.textContent || '';
               if (!text.trim()) return;
+              restoreTtsDOM();
+              prepareTtsDOM();
               ttsUtterance = new SpeechSynthesisUtterance(text);
               const bcp47 = LANG_TO_BCP47[state.langId] || 'en-US';
               ttsUtterance.lang = bcp47;
               ttsUtterance.onstart = () => { ttsPlaying = true; updateAudioButton(); };
-              ttsUtterance.onend = () => { ttsPlaying = false; ttsUtterance = null; updateAudioButton(); };
+              ttsUtterance.onend = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
               ttsUtterance.onpause = () => { ttsPlaying = false; updateAudioButton(); };
               ttsUtterance.onresume = () => { ttsPlaying = true; updateAudioButton(); };
-              ttsUtterance.onerror = () => { ttsPlaying = false; ttsUtterance = null; updateAudioButton(); };
+              ttsUtterance.onerror = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
+              ttsUtterance.onboundary = (event) => { if (event.name === 'word') highlightTtsWord(event.charIndex); };
               window.speechSynthesis.speak(ttsUtterance);
             }
           }
