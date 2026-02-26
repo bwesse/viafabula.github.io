@@ -89,6 +89,11 @@
         background: rgba(15, 23, 42, 0.16);
       }
       .audio-toggle.playing .dot { background: #22c55e; }
+      .tts-word.tts-active {
+        background-color: #fef08a;
+        border-radius: 2px;
+        outline: 1px solid #eab308;
+      }
 
       .topbar-actions {
         margin-left: auto;
@@ -875,6 +880,28 @@
       };
       const STREAK_SAVE_INTERVAL_MS = 60000;
       const FALLBACK_NATIVE_ID = 'english';
+      const LANG_TO_BCP47 = {
+        english: 'en-US',
+        german: 'de-DE',
+        spanish: 'es-ES',
+        french: 'fr-FR',
+        italian: 'it-IT',
+        portuguese: 'pt-PT',
+        dutch: 'nl-NL',
+        russian: 'ru-RU',
+        japanese: 'ja-JP',
+        chinese: 'zh-CN',
+        korean: 'ko-KR',
+        arabic: 'ar-SA',
+        polish: 'pl-PL',
+        swedish: 'sv-SE',
+        norwegian: 'nb-NO',
+        danish: 'da-DK',
+        finnish: 'fi-FI',
+        turkish: 'tr-TR',
+        greek: 'el-GR',
+        czech: 'cs-CZ',
+      };
       let library = { books: [] };
       const state = { bookId: null, chapterId: null, subchapterId: null, langId: null, levelId: null };
       let userSettings = SETTINGS_DEFAULT;
@@ -909,6 +936,11 @@
       let audioPlayer = null;
       let audioReady = false;
       let audioRequestId = 0;
+      let ttsMode = false;
+      let ttsUtterance = null;
+      let ttsPlaying = false;
+      let ttsOriginalHTML = null;
+      let ttsWordSpans = null;
       let floatingDragPointerId = null;
       let floatingDragOffset = { x: 0, y: 0 };
       let floatingDragMoved = false;
@@ -1205,7 +1237,12 @@
 
       function updateAudioButton() {
         if (!audioToggleBtn) return;
-        const isPlaying = audioReady && audioPlayer && !audioPlayer.paused && !audioPlayer.ended;
+        let isPlaying;
+        if (ttsMode) {
+          isPlaying = ttsPlaying;
+        } else {
+          isPlaying = audioReady && audioPlayer && !audioPlayer.paused && !audioPlayer.ended;
+        }
         const labelText = audioReady ? (isPlaying ? 'Pause audio' : 'Play audio') : 'Audio unavailable';
         audioToggleBtn.disabled = !audioReady;
         audioToggleBtn.classList.toggle('playing', isPlaying);
@@ -1220,7 +1257,73 @@
         }
         audioPlayer = null;
         audioReady = false;
+        if (ttsMode && window.speechSynthesis) {
+          window.speechSynthesis.cancel();
+        }
+        ttsMode = false;
+        ttsUtterance = null;
+        ttsPlaying = false;
+        ttsWordSpans = null;
+        restoreTtsDOM();
         updateAudioButton();
+      }
+      function restoreTtsDOM() {
+        if (ttsOriginalHTML !== null) {
+          storyBody.innerHTML = ttsOriginalHTML;
+          ttsOriginalHTML = null;
+          ttsWordSpans = null;
+        }
+      }
+      function prepareTtsDOM() {
+        ttsOriginalHTML = storyBody.innerHTML;
+        const walker = document.createTreeWalker(storyBody, NodeFilter.SHOW_TEXT);
+        const textNodes = [];
+        let node;
+        while ((node = walker.nextNode())) textNodes.push(node);
+        let charOffset = 0;
+        textNodes.forEach(textNode => {
+          const text = textNode.textContent;
+          const fragment = document.createDocumentFragment();
+          const wordRegex = /\S+/g;
+          let lastIndex = 0;
+          let match;
+          while ((match = wordRegex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+              fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+            }
+            const span = document.createElement('span');
+            span.className = 'tts-word';
+            span.dataset.ttsOffset = String(charOffset + match.index);
+            span.textContent = match[0];
+            fragment.appendChild(span);
+            lastIndex = match.index + match[0].length;
+          }
+          if (lastIndex < text.length) {
+            fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+          }
+          charOffset += text.length;
+          textNode.parentNode.replaceChild(fragment, textNode);
+        });
+        ttsWordSpans = Array.from(storyBody.querySelectorAll('.tts-word'));
+      }
+      function highlightTtsWord(charIndex) {
+        if (!ttsWordSpans || ttsWordSpans.length === 0) return;
+        let lo = 0, hi = ttsWordSpans.length - 1, best = -1;
+        while (lo <= hi) {
+          const mid = (lo + hi) >>> 1;
+          if (parseInt(ttsWordSpans[mid].dataset.ttsOffset, 10) <= charIndex) {
+            best = mid;
+            lo = mid + 1;
+          } else {
+            hi = mid - 1;
+          }
+        }
+        if (best !== -1) {
+          const prev = storyBody.querySelector('.tts-word.tts-active');
+          if (prev) prev.classList.remove('tts-active');
+          ttsWordSpans[best].classList.add('tts-active');
+          ttsWordSpans[best].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        }
       }
       function deriveAudioPath(levelPath) {
         if (!levelPath) return null;
@@ -1236,25 +1339,65 @@
         const wavPath = deriveAudioPath(level.path);
         if (!wavPath) return;
         const requestId = ++audioRequestId;
+        let audioAvailable = false;
         try {
           const response = await fetch(wavPath, { method: 'HEAD' });
           if (requestId !== audioRequestId) return;
-          if (!response.ok) return;
+          audioAvailable = response.ok;
         } catch (err) {
           if (requestId !== audioRequestId) return;
-          return;
         }
         if (requestId !== audioRequestId) return;
-        audioPlayer = new Audio(wavPath);
-        audioPlayer.preload = 'metadata';
-        audioReady = true;
-        audioPlayer.addEventListener('play', updateAudioButton);
-        audioPlayer.addEventListener('pause', updateAudioButton);
-        audioPlayer.addEventListener('ended', updateAudioButton);
-        updateAudioButton();
+        if (audioAvailable) {
+          audioPlayer = new Audio(wavPath);
+          audioPlayer.preload = 'metadata';
+          audioReady = true;
+          ttsMode = false;
+          audioPlayer.addEventListener('play', updateAudioButton);
+          audioPlayer.addEventListener('pause', updateAudioButton);
+          audioPlayer.addEventListener('ended', updateAudioButton);
+          updateAudioButton();
+        } else if (window.speechSynthesis) {
+          ttsMode = true;
+          audioReady = true;
+          ttsPlaying = false;
+          ttsUtterance = null;
+          updateAudioButton();
+        }
       }
       function toggleAudioPlayback() {
-        if (!audioReady || !audioPlayer) return;
+        if (!audioReady) return;
+        if (ttsMode) {
+          if (ttsPlaying) {
+            window.speechSynthesis.pause();
+            ttsPlaying = false;
+            updateAudioButton();
+          } else {
+            if (ttsUtterance && window.speechSynthesis.paused) {
+              window.speechSynthesis.resume();
+              ttsPlaying = true;
+              updateAudioButton();
+            } else {
+              window.speechSynthesis.cancel();
+              const text = storyBody.textContent || '';
+              if (!text.trim()) return;
+              restoreTtsDOM();
+              prepareTtsDOM();
+              ttsUtterance = new SpeechSynthesisUtterance(text);
+              const bcp47 = LANG_TO_BCP47[state.langId] || 'en-US';
+              ttsUtterance.lang = bcp47;
+              ttsUtterance.onstart = () => { ttsPlaying = true; updateAudioButton(); };
+              ttsUtterance.onend = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
+              ttsUtterance.onpause = () => { ttsPlaying = false; updateAudioButton(); };
+              ttsUtterance.onresume = () => { ttsPlaying = true; updateAudioButton(); };
+              ttsUtterance.onerror = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
+              ttsUtterance.onboundary = (event) => { if (event.name === 'word') highlightTtsWord(event.charIndex); };
+              window.speechSynthesis.speak(ttsUtterance);
+            }
+          }
+          return;
+        }
+        if (!audioPlayer) return;
         if (audioPlayer.paused || audioPlayer.ended) {
           if (audioPlayer.ended) audioPlayer.currentTime = 0;
           audioPlayer.play().then(updateAudioButton).catch(() => {
