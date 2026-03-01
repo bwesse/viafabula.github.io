@@ -911,6 +911,8 @@
       let audioPlayer = null;
       let audioReady = false;
       let audioRequestId = 0;
+      let ttsMode = false;
+      let ttsUtterance = null;
       let floatingDragPointerId = null;
       let floatingDragOffset = { x: 0, y: 0 };
       let floatingDragMoved = false;
@@ -1208,7 +1210,12 @@
 
       function updateAudioButton() {
         if (!audioToggleBtn) return;
-        const isPlaying = audioReady && audioPlayer && !audioPlayer.paused && !audioPlayer.ended;
+        let isPlaying;
+        if (ttsMode) {
+          isPlaying = audioReady && !!window.speechSynthesis && ttsUtterance !== null && window.speechSynthesis.speaking && !window.speechSynthesis.paused;
+        } else {
+          isPlaying = audioReady && audioPlayer && !audioPlayer.paused && !audioPlayer.ended;
+        }
         const labelText = audioReady ? (isPlaying ? 'Pause audio' : 'Play audio') : 'Audio unavailable';
         audioToggleBtn.disabled = !audioReady;
         audioToggleBtn.classList.toggle('playing', isPlaying);
@@ -1222,6 +1229,11 @@
           audioPlayer.src = '';
         }
         audioPlayer = null;
+        if (ttsMode && window.speechSynthesis) {
+          window.speechSynthesis.cancel();
+        }
+        ttsMode = false;
+        ttsUtterance = null;
         audioReady = false;
         updateAudioButton();
       }
@@ -1237,36 +1249,66 @@
         resetAudio();
         if (!level) return;
         const wavPath = deriveAudioPath(level.path);
-        if (!wavPath) return;
-        const requestId = ++audioRequestId;
-        try {
-          const response = await fetch(wavPath, { method: 'HEAD' });
+        let audioFileAvailable = false;
+        if (wavPath) {
+          const requestId = ++audioRequestId;
+          try {
+            const response = await fetch(wavPath, { method: 'HEAD' });
+            if (requestId !== audioRequestId) return;
+            if (response.ok) audioFileAvailable = true;
+          } catch (err) {
+            if (requestId !== audioRequestId) return;
+          }
           if (requestId !== audioRequestId) return;
-          if (!response.ok) return;
-        } catch (err) {
-          if (requestId !== audioRequestId) return;
-          return;
         }
-        if (requestId !== audioRequestId) return;
-        audioPlayer = new Audio(wavPath);
-        audioPlayer.preload = 'metadata';
-        audioReady = true;
-        audioPlayer.addEventListener('play', updateAudioButton);
-        audioPlayer.addEventListener('pause', updateAudioButton);
-        audioPlayer.addEventListener('ended', updateAudioButton);
+        if (audioFileAvailable) {
+          audioPlayer = new Audio(wavPath);
+          audioPlayer.preload = 'metadata';
+          audioReady = true;
+          audioPlayer.addEventListener('play', updateAudioButton);
+          audioPlayer.addEventListener('pause', updateAudioButton);
+          audioPlayer.addEventListener('ended', updateAudioButton);
+        } else if (window.speechSynthesis) {
+          ttsMode = true;
+          audioReady = true;
+        }
         updateAudioButton();
       }
       function toggleAudioPlayback() {
-        if (!audioReady || !audioPlayer) return;
-        if (audioPlayer.paused || audioPlayer.ended) {
-          if (audioPlayer.ended) audioPlayer.currentTime = 0;
-          audioPlayer.play().then(updateAudioButton).catch(() => {
+        if (!audioReady) return;
+        if (ttsMode) {
+          if (!window.speechSynthesis) return;
+          if (window.speechSynthesis.paused) {
+            window.speechSynthesis.resume();
+            updateAudioButton();
+          } else if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.pause();
+            updateAudioButton();
+          } else {
+            const text = storyBody ? (storyBody.innerText || storyBody.textContent) : '';
+            if (!text) return;
+            window.speechSynthesis.cancel();
+            ttsUtterance = new SpeechSynthesisUtterance(text);
+            ttsUtterance.onstart = updateAudioButton;
+            ttsUtterance.onpause = updateAudioButton;
+            ttsUtterance.onresume = updateAudioButton;
+            ttsUtterance.onend = () => { ttsUtterance = null; updateAudioButton(); };
+            ttsUtterance.onerror = () => { ttsUtterance = null; updateAudioButton(); };
+            window.speechSynthesis.speak(ttsUtterance);
+            updateAudioButton();
+          }
+        } else {
+          if (!audioPlayer) return;
+          if (audioPlayer.paused || audioPlayer.ended) {
+            if (audioPlayer.ended) audioPlayer.currentTime = 0;
+            audioPlayer.play().then(updateAudioButton).catch(() => {
+              audioPlayer.pause();
+              updateAudioButton();
+            });
+          } else {
             audioPlayer.pause();
             updateAudioButton();
-          });
-        } else {
-          audioPlayer.pause();
-          updateAudioButton();
+          }
         }
       }
 
