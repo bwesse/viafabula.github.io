@@ -941,6 +941,9 @@
       let ttsPlaying = false;
       let ttsOriginalHTML = null;
       let ttsWordSpans = null;
+      let ttsIntervalId = null;
+      let ttsFallbackWordIdx = 0;
+      let ttsBoundaryFired = false;
       let floatingDragPointerId = null;
       let floatingDragOffset = { x: 0, y: 0 };
       let floatingDragMoved = false;
@@ -1264,10 +1267,12 @@
         ttsUtterance = null;
         ttsPlaying = false;
         ttsWordSpans = null;
+        if (ttsIntervalId) { clearInterval(ttsIntervalId); ttsIntervalId = null; }
         restoreTtsDOM();
         updateAudioButton();
       }
       function restoreTtsDOM() {
+        if (ttsIntervalId) { clearInterval(ttsIntervalId); ttsIntervalId = null; }
         if (ttsOriginalHTML !== null) {
           storyBody.innerHTML = ttsOriginalHTML;
           ttsOriginalHTML = null;
@@ -1305,6 +1310,22 @@
           textNode.parentNode.replaceChild(fragment, textNode);
         });
         ttsWordSpans = Array.from(storyBody.querySelectorAll('.tts-word'));
+      }
+      function advanceTtsFallback() {
+        if (ttsBoundaryFired || !ttsWordSpans || ttsFallbackWordIdx >= ttsWordSpans.length) {
+          clearInterval(ttsIntervalId);
+          ttsIntervalId = null;
+          return;
+        }
+        const prev = storyBody.querySelector('.tts-word.tts-active');
+        if (prev) prev.classList.remove('tts-active');
+        ttsWordSpans[ttsFallbackWordIdx].classList.add('tts-active');
+        ttsWordSpans[ttsFallbackWordIdx].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        ttsFallbackWordIdx++;
+      }
+      function startTtsFallbackTimer() {
+        if (ttsIntervalId) clearInterval(ttsIntervalId);
+        ttsIntervalId = setInterval(advanceTtsFallback, 400);
       }
       function highlightTtsWord(charIndex) {
         if (!ttsWordSpans || ttsWordSpans.length === 0) return;
@@ -1383,15 +1404,33 @@
               if (!text.trim()) return;
               restoreTtsDOM();
               prepareTtsDOM();
+              ttsBoundaryFired = false;
+              ttsFallbackWordIdx = 0;
               ttsUtterance = new SpeechSynthesisUtterance(text);
               const bcp47 = LANG_TO_BCP47[state.langId] || 'en-US';
               ttsUtterance.lang = bcp47;
-              ttsUtterance.onstart = () => { ttsPlaying = true; updateAudioButton(); };
-              ttsUtterance.onend = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
-              ttsUtterance.onpause = () => { ttsPlaying = false; updateAudioButton(); };
-              ttsUtterance.onresume = () => { ttsPlaying = true; updateAudioButton(); };
-              ttsUtterance.onerror = () => { ttsPlaying = false; ttsUtterance = null; restoreTtsDOM(); updateAudioButton(); };
-              ttsUtterance.onboundary = (event) => { if (event.name === 'word') highlightTtsWord(event.charIndex); };
+              ttsUtterance.onstart = () => {
+                ttsPlaying = true; updateAudioButton();
+                if (ttsWordSpans && ttsWordSpans.length > 0) {
+                  ttsWordSpans[0].classList.add('tts-active');
+                  ttsWordSpans[0].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                  ttsFallbackWordIdx = 1;
+                  startTtsFallbackTimer();
+                }
+              };
+              ttsUtterance.onend = () => { ttsPlaying = false; ttsUtterance = null; clearInterval(ttsIntervalId); ttsIntervalId = null; restoreTtsDOM(); updateAudioButton(); };
+              ttsUtterance.onpause = () => { ttsPlaying = false; clearInterval(ttsIntervalId); ttsIntervalId = null; updateAudioButton(); };
+              ttsUtterance.onresume = () => {
+                ttsPlaying = true; updateAudioButton();
+                if (!ttsBoundaryFired && ttsWordSpans && ttsFallbackWordIdx < ttsWordSpans.length) startTtsFallbackTimer();
+              };
+              ttsUtterance.onerror = () => { ttsPlaying = false; ttsUtterance = null; clearInterval(ttsIntervalId); ttsIntervalId = null; restoreTtsDOM(); updateAudioButton(); };
+              ttsUtterance.onboundary = (event) => {
+                if (event.name === 'word') {
+                  if (!ttsBoundaryFired) { ttsBoundaryFired = true; clearInterval(ttsIntervalId); ttsIntervalId = null; }
+                  highlightTtsWord(event.charIndex);
+                }
+              };
               window.speechSynthesis.speak(ttsUtterance);
             }
           }
