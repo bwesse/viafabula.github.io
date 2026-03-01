@@ -863,6 +863,7 @@
         floatingToggleEnabled: false,
         floatingTogglePosition: null,
         bookmark: null,
+        lastPosition: null,
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
         deviceMode: 'mobile',
@@ -885,6 +886,7 @@
       let floatingToggleEnabled = SETTINGS_DEFAULT.floatingToggleEnabled;
       let floatingTogglePosition = SETTINGS_DEFAULT.floatingTogglePosition;
       let bookmark = null;
+      let lastPosition = null;
       let streak = { ...STREAK_DEFAULT };
       let deviceMode = SETTINGS_DEFAULT.deviceMode;
       const LAST_VERSION_KEY = 'reader-last-version';
@@ -946,6 +948,7 @@
         floatingToggleEnabled = Boolean(userSettings.floatingToggleEnabled);
         floatingTogglePosition = userSettings.floatingTogglePosition || null;
         bookmark = normalizeBookmark(userSettings.bookmark);
+        lastPosition = normalizeBookmark(userSettings.lastPosition);
         streak = normalizeStreak(userSettings.streak);
         userSettings = { ...userSettings, streak };
         deviceMode = userSettings.deviceMode || SETTINGS_DEFAULT.deviceMode;
@@ -1759,12 +1762,7 @@
       }
       function openBookmark() {
         if (!bookmarkIsValid(bookmark)) return;
-        state.bookId = bookmark.bookId;
-        state.chapterId = bookmark.chapterId;
-        state.subchapterId = bookmark.subchapterId || null;
-        state.langId = bookmark.langId;
-        learningLanguageId = bookmark.langId;
-        state.levelId = bookmark.levelId;
+        applyPositionToState(bookmark);
         populateBooks();
         persistSettings({ bookmark, learningLanguageId });
       }
@@ -1906,6 +1904,8 @@
           const md = await response.text();
           storyBody.innerHTML = markdownToHtml(md);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
+          const pos = normalizeBookmark(state);
+          if (pos) { lastPosition = pos; persistSettings({ lastPosition }); }
           await Promise.all([
             loadComprehensionQuestions(level),
             loadNativeContent(displayTitle),
@@ -1915,6 +1915,15 @@
           setStatus('Failed to load markdown content.');
           console.error(error);
         }
+      }
+
+      function applyPositionToState(pos) {
+        state.bookId = pos.bookId;
+        state.chapterId = pos.chapterId;
+        state.subchapterId = pos.subchapterId || null;
+        state.langId = pos.langId;
+        learningLanguageId = pos.langId;
+        state.levelId = pos.levelId;
       }
 
       async function loadLibrary() {
@@ -1940,13 +1949,14 @@
           bookmark = null;
           persistSettings({ bookmark: null });
         }
+        if (lastPosition && !bookmarkIsValid(lastPosition)) {
+          lastPosition = null;
+          persistSettings({ lastPosition: null });
+        }
         if (bookmarkIsValid(bookmark)) {
-          state.bookId = bookmark.bookId;
-          state.chapterId = bookmark.chapterId;
-          state.subchapterId = bookmark.subchapterId || null;
-          state.langId = bookmark.langId;
-          learningLanguageId = bookmark.langId;
-          state.levelId = bookmark.levelId;
+          applyPositionToState(bookmark);
+        } else if (bookmarkIsValid(lastPosition)) {
+          applyPositionToState(lastPosition);
         }
 
         populateBooks();
