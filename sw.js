@@ -1,10 +1,8 @@
-const CACHE_VERSION = 'v8';
+const CACHE_VERSION = 'v9';
 const CACHE_NAME = `reader-cache-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
   './',
   './index.html',
-  './converter.js',
-  './converter.css',
   './manifest.json',
   './icon512.png',
   './content-index.json',
