@@ -63,7 +63,7 @@ ViaFabula is a lightweight reader and content pipeline for short stories that ca
 - **Static assets:** Everything runs client-side with no backend. Service worker (`sw.js`) supports offline caching.
 
 ## Repository Layout
-- `index.html`, `converter.js`, `converter.css`, `manifest.json`, `sw.js` — the PWA front end.
+- `index.html`, `manifest.json`, `sw.js` — the PWA front end.
 - `content/` — stories and audio organized by book → chapter → language → level.
 - `models/` — local Piper voice models (place your `.onnx` and `.json` files here).
 - `scripts/generate_tts_piper.py` — generate `.wav` files from text using running Piper servers.
