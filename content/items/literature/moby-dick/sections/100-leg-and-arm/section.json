@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-100",
+  "slug": "leg-and-arm",
+  "order": 100,
+  "title": {
+    "en": "Leg And Arm"
+  },
+  "legacyIds": [
+    "100_leg_and_arm"
+  ]
+}

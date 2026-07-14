@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "letter-2-archangel",
+  "order": 1,
+  "title": {
+    "en": "Letter 2 Archangel"
+  },
+  "legacyIds": [
+    "01_Letter_2_Archangel"
+  ]
+}

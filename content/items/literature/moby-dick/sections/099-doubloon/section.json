@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-099",
+  "slug": "doubloon",
+  "order": 99,
+  "title": {
+    "en": "Doubloon"
+  },
+  "legacyIds": [
+    "099_doubloon"
+  ]
+}

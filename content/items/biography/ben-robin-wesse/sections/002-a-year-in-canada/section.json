@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "a-year-in-canada",
+  "order": 2,
+  "title": {
+    "en": "A Year In Canada"
+  },
+  "legacyIds": [
+    "02_a_year_in_canada"
+  ]
+}

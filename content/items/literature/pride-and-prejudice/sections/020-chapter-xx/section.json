@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-020",
+  "slug": "chapter-xx",
+  "order": 20,
+  "title": {
+    "en": "Chapter XX"
+  },
+  "legacyIds": [
+    "20_chapter_xx"
+  ]
+}

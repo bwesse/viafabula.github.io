@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-119",
+  "slug": "candles",
+  "order": 119,
+  "title": {
+    "en": "Candles"
+  },
+  "legacyIds": [
+    "119_candles"
+  ]
+}

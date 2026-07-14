@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-009",
+  "slug": "safety",
+  "order": 9,
+  "title": {
+    "en": "Safety"
+  },
+  "legacyIds": [
+    "09_Safety"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-004",
+  "slug": "language",
+  "order": 4,
+  "title": {
+    "en": "Language"
+  },
+  "legacyIds": [
+    "04_Language"
+  ]
+}

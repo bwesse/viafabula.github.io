@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "preamble",
+  "order": 0,
+  "title": {
+    "en": "Preamble"
+  },
+  "legacyIds": [
+    "00_preamble"
+  ]
+}

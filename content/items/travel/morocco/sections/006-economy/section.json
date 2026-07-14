@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-006",
+  "slug": "economy",
+  "order": 6,
+  "title": {
+    "en": "Economy"
+  },
+  "legacyIds": [
+    "06_Economy"
+  ]
+}

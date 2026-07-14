@@ -604,13 +604,13 @@
 
       <div class="sidebar-section" aria-hidden="false">
         <div class="controls-row">
-          <label for="book-select" class="small">Story</label>
-          <select id="book-select" aria-label="Select story"></select>
+          <label for="book-select" class="small">Item</label>
+          <select id="book-select" aria-label="Select item"></select>
         </div>
 
         <div class="controls-row">
-          <label for="chapter-select" class="small">Chapter</label>
-          <select id="chapter-select" aria-label="Select chapter"></select>
+          <label for="chapter-select" class="small" id="section-select-label">Section</label>
+          <select id="chapter-select" aria-label="Select section"></select>
         </div>
 
         <div class="controls-row" id="subchapter-row" style="display: none;">
@@ -684,7 +684,7 @@
       </div>
 
       <nav class="menu" aria-label="Links">
-        <button type="button" id="download-book-button" disabled aria-label="Download current book for offline reading">📥 Download Book</button>
+        <button type="button" id="download-book-button" disabled aria-label="Download current item for offline reading">📥 Download Item</button>
         <a href="#" id="about-link">About</a>
       </nav>
 
@@ -806,6 +806,7 @@
 
       const bookSelect = document.getElementById('book-select');
       const chapterSelect = document.getElementById('chapter-select');
+      const sectionSelectLabel = document.getElementById('section-select-label');
       const subchapterSelect = document.getElementById('subchapter-select');
       const subchapterRow = document.getElementById('subchapter-row');
       const levelSelect = document.getElementById('level-select');
@@ -855,7 +856,7 @@
       const DOWNLOADED_BOOKS_KEY = 'reader-downloaded-books';
       const DOWNLOAD_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
       const SETTINGS_DEFAULT = {
-        nativeLanguageId: 'english',
+        nativeLanguageId: 'en',
         learningLanguageId: null,
         theme: 'light',
         textSize: 'medium',
@@ -874,7 +875,7 @@
         xlarge: '20px',
       };
       const STREAK_SAVE_INTERVAL_MS = 60000;
-      const FALLBACK_NATIVE_ID = 'english';
+      const FALLBACK_NATIVE_ID = 'en';
       let library = { books: [] };
       const state = { bookId: null, chapterId: null, subchapterId: null, langId: null, levelId: null };
       let userSettings = SETTINGS_DEFAULT;
@@ -937,7 +938,14 @@
         };
       }
       function persistSettings(patch = {}) {
-        userSettings = { ...userSettings, ...patch };
+        const normalizedPatch = { ...patch };
+        if (Object.prototype.hasOwnProperty.call(normalizedPatch, 'bookmark')) {
+          normalizedPatch.bookmark = serializePosition(normalizedPatch.bookmark);
+        }
+        if (Object.prototype.hasOwnProperty.call(normalizedPatch, 'lastPosition')) {
+          normalizedPatch.lastPosition = serializePosition(normalizedPatch.lastPosition);
+        }
+        userSettings = { ...userSettings, ...normalizedPatch };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(userSettings));
       }
       function primeSettingsFromStorage() {
@@ -1236,23 +1244,15 @@
         audioReady = false;
         updateAudioButton();
       }
-      function deriveAudioPath(levelPath) {
-        if (!levelPath) return null;
-        const normalized = levelPath.replace(/\\/g, '/');
-        if (normalized.endsWith('.md') || normalized.endsWith('.txt')) {
-          return normalized.replace(/\.[^.]+$/, '.wav');
-        }
-        return null;
-      }
       async function prepareAudio(level) {
         resetAudio();
         if (!level) return;
-        const wavPath = deriveAudioPath(level.path);
+        const audioPath = level.audioPath || null;
         let audioFileAvailable = false;
-        if (wavPath) {
+        if (audioPath) {
           const requestId = ++audioRequestId;
           try {
-            const response = await fetch(wavPath, { method: 'HEAD' });
+            const response = await fetch(audioPath, { method: 'HEAD' });
             if (requestId !== audioRequestId) return;
             if (response.ok) audioFileAvailable = true;
           } catch (err) {
@@ -1261,7 +1261,7 @@
           if (requestId !== audioRequestId) return;
         }
         if (audioFileAvailable) {
-          audioPlayer = new Audio(wavPath);
+          audioPlayer = new Audio(audioPath);
           audioPlayer.preload = 'metadata';
           audioReady = true;
           audioPlayer.addEventListener('play', updateAudioButton);
@@ -1610,11 +1610,11 @@
       }
       async function loadComprehensionQuestions(level) {
         resetComprehension();
-        if (!level?.path || !comprehensionSection) {
+        if (!level?.quizPath || !comprehensionSection) {
           updateChapterNav();
           return;
         }
-        const qPath = level.path.replace(/\.md$/, '_q.json');
+        const qPath = level.quizPath;
         const storedComplete = isComprehensionSavedComplete();
         try {
           const response = await fetch(qPath, { cache: 'no-cache' });
@@ -1729,13 +1729,38 @@
       }
       function normalizeBookmark(raw) {
         if (!raw || typeof raw !== 'object') return null;
-        const { bookId, chapterId, subchapterId, langId, levelId } = raw;
+        const bookId = raw.itemId || raw.bookId;
+        const chapterId = raw.sectionId || raw.subchapterId || raw.chapterId;
+        const langId = raw.languageId || raw.langId;
+        const { levelId } = raw;
         if (!bookId || !chapterId || !langId || !levelId) return null;
-        // subchapterId is optional (only for chapters with subchapters)
-        return { bookId, chapterId, subchapterId: subchapterId || null, langId, levelId };
+        return { bookId, chapterId, subchapterId: null, langId, levelId };
+      }
+      function serializePosition(raw) {
+        const normalized = normalizeBookmark(raw);
+        if (!normalized) return null;
+        return {
+          itemId: normalized.bookId,
+          sectionId: normalized.chapterId,
+          languageId: normalized.langId,
+          levelId: normalized.levelId,
+        };
+      }
+      function migrateLegacyPosition(raw) {
+        const normalized = normalizeBookmark(raw);
+        if (!normalized) return null;
+        const item = library.books.find(candidate => candidate.id === normalized.bookId
+          || candidate.legacyIds?.includes(normalized.bookId));
+        if (!item) return null;
+        const section = item.chapters.find(candidate => candidate.id === normalized.chapterId
+          || candidate.legacyIds?.includes(normalized.chapterId));
+        if (!section) return null;
+        const languageMap = { english: 'en', spanish: 'es', german: 'de', french: 'fr' };
+        const langId = languageMap[normalized.langId] || normalized.langId;
+        return { bookId: item.id, chapterId: section.id, subchapterId: null, langId, levelId: normalized.levelId };
       }
       function bookmarkIsValid(bm) {
-        const normalized = normalizeBookmark(bm);
+        const normalized = migrateLegacyPosition(bm);
         if (!normalized) return false;
         const book = library.books.find(b => b.id === normalized.bookId);
         if (!book) return false;
@@ -1879,6 +1904,8 @@
       }
       function populateChapters(options = {}) {
         const book = findBook();
+        if (sectionSelectLabel) sectionSelectLabel.textContent = book?.sectionLabel?.singular || 'Section';
+        if (chapterSelect) chapterSelect.setAttribute('aria-label', `Select ${book?.sectionLabel?.singular?.toLowerCase() || 'section'}`);
         state.chapterId = setSelectOptions(chapterSelect, book?.chapters || [], state.chapterId);
         populateSubchapters(options);
       }
@@ -1967,24 +1994,49 @@
         state.levelId = pos.levelId;
       }
 
+      function catalogToRuntime(catalog) {
+        return {
+          books: (catalog.items || []).map(item => ({
+            ...item,
+            chapters: (item.sections || []).map(section => ({
+              ...section,
+              languages: (section.languages || []).map(language => ({
+                ...language,
+                levels: (language.levels || []).map(level => ({
+                  ...level,
+                  path: level.textPath,
+                })),
+              })),
+            })),
+          })),
+        };
+      }
+
       async function loadLibrary() {
         setStatus('Loading library…');
         try {
-          const response = await fetch('./content-index.json');
+          const response = await fetch('./content/catalog.json');
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          library = await response.json();
+          library = catalogToRuntime(await response.json());
         } catch (error) {
-          storyBody.textContent = 'Could not read content-index.json. Place it next to index.html to drive the dropdowns.';
+          storyBody.textContent = 'Could not read content/catalog.json.';
           setStatus('Library missing or unreadable.');
           console.error(error);
           return;
         }
 
         if (!library.books?.length) {
-          storyBody.textContent = 'No books found in the library.';
-          setStatus('Add books under content/books to begin.');
+          storyBody.textContent = 'No items found in the library.';
+          setStatus('Add items under content/items to begin.');
           return;
         }
+
+        const hadBookmark = Boolean(bookmark);
+        const hadLastPosition = Boolean(lastPosition);
+        bookmark = migrateLegacyPosition(bookmark);
+        lastPosition = migrateLegacyPosition(lastPosition);
+        if (hadBookmark && !bookmark) persistSettings({ bookmark: null });
+        if (hadLastPosition && !lastPosition) persistSettings({ lastPosition: null });
 
         if (bookmark && !bookmarkIsValid(bookmark)) {
           bookmark = null;
@@ -2168,7 +2220,7 @@
         closeSidebar();
       });
 
-      // Download book functionality
+      // Selective offline item download functionality
       function getDownloadedBooks() {
         try {
           const stored = localStorage.getItem(DOWNLOADED_BOOKS_KEY);
@@ -2193,7 +2245,7 @@
         const book = findBook();
         if (!book) {
           downloadBookButton.disabled = true;
-          downloadBookButton.textContent = '📥 Download Book';
+          downloadBookButton.textContent = '📥 Download Item';
           return;
         }
 
@@ -2201,16 +2253,16 @@
         const isDownloaded = downloaded[book.id] === 'complete';
         
         downloadBookButton.disabled = false;
-        downloadBookButton.textContent = isDownloaded ? '✓ Book Downloaded' : '📥 Download Book';
+        downloadBookButton.textContent = isDownloaded ? '✓ Item Downloaded' : '📥 Download Item';
         downloadBookButton.setAttribute('aria-label', isDownloaded 
-          ? `Book ${book.title} already downloaded for offline reading`
+          ? `${book.title} already downloaded for offline reading`
           : `Download ${book.title} for offline reading`);
       }
 
       async function downloadCurrentBook() {
         const book = findBook();
         if (!book) {
-          setDownloadStatus('No book selected');
+          setDownloadStatus('No item selected');
           return;
         }
 
@@ -2219,42 +2271,43 @@
           return;
         }
 
-        // Collect all URLs for the book
-        const urls = [];
+        // Collect only explicit paths supplied by the catalogue.
+        const urls = ['./content/catalog.json'];
+        if (book.metadataPath) urls.push(book.metadataPath);
+        if (book.coverPath) urls.push(book.coverPath);
         book.chapters.forEach(chapter => {
+          if (chapter.metadataPath) urls.push(chapter.metadataPath);
           chapter.languages.forEach(language => {
             language.levels.forEach(level => {
-              if (level.path) {
-                urls.push(level.path);
-                // Also add comprehension questions file
-                const qPath = level.path.replace(/\.md$/, '_q.json');
-                urls.push(qPath);
-              }
+              if (level.path) urls.push(level.path);
+              if (level.quizPath) urls.push(level.quizPath);
+              if (level.audioPath) urls.push(level.audioPath);
             });
           });
         });
+        const uniqueUrls = [...new Set(urls)];
 
-        if (urls.length === 0) {
+        if (uniqueUrls.length === 0) {
           setDownloadStatus('No content found');
           return;
         }
 
-        setDownloadStatus(`Downloading ${urls.length} files...`);
+        setDownloadStatus(`Downloading ${uniqueUrls.length} files...`);
         downloadBookButton.disabled = true;
         downloadBookButton.textContent = '⏳ Downloading...';
 
         try {
-          // Send message to service worker to cache the book
+          // Send message to service worker to cache the item.
           navigator.serviceWorker.controller.postMessage({
-            type: 'DOWNLOAD_BOOK',
-            bookId: book.id,
-            urls: urls
+            type: 'DOWNLOAD_ITEM',
+            itemId: book.id,
+            urls: uniqueUrls
           });
 
           // Listen for download progress
           const handleMessage = (event) => {
             if (event.data && event.data.type === 'DOWNLOAD_PROGRESS') {
-              if (event.data.bookId === book.id) {
+              if (event.data.itemId === book.id) {
                 const { current, total, status } = event.data;
                 if (status === 'complete') {
                   setDownloadedBook(book.id, 'complete');
@@ -2264,7 +2317,7 @@
                 } else if (status === 'error') {
                   setDownloadStatus(`Download failed: ${event.data.error || 'Unknown error'}`);
                   downloadBookButton.disabled = false;
-                  downloadBookButton.textContent = '📥 Download Book';
+                  downloadBookButton.textContent = '📥 Download Item';
                   navigator.serviceWorker.removeEventListener('message', handleMessage);
                 } else {
                   setDownloadStatus(`Downloaded ${current}/${total} files`);
@@ -2281,7 +2334,7 @@
             if (getDownloadedBooks()[book.id] !== 'complete') {
               setDownloadStatus('Download timeout');
               downloadBookButton.disabled = false;
-              downloadBookButton.textContent = '📥 Download Book';
+              downloadBookButton.textContent = '📥 Download Item';
             }
           }, DOWNLOAD_TIMEOUT_MS);
 
@@ -2289,7 +2342,7 @@
           console.error('Download error:', error);
           setDownloadStatus('Download failed');
           downloadBookButton.disabled = false;
-          downloadBookButton.textContent = '📥 Download Book';
+          downloadBookButton.textContent = '📥 Download Item';
         }
       }
 

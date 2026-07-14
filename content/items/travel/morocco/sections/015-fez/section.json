@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-015",
+  "slug": "fez",
+  "order": 15,
+  "title": {
+    "en": "Fez"
+  },
+  "legacyIds": [
+    "03_Fez"
+  ]
+}

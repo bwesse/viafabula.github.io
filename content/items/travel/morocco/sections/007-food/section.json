@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-007",
+  "slug": "food",
+  "order": 7,
+  "title": {
+    "en": "Food"
+  },
+  "legacyIds": [
+    "07_Food"
+  ]
+}

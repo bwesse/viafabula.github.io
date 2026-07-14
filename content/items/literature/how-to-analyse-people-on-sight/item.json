@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "how-to-analyse-people-on-sight",
+  "legacyIds": [
+    "How_to_Analyse_People_on_Sight"
+  ],
+  "type": "literature",
+  "subtype": "nonfiction",
+  "title": "How to Analyse People on Sight",
+  "author": "Elsie Lincoln Benedict",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "project-gutenberg",
+    "rights": "public-domain",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "en"
+  ],
+  "levels": [
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "prefix",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "chapter-i",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "chapter-ii",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "chapter-iii",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "chapter-iv",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "chapter-v",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "chapter-vi",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "chapter-vii",
+      "order": 7
+    }
+  ],
+  "sourceFiles": [
+    "source/original.txt"
+  ]
+}

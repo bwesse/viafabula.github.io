@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-005",
+  "slug": "first-semester",
+  "order": 5,
+  "title": {
+    "en": "First Semester"
+  },
+  "legacyIds": [
+    "05_first_semester"
+  ]
+}

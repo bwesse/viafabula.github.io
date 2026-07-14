@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-006",
+  "slug": "mountain-mishap",
+  "order": 6,
+  "title": {
+    "en": "Mountain Mishap"
+  },
+  "legacyIds": [
+    "06_mountain_mishap"
+  ]
+}

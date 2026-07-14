@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-112",
+  "slug": "blacksmith",
+  "order": 112,
+  "title": {
+    "en": "Blacksmith"
+  },
+  "legacyIds": [
+    "112_blacksmith"
+  ]
+}

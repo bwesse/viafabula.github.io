@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-020",
+  "slug": "all-astir",
+  "order": 20,
+  "title": {
+    "en": "All Astir"
+  },
+  "legacyIds": [
+    "020_all_astir"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "the-forest-gathers",
+  "order": 3,
+  "title": {
+    "en": "The Forest Gathers"
+  },
+  "legacyIds": [
+    "03_The_Forest_Gathers"
+  ]
+}

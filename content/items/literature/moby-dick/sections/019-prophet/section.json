@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-019",
+  "slug": "prophet",
+  "order": 19,
+  "title": {
+    "en": "Prophet"
+  },
+  "legacyIds": [
+    "019_prophet"
+  ]
+}

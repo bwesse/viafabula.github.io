@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-010",
+  "slug": "lesson-of-the-day",
+  "order": 10,
+  "title": {
+    "en": "Lesson Of The Day"
+  },
+  "legacyIds": [
+    "10_Lesson_of_the_Day"
+  ]
+}

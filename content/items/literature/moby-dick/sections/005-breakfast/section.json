@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-005",
+  "slug": "breakfast",
+  "order": 5,
+  "title": {
+    "en": "Breakfast"
+  },
+  "legacyIds": [
+    "005_breakfast"
+  ]
+}

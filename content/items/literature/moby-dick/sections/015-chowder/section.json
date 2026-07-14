@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-015",
+  "slug": "chowder",
+  "order": 15,
+  "title": {
+    "en": "Chowder"
+  },
+  "legacyIds": [
+    "015_chowder"
+  ]
+}

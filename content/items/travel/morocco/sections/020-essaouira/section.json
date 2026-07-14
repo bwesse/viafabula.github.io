@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-020",
+  "slug": "essaouira",
+  "order": 20,
+  "title": {
+    "en": "Essaouira"
+  },
+  "legacyIds": [
+    "08_Essaouira"
+  ]
+}

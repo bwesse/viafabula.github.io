@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "ben-robin-wesse",
+  "legacyIds": [
+    "ben_robin_wesse"
+  ],
+  "type": "biography",
+  "subtype": "biography",
+  "title": "Ben Robin Wesse",
+  "author": null,
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "unknown",
+    "rights": "review-required"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "prologue",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "growing-up-in-hamburg",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "a-year-in-canada",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "adventure-in-peru",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "discovering-klagenfurt",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "first-semester",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "mountain-mishap",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "interrail-adventure",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "sapience-begins",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "building-the-blackbirds",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "triumph-in-london",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "preparing-for-huntsville",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "victory-in-alabama",
+      "order": 12
+    },
+    {
+      "id": "section-013",
+      "slug": "backpacking-columbia",
+      "order": 13
+    },
+    {
+      "id": "section-014",
+      "slug": "new-chapter-barcelona",
+      "order": 14
+    }
+  ]
+}

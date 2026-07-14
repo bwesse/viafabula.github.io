@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-080",
+  "slug": "nut",
+  "order": 80,
+  "title": {
+    "en": "Nut"
+  },
+  "legacyIds": [
+    "080_nut"
+  ]
+}

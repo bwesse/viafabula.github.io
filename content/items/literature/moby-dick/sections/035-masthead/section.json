@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-035",
+  "slug": "masthead",
+  "order": 35,
+  "title": {
+    "en": "Masthead"
+  },
+  "legacyIds": [
+    "035_masthead"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-130",
+  "slug": "hat",
+  "order": 130,
+  "title": {
+    "en": "Hat"
+  },
+  "legacyIds": [
+    "130_hat"
+  ]
+}
