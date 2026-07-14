@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "id": "moby-dick",
+  "legacyIds": [
+    "mobby_dick"
+  ],
+  "type": "literature",
+  "subtype": "novel",
+  "title": "Moby-Dick",
+  "author": "Herman Melville",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "project-gutenberg",
+    "rights": "public-domain",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "prefix",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "loomings",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "carpetbag",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "spouterinn",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "counterpane",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "breakfast",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "street",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "chapel",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "pulpit",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "sermon",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "a-bosom-friend",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "nightgown",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "biographical",
+      "order": 12
+    },
+    {
+      "id": "section-013",
+      "slug": "wheelbarrow",
+      "order": 13
+    },
+    {
+      "id": "section-014",
+      "slug": "nantucket",
+      "order": 14
+    },
+    {
+      "id": "section-015",
+      "slug": "chowder",
+      "order": 15
+    },
+    {
+      "id": "section-016",
+      "slug": "ship",
+      "order": 16
+    },
+    {
+      "id": "section-017",
+      "slug": "ramadan",
+      "order": 17
+    },
+    {
+      "id": "section-018",
+      "slug": "his-mark",
+      "order": 18
+    },
+    {
+      "id": "section-019",
+      "slug": "prophet",
+      "order": 19
+    },
+    {
+      "id": "section-020",
+      "slug": "all-astir",
+      "order": 20
+    },
+    {
+      "id": "section-021",
+      "slug": "going-aboard",
+      "order": 21
+    },
+    {
+      "id": "section-022",
+      "slug": "merry-christmas",
+      "order": 22
+    },
+    {
+      "id": "section-023",
+      "slug": "lee-shore",
+      "order": 23
+    },
+    {
+      "id": "section-024",
+      "slug": "advocate",
+      "order": 24
+    },
+    {
+      "id": "section-025",
+      "slug": "postscript",
+      "order": 25
+    },
+    {
+      "id": "section-026",
+      "slug": "knights-and-squires",
+      "order": 26
+    },
+    {
+      "id": "section-027",
+      "slug": "knights-and-squires",
+      "order": 27
+    },
+    {
+      "id": "section-028",
+      "slug": "ahab",
+      "order": 28
+    },
+    {
+      "id": "section-029",
+      "slug": "enter-ahab-to-him-stubb",
+      "order": 29
+    },
+    {
+      "id": "section-030",
+      "slug": "pipe",
+      "order": 30
+    },
+    {
+      "id": "section-031",
+      "slug": "queen-mab",
+      "order": 31
+    },
+    {
+      "id": "section-032",
+      "slug": "cetology",
+      "order": 32
+    },
+    {
+      "id": "section-033",
+      "slug": "specksnyder",
+      "order": 33
+    },
+    {
+      "id": "section-034",
+      "slug": "cabintable",
+      "order": 34
+    },
+    {
+      "id": "section-035",
+      "slug": "masthead",
+      "order": 35
+    },
+    {
+      "id": "section-036",
+      "slug": "quarterdeck",
+      "order": 36
+    },
+    {
+      "id": "section-037",
+      "slug": "sunset",
+      "order": 37
+    },
+    {
+      "id": "section-038",
+      "slug": "dusk",
+      "order": 38
+    },
+    {
+      "id": "section-039",
+      "slug": "first-nightwatch",
+      "order": 39
+    },
+    {
+      "id": "section-040",
+      "slug": "midnight-forecastle",
+      "order": 40
+    },
+    {
+      "id": "section-041",
+      "slug": "moby-dick",
+      "order": 41
+    },
+    {
+      "id": "section-042",
+      "slug": "whiteness-of-the-whale",
+      "order": 42
+    },
+    {
+      "id": "section-043",
+      "slug": "hark",
+      "order": 43
+    },
+    {
+      "id": "section-044",
+      "slug": "chart",
+      "order": 44
+    },
+    {
+      "id": "section-045",
+      "slug": "affidavit",
+      "order": 45
+    },
+    {
+      "id": "section-046",
+      "slug": "surmises",
+      "order": 46
+    },
+    {
+      "id": "section-047",
+      "slug": "matmaker",
+      "order": 47
+    },
+    {
+      "id": "section-048",
+      "slug": "first-lowering",
+      "order": 48
+    },
+    {
+      "id": "section-049",
+      "slug": "hyena",
+      "order": 49
+    },
+    {
+      "id": "section-050",
+      "slug": "ahabs-boat-and-crew-fedallah",
+      "order": 50
+    },
+    {
+      "id": "section-051",
+      "slug": "spiritspout",
+      "order": 51
+    },
+    {
+      "id": "section-052",
+      "slug": "albatross",
+      "order": 52
+    },
+    {
+      "id": "section-053",
+      "slug": "gam",
+      "order": 53
+    },
+    {
+      "id": "section-054",
+      "slug": "townhos-story",
+      "order": 54
+    },
+    {
+      "id": "section-055",
+      "slug": "of-the-monstrous-pictures-of-whales",
+      "order": 55
+    },
+    {
+      "id": "section-056",
+      "slug": "of-the-less-erroneous-pictures-of-whales",
+      "order": 56
+    },
+    {
+      "id": "section-057",
+      "slug": "of-whales-in-paint-in-teeth-in-wood-in-s",
+      "order": 57
+    },
+    {
+      "id": "section-058",
+      "slug": "brit",
+      "order": 58
+    },
+    {
+      "id": "section-059",
+      "slug": "squid",
+      "order": 59
+    },
+    {
+      "id": "section-060",
+      "slug": "line",
+      "order": 60
+    },
+    {
+      "id": "section-061",
+      "slug": "stubb-kills-a-whale",
+      "order": 61
+    },
+    {
+      "id": "section-062",
+      "slug": "dart",
+      "order": 62
+    },
+    {
+      "id": "section-063",
+      "slug": "crotch",
+      "order": 63
+    },
+    {
+      "id": "section-064",
+      "slug": "stubbs-supper",
+      "order": 64
+    },
+    {
+      "id": "section-065",
+      "slug": "whale-as-a-dish",
+      "order": 65
+    },
+    {
+      "id": "section-066",
+      "slug": "shark-massacre",
+      "order": 66
+    },
+    {
+      "id": "section-067",
+      "slug": "cutting-in",
+      "order": 67
+    },
+    {
+      "id": "section-068",
+      "slug": "blanket",
+      "order": 68
+    },
+    {
+      "id": "section-069",
+      "slug": "funeral",
+      "order": 69
+    },
+    {
+      "id": "section-070",
+      "slug": "sphynx",
+      "order": 70
+    },
+    {
+      "id": "section-071",
+      "slug": "jeroboams-story",
+      "order": 71
+    },
+    {
+      "id": "section-072",
+      "slug": "monkeyrope",
+      "order": 72
+    },
+    {
+      "id": "section-073",
+      "slug": "stubb-and-flask-kill-a-right-whale-and-t",
+      "order": 73
+    },
+    {
+      "id": "section-074",
+      "slug": "sperm-whales-headcontrasted-view",
+      "order": 74
+    },
+    {
+      "id": "section-075",
+      "slug": "right-whales-headcontrasted-view",
+      "order": 75
+    },
+    {
+      "id": "section-076",
+      "slug": "batteringram",
+      "order": 76
+    },
+    {
+      "id": "section-077",
+      "slug": "great-heidelburgh-tun",
+      "order": 77
+    },
+    {
+      "id": "section-078",
+      "slug": "cistern-and-buckets",
+      "order": 78
+    },
+    {
+      "id": "section-079",
+      "slug": "prairie",
+      "order": 79
+    },
+    {
+      "id": "section-080",
+      "slug": "nut",
+      "order": 80
+    },
+    {
+      "id": "section-081",
+      "slug": "pequod-meets-the-virgin",
+      "order": 81
+    },
+    {
+      "id": "section-082",
+      "slug": "honor-and-glory-of-whaling",
+      "order": 82
+    },
+    {
+      "id": "section-083",
+      "slug": "jonah-historically-regarded",
+      "order": 83
+    },
+    {
+      "id": "section-084",
+      "slug": "pitchpoling",
+      "order": 84
+    },
+    {
+      "id": "section-085",
+      "slug": "fountain",
+      "order": 85
+    },
+    {
+      "id": "section-086",
+      "slug": "tail",
+      "order": 86
+    },
+    {
+      "id": "section-087",
+      "slug": "grand-armada",
+      "order": 87
+    },
+    {
+      "id": "section-088",
+      "slug": "schools-and-schoolmasters",
+      "order": 88
+    },
+    {
+      "id": "section-089",
+      "slug": "fastfish-and-loosefish",
+      "order": 89
+    },
+    {
+      "id": "section-090",
+      "slug": "heads-or-tails",
+      "order": 90
+    },
+    {
+      "id": "section-091",
+      "slug": "pequod-meets-the-rosebud",
+      "order": 91
+    },
+    {
+      "id": "section-092",
+      "slug": "ambergris",
+      "order": 92
+    },
+    {
+      "id": "section-093",
+      "slug": "castaway",
+      "order": 93
+    },
+    {
+      "id": "section-094",
+      "slug": "a-squeeze-of-the-hand",
+      "order": 94
+    },
+    {
+      "id": "section-095",
+      "slug": "cassock",
+      "order": 95
+    },
+    {
+      "id": "section-096",
+      "slug": "tryworks",
+      "order": 96
+    },
+    {
+      "id": "section-097",
+      "slug": "lamp",
+      "order": 97
+    },
+    {
+      "id": "section-098",
+      "slug": "stowing-down-and-clearing-up",
+      "order": 98
+    },
+    {
+      "id": "section-099",
+      "slug": "doubloon",
+      "order": 99
+    },
+    {
+      "id": "section-100",
+      "slug": "leg-and-arm",
+      "order": 100
+    },
+    {
+      "id": "section-101",
+      "slug": "decanter",
+      "order": 101
+    },
+    {
+      "id": "section-102",
+      "slug": "a-bower-in-the-arsacides",
+      "order": 102
+    },
+    {
+      "id": "section-103",
+      "slug": "measurement-of-the-whales-skeleton",
+      "order": 103
+    },
+    {
+      "id": "section-104",
+      "slug": "fossil-whale",
+      "order": 104
+    },
+    {
+      "id": "section-105",
+      "slug": "does-the-whales-magnitude-diminish-will",
+      "order": 105
+    },
+    {
+      "id": "section-106",
+      "slug": "ahabs-leg",
+      "order": 106
+    },
+    {
+      "id": "section-107",
+      "slug": "carpenter",
+      "order": 107
+    },
+    {
+      "id": "section-108",
+      "slug": "ahab-and-the-carpenter",
+      "order": 108
+    },
+    {
+      "id": "section-109",
+      "slug": "ahab-and-starbuck-in-the-cabin",
+      "order": 109
+    },
+    {
+      "id": "section-110",
+      "slug": "queequeg-in-his-coffin",
+      "order": 110
+    },
+    {
+      "id": "section-111",
+      "slug": "pacific",
+      "order": 111
+    },
+    {
+      "id": "section-112",
+      "slug": "blacksmith",
+      "order": 112
+    },
+    {
+      "id": "section-113",
+      "slug": "forge",
+      "order": 113
+    },
+    {
+      "id": "section-114",
+      "slug": "gilder",
+      "order": 114
+    },
+    {
+      "id": "section-115",
+      "slug": "pequod-meets-the-bachelor",
+      "order": 115
+    },
+    {
+      "id": "section-116",
+      "slug": "dying-whale",
+      "order": 116
+    },
+    {
+      "id": "section-117",
+      "slug": "whale-watch",
+      "order": 117
+    },
+    {
+      "id": "section-118",
+      "slug": "quadrant",
+      "order": 118
+    },
+    {
+      "id": "section-119",
+      "slug": "candles",
+      "order": 119
+    },
+    {
+      "id": "section-120",
+      "slug": "deck-towards-the-end-of-the-first-night",
+      "order": 120
+    },
+    {
+      "id": "section-121",
+      "slug": "midnight-the-forecastle-bulwarks",
+      "order": 121
+    },
+    {
+      "id": "section-122",
+      "slug": "midnight-aloft-thunder-and-lightning",
+      "order": 122
+    },
+    {
+      "id": "section-123",
+      "slug": "musket",
+      "order": 123
+    },
+    {
+      "id": "section-124",
+      "slug": "needle",
+      "order": 124
+    },
+    {
+      "id": "section-125",
+      "slug": "log-and-line",
+      "order": 125
+    },
+    {
+      "id": "section-126",
+      "slug": "lifebuoy",
+      "order": 126
+    },
+    {
+      "id": "section-127",
+      "slug": "deck",
+      "order": 127
+    },
+    {
+      "id": "section-128",
+      "slug": "pequod-meets-the-rachel",
+      "order": 128
+    },
+    {
+      "id": "section-129",
+      "slug": "cabin",
+      "order": 129
+    },
+    {
+      "id": "section-130",
+      "slug": "hat",
+      "order": 130
+    },
+    {
+      "id": "section-131",
+      "slug": "pequod-meets-the-delight",
+      "order": 131
+    },
+    {
+      "id": "section-132",
+      "slug": "symphony",
+      "order": 132
+    },
+    {
+      "id": "section-133",
+      "slug": "chasefirst-day",
+      "order": 133
+    },
+    {
+      "id": "section-134",
+      "slug": "chasesecond-day",
+      "order": 134
+    },
+    {
+      "id": "section-135",
+      "slug": "chase-third-day",
+      "order": 135
+    }
+  ],
+  "sourceFiles": [
+    "source/original.txt"
+  ]
+}

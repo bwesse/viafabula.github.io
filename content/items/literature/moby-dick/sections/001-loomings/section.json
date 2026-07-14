@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "loomings",
+  "order": 1,
+  "title": {
+    "en": "Loomings"
+  },
+  "legacyIds": [
+    "001_loomings",
+    "01_loomings"
+  ],
+  "archivedVariants": [
+    {
+      "id": "original-legacy",
+      "path": "text/en/original-legacy.md",
+      "reason": "Preserved non-identical pre-migration variant"
+    }
+  ]
+}

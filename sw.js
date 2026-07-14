@@ -1,18 +1,18 @@
-const CACHE_VERSION = 'v9';
+const CACHE_VERSION = 'v10';
 const CACHE_NAME = `reader-cache-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
   './',
   './index.html',
   './manifest.json',
   './icon512.png',
-  './content-index.json',
+  './content/catalog.json',
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     await cache.addAll(PRECACHE_URLS);
-    self.skipWaiting(); // activate updated worker immediately
+    self.skipWaiting();
   })());
 });
 
@@ -20,32 +20,26 @@ self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
     await Promise.all(keys.map((key) => (key === CACHE_NAME ? null : caches.delete(key))));
-    await self.clients.claim(); // take control of open tabs
+    await self.clients.claim();
   })());
 });
 
-// Network-first: always try fresh content, fall back to cache when offline.
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-  const { request } = event;
-
-  // Only handle same-origin requests to avoid extension/third-party noise.
-  const requestUrl = new URL(request.url);
+  const requestUrl = new URL(event.request.url);
   const scopeUrl = new URL(self.registration.scope);
   if (requestUrl.origin !== scopeUrl.origin) return;
 
-  // Bypass cache logic for book content to always hit the freshest markdown.
-  // However, if offline, fall back to cache for downloaded content.
-  if (requestUrl.pathname.includes('/content/books/')) {
+  // Item content is network-first so updates remain fresh, with downloaded
+  // resources available from the selective offline cache.
+  if (requestUrl.pathname.includes('/content/items/')) {
     event.respondWith((async () => {
       try {
-        return await fetch(request);
-      } catch (err) {
-        // If fetch fails (offline), try cache
-        const cache = await caches.open(CACHE_NAME);
-        const cached = await cache.match(request);
+        return await fetch(event.request);
+      } catch (error) {
+        const cached = await caches.match(event.request);
         if (cached) return cached;
-        throw err;
+        throw error;
       }
     })());
     return;
@@ -53,77 +47,48 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith((async () => {
     try {
-      const networkResponse = await fetch(request);
-      const cache = await caches.open(CACHE_NAME);
-      cache.put(request, networkResponse.clone());
-      return networkResponse;
-    } catch (err) {
-      const cache = await caches.open(CACHE_NAME);
-      const cached = await cache.match(request);
+      const response = await fetch(event.request);
+      if (response.ok) {
+        const cache = await caches.open(CACHE_NAME);
+        await cache.put(event.request, response.clone());
+      }
+      return response;
+    } catch (error) {
+      const cached = await caches.match(event.request);
       if (cached) return cached;
-      throw err;
+      throw error;
     }
   })());
 });
 
 self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-  
-  if (event.data && event.data.type === 'DOWNLOAD_BOOK') {
-    const { bookId, urls } = event.data;
-    downloadBook(bookId, urls, event.source);
+  if (event.data?.type === 'SKIP_WAITING') self.skipWaiting();
+  if (event.data?.type === 'DOWNLOAD_ITEM') {
+    const { itemId, urls } = event.data;
+    event.waitUntil(downloadItem(itemId, urls, event.source));
   }
 });
 
-async function downloadBook(bookId, urls, client) {
+async function downloadItem(itemId, urls, client) {
   try {
     const cache = await caches.open(CACHE_NAME);
+    const uniqueUrls = [...new Set(urls)];
     let current = 0;
-    const total = urls.length;
-    
-    // Send initial progress
-    client.postMessage({
-      type: 'DOWNLOAD_PROGRESS',
-      bookId,
-      current: 0,
-      total,
-      status: 'downloading'
-    });
+    client?.postMessage({ type: 'DOWNLOAD_PROGRESS', itemId, current, total: uniqueUrls.length, status: 'downloading' });
 
-    for (const url of urls) {
-      try {
-        // Try to fetch the resource
-        const response = await fetch(url);
-        if (response.ok) {
-          await cache.put(url, response);
-        }
-        // Note: We don't fail the entire download if one file is missing (e.g., optional _q.json files)
-      } catch (err) {
-        // Log but continue with other files
-        console.warn(`Failed to cache ${url}:`, err);
-      }
-      
-      current++;
-      
-      // Send progress update every 5 files or at the end
-      if (current % 5 === 0 || current === total) {
-        client.postMessage({
-          type: 'DOWNLOAD_PROGRESS',
-          bookId,
-          current,
-          total,
-          status: current === total ? 'complete' : 'downloading'
+    for (const url of uniqueUrls) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
+      await cache.put(url, response.clone());
+      current += 1;
+      if (current % 5 === 0 || current === uniqueUrls.length) {
+        client?.postMessage({
+          type: 'DOWNLOAD_PROGRESS', itemId, current, total: uniqueUrls.length,
+          status: current === uniqueUrls.length ? 'complete' : 'downloading',
         });
       }
     }
   } catch (error) {
-    client.postMessage({
-      type: 'DOWNLOAD_PROGRESS',
-      bookId,
-      status: 'error',
-      error: error.message
-    });
+    client?.postMessage({ type: 'DOWNLOAD_PROGRESS', itemId, status: 'error', error: error.message });
   }
 }

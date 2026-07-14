@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "peru",
+  "legacyIds": [
+    "Peru"
+  ],
+  "type": "travel",
+  "subtype": "travel-guide",
+  "title": "Peru",
+  "author": null,
+  "sectionLabel": {
+    "singular": "Topic",
+    "plural": "Topics"
+  },
+  "source": {
+    "origin": "unknown",
+    "rights": "review-required"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "intro",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "geography",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "history",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "culture",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "language",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "politics",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "economy",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "food",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "transportation",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "safety",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "nature",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "etiquette",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "worldview",
+      "order": 12
+    },
+    {
+      "id": "section-013",
+      "slug": "lima",
+      "order": 13
+    },
+    {
+      "id": "section-014",
+      "slug": "paracas",
+      "order": 14
+    },
+    {
+      "id": "section-015",
+      "slug": "ica-huacachina",
+      "order": 15
+    },
+    {
+      "id": "section-016",
+      "slug": "arequipa",
+      "order": 16
+    },
+    {
+      "id": "section-017",
+      "slug": "colca-canyon",
+      "order": 17
+    },
+    {
+      "id": "section-018",
+      "slug": "puno",
+      "order": 18
+    },
+    {
+      "id": "section-019",
+      "slug": "cusco",
+      "order": 19
+    },
+    {
+      "id": "section-020",
+      "slug": "puerto-maldonado",
+      "order": 20
+    },
+    {
+      "id": "section-021",
+      "slug": "huaraz",
+      "order": 21
+    },
+    {
+      "id": "section-022",
+      "slug": "caraz",
+      "order": 22
+    },
+    {
+      "id": "section-023",
+      "slug": "trujillo",
+      "order": 23
+    },
+    {
+      "id": "section-024",
+      "slug": "chiclayo",
+      "order": 24
+    },
+    {
+      "id": "section-025",
+      "slug": "mancora",
+      "order": 25
+    },
+    {
+      "id": "section-026",
+      "slug": "chachapoyas",
+      "order": 26
+    },
+    {
+      "id": "section-027",
+      "slug": "tarapoto",
+      "order": 27
+    },
+    {
+      "id": "section-028",
+      "slug": "yurimaguas",
+      "order": 28
+    },
+    {
+      "id": "section-029",
+      "slug": "iquitos",
+      "order": 29
+    },
+    {
+      "id": "section-030",
+      "slug": "leticia",
+      "order": 30
+    },
+    {
+      "id": "section-031",
+      "slug": "final-thoughts",
+      "order": 31
+    }
+  ]
+}

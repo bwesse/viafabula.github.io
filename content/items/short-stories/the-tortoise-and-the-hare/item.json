@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "the-tortoise-and-the-hare",
+  "legacyIds": [
+    "The_Tortoise_and_the_Hare"
+  ],
+  "type": "short-stories",
+  "subtype": "fable",
+  "title": "The Tortoise and the Hare",
+  "author": "Aesop",
+  "sectionLabel": {
+    "singular": "Scene",
+    "plural": "Scenes"
+  },
+  "source": {
+    "origin": "public-domain-adaptation",
+    "rights": "review-required",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "preamble",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "a-boastful-runner",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "a-quiet-challenge",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "the-forest-gathers",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "at-the-starting-line",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "the-race-begins",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "overconfidence",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "steady-progress",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "a-sudden-awakening",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "the-final-stride",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "lesson-of-the-day",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "a-new-understanding",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "the-enduring-moral",
+      "order": 12
+    }
+  ]
+}

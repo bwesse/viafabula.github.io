@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "geography",
+  "order": 1,
+  "title": {
+    "en": "Geography"
+  },
+  "legacyIds": [
+    "01_Geography"
+  ]
+}

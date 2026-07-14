@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-059",
+  "slug": "squid",
+  "order": 59,
+  "title": {
+    "en": "Squid"
+  },
+  "legacyIds": [
+    "059_squid"
+  ]
+}

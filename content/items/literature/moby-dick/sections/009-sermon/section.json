@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-009",
+  "slug": "sermon",
+  "order": 9,
+  "title": {
+    "en": "Sermon"
+  },
+  "legacyIds": [
+    "009_sermon"
+  ]
+}

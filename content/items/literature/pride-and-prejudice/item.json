@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "id": "pride-and-prejudice",
+  "legacyIds": [
+    "Pride_and_Prejudice"
+  ],
+  "type": "literature",
+  "subtype": "novel",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "project-gutenberg",
+    "rights": "public-domain",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "en"
+  ],
+  "levels": [
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "prefix",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "chapter-i",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "chapter-ii",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "chapter-iii",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "chapter-iv",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "chapter-v",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "chapter-vi",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "chapter-vii",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "chapter-viii",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "chapter-ix",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "chapter-x",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "chapter-xi",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "chapter-xii",
+      "order": 12
+    },
+    {
+      "id": "section-013",
+      "slug": "chapter-xiii",
+      "order": 13
+    },
+    {
+      "id": "section-014",
+      "slug": "chapter-xiv",
+      "order": 14
+    },
+    {
+      "id": "section-015",
+      "slug": "chapter-xv",
+      "order": 15
+    },
+    {
+      "id": "section-016",
+      "slug": "chapter-xvi",
+      "order": 16
+    },
+    {
+      "id": "section-017",
+      "slug": "chapter-xvii",
+      "order": 17
+    },
+    {
+      "id": "section-018",
+      "slug": "chapter-xviii",
+      "order": 18
+    },
+    {
+      "id": "section-019",
+      "slug": "chapter-xix",
+      "order": 19
+    },
+    {
+      "id": "section-020",
+      "slug": "chapter-xx",
+      "order": 20
+    },
+    {
+      "id": "section-021",
+      "slug": "chapter-xxi",
+      "order": 21
+    },
+    {
+      "id": "section-022",
+      "slug": "chapter-xxii",
+      "order": 22
+    },
+    {
+      "id": "section-023",
+      "slug": "chapter-xxiii",
+      "order": 23
+    },
+    {
+      "id": "section-024",
+      "slug": "chapter-xxiv",
+      "order": 24
+    },
+    {
+      "id": "section-025",
+      "slug": "chapter-xxv",
+      "order": 25
+    },
+    {
+      "id": "section-026",
+      "slug": "chapter-xxvi",
+      "order": 26
+    },
+    {
+      "id": "section-027",
+      "slug": "chapter-xxvii",
+      "order": 27
+    },
+    {
+      "id": "section-028",
+      "slug": "chapter-xxviii",
+      "order": 28
+    },
+    {
+      "id": "section-029",
+      "slug": "chapter-xxix",
+      "order": 29
+    },
+    {
+      "id": "section-030",
+      "slug": "chapter-xxx",
+      "order": 30
+    },
+    {
+      "id": "section-031",
+      "slug": "chapter-xxxi",
+      "order": 31
+    },
+    {
+      "id": "section-032",
+      "slug": "chapter-xxxii",
+      "order": 32
+    },
+    {
+      "id": "section-033",
+      "slug": "chapter-xxxiii",
+      "order": 33
+    },
+    {
+      "id": "section-034",
+      "slug": "chapter-xxxiv",
+      "order": 34
+    },
+    {
+      "id": "section-035",
+      "slug": "chapter-xxxv",
+      "order": 35
+    },
+    {
+      "id": "section-036",
+      "slug": "chapter-xxxvi",
+      "order": 36
+    },
+    {
+      "id": "section-037",
+      "slug": "chapter-xxxvii",
+      "order": 37
+    },
+    {
+      "id": "section-038",
+      "slug": "chapter-xxxviii",
+      "order": 38
+    },
+    {
+      "id": "section-039",
+      "slug": "chapter-xxxix",
+      "order": 39
+    },
+    {
+      "id": "section-040",
+      "slug": "chapter-xl",
+      "order": 40
+    },
+    {
+      "id": "section-041",
+      "slug": "chapter-xli",
+      "order": 41
+    },
+    {
+      "id": "section-042",
+      "slug": "chapter-xlii",
+      "order": 42
+    },
+    {
+      "id": "section-043",
+      "slug": "chapter-xliii",
+      "order": 43
+    },
+    {
+      "id": "section-044",
+      "slug": "chapter-xliv",
+      "order": 44
+    },
+    {
+      "id": "section-045",
+      "slug": "chapter-xlv",
+      "order": 45
+    },
+    {
+      "id": "section-046",
+      "slug": "chapter-xlvi",
+      "order": 46
+    },
+    {
+      "id": "section-047",
+      "slug": "chapter-xlvii",
+      "order": 47
+    },
+    {
+      "id": "section-048",
+      "slug": "chapter-xlviii",
+      "order": 48
+    },
+    {
+      "id": "section-049",
+      "slug": "chapter-xlix",
+      "order": 49
+    },
+    {
+      "id": "section-050",
+      "slug": "chapter-l",
+      "order": 50
+    },
+    {
+      "id": "section-051",
+      "slug": "chapter-li",
+      "order": 51
+    },
+    {
+      "id": "section-052",
+      "slug": "chapter-lii",
+      "order": 52
+    },
+    {
+      "id": "section-053",
+      "slug": "chapter-liii",
+      "order": 53
+    },
+    {
+      "id": "section-054",
+      "slug": "chapter-liv",
+      "order": 54
+    },
+    {
+      "id": "section-055",
+      "slug": "chapter-lv",
+      "order": 55
+    },
+    {
+      "id": "section-056",
+      "slug": "chapter-lvi",
+      "order": 56
+    },
+    {
+      "id": "section-057",
+      "slug": "chapter-lvii",
+      "order": 57
+    },
+    {
+      "id": "section-058",
+      "slug": "chapter-lviii",
+      "order": 58
+    },
+    {
+      "id": "section-059",
+      "slug": "chapter-lix",
+      "order": 59
+    },
+    {
+      "id": "section-060",
+      "slug": "chapter-lx",
+      "order": 60
+    },
+    {
+      "id": "section-061",
+      "slug": "chapter-lxi",
+      "order": 61
+    }
+  ],
+  "sourceFiles": [
+    "source/original.txt"
+  ]
+}

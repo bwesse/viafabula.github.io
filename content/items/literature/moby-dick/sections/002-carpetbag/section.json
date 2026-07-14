@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "carpetbag",
+  "order": 2,
+  "title": {
+    "en": "Carpetbag"
+  },
+  "legacyIds": [
+    "002_carpetbag",
+    "02_carpet_bag"
+  ],
+  "archivedVariants": [
+    {
+      "id": "original-legacy",
+      "path": "text/en/original-legacy.md",
+      "reason": "Preserved non-identical pre-migration variant"
+    }
+  ]
+}

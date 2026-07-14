@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-008",
+  "slug": "pulpit",
+  "order": 8,
+  "title": {
+    "en": "Pulpit"
+  },
+  "legacyIds": [
+    "008_pulpit"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-090",
+  "slug": "heads-or-tails",
+  "order": 90,
+  "title": {
+    "en": "Heads Or Tails"
+  },
+  "legacyIds": [
+    "090_heads_or_tails"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-045",
+  "slug": "affidavit",
+  "order": 45,
+  "title": {
+    "en": "Affidavit"
+  },
+  "legacyIds": [
+    "045_affidavit"
+  ]
+}

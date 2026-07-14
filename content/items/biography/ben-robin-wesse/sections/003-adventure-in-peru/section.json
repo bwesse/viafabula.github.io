@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "adventure-in-peru",
+  "order": 3,
+  "title": {
+    "en": "Adventure In Peru"
+  },
+  "legacyIds": [
+    "03_adventure_in_peru"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-007",
+  "slug": "chapel",
+  "order": 7,
+  "title": {
+    "en": "Chapel"
+  },
+  "legacyIds": [
+    "007_chapel"
+  ]
+}

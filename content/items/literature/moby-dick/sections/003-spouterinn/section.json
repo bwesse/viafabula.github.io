@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "spouterinn",
+  "order": 3,
+  "title": {
+    "en": "Spouterinn"
+  },
+  "legacyIds": [
+    "003_spouterinn"
+  ]
+}

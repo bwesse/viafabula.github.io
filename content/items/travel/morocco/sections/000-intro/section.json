@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "intro",
+  "order": 0,
+  "title": {
+    "en": "Intro"
+  },
+  "legacyIds": [
+    "00_intro"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-111",
+  "slug": "pacific",
+  "order": 111,
+  "title": {
+    "en": "Pacific"
+  },
+  "legacyIds": [
+    "111_pacific"
+  ]
+}

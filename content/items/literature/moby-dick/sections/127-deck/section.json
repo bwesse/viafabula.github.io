@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-127",
+  "slug": "deck",
+  "order": 127,
+  "title": {
+    "en": "Deck"
+  },
+  "legacyIds": [
+    "127_deck"
+  ]
+}

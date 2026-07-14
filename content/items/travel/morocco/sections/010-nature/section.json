@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-010",
+  "slug": "nature",
+  "order": 10,
+  "title": {
+    "en": "Nature"
+  },
+  "legacyIds": [
+    "10_Nature"
+  ]
+}

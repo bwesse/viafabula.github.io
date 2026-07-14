@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "a-boastful-runner",
+  "order": 1,
+  "title": {
+    "en": "A Boastful Runner"
+  },
+  "legacyIds": [
+    "01_A_Boastful_Runner"
+  ]
+}

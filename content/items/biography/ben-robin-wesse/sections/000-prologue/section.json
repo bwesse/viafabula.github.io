@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "prologue",
+  "order": 0,
+  "title": {
+    "en": "Prologue"
+  },
+  "legacyIds": [
+    "00_prologue"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "frankenstein",
+  "legacyIds": [
+    "Frankenstein"
+  ],
+  "type": "literature",
+  "subtype": "novel",
+  "title": "Frankenstein",
+  "author": "Mary Wollstonecraft Shelley",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "project-gutenberg",
+    "rights": "public-domain",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "letter-1-to-saville",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "letter-2-archangel",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "letter-3-progress",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "letter-4-strange-accident",
+      "order": 3
+    },
+    {
+      "id": "section-004",
+      "slug": "chapter-1-geneva-birth",
+      "order": 4
+    },
+    {
+      "id": "section-005",
+      "slug": "chapter-2-childhood",
+      "order": 5
+    },
+    {
+      "id": "section-006",
+      "slug": "chapter-3-university",
+      "order": 6
+    },
+    {
+      "id": "section-007",
+      "slug": "chapter-4-natural-philosophy",
+      "order": 7
+    },
+    {
+      "id": "section-008",
+      "slug": "chapter-5-creation",
+      "order": 8
+    },
+    {
+      "id": "section-009",
+      "slug": "chapter-6-clerval-letter",
+      "order": 9
+    },
+    {
+      "id": "section-010",
+      "slug": "chapter-7-fathers-letter",
+      "order": 10
+    },
+    {
+      "id": "section-011",
+      "slug": "chapter-8-trial",
+      "order": 11
+    },
+    {
+      "id": "section-012",
+      "slug": "chapter-9-despair",
+      "order": 12
+    },
+    {
+      "id": "section-013",
+      "slug": "chapter-10-valley",
+      "order": 13
+    },
+    {
+      "id": "section-014",
+      "slug": "chapter-11-creature-awakens",
+      "order": 14
+    },
+    {
+      "id": "section-015",
+      "slug": "chapter-12-observations",
+      "order": 15
+    },
+    {
+      "id": "section-016",
+      "slug": "chapter-13-cottagers-story",
+      "order": 16
+    },
+    {
+      "id": "section-017",
+      "slug": "chapter-14-friends-history",
+      "order": 17
+    },
+    {
+      "id": "section-018",
+      "slug": "chapter-15-education",
+      "order": 18
+    },
+    {
+      "id": "section-019",
+      "slug": "chapter-16-cursed-creator",
+      "order": 19
+    },
+    {
+      "id": "section-020",
+      "slug": "chapter-17-companion-request",
+      "order": 20
+    },
+    {
+      "id": "section-021",
+      "slug": "chapter-18-return-geneva",
+      "order": 21
+    },
+    {
+      "id": "section-022",
+      "slug": "chapter-19-london",
+      "order": 22
+    },
+    {
+      "id": "section-023",
+      "slug": "chapter-20-laboratory",
+      "order": 23
+    },
+    {
+      "id": "section-024",
+      "slug": "chapter-21-magistrate",
+      "order": 24
+    },
+    {
+      "id": "section-025",
+      "slug": "chapter-22-paris",
+      "order": 25
+    },
+    {
+      "id": "section-026",
+      "slug": "chapter-23-wedding",
+      "order": 26
+    },
+    {
+      "id": "section-027",
+      "slug": "chapter-24-final-pursuit",
+      "order": 27
+    }
+  ],
+  "sourceFiles": [
+    "source/original.txt"
+  ]
+}

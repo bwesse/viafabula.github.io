@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-123",
+  "slug": "musket",
+  "order": 123,
+  "title": {
+    "en": "Musket"
+  },
+  "legacyIds": [
+    "123_musket"
+  ]
+}

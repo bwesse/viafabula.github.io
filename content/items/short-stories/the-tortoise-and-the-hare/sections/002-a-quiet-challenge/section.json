@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "a-quiet-challenge",
+  "order": 2,
+  "title": {
+    "en": "A Quiet Challenge"
+  },
+  "legacyIds": [
+    "02_A_Quiet_Challenge"
+  ]
+}

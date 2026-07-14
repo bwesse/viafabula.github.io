@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "history",
+  "order": 2,
+  "title": {
+    "en": "History"
+  },
+  "legacyIds": [
+    "02_History"
+  ]
+}

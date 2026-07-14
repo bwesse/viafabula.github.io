@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-004",
+  "slug": "counterpane",
+  "order": 4,
+  "title": {
+    "en": "Counterpane"
+  },
+  "legacyIds": [
+    "004_counterpane"
+  ]
+}

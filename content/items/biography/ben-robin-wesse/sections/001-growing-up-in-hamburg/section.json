@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "growing-up-in-hamburg",
+  "order": 1,
+  "title": {
+    "en": "Growing Up In Hamburg"
+  },
+  "legacyIds": [
+    "01_growing_up_in_hamburg"
+  ]
+}
