@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="icon" type="image/png" href="./icon512.png" />
     <link rel="manifest" href="./manifest.json" />
-    <title>Story Reader PWA</title>
+    <title>Reader · VIA Fabula</title>
 
     <style>
       :root {
@@ -575,11 +575,12 @@
         }
       }
     </style>
+    <link rel="stylesheet" href="./assets/app.css" />
   </head>
   <body>
     <header class="topbar" role="banner">
       <button id="menu-toggle" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
-        <span class="hamburger" aria-hidden="true"></span>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M9 4v16"></path></svg>
       </button>
       <button type="button" id="audio-toggle" class="pill-button audio-toggle" disabled aria-pressed="false" aria-label="Play audio">
         <span class="dot" aria-hidden="true"></span>
@@ -594,45 +595,90 @@
       </div>
     </header>
 
-    <aside id="site-sidebar" class="sidebar" role="dialog" aria-hidden="true" aria-label="Site menu">
-      <button id="sidebar-close" aria-label="Close menu">✕</button>
+    <aside id="site-sidebar" class="sidebar" aria-hidden="true" aria-label="VIA Fabula navigation">
+      <div id="sidebar-main-view" class="sidebar-view">
+        <div class="sidebar-header">
+          <span class="brand-mark" aria-hidden="true">VIΛ</span>
+          <span class="brand-name">VIΛ Fabula</span>
+          <button type="button" id="sidebar-close" class="sidebar-icon-button" aria-label="Collapse sidebar" title="Collapse sidebar">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M9 4v16"></path><path d="m15 9-3 3 3 3"></path></svg>
+          </button>
+        </div>
 
-      <div class="sidebar-brand">
-        <div class="brand-title">VIΛ Fabula</div>
-        <div class="brand-subtitle">Language learning via stories</div>
+        <nav aria-label="Primary navigation">
+          <a class="sidebar-link" href="./library.html" title="Library">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"></path></svg>
+            <strong class="sidebar-label">Library</strong>
+          </a>
+        </nav>
+
+        <section class="current-reading" aria-labelledby="current-reading-heading">
+          <h2 id="current-reading-heading" class="sidebar-kicker">Current reading</h2>
+          <div id="current-reading-empty"><p class="current-empty">Choose something from the Library.</p></div>
+          <div id="current-reading-details" hidden>
+            <p id="current-item-title" class="current-item-title"></p>
+            <p id="current-section-title" class="current-section-title"></p>
+            <button type="button" id="current-reading-return" class="current-return">Return to reading</button>
+            <div class="current-nav">
+              <button type="button" id="sidebar-prev" aria-label="Previous chapter">Previous</button>
+              <button type="button" id="sidebar-next" aria-label="Next chapter">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <div class="sidebar-spacer"></div>
+        <button type="button" id="settings-open" class="account-row" title="Settings and personalization">
+          <span class="account-avatar" aria-hidden="true">G</span>
+          <span class="account-copy"><strong>Guest</strong><span class="account-meta">Local profile</span></span>
+          <svg class="icon sidebar-label" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+        </button>
+        <button type="button" id="about-link" class="sidebar-link" title="About">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 8h.01"></path></svg>
+          <span class="sidebar-label">About</span>
+        </button>
+        <div class="sidebar-footer" aria-live="polite">
+          <div id="footer-version" class="version-line">Version 0.2</div>
+          <div id="footer-updated" class="updated-line">Last updated —</div>
+          <div id="footer-cache" class="cache-line">Checking…</div>
+          <div id="footer-download" class="cache-line" style="display: none;">Download: —</div>
+        </div>
       </div>
 
-      <div class="sidebar-section" aria-hidden="false">
+      <div id="settings-view" class="sidebar-view" hidden>
+        <div class="sidebar-header settings-header">
+          <button type="button" id="settings-back" class="sidebar-icon-button" aria-label="Back to navigation">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+          </button>
+          <h2>Settings &amp; Personalization</h2>
+        </div>
+        <div class="settings-content">
+          <div class="legacy-selection-controls" aria-hidden="true">
         <div class="controls-row">
           <label for="book-select" class="small">Item</label>
-          <select id="book-select" aria-label="Select item"></select>
+          <select id="book-select" tabindex="-1" aria-label="Select item"></select>
         </div>
 
         <div class="controls-row">
           <label for="chapter-select" class="small" id="section-select-label">Section</label>
-          <select id="chapter-select" aria-label="Select section"></select>
+          <select id="chapter-select" tabindex="-1" aria-label="Select section"></select>
         </div>
 
         <div class="controls-row" id="subchapter-row" style="display: none;">
           <label for="subchapter-select" class="small">Section</label>
-          <select id="subchapter-select" aria-label="Select section"></select>
+          <select id="subchapter-select" tabindex="-1" aria-label="Select section"></select>
         </div>
+          </div>
 
+        <section class="settings-group" aria-labelledby="appearance-heading">
+          <h3 id="appearance-heading">Appearance</h3>
         <div class="controls-row">
-          <label for="level-select" class="small">Level</label>
-          <select id="level-select" aria-label="Select level"></select>
+          <label class="small" for="theme-select">Color mode</label>
+          <select id="theme-select" aria-label="Select color mode">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="system">System</option>
+          </select>
         </div>
-
-        <div class="controls-row">
-          <label for="native-lang-select" class="small">Native language</label>
-          <select id="native-lang-select" aria-label="Select native language"></select>
-        </div>
-
-        <div class="controls-row">
-          <label for="learning-lang-select" class="small">Learning language</label>
-          <select id="learning-lang-select" aria-label="Select learning language"></select>
-        </div>
-
         <div class="controls-row">
           <label for="text-size-select" class="small">Text size</label>
           <select id="text-size-select" aria-label="Select text size">
@@ -642,21 +688,38 @@
             <option value="xlarge">Extra large</option>
           </select>
         </div>
-
         <div class="controls-row">
-          <label class="small" for="device-mode-select">Device</label>
-          <select id="device-mode-select" aria-label="Select device mode">
-            <option value="mobile">Mobile</option>
-            <option value="desktop">Desktop (Split Screen)</option>
+          <label class="small" for="device-mode-select">Reader layout</label>
+          <select id="device-mode-select" aria-label="Select reader layout">
+            <option value="mobile">Single panel</option>
+            <option value="desktop">Split screen</option>
             <option value="ereader">E-reader</option>
           </select>
         </div>
-
         <div class="controls-row">
           <label class="small" for="floating-toggle-setting">Floating language toggle</label>
           <button type="button" id="floating-toggle-setting" class="pill-button" aria-pressed="false">Enable</button>
         </div>
+        </section>
 
+        <section class="settings-group" aria-labelledby="language-heading">
+          <h3 id="language-heading">Language &amp; reading preferences</h3>
+        <div class="controls-row">
+          <label for="native-lang-select" class="small">Native language</label>
+          <select id="native-lang-select" aria-label="Select native language"></select>
+        </div>
+        <div class="controls-row">
+          <label for="learning-lang-select" class="small">Learning language</label>
+          <select id="learning-lang-select" aria-label="Select learning language"></select>
+        </div>
+        <div class="controls-row">
+          <label for="level-select" class="small">Preferred reading level</label>
+          <select id="level-select" aria-label="Select reading level"></select>
+        </div>
+        </section>
+
+        <section class="settings-group" aria-labelledby="progress-heading">
+          <h3 id="progress-heading">Reading progress</h3>
         <div class="controls-row">
           <label class="small">Bookmark</label>
           <div class="bookmark-actions">
@@ -667,7 +730,7 @@
         </div>
 
         <div class="controls-row">
-          <label class="small">Streak</label>
+          <label class="small">Reading activity</label>
           <div class="streak-card" aria-live="polite">
             <div class="streak-row">
               <div id="streak-days">0-day streak</div>
@@ -677,22 +740,14 @@
           </div>
         </div>
 
-        <div class="controls-row">
-          <label class="small" for="theme-toggle">Night mode</label>
-          <button type="button" id="theme-toggle" class="pill-button" aria-pressed="false">Off</button>
-        </div>
+        </section>
+        <section class="settings-group" aria-labelledby="account-heading">
+          <h3 id="account-heading">Account</h3>
+          <p class="settings-account-note"><strong>Guest</strong><br />Progress is stored on this device. There is no cloud synchronization.</p>
+        </section>
+        <button type="button" id="theme-toggle" hidden aria-hidden="true"></button>
+        <button type="button" id="download-book-button" hidden disabled aria-hidden="true"></button>
       </div>
-
-      <nav class="menu" aria-label="Links">
-        <button type="button" id="download-book-button" disabled aria-label="Download current item for offline reading">📥 Download Item</button>
-        <a href="#" id="about-link">About</a>
-      </nav>
-
-      <div class="sidebar-footer" aria-live="polite">
-        <div id="footer-version" class="version-line">Version 0.1</div>
-        <div id="footer-updated" class="updated-line">Last updated —</div>
-        <div id="footer-cache" class="cache-line">Checking…</div>
-        <div id="footer-download" class="cache-line" style="display: none;">Download: —</div>
       </div>
     </aside>
 
@@ -731,6 +786,8 @@
       </article>
     </main>
 
+    <script src="./assets/sidebar.js"></script>
+    <script src="./assets/downloads.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         const swScope = './';
@@ -777,31 +834,9 @@
       const levelUpBtn = document.getElementById('level-up');
       const levelDownBtn = document.getElementById('level-down');
       const floatingLangToggle = document.getElementById('floating-lang-toggle');
-
-      function openSidebar() {
-        sidebar.classList.add('open');
-        sidebar.setAttribute('aria-hidden', 'false');
-        menuToggle.setAttribute('aria-expanded', 'true');
-        overlay.classList.add('show');
-        overlay.setAttribute('aria-hidden', 'false');
-      }
-      function closeSidebar() {
-        sidebar.classList.remove('open');
-        sidebar.setAttribute('aria-hidden', 'true');
-        menuToggle.setAttribute('aria-expanded', 'false');
-        overlay.classList.remove('show');
-        overlay.setAttribute('aria-hidden', 'true');
-      }
-
-      menuToggle.addEventListener('click', () => {
-        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-        if (expanded) closeSidebar(); else openSidebar();
-      });
-      overlay.addEventListener('click', closeSidebar);
-      sidebarClose.addEventListener('click', closeSidebar);
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeSidebar();
-      });
+      const sidebarShell = window.ViaSidebar.create();
+      function openSidebar() { sidebarShell?.open(); }
+      function closeSidebar() { sidebarShell?.close(); }
       if (audioToggleBtn) audioToggleBtn.addEventListener('click', toggleAudioPlayback);
 
       const bookSelect = document.getElementById('book-select');
@@ -819,6 +854,7 @@
       const statusLine = document.getElementById('status-line');
       const aboutLink = document.getElementById('about-link');
       const themeToggle = document.getElementById('theme-toggle');
+      const themeSelect = document.getElementById('theme-select');
       const footerVersion = document.getElementById('footer-version');
       const footerUpdated = document.getElementById('footer-updated');
       const footerCache = document.getElementById('footer-cache');
@@ -844,6 +880,13 @@
       const streakTimeEl = document.getElementById('streak-time');
       const downloadBookButton = document.getElementById('download-book-button');
       const footerDownload = document.getElementById('footer-download');
+      const currentReadingEmpty = document.getElementById('current-reading-empty');
+      const currentReadingDetails = document.getElementById('current-reading-details');
+      const currentItemTitle = document.getElementById('current-item-title');
+      const currentSectionTitle = document.getElementById('current-section-title');
+      const currentReadingReturn = document.getElementById('current-reading-return');
+      const sidebarPrev = document.getElementById('sidebar-prev');
+      const sidebarNext = document.getElementById('sidebar-next');
 
       const STREAK_DEFAULT = {
         streakDays: 0,
@@ -864,6 +907,7 @@
         floatingTogglePosition: null,
         bookmark: null,
         lastPosition: null,
+        positions: {},
         streak: { ...STREAK_DEFAULT },
         comprehension: {},
         deviceMode: 'mobile',
@@ -891,7 +935,7 @@
       let deviceMode = SETTINGS_DEFAULT.deviceMode;
       const LAST_VERSION_KEY = 'reader-last-version';
       const LAST_VISIT_KEY = 'reader-last-visit';
-      const MANUAL_VERSION = '0.1'; // set to e.g. "0.1" to override auto version labeling
+      const MANUAL_VERSION = '0.2';
       const BUILD_INFO = (() => {
         const parsed = new Date(document.lastModified);
         const validDate = Number.isNaN(parsed.getTime()) ? new Date() : parsed;
@@ -902,6 +946,7 @@
       })();
       let prevChapterTarget = null;
       let nextChapterTarget = null;
+      let pendingSidebarNavigation = new URLSearchParams(window.location.search).get('navigate');
       let questionsRequired = false;
       let comprehensionComplete = true;
       let comprehensionQuestions = [];
@@ -952,7 +997,8 @@
         userSettings = readUserSettings();
         nativeLanguageId = userSettings.nativeLanguageId || FALLBACK_NATIVE_ID;
         learningLanguageId = userSettings.learningLanguageId || null;
-        nightMode = userSettings.theme === 'dark';
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        nightMode = userSettings.theme === 'dark' || (userSettings.theme === 'system' && prefersDark);
         textSize = userSettings.textSize || SETTINGS_DEFAULT.textSize;
         floatingToggleEnabled = Boolean(userSettings.floatingToggleEnabled);
         floatingTogglePosition = userSettings.floatingTogglePosition || null;
@@ -1726,6 +1772,14 @@
         nextChapterMeta.hidden = true;
 
         prevChapterButton.setAttribute('aria-label', enablePrev ? `Previous chapter ${prev.chapterTitle}` : 'Previous chapter');
+        if (sidebarPrev) {
+          sidebarPrev.disabled = !enablePrev;
+          sidebarPrev.setAttribute('aria-label', enablePrev ? `Previous chapter ${prev.chapterTitle}` : 'Previous chapter');
+        }
+        if (sidebarNext) {
+          sidebarNext.disabled = !enableNext;
+          sidebarNext.setAttribute('aria-label', enableNext ? `Next chapter ${next.chapterTitle}` : 'Next chapter');
+        }
       }
       function normalizeBookmark(raw) {
         if (!raw || typeof raw !== 'object') return null;
@@ -1891,6 +1945,7 @@
       function applyTheme() {
         document.body.classList.toggle('night', nightMode);
         document.documentElement.classList.toggle('night', nightMode);
+        if (themeSelect) themeSelect.value = ['light', 'dark', 'system'].includes(userSettings.theme) ? userSettings.theme : 'light';
         if (themeToggle) {
           themeToggle.textContent = nightMode ? 'On' : 'Off';
           themeToggle.setAttribute('aria-pressed', String(nightMode));
@@ -1930,7 +1985,7 @@
         learningLanguageId = setSelectOptions(learningLangSelect, languages, learningLanguageId || state.langId);
         ensureLanguageSelections();
         state.langId = state.langId || learningLanguageId || nativeLanguageId;
-        persistSettings({ nativeLanguageId, learningLanguageId, textSize, theme: nightMode ? 'dark' : 'light', bookmark });
+        persistSettings({ nativeLanguageId, learningLanguageId, textSize, bookmark });
         populateLevels(options);
       }
       function populateLevels(options = {}) {
@@ -1960,6 +2015,10 @@
         const displayTitle = subchapter ? subchapter.title : chapter.title;
         readerTitle.textContent = displayTitle;
         readerMeta.textContent = `${book.title} · ${lang.title} · ${level.title}`;
+        if (currentReadingEmpty) currentReadingEmpty.hidden = true;
+        if (currentReadingDetails) currentReadingDetails.hidden = false;
+        if (currentItemTitle) currentItemTitle.textContent = book.title;
+        if (currentSectionTitle) currentSectionTitle.textContent = displayTitle;
         prepareAudio(level);
 
         resetComprehension();
@@ -1973,11 +2032,20 @@
           storyBody.innerHTML = markdownToHtml(md);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
           const pos = normalizeBookmark(state);
-          if (pos) { lastPosition = pos; persistSettings({ lastPosition }); }
+          if (pos) {
+            lastPosition = pos;
+            persistSettings({ lastPosition, positions: { ...(userSettings.positions || {}), [book.id]: serializePosition(pos) } });
+          }
           await Promise.all([
             loadComprehensionQuestions(level),
             loadNativeContent(displayTitle),
           ]);
+          if (pendingSidebarNavigation) {
+            const direction = pendingSidebarNavigation;
+            pendingSidebarNavigation = null;
+            if (direction === 'previous') prevChapterButton?.click();
+            if (direction === 'next') nextChapterButton?.click();
+          }
         } catch (error) {
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
           setStatus('Failed to load markdown content.');
@@ -2010,6 +2078,35 @@
             })),
           })),
         };
+      }
+
+      function urlPosition() {
+        const params = new URLSearchParams(window.location.search);
+        const requestedItemId = params.get('item');
+        if (!requestedItemId) return null;
+        const book = library.books.find(candidate => candidate.id === requestedItemId || candidate.legacyIds?.includes(requestedItemId));
+        if (!book) return null;
+        const savedRaw = userSettings.positions?.[book.id]
+          || ((userSettings.lastPosition?.itemId || userSettings.lastPosition?.bookId) === book.id ? userSettings.lastPosition : null);
+        const saved = migrateLegacyPosition(savedRaw);
+        const requestedSectionId = params.get('section');
+        const chapter = book.chapters.find(candidate => candidate.id === requestedSectionId || candidate.legacyIds?.includes(requestedSectionId))
+          || book.chapters.find(candidate => candidate.id === saved?.chapterId)
+          || book.chapters[0];
+        if (!chapter) return null;
+        const languages = chapter.languages || [];
+        const requestedLanguageId = params.get('language');
+        const language = languages.find(candidate => candidate.id === requestedLanguageId)
+          || languages.find(candidate => candidate.id === saved?.langId)
+          || languages.find(candidate => candidate.id === learningLanguageId)
+          || languages[0];
+        if (!language) return null;
+        const requestedLevelId = params.get('level');
+        const level = language.levels.find(candidate => candidate.id === requestedLevelId)
+          || language.levels.find(candidate => candidate.id === saved?.levelId)
+          || language.levels[0];
+        if (!level) return null;
+        return { bookId: book.id, chapterId: chapter.id, subchapterId: null, langId: language.id, levelId: level.id };
       }
 
       async function loadLibrary() {
@@ -2046,7 +2143,10 @@
           lastPosition = null;
           persistSettings({ lastPosition: null });
         }
-        if (bookmarkIsValid(bookmark)) {
+        const requestedPosition = urlPosition();
+        if (requestedPosition) {
+          applyPositionToState(requestedPosition);
+        } else if (bookmarkIsValid(bookmark)) {
           applyPositionToState(bookmark);
         } else if (bookmarkIsValid(lastPosition)) {
           applyPositionToState(lastPosition);
@@ -2055,6 +2155,9 @@
         populateBooks();
         updateBookmarkStatus();
         updateDownloadButtonState();
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('view') === 'about') renderAboutView();
+        if (params.get('settings') === '1') sidebarShell?.openSettings();
       }
 
       function renderAboutView() {
@@ -2113,6 +2216,17 @@
         applyTheme();
         persistSettings({ theme: nightMode ? 'dark' : 'light' });
       });
+      themeSelect?.addEventListener('change', () => {
+        const theme = themeSelect.value;
+        nightMode = theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        persistSettings({ theme });
+        applyTheme();
+      });
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+        if (userSettings.theme !== 'system') return;
+        nightMode = event.matches;
+        applyTheme();
+      });
       textSizeSelect?.addEventListener('change', () => {
         textSize = textSizeSelect.value;
         persistSettings({ textSize });
@@ -2169,6 +2283,12 @@
         state.langId = nextChapterTarget.langId;
         state.levelId = nextChapterTarget.levelId;
         populateChapters({ scrollToTop: true });
+      });
+      sidebarPrev?.addEventListener('click', () => prevChapterButton?.click());
+      sidebarNext?.addEventListener('click', () => nextChapterButton?.click());
+      currentReadingReturn?.addEventListener('click', () => {
+        closeSidebar();
+        loadCurrentSelection({ scrollToTop: true });
       });
 
       if (floatingLangToggle) {

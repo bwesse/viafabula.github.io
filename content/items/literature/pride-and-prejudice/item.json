@@ -5,6 +5,7 @@
     "Pride_and_Prejudice"
   ],
   "type": "literature",
+  "catalogOrder": 2,
   "subtype": "novel",
   "title": "Pride and Prejudice",
   "author": "Jane Austen",

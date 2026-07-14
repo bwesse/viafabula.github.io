@@ -5,6 +5,7 @@
     "Frankenstein"
   ],
   "type": "literature",
+  "catalogOrder": 1,
   "subtype": "novel",
   "title": "Frankenstein",
   "author": "Mary Wollstonecraft Shelley",

@@ -5,6 +5,7 @@
     "Morocco"
   ],
   "type": "travel",
+  "catalogOrder": 0,
   "subtype": "travel-guide",
   "title": "Morocco",
   "author": null,

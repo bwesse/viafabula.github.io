@@ -4,12 +4,21 @@
 from __future__ import annotations
 
 import json
+import importlib.util
 import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "content" / "catalog.json"
+_BUILD_SPEC = importlib.util.spec_from_file_location("build_catalog", ROOT / "tools" / "build-catalog.py")
+if _BUILD_SPEC is None or _BUILD_SPEC.loader is None:
+    raise RuntimeError("Unable to load tools/build-catalog.py")
+_BUILD_MODULE = importlib.util.module_from_spec(_BUILD_SPEC)
+_BUILD_SPEC.loader.exec_module(_BUILD_MODULE)
+CatalogError = _BUILD_MODULE.CatalogError
+build_catalog = _BUILD_MODULE.build_catalog
+serialized = _BUILD_MODULE.serialized
 VALID_TYPES = {"literature", "short-stories", "travel", "biography"}
 PATH_FIELDS = {"metadataPath", "coverPath", "textPath", "quizPath", "audioPath"}
 
@@ -66,6 +75,12 @@ def main() -> int:
         return 1
     if catalog.get("schemaVersion") != 1:
         errors.append("catalog.json schemaVersion must be 1")
+    try:
+        generated = serialized(build_catalog())
+        if CATALOG_PATH.read_text(encoding="utf-8") != generated:
+            errors.append("content/catalog.json is stale; run python tools/build-catalog.py")
+    except (CatalogError, OSError) as exc:
+        errors.append(f"Catalog cannot be regenerated: {exc}")
     items = catalog.get("items")
     if not isinstance(items, list):
         errors.append("catalog.json items must be an array")
@@ -83,14 +98,22 @@ def main() -> int:
         item_ids.add(item_id)
         if item.get("type") not in VALID_TYPES:
             errors.append(f"Invalid category for {item_id}: {item.get('type')!r}")
+        if not isinstance(item.get("title"), str) or not item["title"].strip():
+            errors.append(f"Invalid title for {item_id}")
         metadata_path = ROOT / str(item.get("metadataPath", ""))
         metadata = load_json(metadata_path, errors) if metadata_path.is_file() else None
         if isinstance(metadata, dict) and metadata.get("id") != item_id:
             errors.append(f"Item metadata id mismatch: {item_id}")
+        if isinstance(metadata, dict) and metadata.get("type") != item.get("type"):
+            errors.append(f"Item metadata type mismatch: {item_id}")
 
         section_ids: set[str] = set()
         section_orders: set[int] = set()
-        for section in item.get("sections", []):
+        sections = item.get("sections", [])
+        if not isinstance(sections, list) or not sections:
+            errors.append(f"Item has no sections: {item_id}")
+            sections = []
+        for section in sections:
             section_id = section.get("id")
             if section_id in section_ids:
                 errors.append(f"Duplicate section id in {item_id}: {section_id}")
@@ -113,6 +136,14 @@ def main() -> int:
                     variant_path = section_path.parent / str(variant.get("path", ""))
                     if not variant_path.is_file():
                         errors.append(f"Missing archived variant: {variant_path.relative_to(ROOT)}")
+        ordered = [section.get("order") for section in sections]
+        if all(isinstance(order, int) for order in ordered) and ordered != sorted(ordered):
+            errors.append(f"Catalog sections are not ordered for {item_id}")
+        if isinstance(metadata, dict):
+            declared = [(section.get("id"), section.get("slug"), section.get("order")) for section in metadata.get("sections", [])]
+            published = [(section.get("id"), section.get("slug"), section.get("order")) for section in sections]
+            if declared != published:
+                errors.append(f"Item section list conflicts with catalog: {item_id}")
         orders_seen[item_id] = section_orders
 
     seen_paths: set[str] = set()

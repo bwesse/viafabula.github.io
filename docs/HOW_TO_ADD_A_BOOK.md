@@ -31,6 +31,7 @@ Use schema version 1:
   "id": "example-item",
   "legacyIds": [],
   "type": "literature",
+  "catalogOrder": 0,
   "subtype": "novel",
   "title": "Example Item",
   "author": "Established Author Name",
@@ -51,7 +52,7 @@ Use schema version 1:
 }
 ```
 
-Only state an author, licence, rights status, publication fact, or source when evidence supports it. Otherwise use conservative metadata such as:
+`catalogOrder` controls stable ordering within a type and must be unique there. Only state an author, licence, rights status, publication fact, or source when evidence supports it. Otherwise use conservative metadata such as:
 
 ```json
 {
@@ -126,58 +127,28 @@ Preserve the source format. Do not overwrite a distinct recording or infer audio
 
 ## 7. Add covers and media
 
-Place an existing cover at the item root as `cover.<existing-extension>` and reference it through `coverPath`. Put section-specific illustrations or other assets under that section's `media/` directory. Do not create empty asset directories, resize images automatically, or omit rights review for visual assets.
+Place an existing cover at the item root as `cover.<supported-extension>` (`avif`, `jpg`, `jpeg`, `png`, or `webp`). The catalog generator detects and references it. Put section-specific illustrations or other assets under that section's `media/` directory. Do not create empty asset directories, resize images automatically, or omit rights review for visual assets.
 
 Retained full-source documents may be stored in an item-level `source/` folder and listed in `item.json.sourceFiles`. These files are archival unless explicitly exposed by the catalogue.
 
-## 8. Update the catalogue
+## 8. Generate the catalogue
 
-Add the item to `content/catalog.json`. Every published path must be explicit:
+Do not edit `content/catalog.json` manually. Generate it from the canonical metadata and published files:
 
-```json
-{
-  "id": "example-item",
-  "type": "literature",
-  "title": "Example Item",
-  "metadataPath": "content/items/literature/example-item/item.json",
-  "coverPath": null,
-  "sectionLabel": { "singular": "Chapter", "plural": "Chapters" },
-  "sections": [
-    {
-      "id": "section-001",
-      "slug": "opening",
-      "order": 1,
-      "title": "Opening",
-      "metadataPath": "content/items/literature/example-item/sections/001-opening/section.json",
-      "languages": [
-        {
-          "id": "en",
-          "title": "English",
-          "levels": [
-            {
-              "id": "original",
-              "title": "Original",
-              "textPath": "content/items/literature/example-item/sections/001-opening/text/en/original.md",
-              "quizPath": null,
-              "audioPath": null
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+```powershell
+python tools/build-catalog.py
 ```
 
-Do not rely on directory scanning or filename guessing in the browser.
+The browser still receives an explicit catalog—GitHub Pages never scans folders at runtime. The generator validates item/type identity, section declarations and ordering, non-empty Markdown, optional quizzes/audio/covers, archived variants, and conflicting paths. It fails with the metadata or file that needs correction.
 
 ## 9. Validate and smoke-test
 
 Run:
 
 ```powershell
+python tools/build-catalog.py --check
 python tools/validate-content.py
 python -m http.server 8000
 ```
 
-Open <http://localhost:8000/>, select the new item and several levels, and verify text, quiz, audio, navigation, bookmarks, and selective offline download behaviour. Check the browser console for missing paths.
+Open <http://localhost:8000/library.html>, confirm the item card, then test several levels in the reader along with quiz, audio, navigation, bookmarks, and selective offline download behaviour. Check the browser console for missing paths. On deployment, the Pages workflow regenerates the catalog automatically, so a correctly structured item appears after it is pushed.

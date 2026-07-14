@@ -5,6 +5,7 @@
     "Peru"
   ],
   "type": "travel",
+  "catalogOrder": 1,
   "subtype": "travel-guide",
   "title": "Peru",
   "author": null,

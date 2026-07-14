@@ -14,7 +14,7 @@ Open <http://localhost:8000/>.
 
 ## Content architecture
 
-All published content is driven by [`content/catalog.json`](content/catalog.json):
+All published content is driven at runtime by the generated [`content/catalog.json`](content/catalog.json):
 
 ```text
 content/
@@ -47,14 +47,21 @@ See [`docs/HOW_TO_ADD_A_BOOK.md`](docs/HOW_TO_ADD_A_BOOK.md) for the complete au
 ## Validate content
 
 ```powershell
+python tools/build-catalog.py
+python tools/build-catalog.py --check
 python tools/validate-content.py
 ```
 
-The validator checks metadata, catalogue identity and ordering, JSON syntax, path existence, duplicate catalogue destinations, allowed types, and empty published Markdown.
+The generator scans canonical item and section metadata and writes a deterministic catalog. The validator checks catalog freshness, metadata identity and ordering, JSON syntax, path existence, duplicate destinations, optional assets, allowed types, and empty published Markdown.
+
+## GitHub Pages deployment
+
+The Pages workflow generates the catalog, validates the content, and deploys the resulting static artifact on every push to `main`. In the repository's **Settings → Pages → Build and deployment**, choose **GitHub Actions** as the source once. The pull-request workflow checks that the committed catalog is current and validates all content.
 
 ## PWA files
 
 - `index.html` contains the static reader.
+- `library.html` contains the generated-catalog Library view.
 - `manifest.json` defines installation metadata and icons.
 - `sw.js` caches the app shell and handles selective offline item downloads.
 
