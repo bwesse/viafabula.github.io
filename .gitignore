@@ -3,3 +3,39 @@
 /models
 __pycache__/
 *.pyc
+
+
+# Local environments
+.venv/
+venv/
+node_modules/
+
+# Local AI and TTS models
+models/
+*.onnx
+*.onnx.json
+*.pt
+*.pth
+*.safetensors
+
+# Generated temporary audio
+*.wav.tmp
+*.mp3.tmp
+*.opus.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
