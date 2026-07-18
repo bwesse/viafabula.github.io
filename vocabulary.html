@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" href="./icon512.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./assets/app.css" />
+    <title>Vocabulary · VIA Fabula</title>
+  </head>
+  <body class="vocabulary-page">
+    <header class="topbar" role="banner">
+      <button type="button" id="menu-toggle" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open sidebar">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M9 4v16"></path></svg>
+      </button>
+    </header>
+
+    <aside id="site-sidebar" class="sidebar" aria-label="VIA Fabula navigation" aria-hidden="true">
+      <div id="sidebar-main-view" class="sidebar-view">
+        <div class="sidebar-header">
+          <span class="brand-mark" aria-hidden="true">VIΛ</span>
+          <span class="brand-name">VIΛ Fabula</span>
+          <button type="button" id="sidebar-close" class="sidebar-icon-button" aria-label="Collapse sidebar" title="Collapse sidebar">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M9 4v16"></path><path d="m15 9-3 3 3 3"></path></svg>
+          </button>
+        </div>
+        <nav aria-label="Primary navigation">
+          <a class="sidebar-link" href="./library.html" title="Library">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"></path></svg>
+            <strong class="sidebar-label">Library</strong>
+          </a>
+        </nav>
+        <section class="current-reading" aria-labelledby="current-reading-heading">
+          <h2 id="current-reading-heading" class="sidebar-kicker">Current reading</h2>
+          <p class="current-empty"><a href="./index.html">Return to the reader</a></p>
+        </section>
+        <a class="sidebar-link" href="./vocabulary.html" aria-current="page" title="Vocabulary">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5Z"></path><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5Z"></path></svg>
+          <strong class="sidebar-label">Vocabulary</strong>
+          <span class="vocabulary-due-badge sidebar-label" hidden></span>
+        </a>
+        <div class="sidebar-spacer"></div>
+        <a class="account-row" href="./index.html?settings=1" title="Settings and personalization">
+          <span class="account-avatar" aria-hidden="true">G</span>
+          <span class="account-copy"><strong>Guest</strong><span class="account-meta">Local profile</span></span>
+          <svg class="icon sidebar-label" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+        </a>
+        <a class="sidebar-link" href="./index.html?view=about" title="About">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 8h.01"></path></svg>
+          <span class="sidebar-label">About</span>
+        </a>
+      </div>
+    </aside>
+    <div id="overlay" class="overlay" aria-hidden="true"></div>
+
+    <main class="vocabulary-main" id="main-content">
+      <section id="vocabulary-landing">
+        <div class="vocabulary-heading">
+          <h1>Vocabulary</h1>
+          <p>Build vocabulary through stories, repeated recall, and gradually reduced context.</p>
+        </div>
+        <div id="vocabulary-languages" class="vocabulary-languages" role="tablist" aria-label="Learning language"></div>
+        <section class="vocabulary-overview" aria-labelledby="vocabulary-deck-title">
+          <h2 id="vocabulary-deck-title">Vocabulary</h2>
+          <div class="vocabulary-counts">
+            <span id="vocabulary-count">0 saved words</span>
+            <span id="vocabulary-due-count">0 due today</span>
+            <span id="vocabulary-new-count">0 new</span>
+          </div>
+          <button type="button" id="start-review" class="vocabulary-primary">Start review</button>
+        </section>
+        <p id="vocabulary-status" class="vocabulary-status" role="status" aria-live="polite"></p>
+        <p id="vocabulary-empty" class="vocabulary-empty">No saved words yet. Turn on Vocab mode in the reader and tap a word to add it.</p>
+        <div id="vocabulary-list" class="vocabulary-list"></div>
+      </section>
+
+      <section id="vocabulary-review" class="vocabulary-review" hidden aria-labelledby="review-deck-title">
+        <div class="review-header">
+          <div>
+            <h1 id="review-deck-title">Vocabulary review</h1>
+            <p id="review-progress" aria-live="polite"></p>
+          </div>
+          <button type="button" id="exit-review" class="vocabulary-secondary">Exit review</button>
+        </div>
+        <div id="review-card" class="review-card"></div>
+      </section>
+    </main>
+
+    <script src="./assets/sidebar.js"></script>
+    <script src="./assets/vocabulary-store.js"></script>
+    <script src="./assets/vocabulary.js"></script>
+  </body>
+</html>

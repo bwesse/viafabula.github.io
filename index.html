@@ -586,7 +586,8 @@
         <span class="dot" aria-hidden="true"></span>
         <span class="label">Play audio</span>
       </button>
-      <div class="topbar-actions" aria-label="Quick language controls">
+      <div class="topbar-actions" aria-label="Reader controls">
+        <button type="button" id="vocab-toggle" class="pill-button" aria-pressed="false" aria-label="Toggle vocabulary collection mode">Vocab</button>
         <button type="button" id="lang-toggle" class="pill-button" aria-label="Toggle language">English</button>
         <div class="level-stepper" role="group" aria-label="Change reading level">
           <button type="button" id="level-down" class="step-btn" aria-label="Previous level">-</button>
@@ -626,6 +627,11 @@
           </div>
         </section>
 
+        <a class="sidebar-link" href="./vocabulary.html" title="Vocabulary">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5Z"></path><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5Z"></path></svg>
+          <strong class="sidebar-label">Vocabulary</strong>
+          <span class="vocabulary-due-badge sidebar-label" hidden></span>
+        </a>
         <div class="sidebar-spacer"></div>
         <button type="button" id="settings-open" class="account-row" title="Settings and personalization">
           <span class="account-avatar" aria-hidden="true">G</span>
@@ -752,6 +758,7 @@
     </aside>
 
     <div id="overlay" class="overlay" tabindex="-1" aria-hidden="true"></div>
+    <div id="vocab-status" class="vocab-toast" role="status" aria-live="polite"></div>
     <button type="button" id="floating-lang-toggle" class="floating-toggle" aria-pressed="false" aria-label="Toggle language"></button>
 
     <main class="reader" role="main">
@@ -788,6 +795,7 @@
 
     <script src="./assets/sidebar.js"></script>
     <script src="./assets/downloads.js"></script>
+    <script src="./assets/vocabulary-store.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         const swScope = './';
@@ -831,6 +839,8 @@
       const audioToggleBtn = document.getElementById('audio-toggle');
       const audioToggleLabel = audioToggleBtn?.querySelector('.label');
       const langToggleBtn = document.getElementById('lang-toggle');
+      const vocabToggleBtn = document.getElementById('vocab-toggle');
+      const vocabStatus = document.getElementById('vocab-status');
       const levelUpBtn = document.getElementById('level-up');
       const levelDownBtn = document.getElementById('level-down');
       const floatingLangToggle = document.getElementById('floating-lang-toggle');
@@ -961,6 +971,11 @@
       let floatingDragPointerId = null;
       let floatingDragOffset = { x: 0, y: 0 };
       let floatingDragMoved = false;
+      let vocabMode = false;
+      let vocabStatusTimer = null;
+      let pendingVocabularyId = new URLSearchParams(window.location.search).get('vocab');
+      let pendingVocabularyContextId = new URLSearchParams(window.location.search).get('context');
+      let storyContentAvailable = false;
 
       function readUserSettings() {
         try {
@@ -1170,6 +1185,210 @@
 
       function setStatus(text) {
         statusLine.textContent = text || '';
+      }
+      function showVocabularyStatus(text) {
+        if (!vocabStatus) return;
+        window.clearTimeout(vocabStatusTimer);
+        vocabStatus.textContent = text || '';
+        vocabStatus.classList.toggle('show', Boolean(text));
+        if (text) {
+          vocabStatusTimer = window.setTimeout(() => {
+            vocabStatus.classList.remove('show');
+          }, 2600);
+        }
+      }
+      function normalizedSentence(text, languageId) {
+        const value = typeof text === 'string' ? text.normalize('NFKC').trim().replace(/\s+/g, ' ') : '';
+        try {
+          return value.toLocaleLowerCase(languageId || undefined);
+        } catch (_) {
+          return value.toLowerCase();
+        }
+      }
+      function segmentText(text, languageId, granularity) {
+        if (globalThis.Intl?.Segmenter) {
+          try {
+            return [...new Intl.Segmenter(languageId || undefined, { granularity }).segment(text)];
+          } catch (_) {
+            // Fall through to the compact browser fallback.
+          }
+        }
+        const expression = granularity === 'sentence'
+          ? /[^.!?。！？]+[.!?。！？]+|[^.!?。！？]+$/gu
+          : /\p{L}[\p{L}\p{M}\p{N}]*(?:['’\-][\p{L}\p{M}\p{N}]+)*|\p{N}+/gu;
+        return [...text.matchAll(expression)].map((match) => ({
+          segment: match[0],
+          index: match.index,
+          isWordLike: granularity === 'word',
+        }));
+      }
+      function makeStoryWordsInteractive(root, languageId) {
+        if (!root) return;
+        let sentenceIndex = 0;
+        const occurrences = new Map();
+        root.querySelectorAll('p, li').forEach((container) => {
+          if (container.dataset.vocabProcessed === 'true') return;
+          container.dataset.vocabProcessed = 'true';
+          const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+          const textNodes = [];
+          while (walker.nextNode()) textNodes.push(walker.currentNode);
+          textNodes.forEach((textNode) => {
+            const text = textNode.nodeValue || '';
+            const sentences = segmentText(text, languageId, 'sentence');
+            if (!sentences.length) return;
+            const fragment = document.createDocumentFragment();
+            let cursor = 0;
+            sentences.forEach((sentence) => {
+              if (sentence.index > cursor) fragment.append(document.createTextNode(text.slice(cursor, sentence.index)));
+              const sentenceText = sentence.segment.trim();
+              if (!sentenceText) {
+                fragment.append(document.createTextNode(sentence.segment));
+              } else {
+                const sentenceElement = document.createElement('span');
+                const sentenceKey = normalizedSentence(sentenceText, languageId);
+                const occurrence = occurrences.get(sentenceKey) || 0;
+                occurrences.set(sentenceKey, occurrence + 1);
+                sentenceElement.className = 'vocab-sentence';
+                sentenceElement.dataset.sentenceIndex = String(sentenceIndex);
+                sentenceElement.dataset.sentenceOccurrence = String(occurrence);
+                sentenceElement.dataset.sentenceText = sentenceText;
+                const wordFragment = document.createDocumentFragment();
+                let wordCursor = 0;
+                segmentText(sentence.segment, languageId, 'word').forEach((part) => {
+                  const meaningful = part.isWordLike !== false
+                    && window.ViaVocabulary.normalizeVocabularyWord(part.segment, languageId);
+                  if (part.index > wordCursor) {
+                    wordFragment.append(document.createTextNode(sentence.segment.slice(wordCursor, part.index)));
+                  }
+                  if (meaningful) {
+                    const wordElement = document.createElement('span');
+                    wordElement.className = 'vocab-word';
+                    wordElement.textContent = part.segment;
+                    wordFragment.append(wordElement);
+                  } else {
+                    wordFragment.append(document.createTextNode(part.segment));
+                  }
+                  wordCursor = part.index + part.segment.length;
+                });
+                if (wordCursor < sentence.segment.length) {
+                  wordFragment.append(document.createTextNode(sentence.segment.slice(wordCursor)));
+                }
+                sentenceElement.append(wordFragment);
+                fragment.append(sentenceElement);
+                sentenceIndex += 1;
+              }
+              cursor = sentence.index + sentence.segment.length;
+            });
+            if (cursor < text.length) fragment.append(document.createTextNode(text.slice(cursor)));
+            textNode.replaceWith(fragment);
+          });
+        });
+      }
+      function saveVocabularyWord(wordElement) {
+        if (!storyContentAvailable) return;
+        if (!learningLanguageId || state.langId !== learningLanguageId) {
+          showVocabularyStatus('Switch to the learning language to save vocabulary');
+          return;
+        }
+        const sentenceElement = wordElement.closest('.vocab-sentence');
+        const book = findBook();
+        const chapter = findChapter();
+        const subchapter = findSubchapter();
+        const language = findLanguage();
+        const level = findLevel();
+        if (!sentenceElement || !book || !chapter || !language || !level) return;
+        const word = wordElement.textContent || '';
+        const normalizedWord = window.ViaVocabulary.normalizeVocabularyWord(word, language.id);
+        if (!normalizedWord) return;
+        const matchingWords = [...sentenceElement.querySelectorAll('.vocab-word')]
+          .filter((candidate) => window.ViaVocabulary.normalizeVocabularyWord(candidate.textContent, language.id) === normalizedWord);
+        const wordOccurrenceInSentence = Math.max(0, matchingWords.indexOf(wordElement));
+        const context = {
+          sentenceText: sentenceElement.dataset.sentenceText || sentenceElement.textContent.trim(),
+          sentenceIndex: Number(sentenceElement.dataset.sentenceIndex),
+          sentenceOccurrence: Number(sentenceElement.dataset.sentenceOccurrence) || 0,
+          wordOccurrenceInSentence,
+          itemId: book.id,
+          sectionId: chapter.id,
+          subchapterId: subchapter?.id || null,
+          levelId: level.id,
+          itemTitle: book.title || '',
+          sectionTitle: chapter.title || '',
+          subchapterTitle: subchapter?.title || '',
+          levelTitle: level.title || '',
+          languageTitle: language.title || '',
+        };
+        const result = window.ViaVocabulary.addVocabularyEntry({
+          word,
+          normalizedWord,
+          learningLanguageId: language.id,
+          context,
+        });
+        if (result.status === 'added' || result.status === 'context_added') {
+          wordElement.classList.add('vocab-saved-flash');
+          window.setTimeout(() => wordElement.classList.remove('vocab-saved-flash'), 1200);
+          showVocabularyStatus(result.status === 'context_added'
+            ? `New context added for “${word}”`
+            : `“${word}” added to vocabulary`);
+          window.ViaVocabulary.resolveVocabularyTranslation({
+            entry: result.entry,
+            nativeLanguageId,
+            contextSentence: context.sentenceText,
+          }).catch(() => {});
+        } else if (result.status === 'duplicate') {
+          showVocabularyStatus(`“${word}” is already saved`);
+        } else {
+          showVocabularyStatus('Vocabulary could not be saved on this device');
+        }
+      }
+      function highlightVocabularyContext(entryId, contextId) {
+        if (!entryId) return;
+        const entry = window.ViaVocabulary.readVocabulary().find((candidate) => candidate.id === entryId);
+        const context = entry?.contexts.find((candidate) => candidate.id === contextId)
+          || entry?.contexts[0]
+          || null;
+        const matchesSelection = entry && context
+          && context.itemId === state.bookId
+          && context.sectionId === state.chapterId
+          && (context.subchapterId || null) === (state.subchapterId || null)
+          && entry.learningLanguageId === state.langId
+          && context.levelId === state.levelId;
+        if (!matchesSelection) {
+          showVocabularyStatus('Saved sentence could not be located in the current version');
+          return;
+        }
+        const sentences = [...storyBody.querySelectorAll('.vocab-sentence')];
+        const savedText = normalizedSentence(context.sentenceText, entry.learningLanguageId);
+        let sentence = Number.isInteger(context.sentenceIndex)
+          ? sentences.find((candidate) => Number(candidate.dataset.sentenceIndex) === context.sentenceIndex)
+          : null;
+        if (sentence && normalizedSentence(sentence.dataset.sentenceText, entry.learningLanguageId) !== savedText) sentence = null;
+        if (!sentence) {
+          const matches = sentences.filter((candidate) => (
+            normalizedSentence(candidate.dataset.sentenceText, entry.learningLanguageId) === savedText
+          ));
+          sentence = matches.find((candidate) => (
+            Number(candidate.dataset.sentenceOccurrence) === (context.sentenceOccurrence || 0)
+          )) || matches[context.sentenceOccurrence || 0] || null;
+        }
+        if (!sentence) {
+          showVocabularyStatus('Saved sentence could not be located in the current version');
+          return;
+        }
+        const words = [...sentence.querySelectorAll('.vocab-word')].filter((candidate) => (
+          window.ViaVocabulary.normalizeVocabularyWord(candidate.textContent, entry.learningLanguageId) === entry.normalizedWord
+        ));
+        const word = words[context.wordOccurrenceInSentence || 0] || words[0] || null;
+        sentence.classList.add('vocab-context-highlight');
+        word?.classList.add('vocab-context-word');
+        sentence.scrollIntoView({
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+          block: 'center',
+        });
+        window.setTimeout(() => {
+          sentence.classList.remove('vocab-context-highlight');
+          word?.classList.remove('vocab-context-word');
+        }, 4000);
       }
       function dayDiff(fromDateStr, toDateStr) {
         const from = new Date(`${fromDateStr}T00:00:00`);
@@ -2004,6 +2223,7 @@
         const level = findLevel();
 
         if (!book || !chapter || !lang || !level) {
+          storyContentAvailable = false;
           storyBody.textContent = 'Pick a story, chapter, level, and languages that exist.';
           setStatus('Waiting for a valid selection.');
           resetAudio();
@@ -2030,6 +2250,8 @@
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const md = await response.text();
           storyBody.innerHTML = markdownToHtml(md);
+          storyContentAvailable = true;
+          if (vocabMode || pendingVocabularyId) makeStoryWordsInteractive(storyBody, lang.id);
           setStatus(`Loaded ${lang.title} · ${level.title}`);
           const pos = normalizeBookmark(state);
           if (pos) {
@@ -2040,6 +2262,13 @@
             loadComprehensionQuestions(level),
             loadNativeContent(displayTitle),
           ]);
+          if (pendingVocabularyId) {
+            const entryId = pendingVocabularyId;
+            const contextId = pendingVocabularyContextId;
+            pendingVocabularyId = null;
+            pendingVocabularyContextId = null;
+            highlightVocabularyContext(entryId, contextId);
+          }
           if (pendingSidebarNavigation) {
             const direction = pendingSidebarNavigation;
             pendingSidebarNavigation = null;
@@ -2047,6 +2276,7 @@
             if (direction === 'next') nextChapterButton?.click();
           }
         } catch (error) {
+          storyContentAvailable = false;
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
           setStatus('Failed to load markdown content.');
           console.error(error);
@@ -2068,6 +2298,16 @@
             ...item,
             chapters: (item.sections || []).map(section => ({
               ...section,
+              subchapters: (section.subchapters || []).map(subchapter => ({
+                ...subchapter,
+                languages: (subchapter.languages || []).map(language => ({
+                  ...language,
+                  levels: (language.levels || []).map(level => ({
+                    ...level,
+                    path: level.textPath,
+                  })),
+                })),
+              })),
               languages: (section.languages || []).map(language => ({
                 ...language,
                 levels: (language.levels || []).map(level => ({
@@ -2094,7 +2334,12 @@
           || book.chapters.find(candidate => candidate.id === saved?.chapterId)
           || book.chapters[0];
         if (!chapter) return null;
-        const languages = chapter.languages || [];
+        const requestedSubchapterId = params.get('subchapter');
+        const subchapter = (chapter.subchapters || []).find(candidate => candidate.id === requestedSubchapterId)
+          || (chapter.subchapters || []).find(candidate => candidate.id === saved?.subchapterId)
+          || (chapter.subchapters || [])[0]
+          || null;
+        const languages = subchapter?.languages || chapter.languages || [];
         const requestedLanguageId = params.get('language');
         const language = languages.find(candidate => candidate.id === requestedLanguageId)
           || languages.find(candidate => candidate.id === saved?.langId)
@@ -2106,7 +2351,13 @@
           || language.levels.find(candidate => candidate.id === saved?.levelId)
           || language.levels[0];
         if (!level) return null;
-        return { bookId: book.id, chapterId: chapter.id, subchapterId: null, langId: language.id, levelId: level.id };
+        return {
+          bookId: book.id,
+          chapterId: chapter.id,
+          subchapterId: subchapter?.id || null,
+          langId: language.id,
+          levelId: level.id,
+        };
       }
 
       async function loadLibrary() {
@@ -2161,6 +2412,7 @@
       }
 
       function renderAboutView() {
+        storyContentAvailable = false;
         readerTitle.textContent = 'About this reader';
         readerMeta.textContent = 'Offline-friendly PWA';
         resetAudio();
@@ -2200,6 +2452,7 @@
         learningLanguageId = learningLangSelect.value;
         state.langId = learningLanguageId || nativeLanguageId;
         persistSettings({ learningLanguageId });
+        window.ViaVocabulary.updateDueBadges();
         populateLevels();
       });
       levelSelect.addEventListener('change', () => {
@@ -2209,6 +2462,19 @@
         closeSidebar();
       });
       langToggleBtn?.addEventListener('click', toggleLanguage);
+      vocabToggleBtn?.addEventListener('click', () => {
+        vocabMode = !vocabMode;
+        document.body.classList.toggle('vocab-mode', vocabMode);
+        vocabToggleBtn.setAttribute('aria-pressed', String(vocabMode));
+        if (vocabMode && storyContentAvailable) makeStoryWordsInteractive(storyBody, state.langId);
+        showVocabularyStatus(vocabMode ? 'Vocab mode on: tap a word to save it' : 'Vocab mode off');
+      });
+      storyBody?.addEventListener('click', (event) => {
+        if (!vocabMode) return;
+        const wordElement = event.target.closest?.('.vocab-word');
+        if (!wordElement || !storyBody.contains(wordElement)) return;
+        saveVocabularyWord(wordElement);
+      });
       levelUpBtn?.addEventListener('click', () => stepLevel('up'));
       levelDownBtn?.addEventListener('click', () => stepLevel('down'));
       themeToggle?.addEventListener('click', () => {

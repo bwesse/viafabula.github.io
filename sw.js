@@ -1,13 +1,16 @@
-const CACHE_VERSION = 'v11';
+const CACHE_VERSION = 'v13';
 const CACHE_NAME = `reader-cache-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
   './',
   './index.html',
   './library.html',
+  './vocabulary.html',
   './assets/app.css',
   './assets/sidebar.js',
   './assets/downloads.js',
   './assets/library.js',
+  './assets/vocabulary-store.js',
+  './assets/vocabulary.js',
   './manifest.json',
   './icon512.png',
   './content/catalog.json',
@@ -47,8 +50,12 @@ self.addEventListener('fetch', (event) => {
       } catch (error) {
         const cached = await caches.match(event.request, { ignoreSearch: true });
         if (cached) return cached;
-        const libraryNavigation = requestUrl.pathname.endsWith('/library.html');
-        const fallback = await caches.match(libraryNavigation ? './library.html' : './index.html');
+        const navigationFallback = requestUrl.pathname.endsWith('/library.html')
+          ? './library.html'
+          : requestUrl.pathname.endsWith('/vocabulary.html')
+            ? './vocabulary.html'
+            : './index.html';
+        const fallback = await caches.match(navigationFallback);
         if (fallback) return fallback;
         throw error;
       }

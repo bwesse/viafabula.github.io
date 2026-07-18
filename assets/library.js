@@ -297,7 +297,10 @@
   textSizeSelect?.addEventListener('change', () => { saveSettings({ textSize: textSizeSelect.value }); });
   deviceModeSelect?.addEventListener('change', () => { saveSettings({ deviceMode: deviceModeSelect.value }); });
   nativeLangSelect?.addEventListener('change', () => { saveSettings({ nativeLanguageId: nativeLangSelect.value }); });
-  learningLangSelect?.addEventListener('change', () => { saveSettings({ learningLanguageId: learningLangSelect.value || null }); });
+  learningLangSelect?.addEventListener('change', () => {
+    saveSettings({ learningLanguageId: learningLangSelect.value || null });
+    window.ViaVocabulary?.updateDueBadges();
+  });
   levelSelect?.addEventListener('change', () => { saveSettings({ levelId: levelSelect.value || null }); });
   floatingToggleSetting?.addEventListener('click', () => {
     const value = currentSettings();
