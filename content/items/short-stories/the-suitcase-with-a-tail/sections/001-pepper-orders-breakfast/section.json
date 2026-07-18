@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "pepper-orders-breakfast",
+  "order": 1,
+  "title": {
+    "en": "Pepper Orders Breakfast",
+    "de": "Pepper bestellt Frühstück",
+    "es": "Pepper pide el desayuno"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

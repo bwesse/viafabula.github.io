@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "fast-feet-and-a-good-map",
+  "order": 1,
+  "title": {
+    "en": "Fast Feet and a Good Map",
+    "de": "Schnelle Füße und ein guter Plan",
+    "es": "Patas rápidas y un buen mapa"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

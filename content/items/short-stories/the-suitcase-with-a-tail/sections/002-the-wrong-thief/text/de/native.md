@@ -1,0 +1,13 @@
+Die Schaffnerin brachte Nina und Pepper in das Dienstabteil. Am nächsten Bahnhof kam eine Durchsage im Zug: „Der Fahrgast mit der gestohlenen blauen Tasche soll bitte zu Gleis drei kommen.“ Von da an wurde es erst richtig interessant.
+
+Alle Menschen in Ninas Nähe sahen sie an. „Sie wurde nicht gestohlen“, sagte Nina. „Ich habe sie aus Versehen genommen.“ Pepper saß in der Tasche und putzte eine Pfote. Sie sah nicht unschuldig aus.
+
+Auf Gleis drei wartete der Mann mit dem roten Hut und Ninas echter Tasche. Neben ihm stand ein Polizist. Nina hob beide Hände. „Ich kann die Katze, das Würstchen und die Tasche erklären“, begann sie. „Der Schuh ist schwieriger.“
+
+Plötzlich lachte der Mann. „Ich bin Herr Costa. Ich habe der Mitarbeiterin gesagt, dass meine blaue Tasche fehlt. Ich habe nicht gesagt, dass sie gestohlen wurde.“ Die Mitarbeiterin sah verlegen aus. „Ich wollte, dass die Durchsage klar klingt“, sagte sie.
+
+Herr Costa öffnete Ninas Tasche. Die Papierblumen stiegen wie eine bunte Wolke heraus. Der Polizist nahm eine von seinem Hut. Dann fiel die goldene Teekanne mit einem lauten Scheppern auf den Bahnsteig.
+
+Nina gab Pepper zurück und untersuchte die Katze vorsichtig. „Ihr geht es gut“, sagte Herr Costa. „Sie hatte nur ein interessanteres Frühstück als sonst.“ Er gab dem Kellner Geld für das Würstchen.
+
+Nina sah auf die Abfahrtstafel. Ihr Zug war weg. Der nächste fuhr in vierzig Minuten. „Leo wird sich Sorgen machen“, sagte sie. Herr Costa sah die Papierblumen an und fragte: „Leo aus dem neuen Café?“

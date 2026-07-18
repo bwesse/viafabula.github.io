@@ -1,1 +1,11 @@
-todo
+Capítulo 5: La creación
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+En una oscura noche de noviembre, Victor da vida a la criatura. Sus ojos amarillos se abren, pero el resultado le produce horror.
+
+Victor huye y sueña que Elizabeth se convierte en su madre muerta. Al despertar, la criatura está junto a su cama y extiende una mano hacia él.
+
+Henry Clerval llega a Ingolstadt, pero Victor cae en una larga fiebre. La criatura abandonada desaparece en la ciudad.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

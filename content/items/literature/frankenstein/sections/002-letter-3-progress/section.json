@@ -4,9 +4,23 @@
   "slug": "letter-3-progress",
   "order": 2,
   "title": {
-    "en": "Letter 3 Progress"
+    "en": "Letter 3: Progress",
+    "es": "Carta 3: Avance",
+    "de": "Brief 3: Fortschritt"
   },
   "legacyIds": [
     "02_Letter_3_Progress"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

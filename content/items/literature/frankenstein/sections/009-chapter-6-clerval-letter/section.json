@@ -4,9 +4,23 @@
   "slug": "chapter-6-clerval-letter",
   "order": 9,
   "title": {
-    "en": "Chapter 6 Clerval Letter"
+    "en": "Chapter 6: Clerval and Elizabeth’s Letter",
+    "es": "Capítulo 6: Clerval y la carta de Elizabeth",
+    "de": "Kapitel 6: Clerval und Elizabeths Brief"
   },
   "legacyIds": [
     "09_Chapter_6_Clerval_Letter"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

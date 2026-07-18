@@ -1,0 +1,13 @@
+El Teatro de la Linterna celebraba una fiesta de disfraces para conseguir dinero para un tejado nuevo. Los invitados llevaban máscaras, bebían ponche de frutas y ponían donaciones en una caja plateada junto al escenario. Fue entonces cuando las cosas empezaron a ponerse interesantes.
+
+Lina ayudaba en la entrada. Le encantaban las historias de misterio, aunque nunca había resuelto un misterio real. Nora, la directora del teatro, dio una tarjeta a cada invitado: CON LA SEGUNDA CAMPANA, COMENZARÁ UN CRIMEN.
+
+A las ocho sonó la primera campana. Felix, el actor más dramático del teatro, entró en el escenario vestido como el profesor Luna. Se quejó del frío, bebió té de menta y dijo a todos que tenía muchos enemigos.
+
+A las ocho y media sonó la segunda campana. Felix puso una mano sobre el corazón y cayó junto a la caja plateada. Una mancha roja se extendió por su camisa blanca. Varios invitados gritaron y después recordaron que aquello era un juego.
+
+Las luces se apagaron durante diez segundos. Alguien se movió detrás de la cortina. Cuando volvió la luz, Felix había desaparecido. La caja de donaciones también se había ido.
+
+Nora subió al escenario. «Felix debería seguir aquí», dijo. «Y la caja no formaba parte del juego». Intentó sonreír, pero su voz parecía seria.
+
+Los invitados dejaron de reír. Lina miró la mancha roja del suelo, una huella mojada cerca de la puerta del jardín y una taza de té detrás de la cortina. El crimen preparado se había convertido de pronto en un misterio real.

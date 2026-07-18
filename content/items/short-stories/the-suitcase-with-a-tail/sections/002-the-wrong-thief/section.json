@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "the-wrong-thief",
+  "order": 2,
+  "title": {
+    "en": "The Wrong Thief",
+    "de": "Die falsche Diebin",
+    "es": "La ladrona equivocada"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

@@ -4,9 +4,23 @@
   "slug": "chapter-17-companion-request",
   "order": 20,
   "title": {
-    "en": "Chapter 17 Companion Request"
+    "en": "Chapter 17: A Companion",
+    "es": "Capítulo 17: Una compañera",
+    "de": "Kapitel 17: Eine Gefährtin"
   },
   "legacyIds": [
     "20_Chapter_17_Companion_Request"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

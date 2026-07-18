@@ -4,7 +4,9 @@
   "slug": "chapter-ii",
   "order": 2,
   "title": {
-    "en": "Chapter II"
+    "en": "Chapter II: The Thoracic Type",
+    "es": "Capítulo II: El tipo torácico",
+    "de": "Kapitel II: Der thorakale Typ"
   },
   "legacyIds": [
     "02_chapter_ii"

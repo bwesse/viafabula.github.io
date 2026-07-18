@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "the-lighthouse-before-midnight",
+  "legacyIds": [],
+  "type": "short-stories",
+  "catalogOrder": 5,
+  "subtype": "light-adventure",
+  "title": "The Lighthouse Before Midnight",
+  "author": "VIA FABULA",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "original-via-fabula-collection",
+    "rights": "original-project-content",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "fog-at-porto-claro",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "the-road-above-the-roofs",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "the-tree-and-the-missing-cable",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "a-light-in-the-fog",
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Preface and Introduction
+
+In contemporary prose, the section develops as follows.
+
+This 1921 book presents a historical system that links body shape with personality. The authors call the method “Human Analysis.”
+
+The system divides people into five physical “types” and promises practical advice about relationships and work.
+
+These claims are not accepted modern science. The text is useful today as a historical example of popular psychology and should be read critically.
+
+What happens here changes the direction of everything that follows.

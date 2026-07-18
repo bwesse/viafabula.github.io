@@ -1,1 +1,11 @@
-todo
+Kapitel 1: Die Familie in Genf
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Victor wächst in einer angesehenen Genfer Familie auf. Sein Vater Alphonse heiratet Caroline, nachdem er ihr durch Armut und Trauer geholfen hat.
+
+Auf einer Reise nimmt die Familie Elizabeth Lavenza auf. Victor liebt sie als engste Gefährtin und glaubt, dass sie zusammengehören.
+
+Seine Kindheit ist behütet und liebevoll. Dieses Glück macht die spätere Zerstörung seiner Familie umso schmerzhafter.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

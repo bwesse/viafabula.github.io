@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "the-tree-and-the-missing-cable",
+  "order": 2,
+  "title": {
+    "en": "The Tree and the Missing Cable",
+    "de": "Der Baum und das fehlende Kabel",
+    "es": "El árbol y el cable perdido"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

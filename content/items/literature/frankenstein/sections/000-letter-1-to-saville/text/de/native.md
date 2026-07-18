@@ -1,1 +1,11 @@
-todo
+Brief 1 an Saville
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Robert Walton schreibt seiner Schwester Margaret aus Sankt Petersburg. Er ist sicher und freut sich auf seine Reise nach Norden.
+
+Er träumt davon, unbekannte Polargebiete zu erreichen und das Geheimnis des Magnetismus zu entdecken. Sein Ehrgeiz ist stärker als seine Angst.
+
+Walton hat sich jahrelang vorbereitet, doch er gibt zu, dass er einsam ist. Während der Expedition hofft er, einen echten Freund zu finden.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

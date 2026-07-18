@@ -4,9 +4,23 @@
   "slug": "chapter-12-observations",
   "order": 15,
   "title": {
-    "en": "Chapter 12 Observations"
+    "en": "Chapter 12: Observing the Cottagers",
+    "es": "Capítulo 12: Observación de la familia",
+    "de": "Kapitel 12: Beobachtung der Familie"
   },
   "legacyIds": [
     "15_Chapter_12_Observations"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

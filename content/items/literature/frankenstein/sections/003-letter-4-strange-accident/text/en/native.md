@@ -1,1 +1,11 @@
-todo
+Letter 4: A Strange Accident
+
+In contemporary prose, the section develops as follows.
+
+The ship becomes trapped in ice. The crew first sees a gigantic figure driving a sledge across the frozen sea.
+
+The next day they rescue an exhausted stranger named Victor Frankenstein. Walton admires his intelligence and sadness, and at last finds the friend he wanted.
+
+When Victor hears about Walton’s dangerous ambition, he warns him. He begins the story of the choices that destroyed his own life.
+
+What happens here changes the direction of everything that follows.

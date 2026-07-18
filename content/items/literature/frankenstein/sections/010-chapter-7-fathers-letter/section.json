@@ -4,9 +4,23 @@
   "slug": "chapter-7-fathers-letter",
   "order": 10,
   "title": {
-    "en": "Chapter 7 Fathers Letter"
+    "en": "Chapter 7: The Father’s Letter",
+    "es": "Capítulo 7: La carta del padre",
+    "de": "Kapitel 7: Der Brief des Vaters"
   },
   "legacyIds": [
     "10_Chapter_7_Fathers_Letter"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

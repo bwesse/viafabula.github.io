@@ -4,9 +4,23 @@
   "slug": "chapter-20-laboratory",
   "order": 23,
   "title": {
-    "en": "Chapter 20 Laboratory"
+    "en": "Chapter 20: The Second Laboratory",
+    "es": "Capítulo 20: El segundo laboratorio",
+    "de": "Kapitel 20: Das zweite Labor"
   },
   "legacyIds": [
     "23_Chapter_20_Laboratory"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

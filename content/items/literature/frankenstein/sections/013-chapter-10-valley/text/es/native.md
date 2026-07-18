@@ -1,1 +1,11 @@
-todo
+Capítulo 10: Encuentro en el glaciar
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+En el glaciar de Montanvert, la criatura se acerca a Victor con una velocidad sorprendente. Victor la maldice como asesina.
+
+La criatura habla con claridad y pide a Victor que escuche antes de juzgar. Dice que la desgracia la volvió violenta y que su creador le debe compasión.
+
+Victor acepta con desgana. Entran en una cabaña, donde la criatura empieza a contar la historia de su vida solitaria.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

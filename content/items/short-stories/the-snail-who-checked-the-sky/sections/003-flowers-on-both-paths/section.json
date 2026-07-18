@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "flowers-on-both-paths",
+  "order": 3,
+  "title": {
+    "en": "Flowers on Both Paths",
+    "de": "Blumen auf beiden Wegen",
+    "es": "Flores en los dos caminos"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

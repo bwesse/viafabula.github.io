@@ -4,9 +4,23 @@
   "slug": "chapter-4-natural-philosophy",
   "order": 7,
   "title": {
-    "en": "Chapter 4 Natural Philosophy"
+    "en": "Chapter 4: The Secret of Life",
+    "es": "Capítulo 4: El secreto de la vida",
+    "de": "Kapitel 4: Das Geheimnis des Lebens"
   },
   "legacyIds": [
     "07_Chapter_4_Natural_Philosophy"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

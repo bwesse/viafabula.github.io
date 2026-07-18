@@ -1,0 +1,13 @@
+The third bell rang. A light appeared on the balcony. Felix stood there, alive and smiling. The silver donation box hung safely from a rope beside him. That was when things started to get interesting.
+
+The guests cheered, but Lina held up one hand. “There was no murder,” she said. “The jam made us think Felix was hurt. The boots made us think he escaped through the garden. The stopped clock gave us a false time.”
+
+She pointed at the round carpet. “Felix used the trapdoor during the darkness. Blue paint stayed on his glove. Then he climbed the secret stairs to the balcony with the box.”
+
+“Only Nora had the trapdoor key,” Lina continued. “She borrowed the jam, wrote the green note, and touched the silver box. The dust on her sleeve proves it. Nora planned the second mystery too.”
+
+Nora finally laughed. “Correct. The roof fund reached its goal tonight. I wanted Felix to reveal the total from the balcony after someone solved the clues. I only pretended that the box was really missing.”
+
+Felix lowered the box and took a deep bow. Unfortunately, the rope pulled his long coat upward, and he had to finish the bow in his socks. The guests laughed harder than they had during the planned scene.
+
+Pablo served the raspberry cake. Nora gave Lina a paper badge that said CHIEF DETECTIVE. Lina wore it proudly, although a drop of jam made it look as if the detective had also been attacked.

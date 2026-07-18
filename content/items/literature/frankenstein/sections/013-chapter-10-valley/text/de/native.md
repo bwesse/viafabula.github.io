@@ -1,1 +1,11 @@
-todo
+Kapitel 10: Begegnung auf dem Gletscher
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Auf dem Gletscher bei Montanvert nähert sich die Kreatur Victor mit erstaunlicher Geschwindigkeit. Victor verflucht sie als Mörder.
+
+Die Kreatur spricht klar und bittet Victor, vor einem Urteil zuzuhören. Ihr Elend habe sie gewalttätig gemacht, und ihr Schöpfer schulde ihr Mitgefühl.
+
+Victor stimmt widerwillig zu. In einer Hütte beginnt die Kreatur die Geschichte ihres einsamen Lebens.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

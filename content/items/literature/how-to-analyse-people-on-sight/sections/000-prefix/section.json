@@ -4,7 +4,9 @@
   "slug": "prefix",
   "order": 0,
   "title": {
-    "en": "Prefix"
+    "en": "Preface and Introduction",
+    "es": "Prefacio e introducción",
+    "de": "Vorwort und Einleitung"
   },
   "legacyIds": [
     "00_prefix"

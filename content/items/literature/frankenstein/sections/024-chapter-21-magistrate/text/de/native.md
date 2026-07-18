@@ -1,1 +1,11 @@
-todo
+Kapitel 21: Der Richter
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Der Ermordete ist Henry Clerval. Als Victor den Körper seines Freundes sieht, bricht er zusammen und fällt in Fieberwahn.
+
+Der irische Richter Kirwin behandelt ihn gerecht und verständigt Alphonse. Später beweisen Zeugenaussagen, dass Victor bei Henrys Tod auf See war.
+
+Victor kommt frei, doch Trauer und Schuld haben ihn gebrochen. Mit seinem Vater reist er nach Genf zurück und braucht Medikamente zum Schlafen.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

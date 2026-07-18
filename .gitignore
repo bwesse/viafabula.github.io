@@ -41,3 +41,12 @@ Thumbs.db
 *.backup
 
 .venv-tts/
+
+# Developer EPUB export artifacts
+/exports/epub/*
+!/exports/epub/.gitkeep
+
+# Keep the shared EPUB tasks while other local VS Code settings stay ignored
+!/.vscode/
+/.vscode/*
+!/.vscode/tasks.json

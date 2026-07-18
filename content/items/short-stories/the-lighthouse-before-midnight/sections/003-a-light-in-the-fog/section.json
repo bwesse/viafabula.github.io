@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "a-light-in-the-fog",
+  "order": 3,
+  "title": {
+    "en": "A Light in the Fog",
+    "de": "Ein Licht im Nebel",
+    "es": "Una luz en la niebla"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

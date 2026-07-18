@@ -1,0 +1,11 @@
+Capítulo VII: Profesiones para cada tipo
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+El último capítulo relaciona el éxito con un trabajo adecuado al supuesto tipo natural de cada persona. Asigna profesiones distintas a las cinco categorías.
+
+Los autores usan personas famosas como ejemplos y afirman que el esfuerzo funciona mejor cuando sigue fortalezas innatas. Advierten contra copiar la carrera de otra persona.
+
+Adaptar el trabajo a intereses y capacidades puede ser útil, pero las categorías corporales del libro no identifican una vocación de forma fiable. Las decisiones modernas requieren más pruebas y elección personal.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

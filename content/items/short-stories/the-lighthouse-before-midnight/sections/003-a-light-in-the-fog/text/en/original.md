@@ -1,0 +1,13 @@
+Lea and Omar climbed the stairs again with the cable. It was 11:48 when Inés connected it to the battery. She closed the metal box and pressed the green button. From that moment, the story moved in a new direction.
+
+Nothing happened. Outside, the wind hit the glass. Inés checked the cable, and Omar noticed a second switch near the floor. “Main power,” he read. Lea turned it upward.
+
+The lamp woke with a low sound. A white beam moved across the fog, disappeared over the sea, and returned. For the first time that evening, they could see the black rocks below the cliff.
+
+Inés spoke into the radio. “Mar Azul, the harbor light is working.” A voice answered through the noise: “We see it. Ten minutes to the entrance.”
+
+At midnight, a boat horn sounded from the bay. The three of them stood outside the lighthouse and watched two small lights move safely between the rocks.
+
+The next morning, Lea and Omar woke at the harbor office. They had slept there under dry blankets. On the desk were hot bread, oranges, and a note from the guesthouse: BREAKFAST DOES NOT CLOSE FOR LIGHTHOUSE WORKERS.
+
+When their bus climbed out of Porto Claro, the fog was gone. The lighthouse looked small in the sun. Lea opened the map on her phone and smiled. “Next time,” she said, “we choose a hotel at sea level.”

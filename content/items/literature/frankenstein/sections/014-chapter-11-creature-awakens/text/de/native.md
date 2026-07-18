@@ -1,1 +1,11 @@
-todo
+Kapitel 11: Die Kreatur erwacht
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Die Kreatur erinnert sich an ihr Erwachen mit verwirrten Sinnen. Licht, Dunkelheit, Hunger, Kälte und Feuer sind ihr völlig neu.
+
+Menschen schreien oder greifen sie an, sobald sie ihr Gesicht sehen. Sie lernt, dass die Gesellschaft ihr Aussehen vor ihren Taten beurteilt.
+
+Auf der Suche nach Schutz versteckt sie sich neben dem Haus einer armen Familie. Von dort beobachtet sie das menschliche Leben.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

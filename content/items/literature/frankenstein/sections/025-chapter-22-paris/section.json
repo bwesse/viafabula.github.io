@@ -4,9 +4,23 @@
   "slug": "chapter-22-paris",
   "order": 25,
   "title": {
-    "en": "Chapter 22 Paris"
+    "en": "Chapter 22: Elizabeth’s Letter",
+    "es": "Capítulo 22: La carta de Elizabeth",
+    "de": "Kapitel 22: Elizabeths Brief"
   },
   "legacyIds": [
     "25_Chapter_22_Paris"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

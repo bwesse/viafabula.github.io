@@ -1,0 +1,11 @@
+Chapter VII: Vocations for Each Type
+
+In contemporary prose, the section develops as follows.
+
+The final chapter connects success with finding work that suits one’s supposed natural type. It assigns different occupations to the five categories.
+
+The authors use famous people as examples and argue that effort works best when it follows inborn strengths. They warn against copying another person’s career.
+
+Matching work to interests and abilities can be useful, but the book’s body-based categories cannot reliably identify vocation. Modern career decisions need broader evidence and personal choice.
+
+What happens here changes the direction of everything that follows.

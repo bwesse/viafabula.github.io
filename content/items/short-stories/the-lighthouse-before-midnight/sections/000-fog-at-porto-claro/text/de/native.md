@@ -1,0 +1,13 @@
+Lea und Omar erreichten Porto Claro mit der letzten Fähre des Abends. Sie wollten eine Nacht in dem Küstendorf verbringen und am nächsten Morgen mit dem Bus nach Norden fahren. Von da an wurde es erst richtig interessant.
+
+Die Überfahrt war ruhig gewesen, aber nun lag dichter Nebel über dem Hafen. Die Häuser über dem Wasser sahen wie graue Formen aus, und der alte Leuchtturm auf der Klippe war dunkel.
+
+„Die Pension ist in der Nähe der Kirche“, sagte Lea und las die Nachricht auf ihrem Handy. „Wir gehen geradeaus, biegen am Fischmarkt links ab und steigen dann die blaue Treppe hinauf.“
+
+Bevor sie den Hafen verließen, rannte eine Frau aus einem kleinen Büro. Sie trug einen gelben Regenmantel und hielt ein Funkgerät in der Hand. „Geht ihr zum oberen Dorf?“, fragte sie.
+
+Sie hieß Inés und kümmerte sich um die Hafenlichter. Am Nachmittag hatte ein Blitz den Leuchtturm beschädigt. Eine neue Batterie war mit der Fähre angekommen, aber der kleine Hafenwagen sprang nicht an.
+
+„Vor Mitternacht kommt ein Fischerboot zurück“, erklärte Inés. „Der Kapitän hat Funk, aber das Licht hilft ihm, die sichere Einfahrt zwischen den Felsen zu finden. Ich kann die Batterie nicht allein bewegen.“
+
+Lea sah Omar an. Die Küche der Pension schloss um zehn, und beide hatten Hunger. Omar sah zu der dunklen Klippe. „Welcher Weg führt zum Leuchtturm?“, fragte er.

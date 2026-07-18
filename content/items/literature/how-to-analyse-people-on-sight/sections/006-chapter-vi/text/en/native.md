@@ -1,0 +1,11 @@
+Chapter VI: Marriage and Compatibility
+
+In contemporary prose, the section develops as follows.
+
+The authors apply their five-type system to marriage. They argue that some combinations balance each other while others create conflict.
+
+They discuss attraction, daily habits, money, emotion, and communication, offering fixed recommendations for each pairing.
+
+Some general advice about respect and compatible needs remains recognizable, but choosing a partner by body type is unsupported and reductive.
+
+What happens here changes the direction of everything that follows.

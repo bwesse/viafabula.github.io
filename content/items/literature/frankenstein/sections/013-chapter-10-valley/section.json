@@ -4,9 +4,23 @@
   "slug": "chapter-10-valley",
   "order": 13,
   "title": {
-    "en": "Chapter 10 Valley"
+    "en": "Chapter 10: Meeting on the Glacier",
+    "es": "Capítulo 10: Encuentro en el glaciar",
+    "de": "Kapitel 10: Begegnung auf dem Gletscher"
   },
   "legacyIds": [
     "13_Chapter_10_Valley"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

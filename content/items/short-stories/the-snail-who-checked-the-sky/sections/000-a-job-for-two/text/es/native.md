@@ -1,0 +1,13 @@
+Cada primavera, los animales del Valle Verde plantaban flores de luna en la pradera alta. Las flores blancas se abrían de noche y su luz mostraba a todos el camino hacia la fiesta de verano. Fue entonces cuando las cosas empezaron a ponerse interesantes.
+
+Ese año, Búho tenía dos bolsas de semillas. «Deben llegar a la pradera antes de mañana por la mañana», dijo. «El tiempo está cambiando, así que escuchad bien las indicaciones».
+
+Riko, el lagarto, saltó sobre una piedra. Era famoso por sus patas rápidas y todavía más famoso por hablar de ellas. «Dame las dos bolsas», dijo. «Puedo subir la colina y volver antes de que Sela avance un metro».
+
+Sela, el caracol, era pequeña, tranquila y casi nunca tenía prisa. Muchos animales sonrieron cuando se ofreció a ayudar. Riko se rio. «Quizá pueda entregar las semillas la próxima primavera».
+
+Sela miró las nubes oscuras detrás de los árboles. «¿Cuántos caminos llegan a la pradera?», preguntó a Búho. «Tres», respondió Búho. «La cresta es corta, pero está abierta al viento. El camino del bosque es fácil, pero suele inundarse. El sendero junto al arroyo es más largo, aunque unas piedras blancas marcan cada giro».
+
+Riko cogió una bolsa antes de que Búho terminara de hablar. «El camino corto es el mejor», dijo. «Nos vemos arriba, si puedes llegar». Después corrió hacia la cresta.
+
+Sela cogió la segunda bolsa. No miró cómo se alejaba Riko. Estaba mirando el cielo.

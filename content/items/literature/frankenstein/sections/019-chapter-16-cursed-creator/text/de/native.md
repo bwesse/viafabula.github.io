@@ -1,1 +1,11 @@
-todo
+Kapitel 16: Rache am Schöpfer
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Nachdem die De Laceys fort sind, verbrennt die verzweifelte Kreatur ihr Haus. Sie reist nach Genf, um Victor zu finden.
+
+Sie rettet ein Mädchen vor dem Ertrinken, doch dessen Begleiter schießt auf sie. Die Wunde verwandelt ihren Wunsch nach Liebe in Hass auf die Menschheit.
+
+Bei Genf tötet sie William, als sie erfährt, dass er Victors Bruder ist. Sie versteckt die Miniatur bei Justine und fordert von Victor eine Gefährtin.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

@@ -1,0 +1,11 @@
+Capítulo III: El tipo muscular
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+El tipo «muscular» del libro tiene un cuerpo firme y se presenta como activo, práctico, directo y competitivo.
+
+Según los autores, estas personas aprenden haciendo, valoran la eficiencia y prefieren trabajos con resultados visibles. El capítulo ofrece consejos para tratar con ellas.
+
+La fuerza física y la personalidad no siguen este patrón fijo. La descripción se entiende mejor como un estereotipo de su época.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

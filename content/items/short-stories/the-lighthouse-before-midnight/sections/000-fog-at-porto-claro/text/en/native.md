@@ -1,0 +1,13 @@
+Lea and Omar arrived in Porto Claro on the last ferry of the evening. They planned to spend one night in the coastal village and take a bus north the next morning. That was when things started to get interesting.
+
+The journey had been calm, but thick fog now covered the harbor. The houses above the water looked like gray shapes, and the old lighthouse on the cliff was dark.
+
+“The guesthouse is near the church,” Lea said, reading the message on her phone. “We go straight, turn left at the fish market, and then climb the blue stairs.”
+
+Before they left the harbor, a woman ran out of a small office. She wore a yellow raincoat and carried a radio. “Are you walking toward the upper village?” she asked.
+
+Her name was Inés, and she looked after the harbor lights. Lightning had damaged the lighthouse that afternoon. A new battery had arrived on the ferry, but the small harbor truck wouldn't start.
+
+“A fishing boat is returning before midnight,” Inés explained. “The captain has a radio, but the light helps him find the safe entrance between the rocks. I cannot move the battery alone.”
+
+Lea looked at Omar. The guesthouse kitchen closed at ten, and both of them were hungry. Omar looked at the dark cliff. “Which way is the lighthouse?” he asked.

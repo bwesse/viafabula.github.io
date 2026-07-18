@@ -1,0 +1,13 @@
+On the morning of the dinner, Sofia carried the finished table into the courtyard. Sunlight touched the wood, and for one happy moment it looked exactly as she had imagined. That was when things started to get interesting.
+
+Then Malik placed a bowl on it. The bowl moved gently from side to side. He pressed one corner, and the table answered with a small knock against the ground.
+
+“One leg is a little short,” he said. “I can help you turn the table.” Sofia felt heat in her face. “No, thank you. I know how to fix my own work.”
+
+She carried the table back inside and measured every leg. The difference was only four millimeters. Sofia cut a thin piece from the longest leg. Now another leg seemed too long.
+
+She measured again, cut again, and checked the floor. The table still moved. The workshop floor wasn't level, but Sofia blamed the table and then herself.
+
+At five o'clock, music started in the courtyard. Sofia could smell Malik's soup through the open door. She looked at the unfinished table and thought, “Everyone will see the mistake before they see anything else.”
+
+Someone knocked. It was Malik, with two children behind him. “The guests are arriving,” he said gently. “May we carry it together this time?”

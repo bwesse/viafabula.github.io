@@ -4,9 +4,23 @@
   "slug": "chapter-21-magistrate",
   "order": 24,
   "title": {
-    "en": "Chapter 21 Magistrate"
+    "en": "Chapter 21: The Magistrate",
+    "es": "Capítulo 21: El magistrado",
+    "de": "Kapitel 21: Der Richter"
   },
   "legacyIds": [
     "24_Chapter_21_Magistrate"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

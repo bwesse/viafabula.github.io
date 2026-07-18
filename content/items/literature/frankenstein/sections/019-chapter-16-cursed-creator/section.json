@@ -4,9 +4,23 @@
   "slug": "chapter-16-cursed-creator",
   "order": 19,
   "title": {
-    "en": "Chapter 16 Cursed Creator"
+    "en": "Chapter 16: Revenge on the Creator",
+    "es": "Capítulo 16: Venganza contra el creador",
+    "de": "Kapitel 16: Rache am Schöpfer"
   },
   "legacyIds": [
     "19_Chapter_16_Cursed_Creator"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

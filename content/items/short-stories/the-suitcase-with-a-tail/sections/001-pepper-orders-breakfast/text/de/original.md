@@ -1,0 +1,13 @@
+Nina öffnete die Tasche ein paar Zentimeter. Zwei grüne Augen sahen sie an. Eine kleine schwarze Katze schob den Kopf durch die Öffnung. Um ihren Hals hing ein Schild: PEPPER – BITTE HERRN COSTA ANRUFEN. Von diesem Moment an nahm die Geschichte eine neue Richtung.
+
+„Du bist keine Papierblume“, flüsterte Nina. Pepper antwortete, indem sie auf Ninas Knie kletterte.
+
+Nina wollte die Nummer auf dem Schild anrufen, aber ihr Handy wurde dunkel. Sie fragte den Fahrgast gegenüber: „Entschuldigung, darf ich Ihr Handy benutzen? Ich habe die falsche Tasche genommen. Außerdem ist in der Tasche eine Katze.“ Der Fahrgast rückte einen Platz weiter weg.
+
+Bevor Nina mehr erklären konnte, kam ein Frühstückswagen durch den Waggon. Pepper roch einen Teller mit Würstchen. Die Katze sprang von Ninas Knien, landete auf dem Wagen und lief mit einem Würstchen davon.
+
+„Haltet die Katze auf!“, rief der Kellner. „Wem gehört sie?“, fragte die Schaffnerin. Drei Kinder jubelten. Nina rannte Pepper hinterher und sagte: „Es ist nicht meine Katze, aber es ist mein Fehler!“
+
+Pepper lief unter einem Sitz hindurch, über einen Koffer und durch die offene Tür des Ruhebereichs. Die Leute sahen von ihren Büchern auf. Die Katze ließ das Würstchen in den Schuh eines schlafenden Mannes fallen.
+
+Kurz darauf fing Nina Pepper mithilfe eines kleinen Mädchens und eines halben Käsebrots. Die Schaffnerin verschränkte die Arme. Nina entschuldigte sich beim Kellner, beim schlafenden Mann, im Ruhebereich und zuletzt bei der Katze.

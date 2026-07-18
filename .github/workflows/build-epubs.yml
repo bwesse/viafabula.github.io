@@ -1,0 +1,33 @@
+name: Build EPUB exports
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "content/items/**"
+      - "tools/build-epub.py"
+      - ".github/workflows/build-epubs.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate canonical content
+        run: python tools/validate-content.py
+      - name: Build all EPUBs
+        run: python tools/build-epub.py --all --force
+      - name: Validate generated EPUBs
+        run: python tools/build-epub.py --all --check
+      - name: Upload EPUB artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: via-fabula-epubs
+          path: exports/epub/*.epub
+          if-no-files-found: error

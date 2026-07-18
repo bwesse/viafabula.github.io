@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "the-victim-takes-a-bow",
+  "order": 3,
+  "title": {
+    "en": "The Victim Takes a Bow",
+    "de": "Das Opfer verbeugt sich",
+    "es": "La víctima saluda al público"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

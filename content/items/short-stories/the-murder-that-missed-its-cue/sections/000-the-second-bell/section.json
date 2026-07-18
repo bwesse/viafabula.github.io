@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "the-second-bell",
+  "order": 0,
+  "title": {
+    "en": "The Second Bell",
+    "de": "Die zweite Glocke",
+    "es": "La segunda campana"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

@@ -4,9 +4,23 @@
   "slug": "chapter-24-final-pursuit",
   "order": 27,
   "title": {
-    "en": "Chapter 24 Final Pursuit"
+    "en": "Chapter 24: The Final Pursuit",
+    "es": "Capítulo 24: La persecución final",
+    "de": "Kapitel 24: Die letzte Verfolgung"
   },
   "legacyIds": [
     "27_Chapter_24_Final_Pursuit"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

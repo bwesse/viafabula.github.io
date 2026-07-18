@@ -1,0 +1,13 @@
+Every spring, the animals of Green Valley planted moonflowers on the high meadow. The white flowers opened at night, and their light showed everyone the way to the summer festival. From that moment, the story moved in a new direction.
+
+This year, Owl had two bags of seeds. “They must reach the meadow before tomorrow morning,” she said. “The weather is changing, so please listen to the directions.”
+
+Riko the lizard jumped onto a stone. He was famous for his quick feet and even more famous for talking about them. “Give me both bags,” he said. “I can go up the hill and return before Sela moves one meter.”
+
+Sela the snail was small, quiet, and rarely in a hurry. Many animals smiled when she offered to help. Riko laughed. “Perhaps she can deliver the seeds next spring.”
+
+Sela looked at the dark clouds behind the trees. “How many paths go to the meadow?” she asked Owl. “Three,” Owl answered. “The ridge is short but open to the wind. The forest road is easy but often floods. The path beside the stream is longer, but white stones mark every turn.”
+
+Riko took one bag before Owl finished speaking. “Short is best,” he said. “Meet me at the top, if you can.” Then he ran toward the ridge.
+
+Sela took the second bag. She did not watch Riko leave. She was watching the sky.

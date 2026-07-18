@@ -4,9 +4,23 @@
   "slug": "chapter-18-return-geneva",
   "order": 21,
   "title": {
-    "en": "Chapter 18 Return Geneva"
+    "en": "Chapter 18: Leaving Geneva",
+    "es": "Capítulo 18: La partida de Ginebra",
+    "de": "Kapitel 18: Abschied von Genf"
   },
   "legacyIds": [
     "21_Chapter_18_Return_Geneva"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

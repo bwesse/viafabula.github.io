@@ -4,9 +4,23 @@
   "slug": "letter-1-to-saville",
   "order": 0,
   "title": {
-    "en": "Letter 1 To Saville"
+    "en": "Letter 1 to Saville",
+    "es": "Carta 1 a Saville",
+    "de": "Brief 1 an Saville"
   },
   "legacyIds": [
     "00_Letter_1_To_Saville"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

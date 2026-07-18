@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "the-snail-who-checked-the-sky",
+  "legacyIds": [],
+  "type": "short-stories",
+  "catalogOrder": 2,
+  "subtype": "original-fable",
+  "title": "The Snail Who Checked the Sky",
+  "author": "VIA FABULA",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "original-via-fabula-collection",
+    "rights": "original-project-content",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "a-job-for-two",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "fast-feet-and-a-good-map",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "when-the-short-path-disappeared",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "flowers-on-both-paths",
+      "order": 3
+    }
+  ]
+}

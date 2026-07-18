@@ -4,9 +4,23 @@
   "slug": "chapter-13-cottagers-story",
   "order": 16,
   "title": {
-    "en": "Chapter 13 Cottagers Story"
+    "en": "Chapter 13: Safie Arrives",
+    "es": "Capítulo 13: La llegada de Safie",
+    "de": "Kapitel 13: Safies Ankunft"
   },
   "legacyIds": [
     "16_Chapter_13_Cottagers_Story"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

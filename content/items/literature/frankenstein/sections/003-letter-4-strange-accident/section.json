@@ -4,9 +4,23 @@
   "slug": "letter-4-strange-accident",
   "order": 3,
   "title": {
-    "en": "Letter 4 Strange Accident"
+    "en": "Letter 4: A Strange Accident",
+    "es": "Carta 4: Un extraño incidente",
+    "de": "Brief 4: Ein seltsamer Vorfall"
   },
   "legacyIds": [
     "03_Letter_4_Strange_Accident"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

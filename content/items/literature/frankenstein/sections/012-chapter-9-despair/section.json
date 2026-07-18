@@ -4,9 +4,23 @@
   "slug": "chapter-9-despair",
   "order": 12,
   "title": {
-    "en": "Chapter 9 Despair"
+    "en": "Chapter 9: Despair",
+    "es": "Capítulo 9: Desesperación",
+    "de": "Kapitel 9: Verzweiflung"
   },
   "legacyIds": [
     "12_Chapter_9_Despair"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

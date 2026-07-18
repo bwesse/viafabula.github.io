@@ -4,9 +4,23 @@
   "slug": "chapter-19-london",
   "order": 22,
   "title": {
-    "en": "Chapter 19 London"
+    "en": "Chapter 19: Britain and the Islands",
+    "es": "Capítulo 19: Gran Bretaña y las islas",
+    "de": "Kapitel 19: Großbritannien und die Inseln"
   },
   "legacyIds": [
     "22_Chapter_19_London"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

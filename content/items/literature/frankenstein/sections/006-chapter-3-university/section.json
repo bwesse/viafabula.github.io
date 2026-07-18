@@ -4,9 +4,23 @@
   "slug": "chapter-3-university",
   "order": 6,
   "title": {
-    "en": "Chapter 3 University"
+    "en": "Chapter 3: University",
+    "es": "Capítulo 3: La universidad",
+    "de": "Kapitel 3: Die Universität"
   },
   "legacyIds": [
     "06_Chapter_3_University"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

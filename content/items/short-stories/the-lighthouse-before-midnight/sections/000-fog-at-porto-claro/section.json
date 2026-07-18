@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "fog-at-porto-claro",
+  "order": 0,
+  "title": {
+    "en": "Fog at Porto Claro",
+    "de": "Nebel in Porto Claro",
+    "es": "Niebla en Porto Claro"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

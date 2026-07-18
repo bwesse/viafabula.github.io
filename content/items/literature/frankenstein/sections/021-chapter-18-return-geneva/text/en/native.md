@@ -1,1 +1,11 @@
-todo
+Chapter 18: Leaving Geneva
+
+In contemporary prose, the section develops as follows.
+
+Victor delays the new creation and becomes anxious. Alphonse thinks marriage to Elizabeth will cure his sadness.
+
+Victor believes he must finish his promise first. He plans a journey to England to gather scientific knowledge, with Henry as his companion.
+
+He fears the creature is watching. Elizabeth senses his distance but does not know the terrible reason behind it.
+
+What happens here changes the direction of everything that follows.

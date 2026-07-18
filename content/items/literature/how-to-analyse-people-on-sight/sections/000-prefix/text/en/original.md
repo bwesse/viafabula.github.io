@@ -1,7 +1,3 @@
-E-text prepared by Mark C. Orton, Woodie4, and the Project Gutenberg Online Distributed Proofreading Team (http://www.pgdp.net)
-
-Note: Project Gutenberg also has an HTML version of this file which includes the original illustrations. See 30601-h.htm or 30601-h.zip: (https://www.gutenberg.org/cache/epub/30601/pg30601-images.html) or (https://www.gutenberg.org/files/30601/30601-h.zip)
-
 HOW TO ANALYZE PEOPLE ON SIGHT
 
 [Illustration: _Each According To His Type_]

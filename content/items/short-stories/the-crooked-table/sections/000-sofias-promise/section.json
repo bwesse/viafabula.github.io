@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "sofias-promise",
+  "order": 0,
+  "title": {
+    "en": "Sofia's Promise",
+    "de": "Sofias Versprechen",
+    "es": "La promesa de Sofia"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

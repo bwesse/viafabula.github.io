@@ -4,7 +4,9 @@
   "slug": "chapter-iv",
   "order": 4,
   "title": {
-    "en": "Chapter IV"
+    "en": "Chapter IV: The Osseous Type",
+    "es": "Capítulo IV: El tipo óseo",
+    "de": "Kapitel IV: Der knöcherne Typ"
   },
   "legacyIds": [
     "04_chapter_iv"

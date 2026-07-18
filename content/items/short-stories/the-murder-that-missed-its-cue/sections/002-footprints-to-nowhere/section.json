@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "footprints-to-nowhere",
+  "order": 2,
+  "title": {
+    "en": "Footprints to Nowhere",
+    "de": "Fußspuren ins Nichts",
+    "es": "Huellas que no llevaban a ninguna parte"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

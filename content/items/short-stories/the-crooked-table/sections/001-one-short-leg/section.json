@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "one-short-leg",
+  "order": 1,
+  "title": {
+    "en": "One Short Leg",
+    "de": "Ein zu kurzes Bein",
+    "es": "Una pata demasiado corta"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

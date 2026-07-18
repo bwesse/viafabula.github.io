@@ -1,1 +1,11 @@
-todo
+Chapter 20: The Second Laboratory
+
+In contemporary prose, the section develops as follows.
+
+Victor imagines the new beings having children or refusing their promise. Horrified by the possible future, he destroys the unfinished female.
+
+The creature watches through the window and swears revenge. It warns Victor that it will be with him on his wedding night.
+
+Victor takes the remains out to sea and throws them into the water. Wind carries him to Ireland, where people accuse him of murder.
+
+What happens here changes the direction of everything that follows.

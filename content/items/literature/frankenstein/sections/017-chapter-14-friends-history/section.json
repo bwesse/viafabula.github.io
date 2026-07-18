@@ -4,9 +4,23 @@
   "slug": "chapter-14-friends-history",
   "order": 17,
   "title": {
-    "en": "Chapter 14 Friends History"
+    "en": "Chapter 14: The De Laceys’ History",
+    "es": "Capítulo 14: La historia de los De Lacey",
+    "de": "Kapitel 14: Die Geschichte der De Laceys"
   },
   "legacyIds": [
     "17_Chapter_14_Friends_History"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

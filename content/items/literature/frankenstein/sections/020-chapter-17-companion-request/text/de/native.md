@@ -1,1 +1,11 @@
-todo
+Kapitel 17: Eine Gefährtin
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Die Kreatur erklärt, Einsamkeit und nicht angeborene Bosheit habe sie gewalttätig gemacht. Sie bittet Victor, ein weibliches Wesen ihrer Art zu erschaffen.
+
+Das Paar werde Europa für immer verlassen und fern von Menschen leben. Die Kreatur verspricht Frieden, wenn Victor ihr diese eine Chance auf Gemeinschaft gibt.
+
+Victor fürchtet die Folgen, erkennt aber seine Pflicht als Schöpfer. Er stimmt zu, und die Kreatur verschwindet.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

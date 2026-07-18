@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "a-job-for-two",
+  "order": 0,
+  "title": {
+    "en": "A Job for Two",
+    "de": "Eine Aufgabe für zwei",
+    "es": "Una tarea para dos"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

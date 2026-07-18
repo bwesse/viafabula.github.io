@@ -4,9 +4,23 @@
   "slug": "chapter-8-trial",
   "order": 11,
   "title": {
-    "en": "Chapter 8 Trial"
+    "en": "Chapter 8: Justine’s Trial",
+    "es": "Capítulo 8: El juicio de Justine",
+    "de": "Kapitel 8: Justines Prozess"
   },
   "legacyIds": [
     "11_Chapter_8_Trial"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

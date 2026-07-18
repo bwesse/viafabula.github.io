@@ -1,1 +1,11 @@
-todo
+Capítulo 17: Una compañera
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+La criatura sostiene que la soledad, y no una maldad natural, la volvió violenta. Pide a Victor que cree un ser femenino como ella.
+
+La pareja abandonará Europa para siempre y vivirá lejos de los humanos. La criatura promete paz si Victor le concede esta única oportunidad de compañía.
+
+Victor teme las consecuencias, pero reconoce su deber como creador. Acepta y la criatura desaparece para esperar.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

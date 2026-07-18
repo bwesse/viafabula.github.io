@@ -1,0 +1,13 @@
+Sofia quería decir que no. En vez de eso, se apartó. Los cuatro llevaron la mesa al patio mientras los faroles de papel se movían sobre sus cabezas. A partir de aquel momento, la historia tomó una nueva dirección.
+
+La mesa volvió a golpear el suelo. Antes de que Sofia pudiera disculparse, Malik dobló una postal vieja y la puso bajo la pata corta. La mesa dejó de moverse.
+
+«Eso no es un arreglo de verdad», dijo Sofia. Malik puso la sopa sobre la mesa. «No», aceptó. «Es una cena de verdad».
+
+Los invitados se sentaron. Sus sillas no eran iguales. Un plato tenía un borde azul, otro tenía flores amarillas y un tercero tenía una pequeña grieta. Nadie parecía preocupado.
+
+Durante la cena, un niño derramó salsa de tomate sobre la madera nueva. Eva dejó una fuente de pan caliente y creó una marca redonda y clara. Sofia abrió la boca, pero entonces oyó al niño contar un chiste.
+
+El chiste no era muy bueno. Todos se rieron de todos modos. Sofia miró alrededor de la mesa. Malik repartía sopa, Eva cortaba pan y los niños explicaban cómo cada farol había recibido su nombre.
+
+Sofia se sentó en la última silla libre. Comió sopa fría porque había llegado tarde, pero sabía mejor que el café que había bebido sola durante toda la semana.

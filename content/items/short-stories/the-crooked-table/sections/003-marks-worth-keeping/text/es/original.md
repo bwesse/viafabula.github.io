@@ -1,0 +1,13 @@
+A la mañana siguiente, Sofia volvió al patio con papel de lija y un pequeño trozo de madera. Pensaba quitar las manchas y hacer un apoyo fuerte para la pata corta. A partir de aquel momento, la historia tomó una nueva dirección.
+
+La mesa estaba cubierta de señales de la noche anterior: una gota roja, el círculo claro, dos pequeños arañazos y una línea de la pesada olla de Malik. Sofia tocó cada marca.
+
+En el suelo, la postal doblada seguía bajo la pata. Mostraba una playa y las palabras OJALÁ ESTUVIERAS AQUÍ. Sofia se rio en voz baja. La guardó en su bolsillo en vez de tirarla.
+
+Malik cruzó el patio con dos tazas de té. «¿Quieres ayuda?», preguntó. Sofia casi dio su respuesta habitual.
+
+«Sí», dijo. «Sujeta este lado, por favor». Juntos añadieron un pequeño apoyo de madera. Era sencillo, fuerte y estuvo terminado en diez minutos.
+
+Sofia no quitó todas las marcas. Limpió la mesa, pero dejó el círculo claro. Debajo escribió la fecha de la cena con letras pequeñas.
+
+Aquella tarde, Malik y ella bebieron té en la mesa. Cuando llegaron los niños con un farol nuevo, Sofia dejó sus herramientas. «Enseñádmelo ahora», dijo.

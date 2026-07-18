@@ -4,9 +4,23 @@
   "slug": "chapter-5-creation",
   "order": 8,
   "title": {
-    "en": "Chapter 5 Creation"
+    "en": "Chapter 5: The Creation",
+    "es": "Capítulo 5: La creación",
+    "de": "Kapitel 5: Die Schöpfung"
   },
   "legacyIds": [
     "08_Chapter_5_Creation"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

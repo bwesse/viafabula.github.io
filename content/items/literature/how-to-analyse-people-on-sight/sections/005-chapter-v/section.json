@@ -4,7 +4,9 @@
   "slug": "chapter-v",
   "order": 5,
   "title": {
-    "en": "Chapter V"
+    "en": "Chapter V: The Cerebral Type",
+    "es": "Capítulo V: El tipo cerebral",
+    "de": "Kapitel V: Der zerebrale Typ"
   },
   "legacyIds": [
     "05_chapter_v"

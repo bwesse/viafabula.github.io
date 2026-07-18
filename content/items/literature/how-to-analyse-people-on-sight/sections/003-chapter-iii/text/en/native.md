@@ -1,0 +1,11 @@
+Chapter III: The Muscular Type
+
+In contemporary prose, the section develops as follows.
+
+The book’s “Muscular” type has a firm body and is presented as active, practical, direct, and competitive.
+
+According to the authors, such people learn by doing, value efficiency, and prefer work that produces visible results. The chapter gives advice for approaching them.
+
+Physical strength and personality do not follow this fixed pattern. The description is best understood as a period stereotype.
+
+What happens here changes the direction of everything that follows.

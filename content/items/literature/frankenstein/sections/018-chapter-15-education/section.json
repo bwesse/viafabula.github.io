@@ -4,9 +4,23 @@
   "slug": "chapter-15-education",
   "order": 18,
   "title": {
-    "en": "Chapter 15 Education"
+    "en": "Chapter 15: Books and Rejection",
+    "es": "Capítulo 15: Libros y rechazo",
+    "de": "Kapitel 15: Bücher und Zurückweisung"
   },
   "legacyIds": [
     "18_Chapter_15_Education"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

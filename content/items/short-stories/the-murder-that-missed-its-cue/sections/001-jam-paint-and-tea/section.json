@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "jam-paint-and-tea",
+  "order": 1,
+  "title": {
+    "en": "Jam, Paint, and Tea",
+    "de": "Marmelade, Farbe und Tee",
+    "es": "Mermelada, pintura y té"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

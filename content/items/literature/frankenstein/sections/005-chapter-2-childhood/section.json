@@ -4,9 +4,23 @@
   "slug": "chapter-2-childhood",
   "order": 5,
   "title": {
-    "en": "Chapter 2 Childhood"
+    "en": "Chapter 2: Childhood Curiosity",
+    "es": "Capítulo 2: Curiosidad infantil",
+    "de": "Kapitel 2: Neugier in der Kindheit"
   },
   "legacyIds": [
     "05_Chapter_2_Childhood"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

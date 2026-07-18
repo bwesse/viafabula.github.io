@@ -1,1 +1,11 @@
-todo
+Kapitel 22: Elizabeths Brief
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+In Paris erhält Victor einen Brief von Elizabeth. Sie fragt, ob er eine andere liebe, und bietet an, ihn von der Verlobung zu lösen.
+
+Victor antwortet, dass er sie liebt, verbirgt aber weiter sein Geheimnis. Er glaubt, die Kreatur wolle ihn in der Hochzeitsnacht töten.
+
+Er stimmt der Heirat zu und bewaffnet sich zur Verteidigung. Er erkennt nicht, dass die Drohung Elizabeth gelten könnte.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

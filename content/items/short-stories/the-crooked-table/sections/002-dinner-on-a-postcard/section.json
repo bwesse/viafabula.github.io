@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "dinner-on-a-postcard",
+  "order": 2,
+  "title": {
+    "en": "Dinner on a Postcard",
+    "de": "Abendessen auf einer Postkarte",
+    "es": "Una cena sobre una postal"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "a-cafe-full-of-flowers",
+  "order": 3,
+  "title": {
+    "en": "A Café Full of Flowers",
+    "de": "Ein Café voller Blumen",
+    "es": "Una cafetería llena de flores"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

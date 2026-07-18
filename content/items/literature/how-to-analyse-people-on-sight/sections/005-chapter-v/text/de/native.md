@@ -1,0 +1,11 @@
+Kapitel V: Der zerebrale Typ
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Der „zerebrale“ Typ wird mit großem Kopf, schmalem Körper, intensivem Denken, Fantasie und Empfindlichkeit verbunden.
+
+Die Autoren meinen, dieser Mensch bevorzuge Ideen vor körperlichem Handeln, brauche Ruhe und vergesse beim Konzentrieren den Komfort. Sie empfehlen geistige Arbeit und ruhige Kommunikation.
+
+Die Darstellung vermischt Beobachtung mit unbelegten Schlüssen. Kopf- oder Körperform verraten weder Intelligenz noch Talent oder Charakter.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

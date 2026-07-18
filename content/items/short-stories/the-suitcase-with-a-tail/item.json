@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "the-suitcase-with-a-tail",
+  "legacyIds": [],
+  "type": "short-stories",
+  "catalogOrder": 1,
+  "subtype": "humorous-everyday-fiction",
+  "title": "The Suitcase with a Tail",
+  "author": "VIA FABULA",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "original-via-fabula-collection",
+    "rights": "original-project-content",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "two-blue-bags",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "pepper-orders-breakfast",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "the-wrong-thief",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "a-cafe-full-of-flowers",
+      "order": 3
+    }
+  ]
+}

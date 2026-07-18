@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "EPUB: Build one item",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "tools/build-epub.py",
+        "--item",
+        "${input:epubItemId}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "EPUB: Build all items",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "tools/build-epub.py",
+        "--all"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "EPUB: Watch content",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "tools/build-epub.py",
+        "--watch"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "EPUB: Force rebuild all",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "tools/build-epub.py",
+        "--all",
+        "--force"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "epubItemId",
+      "type": "promptString",
+      "description": "Canonical VIA Fabula item ID",
+      "default": "frankenstein"
+    }
+  ]
+}

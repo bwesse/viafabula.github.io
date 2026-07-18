@@ -1,1 +1,11 @@
-todo
+Kapitel 19: Großbritannien und die Inseln
+
+In natürlicher, zeitgenössischer Sprache entwickelt sich der Abschnitt so.
+
+Victor und Henry reisen durch England und Schottland. Henry genießt Menschen und Landschaften, während Victor in seiner Angst gefangen bleibt.
+
+Victor trennt sich von seinem Freund und mietet eine abgelegene Hütte auf einer Orkneyinsel. Dort beginnt er mit der weiblichen Kreatur.
+
+Das einsame Meer und die karge Umgebung spiegeln seinen Zustand. Langsam arbeitet er weiter und erwartet ständig seinen Feind.
+
+Was hier geschieht, verändert die Richtung aller folgenden Ereignisse.

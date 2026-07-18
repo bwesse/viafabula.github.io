@@ -4,9 +4,23 @@
   "slug": "chapter-1-geneva-birth",
   "order": 4,
   "title": {
-    "en": "Chapter 1 Geneva Birth"
+    "en": "Chapter 1: Family in Geneva",
+    "es": "Capítulo 1: La familia en Ginebra",
+    "de": "Kapitel 1: Die Familie in Genf"
   },
   "legacyIds": [
     "04_Chapter_1_Geneva_Birth"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

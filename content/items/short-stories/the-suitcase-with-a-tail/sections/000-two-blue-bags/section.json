@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-000",
+  "slug": "two-blue-bags",
+  "order": 0,
+  "title": {
+    "en": "Two Blue Bags",
+    "de": "Zwei blaue Taschen",
+    "es": "Dos bolsas azules"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

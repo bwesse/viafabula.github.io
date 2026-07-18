@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-003",
+  "slug": "marks-worth-keeping",
+  "order": 3,
+  "title": {
+    "en": "Marks Worth Keeping",
+    "de": "Spuren, die bleiben dürfen",
+    "es": "Marcas que vale la pena guardar"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

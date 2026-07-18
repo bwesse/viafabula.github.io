@@ -4,7 +4,9 @@
   "slug": "chapter-i",
   "order": 1,
   "title": {
-    "en": "Chapter I"
+    "en": "Chapter I: The Alimentive Type",
+    "es": "Capítulo I: El tipo alimenticio",
+    "de": "Kapitel I: Der alimentive Typ"
   },
   "legacyIds": [
     "01_chapter_i"

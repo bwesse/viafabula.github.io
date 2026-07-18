@@ -4,9 +4,23 @@
   "slug": "letter-2-archangel",
   "order": 1,
   "title": {
-    "en": "Letter 2 Archangel"
+    "en": "Letter 2: Archangel",
+    "es": "Carta 2: Arcángel",
+    "de": "Brief 2: Archangelsk"
   },
   "legacyIds": [
     "01_Letter_2_Archangel"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }

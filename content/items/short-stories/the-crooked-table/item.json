@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "the-crooked-table",
+  "legacyIds": [],
+  "type": "short-stories",
+  "catalogOrder": 4,
+  "subtype": "warm-contemporary-fiction",
+  "title": "The Crooked Table",
+  "author": "VIA FABULA",
+  "sectionLabel": {
+    "singular": "Chapter",
+    "plural": "Chapters"
+  },
+  "source": {
+    "origin": "original-via-fabula-collection",
+    "rights": "original-project-content",
+    "originalLanguage": "en"
+  },
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ],
+  "levels": [
+    "a0",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2",
+    "native",
+    "original"
+  ],
+  "sections": [
+    {
+      "id": "section-000",
+      "slug": "sofias-promise",
+      "order": 0
+    },
+    {
+      "id": "section-001",
+      "slug": "one-short-leg",
+      "order": 1
+    },
+    {
+      "id": "section-002",
+      "slug": "dinner-on-a-postcard",
+      "order": 2
+    },
+    {
+      "id": "section-003",
+      "slug": "marks-worth-keeping",
+      "order": 3
+    }
+  ]
+}

@@ -1,1 +1,11 @@
-todo
+Capítulo 2: Curiosidad infantil
+
+En una prosa contemporánea y natural, la sección se desarrolla así.
+
+Victor, Elizabeth y Henry Clerval se hacen amigos íntimos. A Elizabeth le gustan la poesía y la naturaleza, mientras Henry sueña con aventuras heroicas.
+
+Victor quiere descubrir las leyes ocultas del mundo. Autores antiguos como Agrippa y Paracelso lo llenan de sueños sobre conocimientos prohibidos.
+
+Un rayo destruye un árbol y le muestra la electricidad moderna. Sin embargo, ningún adulto le explica claramente por qué las teorías antiguas son erróneas.
+
+Lo que ocurre aquí cambia la dirección de todo lo que sigue.

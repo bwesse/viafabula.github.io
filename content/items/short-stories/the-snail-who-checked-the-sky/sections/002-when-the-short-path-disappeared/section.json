@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-002",
+  "slug": "when-the-short-path-disappeared",
+  "order": 2,
+  "title": {
+    "en": "When the Short Path Disappeared",
+    "de": "Als der kurze Weg verschwand",
+    "es": "Cuando desapareció el camino corto"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "section-001",
+  "slug": "the-road-above-the-roofs",
+  "order": 1,
+  "title": {
+    "en": "The Road Above the Roofs",
+    "de": "Der Weg über den Dächern",
+    "es": "El camino sobre los tejados"
+  },
+  "legacyIds": [],
+  "languages": [
+    "de",
+    "en",
+    "es"
+  ]
+}

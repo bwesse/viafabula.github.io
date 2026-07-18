@@ -4,9 +4,23 @@
   "slug": "chapter-23-wedding",
   "order": 26,
   "title": {
-    "en": "Chapter 23 Wedding"
+    "en": "Chapter 23: The Wedding Night",
+    "es": "Capítulo 23: La noche de bodas",
+    "de": "Kapitel 23: Die Hochzeitsnacht"
   },
   "legacyIds": [
     "26_Chapter_23_Wedding"
+  ],
+  "archivedVariants": [
+    {
+      "id": "de-invalid-original-placeholder",
+      "path": "text/de/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    },
+    {
+      "id": "es-invalid-original-placeholder",
+      "path": "text/es/original.md",
+      "reason": "Excluded placeholder: original.md is reserved for verified public-domain originals or historical translations"
+    }
   ]
 }
