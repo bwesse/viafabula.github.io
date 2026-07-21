@@ -605,31 +605,6 @@ def nav_xhtml(item: Item) -> str:
     return xhtml_document(f"Contents — {item.title}", language, "styles/book.css", body, "contents-page")
 
 
-def chapter_navigation(item: Item, section: Section, language: str, level: str) -> str:
-    current_path = PurePosixPath(chapter_href(section, language, level))
-    same_track = [
-        candidate
-        for candidate in item.sections
-        if (language, level) in candidate.versions
-    ]
-    index = same_track.index(section)
-    previous_link = (
-        f'<a rel="prev" href="{posixpath.relpath(chapter_href(same_track[index - 1], language, level), current_path.parent.as_posix())}">Previous</a>'
-        if index > 0
-        else "<span>Previous</span>"
-    )
-    next_link = (
-        f'<a rel="next" href="{posixpath.relpath(chapter_href(same_track[index + 1], language, level), current_path.parent.as_posix())}">Next</a>'
-        if index + 1 < len(same_track)
-        else "<span>Next</span>"
-    )
-    contents_href = f"../../../nav.xhtml#track-{language}-{level}"
-    return (
-        f'<nav class="chapter-nav" aria-label="Chapter navigation">{previous_link}'
-        f'<a href="{contents_href}">Contents</a>{next_link}</nav>'
-    )
-
-
 def version_navigation(item: Item, section: Section, language: str, level: str) -> str:
     language_links: list[str] = []
     section_languages = sorted({lang for lang, _ in section.versions})
@@ -661,11 +636,10 @@ def version_navigation(item: Item, section: Section, language: str, level: str) 
             target = chapter_href(section, language, target_level)
             href = posixpath.relpath(target, current_dir.as_posix())
             level_links.append(f'<a href="{href}">{label}</a>')
-    return f"""<aside class="version-nav" aria-label="Version navigation">
-<h2>This chapter</h2>
+    return f"""<nav class="version-nav" aria-label="Change this chapter version">
 <p><strong>Language:</strong> {" · ".join(language_links)}</p>
 <p><strong>Level:</strong> {" · ".join(level_links)}</p>
-</aside>"""
+</nav>"""
 
 
 def chapter_xhtml(item: Item, section: Section, language: str, level: str) -> str:
@@ -676,15 +650,12 @@ def chapter_xhtml(item: Item, section: Section, language: str, level: str) -> st
         raise ExportError(f"{relative(version.source_path)}: Markdown is not UTF-8: {exc}") from exc
     title = section_title(section, language)
     source = relative(version.source_path)
-    top_navigation = chapter_navigation(item, section, language, level)
     body = f"""<main>
-{top_navigation}
 {version_navigation(item, section, language, level)}
 <article data-source="{html.escape(source, quote=True)}">
 <h1>{html.escape(title)}</h1>
 {markdown_blocks(markdown)}
 </article>
-{chapter_navigation(item, section, language, level)}
 </main>"""
     return xhtml_document(title, language, "../../../styles/book.css", body, "chapter-page")
 
@@ -717,25 +688,15 @@ a {
 .reading-paths section {
   margin-block: 1.25em;
 }
-.chapter-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 1em;
-  margin-block: 1.5em;
-  padding-block: 0.75em;
-  border-block: 1px solid;
-}
 .version-nav {
-  margin-block: 1.5em;
-  padding-block: 0.75em;
+  font-size: 0.9em;
+  line-height: 1.35;
+  margin: 0 0 1em;
+  padding: 0 0 0.5em;
   border-bottom: 1px solid;
 }
-.version-nav h2 {
-  font-size: 1em;
-  margin: 0 0 0.5em;
-}
 .version-nav p {
-  margin: 0.35em 0;
+  margin: 0.15em 0;
 }
 .metadata {
   margin-top: 2em;
@@ -815,10 +776,7 @@ def package_opf(
     ]
     spine = ['<itemref idref="start" />']
     spine.extend(f'<itemref idref="{document_ids[href]}" />' for href in primary_hrefs)
-    spine.extend(
-        f'<itemref idref="{document_ids[href]}" linear="no" />'
-        for href in alternate_hrefs
-    )
+    spine.extend(f'<itemref idref="{document_ids[href]}" />' for href in alternate_hrefs)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="{OPF_NS}" version="3.0" unique-identifier="pub-id" xml:lang="{html.escape(language_order[0], quote=True)}">
   <metadata xmlns:dc="{DC_NS}">
@@ -1006,12 +964,13 @@ def validate_epub(
             manifest[item_id] = target
             if element.get("media-type") == "application/xhtml+xml":
                 xhtml_manifest.add(target)
-        spine_targets: set[str] = set()
+        spine_entries: list[tuple[str, str | None]] = []
         for element in package.findall(f".//{{{OPF_NS}}}spine/{{{OPF_NS}}}itemref"):
             idref = element.get("idref")
             if not idref or idref not in manifest:
                 raise ExportError(f"{relative(path)}: spine references unknown manifest ID {idref!r}")
-            spine_targets.add(manifest[idref])
+            spine_entries.append((manifest[idref], element.get("linear")))
+        spine_targets = {target for target, _ in spine_entries}
         if not xhtml_manifest.issubset(spine_targets | {"EPUB/nav.xhtml"}):
             missing_spine = sorted(xhtml_manifest - spine_targets - {"EPUB/nav.xhtml"})
             raise ExportError(
@@ -1058,6 +1017,28 @@ def validate_epub(
 
         if expected_sources is not None:
             represented: set[str] = set()
+            expected_documents = {f"EPUB/{href}" for href in expected_sources}
+            native_chapter_order = [
+                (target, linear)
+                for target, linear in spine_entries
+                if target in expected_documents
+            ]
+            non_linear = [target for target, linear in native_chapter_order if linear == "no"]
+            if non_linear:
+                raise ExportError(
+                    f"{relative(path)}: chapter documents must use native linear progression"
+                )
+            seen_tracks: set[str] = set()
+            current_track: str | None = None
+            for target, _ in native_chapter_order:
+                track = posixpath.dirname(target)
+                if track != current_track:
+                    if track in seen_tracks:
+                        raise ExportError(
+                            f"{relative(path)}: reading track is not contiguous in spine: {track}"
+                        )
+                    seen_tracks.add(track)
+                    current_track = track
             for href, (source, expected_language) in expected_sources.items():
                 document_path = f"EPUB/{href}"
                 root = xml_roots.get(document_path)

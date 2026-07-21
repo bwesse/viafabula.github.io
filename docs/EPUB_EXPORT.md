@@ -19,9 +19,13 @@ chapter has static links to:
 
 - the same section in another language, with a documented fallback when the
   current level is unavailable;
-- another available level in the current language;
-- the previous and next section in the current language-and-level track;
-- the relevant track in the table of contents.
+- another available level in the current language.
+
+Previous/next/content buttons are deliberately not repeated inside every
+chapter. EPUB reader controls handle page progression, while the reader's
+table-of-contents control opens the publication navigation document. Chapters
+for each language-and-level track are contiguous in the EPUB spine so native
+page turning proceeds through that selected track.
 
 Static links work offline and in readers with limited scripting support. The
 EPUB contains no JavaScript and does not reproduce the PWA’s controls. Saved
@@ -123,6 +127,9 @@ application.
   markup.
 - Context switching is section-based; there is no automatic sentence
   alignment.
+- EPUB has one global spine. After the final chapter of a selected track, a
+  reader may continue into the next packaged track; use the start page or table
+  of contents to choose another path deliberately.
 - AVIF and WebP covers are detected and fingerprinted but not embedded because
   broad EPUB reader compatibility is uncertain. Existing JPEG and PNG covers
   are embedded without conversion.

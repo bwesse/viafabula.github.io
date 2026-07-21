@@ -492,6 +492,129 @@ body.night .review-word-highlight { color: #172033; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
 
+/* E-ink reader: flat, instantaneous, viewport-sized pages. */
+body.ereader-mode,
+body.ereader-mode main.reader {
+  overflow: hidden;
+  background: var(--shell-surface);
+  background-image: none;
+}
+body.ereader-mode *,
+body.ereader-mode *::before,
+body.ereader-mode *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+body.ereader-mode header.topbar,
+body.ereader-mode aside.sidebar,
+body.ereader-mode .reader-panel,
+body.ereader-mode .pill-button,
+body.ereader-mode .step-btn,
+body.ereader-mode select,
+body.ereader-mode .comprehension,
+body.ereader-mode .vocab-toast {
+  background-image: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+body.ereader-mode header.topbar,
+body.ereader-mode aside.sidebar,
+body.ereader-mode .reader-panel {
+  background-color: var(--shell-surface);
+}
+body.ereader-mode header.topbar { border-bottom: 1px solid var(--shell-border); }
+body.ereader-mode aside.sidebar { border-right: 1px solid var(--shell-border); }
+body.ereader-mode .overlay { background: #000; opacity: 0; }
+body.ereader-mode .overlay.show { opacity: 0.55; }
+body.ereader-mode button:hover,
+body.ereader-mode button:active,
+body.ereader-mode a:hover,
+body.ereader-mode .pill-button:hover,
+body.ereader-mode .pill-button:active,
+body.ereader-mode .step-btn:hover,
+body.ereader-mode .step-btn:active,
+body.ereader-mode .floating-toggle:active,
+body.ereader-mode #sidebar-close {
+  transform: none !important;
+}
+body.ereader-mode main.reader {
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  align-items: stretch;
+  padding-top: calc(var(--bar-height) + 12px);
+  padding-bottom: 12px;
+}
+body.ereader-mode .reader-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-width: none;
+  overflow: hidden;
+  border: 1px solid var(--shell-border);
+  border-radius: 0;
+}
+body.ereader-mode .desktop-native-panel { display: none; }
+body.ereader-mode .reader-head { flex: 0 0 auto; }
+body.ereader-mode .ereader-pages {
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 0;
+  overflow: hidden;
+  column-fill: auto;
+  column-gap: 0;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+body.ereader-mode .ereader-pages > * {
+  break-inside: auto;
+}
+body.ereader-mode .markdown-body p:nth-of-type(even) { background: transparent; }
+body.ereader-mode .comprehension {
+  border-radius: 0;
+  break-before: column;
+}
+body.ereader-mode .comprehension-question { break-inside: auto; }
+body.ereader-mode .comprehension-options label { break-inside: avoid; }
+body.ereader-mode .next-chapter { break-inside: avoid; }
+body.ereader-mode .ereader-page-indicator {
+  flex: 0 0 24px;
+  min-height: 24px;
+  padding-top: 6px;
+  color: var(--shell-muted);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+body.ereader-mode .ereader-page-indicator[hidden] { display: none; }
+body.ereader-mode .floating-toggle { display: none !important; }
+body.ereader-mode .vocab-toast { transform: none !important; }
+
+@media (min-width: 900px) {
+  body.ereader-mode,
+  body.ereader-mode.sidebar-collapsed { padding-left: 0; }
+  body.ereader-mode header.topbar,
+  body.ereader-mode.sidebar-collapsed header.topbar { left: 0; }
+  body.ereader-mode aside.sidebar {
+    width: var(--shell-sidebar-wide);
+    visibility: visible;
+    transform: translateX(0);
+    box-shadow: none !important;
+  }
+  body.ereader-mode.sidebar-collapsed aside.sidebar {
+    width: var(--shell-sidebar-wide);
+    visibility: hidden;
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 767px) {
+  body.ereader-mode main.reader { padding-inline: 0; padding-bottom: 0; }
+  body.ereader-mode .reader-panel { border-inline: 0; border-bottom: 0; padding-bottom: 8px; }
+}
+
 /* Library */
 body.library-page { min-height: 100%; background: #f8fafc; }
 .library-main { width: min(1180px, 100%); margin: 0 auto; padding: 88px 24px 56px; }

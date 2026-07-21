@@ -767,22 +767,25 @@
           <div class="eyebrow" id="reader-meta">Loading…</div>
           <h1 id="reader-title">Story reader</h1>
         </header>
-        <div class="markdown-body" id="story-body" aria-live="polite">
-          Choose a story, chapter, level, and languages from the menu.
-        </div>
-        <div class="comprehension" id="comprehension" hidden>
-          <div class="comprehension-title">Reading comprehension</div>
-          <div class="comprehension-body" id="comprehension-body"></div>
-          <div class="comprehension-status" id="comprehension-status"></div>
-        </div>
-        <div class="next-chapter" id="next-chapter">
-          <button type="button" id="prev-chapter-button" class="pill-button">Previous chapter</button>
-          <div class="next-chapter-right">
-            <button type="button" id="next-chapter-button" class="pill-button">Next chapter</button>
-            <div class="next-chapter-meta" id="next-chapter-meta"></div>
+        <div class="ereader-pages" id="ereader-pages">
+          <div class="markdown-body" id="story-body" aria-live="polite">
+            Choose a story, chapter, level, and languages from the menu.
           </div>
+          <div class="comprehension" id="comprehension" hidden>
+            <div class="comprehension-title">Reading comprehension</div>
+            <div class="comprehension-body" id="comprehension-body"></div>
+            <div class="comprehension-status" id="comprehension-status"></div>
+          </div>
+          <div class="next-chapter" id="next-chapter">
+            <button type="button" id="prev-chapter-button" class="pill-button">Previous chapter</button>
+            <div class="next-chapter-right">
+              <button type="button" id="next-chapter-button" class="pill-button">Next chapter</button>
+              <div class="next-chapter-meta" id="next-chapter-meta"></div>
+            </div>
+          </div>
+          <div class="status-line" id="status-line" role="status"></div>
         </div>
-        <div class="status-line" id="status-line" role="status"></div>
+        <div class="ereader-page-indicator" id="ereader-page-indicator" role="status" aria-live="off" aria-atomic="true" hidden></div>
       </article>
       <article class="reader-panel desktop-native-panel" id="reader-native" aria-label="Native language content">
         <header class="reader-head">
@@ -860,6 +863,8 @@
       const readerTitle = document.getElementById('reader-title');
       const readerMeta = document.getElementById('reader-meta');
       const readerPanel = document.getElementById('reader');
+      const ereaderPages = document.getElementById('ereader-pages');
+      const ereaderPageIndicator = document.getElementById('ereader-page-indicator');
       const storyBody = document.getElementById('story-body');
       const statusLine = document.getElementById('status-line');
       const aboutLink = document.getElementById('about-link');
@@ -976,6 +981,13 @@
       let pendingVocabularyId = new URLSearchParams(window.location.search).get('vocab');
       let pendingVocabularyContextId = new URLSearchParams(window.location.search).get('context');
       let storyContentAvailable = false;
+      let currentEreaderPageIndex = 0;
+      let totalEreaderPageCount = 1;
+      let pendingEreaderProgressRatio = null;
+      let ereaderPaginationRequest = 0;
+      let ereaderEventsAttached = false;
+      let ereaderIndicatorReady = false;
+      let pendingEreaderRevealElement = null;
 
       function readUserSettings() {
         try {
@@ -1028,6 +1040,156 @@
         document.documentElement.style.setProperty('--reader-font-size', size);
         if (textSizeSelect) textSizeSelect.value = TEXT_SIZE_MAP[textSize] ? textSize : 'medium';
       }
+      function getEreaderProgressRatio() {
+        if (totalEreaderPageCount <= 1) return 0;
+        return currentEreaderPageIndex / (totalEreaderPageCount - 1);
+      }
+      function updateEreaderPageIndicator() {
+        if (!ereaderPageIndicator) return;
+        ereaderPageIndicator.textContent = `${currentEreaderPageIndex + 1} / ${totalEreaderPageCount}`;
+        if (!ereaderIndicatorReady) {
+          ereaderIndicatorReady = true;
+          queueMicrotask(() => {
+            if (document.body.classList.contains('ereader-mode')) {
+              ereaderPageIndicator.setAttribute('aria-live', 'polite');
+            }
+          });
+        }
+      }
+      function showEreaderPage(pageIndex) {
+        if (deviceMode !== 'ereader' || !ereaderPages) return;
+        const nextIndex = Math.max(0, Math.min(totalEreaderPageCount - 1, Number(pageIndex) || 0));
+        currentEreaderPageIndex = nextIndex;
+        ereaderPages.scrollLeft = nextIndex * ereaderPages.clientWidth;
+        updateEreaderPageIndicator();
+      }
+      function goToPreviousEreaderPage() {
+        if (currentEreaderPageIndex <= 0) return;
+        showEreaderPage(currentEreaderPageIndex - 1);
+      }
+      function goToNextEreaderPage() {
+        if (currentEreaderPageIndex >= totalEreaderPageCount - 1) return;
+        showEreaderPage(currentEreaderPageIndex + 1);
+      }
+      function paginateEreader(progressRatio = pendingEreaderProgressRatio) {
+        if (deviceMode !== 'ereader' || !ereaderPages || !readerPanel) return;
+        if (ereaderPageIndicator) ereaderPageIndicator.hidden = false;
+
+        const panelStyle = getComputedStyle(readerPanel);
+        const heading = readerPanel.querySelector('.reader-head');
+        const headingStyle = heading ? getComputedStyle(heading) : null;
+        const panelVerticalPadding = parseFloat(panelStyle.paddingTop) + parseFloat(panelStyle.paddingBottom);
+        const headingHeight = heading
+          ? heading.offsetHeight + parseFloat(headingStyle.marginTop) + parseFloat(headingStyle.marginBottom)
+          : 0;
+        const indicatorHeight = ereaderPageIndicator?.offsetHeight || 0;
+        const pageHeight = Math.max(1, Math.floor(readerPanel.clientHeight - panelVerticalPadding - headingHeight - indicatorHeight));
+
+        ereaderPages.scrollLeft = 0;
+        ereaderPages.style.height = `${pageHeight}px`;
+        const pageWidth = Math.max(1, Math.floor(ereaderPages.clientWidth));
+        ereaderPages.style.columnWidth = `${pageWidth}px`;
+        ereaderPages.style.columnGap = '0px';
+        ereaderPages.style.columnFill = 'auto';
+        totalEreaderPageCount = Math.max(1, Math.ceil((ereaderPages.scrollWidth - 1) / pageWidth));
+
+        const ratio = Number.isFinite(progressRatio) ? Math.max(0, Math.min(1, progressRatio)) : 0;
+        pendingEreaderProgressRatio = null;
+        showEreaderPage(Math.round(ratio * Math.max(0, totalEreaderPageCount - 1)));
+        if (pendingEreaderRevealElement?.isConnected) {
+          const pagesRect = ereaderPages.getBoundingClientRect();
+          const targetRect = pendingEreaderRevealElement.getBoundingClientRect();
+          const targetOffset = targetRect.left - pagesRect.left + ereaderPages.scrollLeft;
+          pendingEreaderRevealElement = null;
+          showEreaderPage(Math.floor(Math.max(0, targetOffset) / pageWidth));
+        }
+      }
+      function scheduleEreaderPagination(progressRatio = getEreaderProgressRatio()) {
+        if (deviceMode !== 'ereader') return;
+        pendingEreaderProgressRatio = Number.isFinite(progressRatio) ? progressRatio : 0;
+        const requestId = ++ereaderPaginationRequest;
+        const fontsReady = document.fonts?.ready || Promise.resolve();
+        Promise.resolve(fontsReady).then(() => {
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              if (requestId !== ereaderPaginationRequest || deviceMode !== 'ereader') return;
+              paginateEreader(pendingEreaderProgressRatio);
+            });
+          });
+        });
+      }
+      function clearEreaderPagination() {
+        ereaderPaginationRequest += 1;
+        pendingEreaderProgressRatio = null;
+        pendingEreaderRevealElement = null;
+        currentEreaderPageIndex = 0;
+        totalEreaderPageCount = 1;
+        if (ereaderPages) {
+          ereaderPages.scrollLeft = 0;
+          ereaderPages.style.removeProperty('height');
+          ereaderPages.style.removeProperty('column-width');
+          ereaderPages.style.removeProperty('column-gap');
+          ereaderPages.style.removeProperty('column-fill');
+        }
+        if (ereaderPageIndicator) {
+          ereaderPageIndicator.hidden = true;
+          ereaderPageIndicator.textContent = '';
+          ereaderPageIndicator.setAttribute('aria-live', 'off');
+        }
+        ereaderIndicatorReady = false;
+      }
+      function isEreaderInteractiveTarget(target) {
+        return target instanceof Element && Boolean(target.closest(
+          'a, button, input, select, textarea, label, audio, video, [contenteditable="true"], .vocab-word, .comprehension'
+        ));
+      }
+      function canToggleEreaderLanguage() {
+        const languages = availableLanguages();
+        if (languages.length < 2 || !nativeLanguageId || !learningLanguageId) return false;
+        if (nativeLanguageId === learningLanguageId) return false;
+        return languages.some(language => language.id === nativeLanguageId)
+          && languages.some(language => language.id === learningLanguageId);
+      }
+      function handleEreaderTap(event) {
+        if (deviceMode !== 'ereader' || isEreaderInteractiveTarget(event.target)) return;
+        if (!window.getSelection()?.isCollapsed) return;
+        const rect = ereaderPages.getBoundingClientRect();
+        if (!rect.width || event.clientY < rect.top || event.clientY > rect.bottom) return;
+        const horizontalRatio = (event.clientX - rect.left) / rect.width;
+        if (horizontalRatio < 1 / 3) {
+          goToPreviousEreaderPage();
+        } else if (horizontalRatio > 2 / 3) {
+          goToNextEreaderPage();
+        } else if (canToggleEreaderLanguage()) {
+          toggleLanguage();
+        }
+      }
+      function handleEreaderKeydown(event) {
+        if (deviceMode !== 'ereader' || event.altKey || event.ctrlKey || event.metaKey) return;
+        if (isEreaderInteractiveTarget(event.target)) return;
+        if (event.key === 'ArrowLeft' || event.key === 'PageUp') {
+          event.preventDefault();
+          goToPreviousEreaderPage();
+        } else if (event.key === 'ArrowRight' || event.key === 'PageDown') {
+          event.preventDefault();
+          goToNextEreaderPage();
+        } else if (event.key.toLowerCase() === 't' && canToggleEreaderLanguage()) {
+          event.preventDefault();
+          toggleLanguage();
+        }
+      }
+      function handleEreaderViewportChange() {
+        if (deviceMode === 'ereader') scheduleEreaderPagination(getEreaderProgressRatio());
+      }
+      function setEreaderEventBehavior(enabled) {
+        if (enabled === ereaderEventsAttached || !ereaderPages) return;
+        const method = enabled ? 'addEventListener' : 'removeEventListener';
+        ereaderPages[method]('click', handleEreaderTap);
+        document[method]('keydown', handleEreaderKeydown);
+        window[method]('resize', handleEreaderViewportChange);
+        window[method]('orientationchange', handleEreaderViewportChange);
+        ereaderEventsAttached = enabled;
+      }
       function updateFloatingToggleSettingUI() {
         if (!floatingToggleSetting) return;
         floatingToggleSetting.textContent = floatingToggleEnabled ? 'Disable' : 'Enable';
@@ -1037,7 +1199,9 @@
           : 'Enable floating language toggle');
       }
       function applyDeviceMode() {
+        const isEreader = deviceMode === 'ereader';
         document.body.classList.toggle('desktop-mode', deviceMode === 'desktop');
+        document.body.classList.toggle('ereader-mode', isEreader);
         if (deviceModeSelect) deviceModeSelect.value = deviceMode;
         if (deviceMode === 'desktop' && learningLanguageId && state.langId !== learningLanguageId) {
           state.langId = learningLanguageId;
@@ -1045,6 +1209,13 @@
             const language = findLanguage();
             state.levelId = setSelectOptions(levelSelect, language?.levels || [], state.levelId);
           }
+        }
+        setEreaderEventBehavior(isEreader);
+        if (isEreader) {
+          sidebarShell?.close({ focus: false });
+          scheduleEreaderPagination(0);
+        } else {
+          clearEreaderPagination();
         }
       }
       let _scrollSyncing = false;
@@ -1381,10 +1552,15 @@
         const word = words[context.wordOccurrenceInSentence || 0] || words[0] || null;
         sentence.classList.add('vocab-context-highlight');
         word?.classList.add('vocab-context-word');
-        sentence.scrollIntoView({
-          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-          block: 'center',
-        });
+        if (deviceMode === 'ereader') {
+          pendingEreaderRevealElement = sentence;
+          scheduleEreaderPagination(0);
+        } else {
+          sentence.scrollIntoView({
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+            block: 'center',
+          });
+        }
         window.setTimeout(() => {
           sentence.classList.remove('vocab-context-highlight');
           word?.classList.remove('vocab-context-word');
@@ -1469,6 +1645,10 @@
       }
 
       function scrollReaderToTop() {
+        if (deviceMode === 'ereader') {
+          showEreaderPage(0);
+          return;
+        }
         if (readerPanel && typeof readerPanel.scrollIntoView === 'function') {
           readerPanel.scrollIntoView({ block: 'start', behavior: 'smooth' });
         } else {
@@ -1819,9 +1999,11 @@
         return { ...question, options, correctIndex: correctIdx };
       }
       function evaluateComprehension() {
+        const ereaderProgressRatio = getEreaderProgressRatio();
         if (!questionsRequired || !comprehensionQuestions.length) {
           comprehensionComplete = true;
           updateChapterNav();
+          if (deviceMode === 'ereader') scheduleEreaderPagination(ereaderProgressRatio);
           return;
         }
         const allAnswered = comprehensionQuestions.every(q => typeof comprehensionAnswers[q.id] === 'number');
@@ -1829,6 +2011,7 @@
           comprehensionComplete = false;
           if (comprehensionStatus) comprehensionStatus.textContent = 'Answer all questions to unlock the next chapter.';
           updateChapterNav();
+          if (deviceMode === 'ereader') scheduleEreaderPagination(ereaderProgressRatio);
           return;
         }
         const allCorrect = comprehensionQuestions.every(q => comprehensionAnswers[q.id] === Number(q.correctIndex));
@@ -1840,6 +2023,7 @@
             : 'Some answers are incorrect. Try again.';
         }
         updateChapterNav();
+        if (deviceMode === 'ereader') scheduleEreaderPagination(ereaderProgressRatio);
       }
       function renderComprehensionQuestions(questions) {
         if (!comprehensionSection || !comprehensionBody || !questions.length) return;
@@ -2120,9 +2304,10 @@
           ? Math.min(levels.length - 1, currentIndex + 1)
           : Math.max(0, currentIndex - 1);
         if (nextIndex === currentIndex) return;
+        const ereaderProgressRatio = getEreaderProgressRatio();
         state.levelId = levels[nextIndex].id;
         levelSelect.value = state.levelId;
-        loadCurrentSelection();
+        loadCurrentSelection({ ereaderProgressRatio });
         updateLevelButtons();
       }
       function toggleLanguage() {
@@ -2133,8 +2318,10 @@
           ? (learningLanguageId || nativeLanguageId)
           : nativeLanguageId;
         if (!available.some(lang => lang.id === targetLangId)) return;
+        if (targetLangId === state.langId) return;
+        const ereaderProgressRatio = getEreaderProgressRatio();
         state.langId = targetLangId;
-        populateLevels();
+        populateLevels({ ereaderProgressRatio });
         persistSettings({ nativeLanguageId, learningLanguageId });
       }
       function formatDateTime(isoString) {
@@ -2215,7 +2402,7 @@
       }
 
       async function loadCurrentSelection(options = {}) {
-        const { scrollToTop = false } = options;
+        const { scrollToTop = false, ereaderProgressRatio = 0 } = options;
         const book = findBook();
         const chapter = findChapter();
         const subchapter = findSubchapter();
@@ -2228,6 +2415,7 @@
           setStatus('Waiting for a valid selection.');
           resetAudio();
           if (nextChapterContainer) nextChapterContainer.hidden = true;
+          if (deviceMode === 'ereader') scheduleEreaderPagination(0);
           return;
         }
 
@@ -2274,12 +2462,15 @@
             pendingSidebarNavigation = null;
             if (direction === 'previous') prevChapterButton?.click();
             if (direction === 'next') nextChapterButton?.click();
+            return;
           }
+          if (deviceMode === 'ereader') scheduleEreaderPagination(ereaderProgressRatio);
         } catch (error) {
           storyContentAvailable = false;
           storyBody.textContent = 'Unable to load this file. Check that it exists and is reachable.';
           setStatus('Failed to load markdown content.');
           console.error(error);
+          if (deviceMode === 'ereader') scheduleEreaderPagination(0);
         }
       }
 
@@ -2425,6 +2616,7 @@
         if (nextChapterContainer) nextChapterContainer.hidden = true;
         setStatus('');
         updateScrollTopVisibility();
+        if (deviceMode === 'ereader') scheduleEreaderPagination(0);
       }
 
       bookSelect.addEventListener('change', () => {
@@ -2449,15 +2641,17 @@
         updateLangToggleButton();
       });
       learningLangSelect?.addEventListener('change', () => {
+        const ereaderProgressRatio = getEreaderProgressRatio();
         learningLanguageId = learningLangSelect.value;
         state.langId = learningLanguageId || nativeLanguageId;
         persistSettings({ learningLanguageId });
         window.ViaVocabulary.updateDueBadges();
-        populateLevels();
+        populateLevels({ ereaderProgressRatio });
       });
       levelSelect.addEventListener('change', () => {
+        const ereaderProgressRatio = getEreaderProgressRatio();
         state.levelId = levelSelect.value;
-        loadCurrentSelection();
+        loadCurrentSelection({ ereaderProgressRatio });
         updateLevelButtons();
         closeSidebar();
       });
@@ -2467,6 +2661,7 @@
         document.body.classList.toggle('vocab-mode', vocabMode);
         vocabToggleBtn.setAttribute('aria-pressed', String(vocabMode));
         if (vocabMode && storyContentAvailable) makeStoryWordsInteractive(storyBody, state.langId);
+        if (deviceMode === 'ereader') scheduleEreaderPagination(getEreaderProgressRatio());
         showVocabularyStatus(vocabMode ? 'Vocab mode on: tap a word to save it' : 'Vocab mode off');
       });
       storyBody?.addEventListener('click', (event) => {
@@ -2494,9 +2689,11 @@
         applyTheme();
       });
       textSizeSelect?.addEventListener('change', () => {
+        const ereaderProgressRatio = getEreaderProgressRatio();
         textSize = textSizeSelect.value;
         persistSettings({ textSize });
         applyTextSize();
+        if (deviceMode === 'ereader') scheduleEreaderPagination(ereaderProgressRatio);
       });
       floatingToggleSetting?.addEventListener('click', () => {
         floatingToggleEnabled = !floatingToggleEnabled;
